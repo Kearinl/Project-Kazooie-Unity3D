@@ -56,7 +56,7 @@ Please report all bugs on our GitHub Issues Page please
 Interested in helping "Project Kazooie" with Bug testing please join our discord, with our community of discord members all fans of Banjo Kazooie welcome.
 
 Discord Invite Link:
-Comming Soon!
+[https://discord.gg/zCZw3vN4t7](https://discord.gg/zCZw3vN4t7)
 
 ------------------------------------------------------------------------------------
 
