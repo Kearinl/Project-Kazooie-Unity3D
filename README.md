@@ -5,7 +5,7 @@
 [![Gameplay](https://cdn.discordapp.com/attachments/1208239127267516448/1244598753264926780/image.png?ex=6655b26a&is=665460ea&hm=92d205d77b825b2d9cb05d2156590af1e858598445c4a0b3041837060a1c3ec7&)](https://www.youtube.com/watch?v=np0puAbgtl0&ab_channel=HappyDayzGames "Alpha ") 
 ----------------------------------------------------------------- 
 
-"Project Kazooie" is a fan-made remake inspired by Kearin Lees the original game "Banjo-Kazooie" is developed by Rare Ltd.
+"Project Kazooie" is a fan-made remake inspired by Kearin L the original game "Banjo-Kazooie" is developed by Rare Ltd.
 Game Concept and Design.
 
 ------------------------------------------------------------
