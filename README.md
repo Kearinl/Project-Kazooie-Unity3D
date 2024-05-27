@@ -23,6 +23,11 @@ Game Concept and Design.
 
 ------------------------------------------------------------------------------------
 
+## Custom Cutscenes From This Youtube Please Subscribe To Him He Is Amazing With His Work:
+[@LankyTurtleMedia](https://www.youtube.com/@LankyTurtleMedia)
+
+----------------------------------------------------------------- 
+
 ## About Project Kazooie
 
 "Project Kazooie" is a fan-made remake of the beloved classic game Banjo-Kazooie. In this nostalgic adventure, players will once again join the duo of Banjo the bear and Kazooie the bird as they embark on a quest to save Banjo's sister Tooty from the clutches of the wicked witch Gruntilda. The game aims to faithfully recreate the magic and charm of the original while also introducing modern graphics and updated mechanics to appeal to both longtime fans and new players alike.
