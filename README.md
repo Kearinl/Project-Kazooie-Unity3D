@@ -23,7 +23,7 @@ Game Concept and Design.
 
 ------------------------------------------------------------------------------------
 
-## Custom Cutscenes From This Youtube Please Subscribe To Him He Is Amazing With His Work:
+## Custom Cutscenes From This Youtube Please Subscribe To Them They Are Amazing At What They Do:
 [@LankyTurtleMedia](https://www.youtube.com/@LankyTurtleMedia)
 
 ----------------------------------------------------------------- 
