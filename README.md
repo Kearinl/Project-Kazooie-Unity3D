@@ -235,7 +235,7 @@ Discord Invite Link:
 
 ## Credits
 
--Programming - https://github.com/Kearinl
--Models and some animations - https://github.com/ItsAPT
+- Programming - https://github.com/Kearinl
+- Models and some animations - https://github.com/ItsAPT
 
 ------------------------------------------------------------------------------------
