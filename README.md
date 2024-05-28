@@ -232,3 +232,8 @@ Discord Invite Link:
 - Dialogue System - [Working]
   
 ------------------------------------------------------------------------------------
+
+## Credits
+
+-Programming - https://github.com/Kearinl
+-Models and some animations - https://github.com/ItsAPT
