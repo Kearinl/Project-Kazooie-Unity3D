@@ -1,8 +1,8 @@
-# Project-Kazooie-Unity3D 2022.3.26f1 [0.0.1a]
+# Project-Kazooie-Unity3D 2022.3.26f1 [0.0.2a]
 
 
-## Alpha Gameplay:
-[![Gameplay](https://cdn.discordapp.com/attachments/1208239127267516448/1244598753264926780/image.png?ex=6655b26a&is=665460ea&hm=92d205d77b825b2d9cb05d2156590af1e858598445c4a0b3041837060a1c3ec7&)](https://www.youtube.com/watch?v=np0puAbgtl0&ab_channel=HappyDayzGames "Alpha ") 
+## Alpha 0.0.1 Gameplay:
+(https://www.youtube.com/watch?v=np0puAbgtl0&ab_channel=HappyDayzGames "Alpha ") 
 ----------------------------------------------------------------- 
 
 "Project Kazooie" is a fan-made remake inspired by Kearin L the original game "Banjo-Kazooie" is developed by Rare Ltd.
@@ -130,7 +130,7 @@ Discord Invite Link:
 - Cancel out Wading Boots
 - Cancel out Turbo Trainers
 
-*[C]
+*[CTRL || C]
 - Hold to crouch, change direction with W,A,S,D/Mouse Look
 
 *[W,A,S,D + Left Mouse Click]
@@ -145,16 +145,16 @@ Discord Invite Link:
 *[Air(Falling) + C(Crouch)]
 - Beak Buster
 
-*[C(Crouch) + Spacebar]
+*[CTRL || C(Crouch) + Spacebar]
 - Flap Flip (hold A to float longer)
 
-*[C(Crouch) + Left Mouse Click]
+*[CTRL || C(Crouch) + Left Mouse Click]
 - Beak Barge (hold attack button to barge further)
 
-*[C(Crouch) + Mouse Scroll Wheel Up]
+*[CTRL || C(Crouch) + Mouse Scroll Wheel Up]
 - Fire egg ahead
 
-*[C(Crouch) + Mouse Scroll Wheel Down]
+*[CTRL || C(Crouch) + Mouse Scroll Wheel Down]
 - Fire egg backwards
   
 ------------------------------------------------------------------------------------
@@ -170,7 +170,7 @@ Discord Invite Link:
 - Forward Roll - [Working]
 - Feathery Flap - [Working]
 - Rat-a-tat Rap - [Working]
-- Beak Barge - [Working]
+- Beak Barge - [In Progress]
 - Talon Trot - [Working]
 - Fire egg ahead - [In Progress]
 - Fire egg backwards - [In Progress]
@@ -185,12 +185,12 @@ Discord Invite Link:
 - Day/Night Cycle - [Working]
 - Seasonal Weather System - [Working]
 - Save/Load Game - [Working]
-- Main Menu/Title Screen - [Working]
+- Main Menu/Title Screen - [In Progress]
 - Settings Audio/Video - [Working]
 - Gravity - [Working]
 - Hitboxes - [Working]
-- Player Controller - [Working]
-- Enemy AI Controller - [Working]
+- Player Controller - [In Progress]
+- Enemy AI Controller - [In Progress]
 - SFX - [In Progress]
 - VFX - [In Progress]
 
@@ -198,16 +198,16 @@ Discord Invite Link:
 
 ## Npcs
 
-- Colliwobble the Cauliflower - [Working]
-- Bawl the Onion - [Working]
-- Topper the Carrot - [Working]
-- Quarrie the Boulder - [Working]
+- Colliwobble the Cauliflower - [Working] // Needs textures fixed/death animation added in unity.
+- Bawl the Onion - [Working] // Needs textures fixed/death animation added in unity.
+- Topper the Carrot - [In Progress] // Needs textures fixed/death animation added in unity.
+- Quarrie the Boulder - [In Progress] // Needs textures fixed/death animation added in unity.
 
 ------------------------------------------------------------------------------------
 
 ## Events
 
-- Learning Moves - [Working]
+- Learning Moves - [In Progress]
 - Item Spawns - [Working]
 - Object Spawns - [In Progress]
 - Trigger Spawns - [In Progress]
@@ -216,7 +216,7 @@ Discord Invite Link:
 
 ## Items
 
-- Honeycomb - [Working]
+- Honeycomb - [In Progress]
 - Extra Honeycomb - [Working]
 - Extra Lives - [Working]
 - Mumbo Tokens - [In Progress]
@@ -230,12 +230,12 @@ Discord Invite Link:
 
 ## UI
 
-- Mainmenu - [Working]
-- Settings Audio/Visual - [Working]
-- Pause Menu - [Working]
-- Item Collection - [Working] - Still needs works for all items.
+- Mainmenu - [Working] // Working just needs scene loading adjustments to improve peformance.
+- Settings Audio/Visual - [Working] // Working only in game pause settings not from main menu.
+- Pause Menu - [Working]  // Needs more UI work done to represent the normal pause menu.
+- Item Collection - [Working] // Still needs works for all items.
 - Cutscenes - [Working]
-- Dialogue System - [Working]
+- Dialogue System - [Working] // Needs more mole hills working and the move enabler working.
   
 ------------------------------------------------------------------------------------
 
