@@ -51,6 +51,14 @@ Please report all bugs on our GitHub Issues Page please
 
 ------------------------------------------------------------------------------------
 
+------------------------------------------------------------------------------------
+
+## Banjo|Kazooie Animation Controller
+
+[https://i.imgur.com/qc6FenR.png](https://i.imgur.com/qc6FenR.png)
+
+------------------------------------------------------------------------------------
+
 ## Discord
 
 Interested in helping "Project Kazooie" with Bug testing please join our discord, with our community of discord members all fans of Banjo Kazooie welcome.
