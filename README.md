@@ -53,8 +53,6 @@ Please report all bugs on our GitHub Issues Page please
 
 ## Banjo|Kazooie Animation Controller
 
-[!(https://cdn.discordapp.com/attachments/1208239127267516448/1244598753264926780/image.png?ex=6655b26a&is=665460ea&hm=92d205d77b825b2d9cb05d2156590af1e858598445c4a0b3041837060a1c3ec7&)](https://www.youtube.com/watch?v=np0puAbgtl0&ab_channel=HappyDayzGames "Alpha ") 
-
 [![Animation Controller](https://i.imgur.com/qc6FenR.png)](https://i.imgur.com/qc6FenR.png)
 
 ------------------------------------------------------------------------------------
