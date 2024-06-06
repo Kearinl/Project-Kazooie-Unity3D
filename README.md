@@ -241,7 +241,8 @@ Discord Invite Link:
 
 ## Credits
 
-- Programming - https://github.com/Kearinl
-- Models and some animations - https://github.com/ItsAPT
+- Programming - [https://github.com/Kearinl](https://github.com/Kearinl)
+- Models | Animations -[ https://github.com/ItsAPT](https://github.com/ItsAPT)
+- Models | Rips - [https://sketchfab.com/Facts_about_BK/](https://sketchfab.com/Facts_about_BK/)
 
 ------------------------------------------------------------------------------------
