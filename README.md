@@ -1,5 +1,8 @@
 # Project-Kazooie-Unity3D 2022.3.26f1 [0.0.3a]
 
+## UI Updated | 0.0.3a
+![image](https://github.com/Kearinl/Project-Kazooie-Unity3D/assets/170784080/a8dcb80f-dfe3-4a46-99c9-10ea5722310b)
+
 ## Alpha 0.0.1 Gameplay
 [Watch Alpha 0.0.1 Gameplay on YouTube](https://www.youtube.com/watch?v=np0puAbgtl0&ab_channel=HappyDayzGames)
 
