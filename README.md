@@ -1,4 +1,4 @@
-# Project-Kazooie-Unity3D 2022.3.26f1 [0.0.2a]
+# Project-Kazooie-Unity3D 2022.3.26f1 [0.0.3a]
 
 ## Alpha 0.0.1 Gameplay
 [Watch Alpha 0.0.1 Gameplay on YouTube](https://www.youtube.com/watch?v=np0puAbgtl0&ab_channel=HappyDayzGames)
