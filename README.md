@@ -191,15 +191,15 @@ Interested in helping with bug testing for "Project Kazooie"? Join our Discord c
 
 ## Items
 
-- Honeycomb - [In Progress]
+- Honeycomb - [Working]
 - Extra Honeycomb - [Working]
 - Extra Lives - [Working]
-- Mumbo Tokens - [In Progress]
-- Musical Notes - [In Progress]
-- Jiggies - [In Progress]
-- Blue Eggs - [In Progress]
-- Red Feathers - [In Progress]
-- Golden Feathers - [In Progress]
+- Mumbo Tokens - [Working]
+- Musical Notes - [Working]
+- Jiggies - [Working]
+- Blue Eggs - [Working]
+- Red Feathers - [Working]
+- Golden Feathers - [Working]
 
 ------------------------------------------------------------------------------------
 
