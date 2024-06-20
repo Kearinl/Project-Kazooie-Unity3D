@@ -1,0 +1,1056 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.26f1 (ec6cd8118806) revision 15494360'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Core' Language: 'en' Physical Memory: 8050 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.26f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+C:/Users/keari/Desktop/Happy Dayz Games/Project Kazooie/Project Kazooie
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+53108
+Successfully changed project path to: C:/Users/keari/Desktop/Happy Dayz Games/Project Kazooie/Project Kazooie
+C:/Users/keari/Desktop/Happy Dayz Games/Project Kazooie/Project Kazooie
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [16492] Host "[IP] 172.17.16.1 [Port] 0 [Flags] 2 [Guid] 3571464766 [EditorId] 3571464766 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-U1EETV7) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [16492] Host "[IP] 172.17.16.1 [Port] 0 [Flags] 2 [Guid] 3571464766 [EditorId] 3571464766 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-U1EETV7) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 7 workers.
+Refreshing native plugins compatible for Editor in 201.83 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.01 ms.
+Initialize engine version: 2022.3.26f1 (ec6cd8118806)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.26f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/keari/Desktop/Happy Dayz Games/Project Kazooie/Project Kazooie/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) UHD Graphics 620 (ID=0x5917)
+    Vendor:   Intel
+    VRAM:     4025 MB
+    Driver:   30.0.101.1338
+Shader 'Custom/AdditiveTintable': fallback shader 'Particles/Additive (Soft)' not found
+Shader 'Enviro/Lite/SkyboxSimple': fallback shader 'None' not found
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.26f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.26f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.26f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56888
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.26f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.26f1/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.26f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.26f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.26f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.26f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
+Registered in 0.195799 seconds.
+- Loaded All Assemblies, in  2.950 seconds
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+Native extension for iOS target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 3981 ms
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  6.373 seconds
+Domain Reload Profiling: 9314ms
+	BeginReloadAssembly (1202ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (3ms)
+	RebuildCommonClasses (283ms)
+	RebuildNativeTypeToScriptingClass (103ms)
+	initialDomainReloadingComplete (511ms)
+	LoadAllAssembliesAndSetupDomain (838ms)
+		LoadAssemblies (1196ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (820ms)
+			TypeCache.Refresh (815ms)
+				TypeCache.ScanAssembly (740ms)
+			ScanForSourceGeneratedMonoScriptInfo (2ms)
+			ResolveRequiredComponents (2ms)
+	FinalizeReload (6376ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (6048ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4822ms)
+			SetLoadedEditorAssemblies (17ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (16ms)
+			ProcessInitializeOnLoadAttributes (861ms)
+			ProcessInitializeOnLoadMethodAttributes (331ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (2ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+Assembly 'Library/ScriptAssemblies/Assembly-CSharp.dll' will not be loaded due to errors:
+Unable to resolve reference 'SaveIsEasyDLL'. Is the assembly missing or incompatible with the current platform?
+Reference validation can be disabled in the Plugin Inspector.
+Assembly 'Library/ScriptAssemblies/Assembly-CSharp-Editor.dll' will not be loaded due to errors:
+Reference has errors 'Assembly-CSharp'.
+Assembly 'Assets/Editor/SaveIsEasyEditorDLL.dll' will not be loaded due to errors:
+Unable to resolve reference 'SaveIsEasyDLL'. Is the assembly missing or incompatible with the current platform?
+Reference validation can be disabled in the Plugin Inspector.
+- Loaded All Assemblies, in  2.727 seconds
+Refreshing native plugins compatible for Editor in 292.02 ms, found 2 plugins.
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  3.713 seconds
+Domain Reload Profiling: 6439ms
+	BeginReloadAssembly (454ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (10ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (57ms)
+	RebuildCommonClasses (95ms)
+	RebuildNativeTypeToScriptingClass (31ms)
+	initialDomainReloadingComplete (155ms)
+	LoadAllAssembliesAndSetupDomain (1989ms)
+		LoadAssemblies (1624ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (645ms)
+			TypeCache.Refresh (572ms)
+				TypeCache.ScanAssembly (476ms)
+			ScanForSourceGeneratedMonoScriptInfo (47ms)
+			ResolveRequiredComponents (24ms)
+	FinalizeReload (3714ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (2686ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (293ms)
+			SetLoadedEditorAssemblies (16ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (243ms)
+			ProcessInitializeOnLoadAttributes (1619ms)
+			ProcessInitializeOnLoadMethodAttributes (472ms)
+			AfterProcessingInitializeOnLoad (42ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (28ms)
+Shader 'Custom/AdditiveTintable': fallback shader 'Particles/Additive (Soft)' not found
+Shader 'Enviro/Lite/SkyboxSimple': fallback shader 'None' not found
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.63 seconds
+Refreshing native plugins compatible for Editor in 117.65 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2642 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 148 unused Assets / (1.6 MB). Loaded Objects now: 3061.
+Memory consumption went from 328.1 MB to 326.5 MB.
+Total: 248.648100 ms (FindLiveObjects: 13.029900 ms CreateObjectMapping: 3.365600 ms MarkObjects: 106.466000 ms  DeleteObjects: 125.778800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/EzStateMachine.cs: 2b197fc5472862c0849c7524f3514dd7 -> 
+  custom:scripting/monoscript/fileName/SaveLoadManager.cs: ef43241f5fa9ea58921b61f1d095a97d -> 
+  custom:scripting/monoscript/fileName/OrangeValueToUI.cs: c696879d181fb9fa6088efa195de0859 -> 
+  custom:scripting/monoscript/fileName/EnviroMicroSplatIntegration.cs: b892ad14d06afa40d2549fc9cf5fec73 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/BloomComponent.cs: 755f611bb4d32a54d162192a9fc6dd86 -> 
+  custom:scripting/monoscript/fileName/MotionBlurComponent.cs: 6cf5a99eefa473d803af3e64f841a0a6 -> 
+  custom:scripting/monoscript/fileName/TMP_PhoneNumberValidator.cs: 7c3049f481e464c6a9a15dee56c3126f -> 
+  custom:scripting/monoscript/fileName/LoadPart.cs: 728eb54ae4f0ffaae299c974d789becd -> 
+  custom:scripting/monoscript/fileName/EnviroMirrorPlayer.cs: 80c1eb020564b0e0a2ceb58639b83050 -> 
+  custom:scripting/precompiled-assembly-types:SaveIsEasyEditorDLL: a932414e475f81806505629113b38b3b -> 
+  custom:scripting/monoscript/fileName/FireProjectileScript.cs: 2d281eee371f58c844d02f3a89ab4d27 -> 
+  custom:scripting/monoscript/fileName/EnviroPostProcessing.cs: 100f6753e77efa40add80082e227c32c -> 
+  custom:scripting/monoscript/fileName/EzLockOnState.cs: 0c3d7bb512738f873e23b4d3b73cb657 -> 
+  custom:scripting/monoscript/fileName/DepthOfFieldDeprecated.cs: 8700a90d2d763e9c01f08a0cd128cca8 -> 
+  custom:scripting/monoscript/fileName/DontDestroyOnSceneChange.cs: f71722ec0e16c7839cb1bba1a8842e7f -> 
+  custom:scripting/monoscript/fileName/MeteorSwarmScript.cs: 6ff54a634458dc66ead70ae5cbf2d1f2 -> 
+  custom:scripting/monoscript/fileName/UIVirtualTouchZone.cs: 2cf58d9131af5a78d9083ae59546d69c -> 
+  custom:scripting/monoscript/fileName/CameraMotionBlur.cs: 458c2b6f90eeea041921d89083a79e55 -> 
+  custom:scripting/monoscript/fileName/EnviroSkyMgr.cs: 85a2a12cba035ef51d7e2bc25897280e -> 
+  custom:scripting/monoscript/fileName/ColorCorrectionLookupEditor.cs: a2fb9e7138550e9aa0e0de2d21737d42 -> 
+  custom:scripting/monoscript/fileName/EzFollowState.cs: 1d0e66b0ccdad5c896c6ba9c893c5080 -> 
+  custom:scripting/monoscript/fileName/BuiltinDebugViewsComponent.cs: 1b8215a7f6eae55c3fc6a97379498db3 -> 
+  custom:scripting/monoscript/fileName/EnviroUBERIntegration.cs: 46c38f56bc427655b45496bd0fea6c0b -> 
+  custom:scripting/monoscript/fileName/ItemCollectorJiggy.cs: 29eba3f0480b32f0cb8e0518fc8f0e47 -> 
+  custom:scripting/monoscript/fileName/EnviroFogVolumeEditor.cs: ebe0d2dc02b0917c183710a863689437 -> 
+  custom:scripting/monoscript/fileName/PostEffectsHelper.cs: 5b0aade5ee85030099a328bfa56e17eb -> 
+  custom:scripting/monoscript/fileName/GrassSpawner.cs: 48043b13ec0eb4710e48dc0dd961986d -> 
+  custom:scripting/monoscript/fileName/MumboTokenValueToUI.cs: a5e89a0ee701f3697e3f253de9239ec7 -> 
+  custom:scripting/monoscript/fileName/DynamicSkyForDemo.cs: ad65acd58580e900ea60ac5360026347 -> 
+  custom:scripting/monoscript/fileName/VideoPlayerSceneChangernew.cs: b4c2255b1bea79c9cc089aea0d5abda3 -> 
+  custom:scripting/monoscript/fileName/ItemCollectorOrange.cs: 8fe7ce4b245979a625c7d65edae2e49f -> 
+  custom:scripting/monoscript/fileName/MotionBlurModelEditor.cs: 214d77ab75c222685eecaec8c6aed3b0 -> 
+  custom:scripting/monoscript/fileName/TiltShift.cs: 13ff1d7342528fc14a2e194c2bdc09fb -> 
+  custom:scripting/monoscript/fileName/SkewTextExample.cs: c142d02d70a129e0533975f7c2f96956 -> 
+  custom:scripting/monoscript/fileName/SaveButtonHandler.cs: c2647ac9858a368d894941774a2c8a76 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:scripting/monoscript/fileName/ChromaticAberrationEditor.cs: 4b6bc01a6288a606d1a3fe94f621633b -> 
+  custom:scripting/monoscript/fileName/EnviroSeasonObjectSwitcher.cs: e75712d1c433bd7657f10fcd8d314fd5 -> 
+  custom:scripting/monoscript/fileName/EnemyAI.cs: b23c04a72171da1bfba3c740e359e309 -> 
+  custom:scripting/monoscript/fileName/AmbientOcclusionModel.cs: ac26bcd19cab8c88e9b65cb75ee1c356 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/CreaseShading.cs: 5b17bf81bff982a9605309492401c574 -> 
+  custom:scripting/monoscript/fileName/ExampleControlGUI.cs: c2550bc1fbd937277fb6bdf1adaf2b22 -> 
+  custom:scripting/monoscript/fileName/EnvMapAnimator.cs: 1b4f61c17e4b7283c3ac351aacff9d26 -> 
+  custom:scripting/monoscript/fileName/ChangeColor.cs: 4aa6535f7c7c1d1c93ed642ecd3831bf -> 
+  custom:scripting/monoscript/fileName/SampleHUDFPS.cs: f0fef3a0a6642a0cc97e420ab090c706 -> 
+  custom:scripting/monoscript/fileName/EventData.cs: 7f9c772d9f7557312dd61948a239c04f -> 
+  custom:scripting/monoscript/fileName/EnviroMegaSplatIntegration.cs: 49c067dfcadeadd8781bce25a70f3250 -> 
+  custom:scripting/monoscript/fileName/EazyEventKey.cs: b578b53fec93567ad19bea54bb9691ac -> 
+  custom:scripting/monoscript/fileName/EnviroSkyRenderingLW.cs: 935cb16e5ab94f8419a40d255890715a -> 
+  custom:scripting/monoscript/fileName/ShaderPropAnimator.cs: 55ce425812446482e623ff2695c94cb2 -> 
+  custom:scripting/monoscript/fileName/UICanvasControllerInput.cs: efbd76725fe032d832a1837ce36804c3 -> 
+  custom:scripting/monoscript/fileName/DragMe.cs: e01cf09454f8a92d35bfd27d02543a70 -> 
+  custom:scripting/monoscript/fileName/TMP_TextEventHandler.cs: f5cd9d5a43bfefc8f4fec80e6de896a4 -> 
+  custom:scripting/monoscript/fileName/EzMotor.cs: d95a3d0d2b8460e4950994fe5a3448c9 -> 
+  custom:scripting/monoscript/fileName/BasicRigidBodyPush.cs: 834b632457fae9d11b7ee6ae6006cbf8 -> 
+  custom:scripting/monoscript/fileName/EnviroSkyLite.cs: 0241da6bbccfb8bc6bdcb1a122569fc8 -> 
+  custom:scripting/monoscript/fileName/AntialiasingEditor.cs: cd1db322c4d4bac3e0fdd7740cc772c6 -> 
+  custom:scripting/monoscript/fileName/ItemCollectorExtraLife.cs: 9f3bd9e08ef0f0be1b056ecc957971c8 -> 
+  custom:scripting/monoscript/fileName/EnviroSkyLiteEditor.cs: 0f2131f0d2d18b889f3e38dbfb6740d9 -> 
+  custom:scripting/monoscript/fileName/EnviroCopyLightSettings.cs: cf07eae6ebc0d8d8ea4baee6c9bdb56c -> 
+  custom:scripting/monoscript/fileName/AmbientOcclusionComponent.cs: ae5a7089fb97a5a97a8f11138ce7c9d2 -> 
+  custom:scripting/monoscript/fileName/EnviroWindSynchronize.cs: c0d9b3649b791c302b59a208f399eaed -> 
+  custom:scripting/monoscript/fileName/FireBaseScript.cs: 40eaa57b8558acc0d7541c966bf350e1 -> 
+  custom:scripting/monoscript/fileName/TabMenuController.cs: c4e5e47f3113c8564f8e8fceaebf9fe2 -> 
+  custom:scripting/monoscript/fileName/GraphicsUtils.cs: f7df21c2acb52bb931f99c0a424b6be0 -> 
+  custom:scripting/monoscript/fileName/EnviroUNetPlayer.cs: 1e3cac324f7b938c3dcc267e60dd6bd9 -> 
+  custom:scripting/monoscript/fileName/DepthOfFieldComponent.cs: b0afd8f8844e3e4017df6130c14d0dfc -> 
+  custom:scripting/monoscript/fileName/Antialiasing.cs: bec6c7367bf7f3b527b25907b25d4102 -> 
+  custom:scripting/monoscript/fileName/TextMeshProFloatingText.cs: 92608fa4a6315cd0786d82205e77b697 -> 
+  custom:scripting/monoscript/fileName/EnviroMeshSeasons.cs: 8725279d0f5cd4322d373efbea574b75 -> 
+  custom:scripting/monoscript/fileName/AnimationAdapter.cs: 44366c4c2223fb242dfd6514b16bb91b -> 
+  custom:scripting/monoscript/fileName/ColorGradingModelEditor.cs: d8393f813d799206976f65da1ab781ef -> 
+  custom:scripting/monoscript/fileName/ResizePanel.cs: 34d95ac36ae44d64ceaf340236a91951 -> 
+  custom:scripting/monoscript/fileName/MeleeAttack.cs: 378f980483d8eb6240a30351286792e4 -> 
+  custom:scripting/monoscript/fileName/ActiveStateToggler.cs: c3254209c302af4f536f90005c561370 -> 
+  custom:scripting/monoscript/fileName/GoldenFeatherValueToUI.cs: a33e158239fa46fd57dcc7684debaab9 -> 
+  custom:scripting/monoscript/fileName/ColorGradingCurve.cs: e1e989893ee31e7801923212f0468312 -> 
+  custom:scripting/monoscript/fileName/ScreenSpaceAmbientOcclusion.cs: 42eb6963a5f738a978938eb937f58d78 -> 
+  custom:scripting/monoscript/fileName/PlayerHealth.cs: 49f415306e52895faa0b0a35d62e54a1 -> 
+  custom:scripting/monoscript/fileName/ItemCollectorMumboToken.cs: 05b56f5b9c80cbcac9fa303468dbdec2 -> 
+  custom:scripting/monoscript/fileName/AntialiasingModel.cs: 325b0130eaada61513aeac7b8c97a9d7 -> 
+  custom:scripting/monoscript/fileName/EnviroLUXIntegration.cs: a3004e3dbda1f857c6ef603425df224b -> 
+  custom:scripting/monoscript/fileName/FireLightScript.cs: 48b9ad2a0b905afbfc70dab1787c7e86 -> 
+  custom:scripting/monoscript/fileName/DepthOfFieldEditor.cs: a3868cd4e6c6aec7c31ee3ed2b09abe8 -> 
+  custom:scripting/monoscript/fileName/CameraManager.cs: efa49515d521c118282ca7f85f908717 -> 
+  custom:scripting/monoscript/fileName/PauseMenuController.cs: de904d2111ef84d339c760a247509a2b -> 
+  custom:scripting/monoscript/fileName/ChromaticAberrationModel.cs: 3f166f1ecbc6f39ed2f6b10cbc5b4ba4 -> 
+  custom:scripting/monoscript/fileName/EnviroEvents.cs: 71b5c73e9f78d3412816ca8e677e91d5 -> 
+  custom:scripting/monoscript/fileName/VertexZoom.cs: 650ab1e81d40126e3edcf737cce646e4 -> 
+  custom:scripting/monoscript/fileName/VignetteModel.cs: ab6733272f937ac0155aab47b4a8e58e -> 
+  custom:scripting/monoscript/fileName/SepiaTone.cs: 67c7b044a145b042dba91a1a8d54f9f4 -> 
+  custom:scripting/monoscript/fileName/ImageEffectBase.cs: 6d460e3d17a4175e44411c6923e62aed -> 
+  custom:scripting/monoscript/fileName/BanjoCrouch.cs: 223905048087ec11e1498de03e984ff8 -> 
+  custom:scripting/monoscript/fileName/NoiseAndGrainEditor.cs: 0276e69b6de7374aa913d893485a004e -> 
+  custom:scripting/monoscript/fileName/SimpleScript.cs: 454caab0c6c050f29b39d82e1d66d0fa -> 
+  custom:scripting/monoscript/fileName/EyeAdaptationModel.cs: 5bcc92c7d981d480ed07d6af7dd1a959 -> 
+  custom:scripting/monoscript/fileName/AmbientOcclusionModelEditor.cs: 99a92cb6d65b3a11adad7b285256ee66 -> 
+  custom:scripting/monoscript/fileName/FireConstantBaseScript.cs: 5e73485e03e1ad5c36c0de233555db46 -> 
+  custom:scripting/monoscript/fileName/ItemSpawnEmptyHoneyComb.cs: 38023bda167df90cd06444d8936a23f9 -> 
+  custom:scripting/monoscript/fileName/Movement2D.cs: 1cf81e42337f4735d467a8ce2f3ac35e -> 
+  custom:scripting/monoscript/fileName/EnviroUNetServer.cs: aff9ef51ad2fa5fb11e8fbdbc3b6724c -> 
+  custom:scripting/monoscript/fileName/DialogueManager.cs: c09c7a44e01815fadfdfe74359a136b7 -> 
+  custom:scripting/monoscript/fileName/NoiseAndGrain.cs: f4f7112c95c7474ffaf494b422803169 -> 
+  custom:scripting/monoscript/fileName/ExtraHoneyCombValueToUI.cs: f4a84916e01e42373733aad9418d6197 -> 
+  custom:scripting/monoscript/fileName/DropMe.cs: beef0a0bedca9a39ef11158a12b17f64 -> 
+  custom:scripting/monoscript/fileName/MusicController.cs: cbbd2ab9dcbcc51afdaa2ac498499fe4 -> 
+  custom:scripting/monoscript/fileName/EzCamera.cs: 9debed0864edb30df7b566b12baa4309 -> 
+  custom:scripting/monoscript/fileName/AnimationTriggerController.cs: f0f01701b097b6ec15800a353ed8e873 -> 
+  custom:scripting/monoscript/fileName/ObjectSpin.cs: 2b96bb2079dd7fa5108d981627a28e1e -> 
+  custom:scripting/monoscript/fileName/EzCameraController.cs: 2867cf714dd68fb2c662a576aa6a1141 -> 
+  custom:scripting/monoscript/fileName/PostProcessingModelEditorAttribute.cs: 84467b1ef2082fe26f00bdedc34db836 -> 
+  custom:scripting/monoscript/fileName/ReflectionUtils.cs: 14b4c7d2cdf78d9b158d00fb2c3c24b2 -> 
+  custom:scripting/monoscript/fileName/MinDrawer.cs: f0b5a34ad7cefeba48c04a270d4abfc9 -> 
+  custom:scripting/monoscript/fileName/BloomAndFlaresEditor.cs: 1f9e796d927ffcd86ccbfad6ec7007d5 -> 
+  custom:scripting/monoscript/fileName/TaaComponent.cs: 7c343e97072a6712c3a2b01e75fdb7fa -> 
+  custom:scripting/monoscript/fileName/VertexShakeA.cs: 63ec564c588058369499638dd899e05b -> 
+  custom:scripting/monoscript/fileName/EnviroAddDefineSymbolsLW.cs: d6ba3adaba844becb96e77c50cda7961 -> 
+  custom:scripting/monoscript/fileName/UIVirtualJoystick.cs: 940ec13d5cec07955291b086529e4dd6 -> 
+  custom:scripting/monoscript/fileName/ShowHideKazooie.cs: 305582ba319ba871569bfd57e2d28f1a -> 
+  custom:scripting/monoscript/fileName/ScreenSpaceAmbientObscurance.cs: 958d0bf4e6842d24e3147fb5da01010e -> 
+  custom:scripting/monoscript/fileName/PlayerInfoDisplay.cs: a951fda171a1d5cad95568b7cc219537 -> 
+  custom:scripting/monoscript/fileName/TMP_ExampleScript_01.cs: a9d4be556104ff54e7d240529b3e01dc -> 
+  custom:scripting/monoscript/fileName/ParadeMonitor.cs: cae69c77ac3a6bd03788e390b0793dce -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/SunShafts.cs: abee30526487200fa16387df850e7daf -> 
+  custom:scripting/monoscript/fileName/ExampleWheelController.cs: 9600d370c57ff0da5766666ba4365a29 -> 
+  custom:scripting/monoscript/fileName/CreaseShadingEditor.cs: 10fe90e5375fc621d9f19b702723dc86 -> 
+  custom:scripting/monoscript/fileName/BloomModelEditor.cs: 82667d6cbb2e9deab73f43bddd4cb3ad -> 
+  custom:scripting/monoscript/fileName/TMP_TextEventCheck.cs: 13505d917eab5868c435e0c2986dadfa -> 
+  custom:scripting/monoscript/fileName/GetSetAttribute.cs: b786c1938e0c0f5ecaf463807c2d7653 -> 
+  custom:scripting/monoscript/fileName/ItemCollectorGoldenFeather.cs: b3e8e4f893fb1e89b96ede1ebd5105eb -> 
+  custom:scripting/monoscript/fileName/EnviroLiteAdditionalCamera.cs: 169e7383c12292eaabc0a2937ed73c80 -> 
+  custom:scripting/monoscript/fileName/Doorlevel2tolevel1.cs: bacfe61908784b35281cbabe92462acb -> 
+  custom:scripting/monoscript/fileName/CameraController.cs: 34b6be4e23ce86dc89786916c5983296 -> 
+  custom:scripting/monoscript/fileName/ApplicationManager.cs: 6100f98dc72a5824900b7fa765f78bcb -> 
+  custom:scripting/monoscript/fileName/EnviroLightning.cs: 3d4af1f0253e32058cb04824524f4cab -> 
+  custom:scripting/monoscript/fileName/HistogramMonitor.cs: 89c185ea097a2554de07760bc4248c43 -> 
+  custom:scripting/monoscript/fileName/TMP_TextSelector_B.cs: ba2be21a7486d37b1011342977a2e49d -> 
+  custom:scripting/monoscript/fileName/Example2CubeMove.cs: f7bc238db4874068aed6a4be0e0b2dc9 -> 
+  custom:scripting/monoscript/fileName/EazyLockOnTarget.cs: a68787b9265f0eaf67852271c1d0dd44 -> 
+  custom:scripting/monoscript/fileName/MotionBlur.cs: 7d52f2ac2c90424481a38c8ec7edb91c -> 
+  custom:scripting/monoscript/fileName/FxStyles.cs: 82e974921467cb55809ecad82f38f7ca -> 
+  custom:scripting/monoscript/fileName/Benchmark01.cs: 2d3e2cd961730ab95f139a49a673bace -> 
+  custom:scripting/monoscript/fileName/Lighthouse.cs: 1c373454e8f785b9593c6788c560b47f -> 
+  custom:scripting/monoscript/fileName/PostProcessingBehaviourEditor.cs: 066ae7bf767a73228aa8d9e772743d81 -> 
+  custom:scripting/monoscript/fileName/TDControl.cs: f9f8951539c227b89501fef2e0706678 -> 
+  custom:scripting/monoscript/fileName/PanelManager.cs: 5ada60b94cd9aff0399aed4fd5590b0a -> 
+  custom:scripting/monoscript/fileName/PostProcessingModel.cs: 2f64caba6afa59bc78865f13b6f9065d -> 
+  custom:scripting/monoscript/fileName/EzCameraState.cs: 1bb02134bd33f103f04bacf6727962cf -> 
+  custom:scripting/monoscript/fileName/EnviroZone.cs: 87ee7fe97586dd7222c05b2802dac2ea -> 
+  custom:scripting/monoscript/fileName/ShowSliderValue.cs: c183894b55a0530492e3822bb63c8714 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/TMP_TextInfoDebugTool.cs: 3f1709cfb2cc628169113a35b5e9be3f -> 
+  custom:scripting/monoscript/fileName/PostProcessingContext.cs: be8a0bc1565c6324b1fd40a33f66279b -> 
+  custom:scripting/monoscript/fileName/DemoUI.cs: 98dd975e9a518b504c678a865d4fbdbe -> 
+  custom:scripting/monoscript/fileName/Fisheye.cs: ad168996bfc8fa7824e22ed9b5548fe9 -> 
+  custom:scripting/monoscript/fileName/Grayscale.cs: 87671e23fd2948061f63e16eb704f3a3 -> 
+  custom:scripting/monoscript/fileName/EnviroTrigger.cs: cdc5afd66e1cd4a6c717e44c4ec2df77 -> 
+  custom:scripting/monoscript/fileName/EditorGUIHelper.cs: 4a11466b474c4ddf8b0e969391a97509 -> 
+  custom:scripting/monoscript/fileName/EnviroDayNightSwitch.cs: d938a6625a90f27b65415a33030a4ab0 -> 
+  custom:scripting/monoscript/fileName/DepthOfFieldModelEditor.cs: c9db63f1a070d3e8ad359080de3aa855 -> 
+  custom:scripting/monoscript/fileName/ChromaticAberrationComponent.cs: cda95994b71ba23d0c0f0fe0f241aab9 -> 
+  custom:scripting/monoscript/fileName/StarterAssetsDeployMenu.cs: f6abf41bee2cce11d88ef37a7d2ac4c0 -> 
+  custom:scripting/monoscript/fileName/ItemCollectorRedFeather.cs: c8eac49c14453336ba22b6b597c18748 -> 
+  custom:scripting/monoscript/fileName/PyroParticlesEditor.cs: fee59225a15cfc1f239b8cceea91e420 -> 
+  custom:scripting/monoscript/fileName/EzOrbitState.cs: 1b56d103d6902b8f0da0975cd9e90490 -> 
+  custom:scripting/monoscript/fileName/Twirl.cs: 13260c2451d9e72af8c2f232859ba959 -> 
+  custom:scripting/monoscript/fileName/HoneyCombValueToUI.cs: f0cad499864e56e52de25f3ee6ee7388 -> 
+  custom:scripting/monoscript/fileName/NVDSkyDemoMaterials.cs: a6a965f118020ba6e4b2ecd888dc0a96 -> 
+  custom:scripting/monoscript/fileName/TitleScreenController.cs: f69d090c15159d764eb5dc35dd343fb7 -> 
+  custom:scripting/monoscript/fileName/CoroutineUtlities.cs: f6325ac321aace1a31cc4d226bd80d4f -> 
+  custom:scripting/monoscript/fileName/EzStationaryState.cs: 52d5cb91828da8f25545fd15367c2dd1 -> 
+  custom:scripting/monoscript/fileName/EnviroInterior.cs: 36c22bcc0f9592f0418eacdeccfec60d -> 
+  custom:scripting/monoscript/fileName/EazyTargetReticle.cs: 17b52ee45f45bc3d38474929aff2f2de -> 
+  custom:scripting/monoscript/fileName/EnviroZoneEditor.cs: 21c7b35812441eed0210dedee57369e2 -> 
+  custom:scripting/monoscript/fileName/EzLockOnTarget.cs: 99f9b3e4747d371a9352a8349e96a4b2 -> 
+  custom:scripting/monoscript/fileName/PostProcessingInspector.cs: b617eaa0b6e3e752eaf9e9a89203dc82 -> 
+  custom:scripting/monoscript/fileName/TiltWindow.cs: e10ba45f0e31c6702d884b3e538d583e -> 
+  custom:scripting/monoscript/fileName/ExtensionMethods.cs: 4f0ee0b787929b0d750983189a906962 -> 
+  custom:scripting/monoscript/fileName/EazyCameraUtility.cs: 21b872a57246b9238721c9e7d813230d -> 
+  custom:scripting/monoscript/fileName/BanjoClimbing.cs: c8ea49a7dfd9951ccf7f7aad288693ef -> 
+  custom:scripting/monoscript/fileName/TrackballGroupDrawer.cs: 36f1db6df3ee9bb6e23950968f1fa293 -> 
+  custom:scripting/monoscript/fileName/AntialiasingModelEditor.cs: 0f2b80733b1449af72ed38ee469e2a30 -> 
+  custom:scripting/monoscript/fileName/ScreenOverlay.cs: 8b6e368a4e3d0df848783015d0ee2b1e -> 
+  custom:scripting/monoscript/fileName/DisableGameObject.cs: 3dbefb4841c40bdbddb70d02952e86ee -> 
+  custom:scripting/monoscript/fileName/BuiltinDebugViewsEditor.cs: 315fb7cf21f3f53a30e4961d88029d42 -> 
+  custom:scripting/monoscript/fileName/ObjectPoolManager.cs: da9c366c131223b3e8881c65a4f04910 -> 
+  custom:scripting/monoscript/fileName/EnviroAudioSource.cs: 8a383cb27fa02920887a0dd65dcf480a -> 
+  custom:scripting/monoscript/fileName/EnemyHealth.cs: a4d027726692f4f1a1dc379aafbb87e2 -> 
+  custom:scripting/monoscript/fileName/EnableDisableUI.cs: b05051166d45ae9e3f8588800a2ba9e2 -> 
+  custom:scripting/monoscript/fileName/ScreenSpaceReflectionComponent.cs: 79ad7ef64576d014e73a91b6c3af0688 -> 
+  custom:scripting/monoscript/fileName/EyeAdaptationComponent.cs: 0cb2aaf8cdc20c0baee2205168cbc73c -> 
+  custom:scripting/monoscript/fileName/GetSetDrawer.cs: 19bba8dcf0569bc9ff3f3eb8733c91d8 -> 
+  custom:scripting/monoscript/fileName/MotionBlurModel.cs: 4e24ef1d444a45a9e0056ed75c7c7eb7 -> 
+  custom:scripting/monoscript/fileName/FxaaComponent.cs: 9d1fd3efb92e1fef6fd176ee45003f08 -> 
+  custom:scripting/monoscript/fileName/DialogueTrigger.cs: 6892ca3e8a39dce550b1fdeb80bddaa1 -> 
+  custom:scripting/monoscript/fileName/BlurOptimized.cs: a99dff34286593c12b0fab92e7c0da68 -> 
+  custom:scripting/monoscript/fileName/TMP_TextSelector_A.cs: 347309a09d56e367b188a6978f75b424 -> 
+  custom:scripting/monoscript/fileName/PostProcessingComponent.cs: 85236d6b86a55b2f46a14367ab625049 -> 
+  custom:scripting/monoscript/fileName/CameraMotionBlurEditor.cs: 7c502cd6630e6f5609abadb3991d9ab2 -> 
+  custom:scripting/monoscript/fileName/EnviroPhotonPlayerAssign.cs: 6cf1ab8161d50cae91d4119f33d4c22a -> 
+  custom:scripting/monoscript/fileName/EnviroVegetationInstance.cs: 1c481569f467f77ad559684b17e4d1ca -> 
+  custom:scripting/monoscript/fileName/EventTest.cs: 5b7fa55bb14b902d317f14591fc75048 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/Benchmark02.cs: 5640963252ce70910e726415f869ced6 -> 
+  custom:scripting/monoscript/fileName/EnviroReflectionProbe.cs: 308c8eb768abc44d8cb929abad091894 -> 
+  custom:scripting/monoscript/fileName/EnviroRTPIntegration.cs: b041fbabad334adb2188420f195de000 -> 
+  custom:scripting/monoscript/fileName/Quads.cs: 2f24050aded65dda899533ba7849a43c -> 
+  custom:scripting/monoscript/fileName/IDamageable.cs: e64f76ace9702e1e0c6016368cb48d14 -> 
+  custom:scripting/monoscript/fileName/PostProcessingModelEditor.cs: 5454250018fe1f45305c6e2bbb867603 -> 
+  custom:scripting/monoscript/fileName/LevelTransitionController.cs: 7027c4cb00e9bf93af3f58eb118cc29c -> 
+  custom:scripting/monoscript/fileName/EnviroMirrorServer.cs: 23255bc9c93286c3b288e1b7b34998c0 -> 
+  custom:scripting/monoscript/fileName/PostProcessingMonitor.cs: d1e07bd8dc8b5f2f5124f2514220156a -> 
+  custom:scripting/monoscript/fileName/Blur.cs: 16b33e375f19895ec61239c77165934f -> 
+  custom:scripting/monoscript/fileName/SpinObject.cs: 9fd38abbd09e7b575ed01544d345824f -> 
+  custom:scripting/monoscript/fileName/Bloom.cs: 33cd4fe5846ab030762c2d9a63dce329 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/WheatOptimization.cs: 27c722892b3da8ad4c012704dfc7f455 -> 
+  custom:scripting/monoscript/fileName/DropdownSample.cs: 0a92251794e5f10400149f96c3c59e5d -> 
+  custom:scripting/monoscript/fileName/DepthOfFieldDeprecatedEditor.cs: 9c0d6ba6950f727fa7ed1bfef973ec32 -> 
+  custom:scripting/monoscript/fileName/EzPlayerController.cs: 4588e531bc9c8707152077cf2c6f8242 -> 
+  custom:scripting/monoscript/fileName/VertexJitter.cs: d27eb5498e48714a66aece98da065133 -> 
+  custom:scripting/monoscript/fileName/DitheringModel.cs: fa99c50231ddc7ca26b5d6c9a68b4b31 -> 
+  custom:scripting/monoscript/fileName/ItemCollector.cs: 274b16316a682c53089de40686e418a0 -> 
+  custom:scripting/monoscript/fileName/StarterAssetsInputs.cs: 109cc5d80cf92b9046134880b5edcf1b -> 
+  custom:scripting/monoscript/fileName/TogglePlayerInput.cs: d9922fa3c544d2c39fd8383e8ff26a24 -> 
+  custom:scripting/monoscript/fileName/MaterialFactory.cs: 39b00f1518fc675c62e508eb4bdec486 -> 
+  custom:scripting/monoscript/fileName/ItemUsage.cs: bde90b5a5e2156053f446cd42bd5a394 -> 
+  custom:scripting/monoscript/fileName/EnviroReflectionProbeEditor.cs: 71af79f94e6f94cdf547ff450a19f1d6 -> 
+  custom:scripting/monoscript/fileName/ImageEffects.cs: fc49fae855f2f50655b411c31423a73d -> 
+  custom:scripting/monoscript/fileName/ScrollDetailTexture.cs: 37d922539062f65f7453f83a08800a54 -> 
+  custom:scripting/monoscript/fileName/VectorscopeMonitor.cs: 208c293eec47ebea88bea24abfda77aa -> 
+  custom:scripting/monoscript/fileName/NVWaterMaterials.cs: 94d5183f8ae14f8382773ebc9c37dc73 -> 
+  custom:scripting/monoscript/fileName/Vortex.cs: d2f7738ed789b7a977f000ffd0cf8890 -> 
+  custom:scripting/monoscript/fileName/WarpTextExample.cs: 2663459c266363641981c7d17b698d7f -> 
+  custom:scripting/monoscript/fileName/EnviroPhotonIntegration.cs: 6bf8f6b7764de46c23be4eba33683147 -> 
+  custom:scripting/monoscript/fileName/VideoPlayerSceneChanger.cs: 5b5aae1e56cd9c320c839e6dad3a98f4 -> 
+  custom:scripting/monoscript/fileName/PostEffectsBase.cs: 6aabc5a6e1a831a9196622d2796540be -> 
+  custom:scripting/monoscript/fileName/EzAnimator.cs: 573221b1067cb315f913c44cd6ca4e95 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:scripting/monoscript/fileName/VertexPainter.cs: 16560ca2edadf0d72db8e5b63449e2fe -> 
+  custom:scripting/monoscript/fileName/ColorCorrectionCurvesEditor.cs: ba8c98b45b2e94f575e6b8aff77cc447 -> 
+  custom:scripting/monoscript/fileName/EzCameraCollider.cs: 91604209b18393c823b2ada9c830cf7a -> 
+  custom:scripting/monoscript/fileName/EazyCollider.cs: 2462904762d98fa49055bf21815f2c84 -> 
+  custom:scripting/monoscript/fileName/Readme.cs: 5aedf578fb2663036982fb7b05aaf325 -> 
+  custom:scripting/monoscript/fileName/ColorGradingComponent.cs: fc28099e3cee649b1f5925a07b57ea96 -> 
+  custom:scripting/monoscript/fileName/TonemappingEditor.cs: edac4117593cd8c316e847cfa4a2c184 -> 
+  custom:scripting/monoscript/fileName/FollowTarget.cs: 63124a3107f1b26a367b11384bde8238 -> 
+  custom:scripting/monoscript/fileName/VideoPlayerObjectToggler.cs: fbb4ca31f6207636ebb5f0a7fb16cac9 -> 
+  custom:scripting/monoscript/fileName/LoadButtonHandler.cs: 7c349601f50c9e2585c02e89d445e2c8 -> 
+  custom:scripting/monoscript/fileName/ItemCollectorExtraHoneyComb.cs: 54ee42d600cade2472f9483b585842c0 -> 
+  custom:scripting/monoscript/fileName/TrackballAttribute.cs: f1962deba67196a6cd6b7953be1caf36 -> 
+  custom:scripting/monoscript/fileName/SaveIsEasyMenu.cs: 8daff0cb8941a466bd195d6f45312eba -> 
+  custom:scripting/monoscript/fileName/ThirdPersonStarterAssetsDeployMenu.cs: 90647cc400823b41df847a6cbfc29026 -> 
+  custom:scripting/monoscript/fileName/UserLutModel.cs: ce559ad59b29fc066f37249281afd441 -> 
+  custom:scripting/monoscript/fileName/EzCameraSettings.cs: d2e4e4cddbc6894fd5e97e4bc0359f07 -> 
+  custom:scripting/monoscript/fileName/TextConsoleSimulator.cs: 33fc311abb20b5b0ed8f00e4d86b574e -> 
+  custom:scripting/monoscript/fileName/PostProcessingProfile.cs: e94a21971fab43a541218a4f91e0403c -> 
+  custom:scripting/monoscript/fileName/VertexColorCycler.cs: 5f984ca91cf3609293aecc6bc5641572 -> 
+  custom:scripting/monoscript/fileName/TMP_FrameRateCounter.cs: 46f655df8cb483ac5958307137b1585a -> 
+  custom:scripting/monoscript/fileName/EzCamInspector.cs: 5c933d480e76dcccb00829e3b85157d2 -> 
+  custom:scripting/monoscript/fileName/EditorResources.cs: 9f83d1aedff2fa20e157243f0913ea0e -> 
+  custom:scripting/monoscript/fileName/VertexShakeB.cs: a6f78c4fcda1a29a1a1c1baefedba9e7 -> 
+  custom:scripting/monoscript/fileName/MinAttribute.cs: 941c73502025168e3301edfeaed1b25e -> 
+  custom:scripting/monoscript/fileName/GrainComponent.cs: fae958f48caa0fab6bcf7f9c48b915e1 -> 
+  custom:scripting/monoscript/fileName/PauseManager.cs: 6da8654f04c4fce9e21fd3a53b4562a9 -> 
+  custom:scripting/monoscript/fileName/UIManager.cs: 2595dc2cbd41cc2d023a3ebb28d87e9e -> 
+  custom:scripting/monoscript/fileName/NoteValueToUI.cs: e7cf5ede8c34c371c6a0fe9cd26d5348 -> 
+  custom:scripting/monoscript/fileName/SaveSettings.cs: f6c1e1ad1e1ed8c62db7e88b1c618e4e -> 
+  custom:scripting/monoscript/fileName/DeleteDontDestroyObjects.cs: 923a65a8485553f1bfc254d9e3d324bd -> 
+  custom:scripting/monoscript/fileName/ColorCorrectionLookup.cs: cdade6b297f1c116727fa6035591313f -> 
+  custom:scripting/monoscript/fileName/TMP_UiFrameRateCounter.cs: b01021aea19247f14a98ab338907956a -> 
+  custom:scripting/monoscript/fileName/UserLutModelEditor.cs: 342104b23101d3bfd45391c0769a34cf -> 
+  custom:scripting/monoscript/fileName/EnviroRemoveDefines.cs: fe3f56b82806cdcd7853cae45ec32554 -> 
+  custom:scripting/monoscript/fileName/FogComponent.cs: 2dfe6d4c859eabd11b82ff8fc7d7ad22 -> 
+  custom:scripting/monoscript/fileName/EnviroInteriorEditor.cs: 05545dfc07975ba6547b8165023d40d9 -> 
+  custom:scripting/monoscript/fileName/BuiltinDebugViewsModel.cs: 4a09809f2c0ed6cca27229b06ce1d289 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/Triangles.cs: 64f7a3839fbac059155d5ec1d8597e9c -> 
+  custom:scripting/monoscript/fileName/RenderTextureFactory.cs: b11bc916a1a88ed67d986ee69a536511 -> 
+  custom:scripting/monoscript/fileName/ItemCollectorNote.cs: cb602a81a8403b18a19e6e4a47c2ee24 -> 
+  custom:scripting/monoscript/fileName/DepthOfField.cs: d3ca753d15782e18ed3483b3a0afd175 -> 
+  custom:scripting/monoscript/fileName/FogModelEditor.cs: 64b75506b78e4411272a1d25aff5dcfd -> 
+  custom:scripting/monoscript/fileName/EazyCam.cs: 87a8ae9d70cb5b0bcf931755714174b7 -> 
+  custom:scripting/monoscript/fileName/SunShaftsEditor.cs: 14ff19bb08f48e5592630a8ef09a85a4 -> 
+  custom:scripting/monoscript/fileName/UIVirtualButton.cs: 4484a5293e7a4abb96c3b06b8d8dca11 -> 
+  custom:scripting/monoscript/fileName/ScreenSpaceReflectionModelEditor.cs: 7f4dd9c1675fb2cce031c62e047539ef -> 
+  custom:scripting/monoscript/fileName/EggValueToUI.cs: a8c96eaffecb3b547a2679faba256ea1 -> 
+  custom:scripting/monoscript/fileName/ContrastStretch.cs: 606dc0496a32ea6e71f97dc962793c28 -> 
+  custom:scripting/monoscript/fileName/BloomEditor.cs: 43b3df46b7cb2255d2c1c8dbcafea8dc -> 
+  custom:scripting/monoscript/fileName/EyeAdaptationModelEditor.cs: ee1343b3ceaceb2c63bf272baf871cbd -> 
+  custom:scripting/monoscript/fileName/ExtraLifeValueToUI.cs: e52fa8f6278a3bc3d646c3c84545cbb1 -> 
+  custom:scripting/monoscript/fileName/VignetteComponent.cs: 293deb083808f71d2d18d818ef588272 -> 
+  custom:scripting/monoscript/fileName/ClickMovement.cs: fbdd972bf30b929a6f7e129e91bb41e9 -> 
+  custom:scripting/monoscript/fileName/DialogueUI.cs: a2104b8f7520c27bb29c5145452c68af -> 
+  custom:scripting/monoscript/fileName/DefaultPostFxModelEditor.cs: e4be4b1d308934dee3a6a91920dc1b3d -> 
+  custom:scripting/monoscript/fileName/FogModel.cs: c4cd4da1fb97c7abf787083602f52bf5 -> 
+  custom:scripting/monoscript/fileName/MainMenuButton.cs: e28869a6863284e74946ac915bb193f6 -> 
+  custom:scripting/monoscript/fileName/EnviroWeatherPrefab.cs: 264c20cb3000e12c8b063c33977b7cf0 -> 
+  custom:scripting/monoscript/fileName/TMPro_InstructionOverlay.cs: b626d2270e6ebd5c4311585c18b58d8d -> 
+  custom:scripting/monoscript/fileName/PostProcessingFactory.cs: f4e35cbabcf5e0add8e963bb8ab175b2 -> 
+  custom:scripting/monoscript/fileName/DragPanel.cs: 376a07f318599d41c8186ab66774b222 -> 
+  custom:scripting/monoscript/fileName/RedFeatherValueToUI.cs: db540fcb0ca3d9266d3cc629c8096d35 -> 
+  custom:scripting/monoscript/fileName/VignetteAndChromaticAberrationEditor.cs: de7480822b02f6e7bbb6e752b450d6c9 -> 
+  custom:scripting/monoscript/fileName/FireCollisionForwardScript.cs: 304e3b05ac7796692d6a091f1e220ef2 -> 
+  custom:scripting/monoscript/fileName/WaveformMonitor.cs: fa17c20b734d78632b46f64cd9d4f8c6 -> 
+  custom:scripting/monoscript/fileName/ChatController.cs: 876d5ccae6e345dd5d9450eb0a748f16 -> 
+  custom:scripting/monoscript/fileName/SimpleNavAgentAnimation.cs: cf5684c82edbfbb294ad92f66754ec70 -> 
+  custom:scripting/monoscript/fileName/EnviroAudioMixerSupport.cs: 5172fc0234aebc21eda54d95271f2e22 -> 
+  custom:scripting/monoscript/fileName/TMP_DigitValidator.cs: ac02af96215ae3951a3cce9e1a8c6085 -> 
+  custom:scripting/monoscript/fileName/RandomAudioPlayer.cs: 976c5b7ddc865fb1718c8892b19865b3 -> 
+  custom:scripting/monoscript/fileName/BloomOptimized.cs: deef391a4062215fa64b13290b34b1e5 -> 
+  custom:scripting/monoscript/fileName/EnviroCore.cs: 82cbb0e78bc3f77b270a14b3bb743dc9 -> 
+  custom:scripting/monoscript/fileName/DitheringComponent.cs: 83d905897534466960141b85361bb6b4 -> 
+  custom:scripting/monoscript/fileName/BloomAndFlares.cs: 8afb5ea14b913734370925506b923fb7 -> 
+  custom:scripting/monoscript/fileName/VignetteAndChromaticAberration.cs: 6f7816e6c6a96eb38e8b34a3171a3d7a -> 
+  custom:scripting/monoscript/fileName/GlobalFog.cs: cec4a166fe83b304dd694da080c37c22 -> 
+  custom:scripting/monoscript/fileName/DialogueCharacter.cs: 21de41370f05905b9f5a0af418c3205b -> 
+  custom:scripting/monoscript/fileName/SnowManagerEditor.cs: 221882dc98e5c75d83579c2ca7ed29c1 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/TextMeshSpawner.cs: 76f28e2ddb031571e6ec62b018f65fa8 -> 
+  custom:scripting/monoscript/fileName/EazyEventManager.cs: 0c4e3348fd896dc44a2974ceeb5c7cf6 -> 
+  custom:scripting/monoscript/fileName/Tonemapping.cs: c9f290b3ad74cc49f26aca1f0af02743 -> 
+  custom:scripting/monoscript/fileName/JiggyValueToUI.cs: 591de6bf32f130ae0ff87b64da9e788a -> 
+  custom:scripting/monoscript/fileName/Rotate.cs: 3ee7f54d429059cfe21852309a1cf0e7 -> 
+  custom:scripting/monoscript/fileName/DepthOfFieldModel.cs: ab243c09a4b44fd7a53f73051db01cbc -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp-Editor: f30f48c4eebb3b2a73c8115b3967584a -> 
+  custom:scripting/monoscript/fileName/FPSController.cs: 899457d85863c3f770d05769363e24ee -> 
+  custom:scripting/monoscript/fileName/ThirdPersonController.cs: a689853034d5fa0ef10dab801796c594 -> 
+  custom:scripting/monoscript/fileName/ItemCollectorEgg.cs: b8f4d1aa2dc9b7bf421516c527b84372 -> 
+  custom:scripting/monoscript/fileName/Benchmark01_UGUI.cs: 6148cfe2627b7708298f301788144139 -> 
+  custom:scripting/monoscript/fileName/EdgeDetection.cs: 7e270773de6bd808e57f1eb909c3207a -> 
+  custom:scripting/monoscript/fileName/TeleType.cs: 31fa97821c4c70f157ec81d507aa6b62 -> 
+  custom:scripting/monoscript/fileName/EazyController.cs: f3170ba83550d5bea5fdec29db4e5d46 -> 
+  custom:scripting/monoscript/fileName/EnviroProfile.cs: ba8b193d033841dc41b0dbbff7e09295 -> 
+  custom:scripting/monoscript/fileName/SingleLineAttribute.cs: 4dfb29cf7aa5358eaec0c143035397cf -> 
+  custom:scripting/monoscript/fileName/Benchmark04.cs: 32220b148620e52aa81c13a114862bf4 -> 
+  custom:scripting/monoscript/fileName/ColorGradingModel.cs: d1c2ef15f5e9e4868052777d51361b40 -> 
+  custom:scripting/monoscript/fileName/MainMenuController.cs: dc27e55ad6a0f2eb5a5212e8108cae21 -> 
+  custom:scripting/monoscript/fileName/ScreenSpaceReflectionModel.cs: 507d9c80d381478e1c14f5bfe34012ae -> 
+  custom:scripting/monoscript/fileName/SlipperySurfaceHandler.cs: 3f1dad09f7272d999cdcb5b8aa88b5c3 -> 
+  custom:scripting/monoscript/fileName/EdgeDetectionEditor.cs: 4cca3302e9c064dba4f706ba0e5d7102 -> 
+  custom:scripting/monoscript/fileName/VignetteModelEditor.cs: e544ec17c4d10dc7a011d82b890e61d2 -> 
+  custom:scripting/monoscript/fileName/ItemCollectorHoneyComb.cs: dd4141fa8703ff80b28061001d44e161 -> 
+  custom:scripting/monoscript/fileName/ColorCorrectionCurves.cs: 0fe9ce599982e40ac8aba010733d7bdc -> 
+  custom:scripting/monoscript/fileName/GlobalSnowIntegration.cs: f3fea83a173e5db23f54a7078853f119 -> 
+  custom:scripting/monoscript/fileName/CameraFollow.cs: de990732cc429467f8f49571d0872163 -> 
+  custom:scripting/monoscript/fileName/EnviroVegetationStudioPro.cs: 008aaecb9f128995a36f3460e17a81f5 -> 
+  custom:scripting/monoscript/fileName/UserLutComponent.cs: 944143ce5f543a40c92ecea777f35ae4 -> 
+  custom:scripting/monoscript/fileName/SnowManager.cs: 96c44207f09bfdaf9755d78998af9cb5 -> 
+  custom:scripting/monoscript/fileName/SceneLoader.cs: 5c0816849d186432ffce5e360c37577f -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: d2b5d4b36a57ea700d61610180ccfc8e -> 
+  custom:scripting/monoscript/fileName/FloatRange.cs: 9223d148eabe5b0420ce339d299cfe1a -> 
+  custom:scripting/monoscript/fileName/SimpleWaterShaders.cs: 2a2bd3041982efa30cdb88284f1f3759 -> 
+  custom:scripting/monoscript/fileName/CurveEditor.cs: 6cba1958072d99c0ff92650cfaf3fa87 -> 
+  custom:scripting/monoscript/fileName/TrackballGroupAttribute.cs: 6d071733b141a3fb3360b110560ed1cc -> 
+  custom:scripting/monoscript/fileName/EnviroWeatherPreset.cs: b69fe818306e79b099c18a4a51542c83 -> 
+  custom:scripting/monoscript/fileName/DitheringModelEditor.cs: 98ce08c54d480e2032b7e03104c8332a -> 
+  custom:scripting/monoscript/fileName/EazyTargetManager.cs: af2defdcc02bd4b00327812801bdfffa -> 
+  custom:scripting/monoscript/fileName/EazyConstants.cs: 1b6ff62dd5e0b4ecb6e499793fd70a57 -> 
+  custom:scripting/monoscript/fileName/SpirialMountainTriggerController.cs: d14caad6a69323d53e16bb068867896f -> 
+  custom:scripting/monoscript/fileName/EnviroSkyMgrEditor.cs: 5f528d0c6e6b163d26d0cae6c1f6d48a -> 
+  custom:scripting/monoscript/fileName/EnviroWeatherPresetEditor.cs: 73efe0d9731e597368dc79c32ffe13f2 -> 
+  custom:scripting/monoscript/fileName/MobileDisableAutoSwitchControls.cs: 6080624f52a6a8173325efe0ce361f18 -> 
+  custom:scripting/precompiled-assembly-types:SaveIsEasyDLL: 8ad6737758511bc5511b2eec3ec66a67 -> 
+  custom:scripting/monoscript/fileName/Door.cs: e594c8ff05d11b07988fd85149762f72 -> 
+  custom:scripting/monoscript/fileName/Benchmark03.cs: 17cc87e0529ac71d909a946afb47a274 -> 
+  custom:scripting/monoscript/fileName/PostProcessingBehaviour.cs: b0fbf7f67aeee9a6f7db03386dbc8c1e -> 
+  custom:scripting/monoscript/fileName/ColorCorrectionRamp.cs: a7e8fab02fd9ee3f41f3660b4752114a -> 
+  custom:scripting/monoscript/fileName/NoiseAndScratches.cs: e0c1886d5a6b335ec4861c2068c91d03 -> 
+  custom:scripting/monoscript/fileName/EnviroFogVolumeIntegration.cs: e452b5847f75aeb694686b83cd538158 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:scripting/monoscript/fileName/ReadmeEditor.cs: ff7ced1e41c1b99ddf5dfefc88f6bd50 -> 
+  custom:scripting/monoscript/fileName/GrainModelEditor.cs: fc1fd3126ff1a32e5c9c0211f235c203 -> 
+  custom:scripting/monoscript/fileName/TriggerAudio.cs: 6c3a66d11431e2219e23ab21ea081d3b -> 
+  custom:scripting/monoscript/fileName/ContrastEnhance.cs: 25207a33818c5454fd86fad73189b2cd -> 
+  custom:scripting/monoscript/fileName/BloomModel.cs: b4ba3e478c2698eb99512ead9d78d360 -> 
+  custom:scripting/monoscript/fileName/LineRendererAdapter.cs: d3aeab4c6e8d55925147d0ddf8b35ffa -> 
+  custom:scripting/monoscript/fileName/GrainModel.cs: ce4589c9bbcb55f8f632b6617dc5d1f0 -> 
+  custom:scripting/monoscript/fileName/DontDestroyOnLoadSingleton.cs: 2cb26bf176f98e9289f3d7ebb3933672 -> 
+  custom:scripting/monoscript/fileName/ExampleCube.cs: 84b501d881f26c94122e9bb3bed8cf20 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 12417.559784 seconds.
+  path: Assets/Core Backend.prefab
+  artifactKey: Guid(c0d9bf2fe32fb4147934bd3360a143b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Core Backend.prefab using Guid(c0d9bf2fe32fb4147934bd3360a143b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40f601cef4916afd564728c16d2d9107') in 1.087067 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 9.079576 seconds.
+  path: Assets/demo_rock_01.prefab
+  artifactKey: Guid(db457fdce32976542a88231279205446) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/demo_rock_01.prefab using Guid(db457fdce32976542a88231279205446) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4927949ec8ec7b48d2f4c6e0a000fa74') in 0.010101 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 77.863772 seconds.
+  path: Assets/demo_rock_01.prefab
+  artifactKey: Guid(db457fdce32976542a88231279205446) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/demo_rock_01.prefab using Guid(db457fdce32976542a88231279205446) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4927949ec8ec7b48d2f4c6e0a000fa74') in 0.044872 seconds
+Number of updated asset objects reloaded before import = 15
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000943 seconds.
+  path: Assets/Enemy.prefab
+  artifactKey: Guid(8002d34de5414bf4a8cc6b34b0da9a6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemy.prefab using Guid(8002d34de5414bf4a8cc6b34b0da9a6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83fad7ea8a51a4e59d520b9f9770b441') in 0.003927 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 9.153245 seconds.
+  path: Assets/Gruntilda Lair 1.prefab
+  artifactKey: Guid(bc4808dcea7356444ad2b1b378ae14cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gruntilda Lair 1.prefab using Guid(bc4808dcea7356444ad2b1b378ae14cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6873323e884a4a5c6b5a7d447b3cde7e') in 1.200210 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000234 seconds.
+  path: Assets/Gruntilda Lair 2.prefab
+  artifactKey: Guid(bf47095770ef4f54da62677f2fb00cda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gruntilda Lair 2.prefab using Guid(bf47095770ef4f54da62677f2fb00cda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7836f69f9265cc642bce35c27332edb9') in 0.010648 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 14.925254 seconds.
+  path: Assets/demo_rock_01.prefab
+  artifactKey: Guid(db457fdce32976542a88231279205446) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/demo_rock_01.prefab using Guid(db457fdce32976542a88231279205446) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4927949ec8ec7b48d2f4c6e0a000fa74') in 0.005123 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.001845 seconds.
+  path: Assets/Enemy.prefab
+  artifactKey: Guid(8002d34de5414bf4a8cc6b34b0da9a6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemy.prefab using Guid(8002d34de5414bf4a8cc6b34b0da9a6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83fad7ea8a51a4e59d520b9f9770b441') in 0.003406 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 6.178369 seconds.
+  path: Assets/demo_rock_01.prefab
+  artifactKey: Guid(db457fdce32976542a88231279205446) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/demo_rock_01.prefab using Guid(db457fdce32976542a88231279205446) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4927949ec8ec7b48d2f4c6e0a000fa74') in 0.005120 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 3.788194 seconds.
+  path: Assets/Gruntilda Lair 1.prefab
+  artifactKey: Guid(bc4808dcea7356444ad2b1b378ae14cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gruntilda Lair 1.prefab using Guid(bc4808dcea7356444ad2b1b378ae14cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6873323e884a4a5c6b5a7d447b3cde7e') in 0.028277 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.007481 seconds.
+  path: Assets/Gruntilda Lair 2.prefab
+  artifactKey: Guid(bf47095770ef4f54da62677f2fb00cda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gruntilda Lair 2.prefab using Guid(bf47095770ef4f54da62677f2fb00cda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7836f69f9265cc642bce35c27332edb9') in 0.006734 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in 10.598 seconds
+Refreshing native plugins compatible for Editor in 211.71 ms, found 2 plugins.
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  9.008 seconds
+Domain Reload Profiling: 19590ms
+	BeginReloadAssembly (4071ms)
+		ExecutionOrderSort (1ms)
+		DisableScriptedObjects (122ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (4ms)
+		CreateAndSetChildDomain (2687ms)
+	RebuildCommonClasses (162ms)
+	RebuildNativeTypeToScriptingClass (61ms)
+	initialDomainReloadingComplete (243ms)
+	LoadAllAssembliesAndSetupDomain (6041ms)
+		LoadAssemblies (5258ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (1592ms)
+			TypeCache.Refresh (1041ms)
+				TypeCache.ScanAssembly (323ms)
+			ScanForSourceGeneratedMonoScriptInfo (285ms)
+			ResolveRequiredComponents (264ms)
+	FinalizeReload (9011ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (5729ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (270ms)
+			SetLoadedEditorAssemblies (19ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (307ms)
+			ProcessInitializeOnLoadAttributes (3790ms)
+			ProcessInitializeOnLoadMethodAttributes (1300ms)
+			AfterProcessingInitializeOnLoad (40ms)
+			EditorAssembliesLoaded (3ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (35ms)
+Shader 'Custom/AdditiveTintable': fallback shader 'Particles/Additive (Soft)' not found
+Shader 'Enviro/Lite/SkyboxSimple': fallback shader 'None' not found
+Refreshing native plugins compatible for Editor in 2369.82 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.38 ms.
+Unloading 2433 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 124 unused Assets / (1.6 MB). Loaded Objects now: 3076.
+Memory consumption went from 273.1 MB to 271.5 MB.
+Total: 462.022400 ms (FindLiveObjects: 8.395000 ms CreateObjectMapping: 4.045400 ms MarkObjects: 414.631400 ms  DeleteObjects: 34.936700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/OrangeValueToUI.cs: ffaa39b4df542a416bddcdc15260eb51 -> c696879d181fb9fa6088efa195de0859
+  custom:scripting/monoscript/fileName/EnviroMicroSplatIntegration.cs: 11d60330b32c3d556e1cc1671301d546 -> b892ad14d06afa40d2549fc9cf5fec73
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/LoadPart.cs: 92c065ff761ec2a8af6e3eed2df2691c -> 728eb54ae4f0ffaae299c974d789becd
+  custom:scripting/monoscript/fileName/EnviroMirrorPlayer.cs: 36d529a2ca937e9bd5b6c69c9ae1ac13 -> 80c1eb020564b0e0a2ceb58639b83050
+  custom:scripting/monoscript/fileName/FireProjectileScript.cs: eebf32797d6765e81a017e8872dcc617 -> 2d281eee371f58c844d02f3a89ab4d27
+  custom:scripting/monoscript/fileName/EnviroPostProcessing.cs: b9182e77d646ead4a05131ec4c26a0a3 -> 100f6753e77efa40add80082e227c32c
+  custom:scripting/monoscript/fileName/DontDestroyOnSceneChange.cs: 43fc73e4faf524cf26feeecbdfbeeb0a -> f71722ec0e16c7839cb1bba1a8842e7f
+  custom:scripting/monoscript/fileName/MeteorSwarmScript.cs: 5963e25c977d0ec7c8ff680970126ac6 -> 6ff54a634458dc66ead70ae5cbf2d1f2
+  custom:scripting/monoscript/fileName/UIVirtualTouchZone.cs: 7dc6ac3020fe6a04ec9b50f67c74e843 -> 2cf58d9131af5a78d9083ae59546d69c
+  custom:scripting/monoscript/fileName/EnviroSkyMgr.cs: d30a038f4d2da6b93002fb07965f0ccf -> 85a2a12cba035ef51d7e2bc25897280e
+  custom:scripting/monoscript/fileName/EnviroUBERIntegration.cs: ee4c44e8eb852ebec8ffedcec31ee6aa -> 46c38f56bc427655b45496bd0fea6c0b
+  custom:scripting/monoscript/fileName/ItemCollectorJiggy.cs: 9a7415386ea4b75603e9b7aea03b1732 -> 29eba3f0480b32f0cb8e0518fc8f0e47
+  custom:scripting/monoscript/fileName/EnviroFogVolumeEditor.cs: 530b8aad9dac501bc22cbdc93b764b9a -> ebe0d2dc02b0917c183710a863689437
+  custom:scripting/monoscript/fileName/MumboTokenValueToUI.cs: 9a289f5f21f1a812f46016dac8a8310a -> a5e89a0ee701f3697e3f253de9239ec7
+  custom:scripting/monoscript/fileName/VideoPlayerSceneChangernew.cs: 68e0c46e9b5a99329b9cbc63406aff66 -> b4c2255b1bea79c9cc089aea0d5abda3
+  custom:scripting/monoscript/fileName/ItemCollectorOrange.cs: 2e8c6fab7d96537365c454ce3ac207bb -> 8fe7ce4b245979a625c7d65edae2e49f
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:scripting/monoscript/fileName/EnviroSeasonObjectSwitcher.cs: d8fd7babd503028a23a695313e7f1657 -> e75712d1c433bd7657f10fcd8d314fd5
+  custom:scripting/monoscript/fileName/EnemyAI.cs: ac5d928c2e7f4dc32564e545998185f9 -> b23c04a72171da1bfba3c740e359e309
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/ExampleControlGUI.cs: 3e6e3675ac6cef5daeb94c7ea5ac5547 -> c2550bc1fbd937277fb6bdf1adaf2b22
+  custom:scripting/monoscript/fileName/ChangeColor.cs: f81cf3cdf4cbb0062447e8fbd503d637 -> 4aa6535f7c7c1d1c93ed642ecd3831bf
+  custom:scripting/monoscript/fileName/SampleHUDFPS.cs: ff631efceb1133d081f7c3a5b0cc0fe0 -> f0fef3a0a6642a0cc97e420ab090c706
+  custom:scripting/monoscript/fileName/EnviroMegaSplatIntegration.cs: bbb0b4767938ecaaff0c4fe3b5bcbe82 -> 49c067dfcadeadd8781bce25a70f3250
+  custom:scripting/monoscript/fileName/EnviroSkyRenderingLW.cs: 62c531ccb32e3b2e0daec74564618ab4 -> 935cb16e5ab94f8419a40d255890715a
+  custom:scripting/monoscript/fileName/UICanvasControllerInput.cs: 2cdef807cafca6682627d2fff45745d7 -> efbd76725fe032d832a1837ce36804c3
+  custom:scripting/monoscript/fileName/DragMe.cs: 133dd40f615b458043a0f6c59b4b2cdd -> e01cf09454f8a92d35bfd27d02543a70
+  custom:scripting/monoscript/fileName/BasicRigidBodyPush.cs: 81692452d1a6b6b5ab4a950852e5937c -> 834b632457fae9d11b7ee6ae6006cbf8
+  custom:scripting/monoscript/fileName/EnviroSkyLite.cs: ce984575c8ed7687e15a25809cdafe6b -> 0241da6bbccfb8bc6bdcb1a122569fc8
+  custom:scripting/monoscript/fileName/ItemCollectorExtraLife.cs: 26fce022bcdc83efed9880f0d3af9bd9 -> 9f3bd9e08ef0f0be1b056ecc957971c8
+  custom:scripting/monoscript/fileName/EnviroSkyLiteEditor.cs: 5959d94ffe239998552fdebd12449d49 -> 0f2131f0d2d18b889f3e38dbfb6740d9
+  custom:scripting/monoscript/fileName/EnviroCopyLightSettings.cs: 362f1e8c65e70f4aa1d7aa18405428c8 -> cf07eae6ebc0d8d8ea4baee6c9bdb56c
+  custom:scripting/monoscript/fileName/EnviroWindSynchronize.cs: 5c62b217fc74059d9befffc5abfed5ab -> c0d9b3649b791c302b59a208f399eaed
+  custom:scripting/monoscript/fileName/FireBaseScript.cs: 54ca75a34cca46adf915fa6ce463dd09 -> 40eaa57b8558acc0d7541c966bf350e1
+  custom:scripting/monoscript/fileName/EnviroUNetPlayer.cs: 71af758220bbbd45774a33cc88bd413c -> 1e3cac324f7b938c3dcc267e60dd6bd9
+  custom:scripting/monoscript/fileName/EnviroMeshSeasons.cs: df428c16b14a7a7bd061a11879f9be9a -> 8725279d0f5cd4322d373efbea574b75
+  custom:scripting/monoscript/fileName/AnimationAdapter.cs: a01610ce4db308988fcfd06b43c13850 -> 44366c4c2223fb242dfd6514b16bb91b
+  custom:scripting/monoscript/fileName/ResizePanel.cs: f0337855de6c511124f1078d6b81e645 -> 34d95ac36ae44d64ceaf340236a91951
+  custom:scripting/monoscript/fileName/MeleeAttack.cs: 4589ce13c4e93731fe0eafaa619be4d1 -> 378f980483d8eb6240a30351286792e4
+  custom:scripting/monoscript/fileName/ActiveStateToggler.cs: a88343a653df762c41cce23dda6ed5bd -> c3254209c302af4f536f90005c561370
+  custom:scripting/monoscript/fileName/GoldenFeatherValueToUI.cs: ec6b150168a24fa86a5851f066a9bfdc -> a33e158239fa46fd57dcc7684debaab9
+  custom:scripting/monoscript/fileName/PlayerHealth.cs: 6b978f872dc2a195ec26e12c3d75cb27 -> 49f415306e52895faa0b0a35d62e54a1
+  custom:scripting/monoscript/fileName/ItemCollectorMumboToken.cs: 305cf986afcd8e397bf7ce14b026fa31 -> 05b56f5b9c80cbcac9fa303468dbdec2
+  custom:scripting/monoscript/fileName/EnviroLUXIntegration.cs: 84a89b3de381fdc17a3b90128fafe45d -> a3004e3dbda1f857c6ef603425df224b
+  custom:scripting/monoscript/fileName/FireLightScript.cs: 3697f4a8de5234e9f08f148ed40ed13b -> 48b9ad2a0b905afbfc70dab1787c7e86
+  custom:scripting/monoscript/fileName/EnviroEvents.cs: d7f7bda482504c424b4b864554a59035 -> 71b5c73e9f78d3412816ca8e677e91d5
+  custom:scripting/monoscript/fileName/BanjoCrouch.cs: 984bf0a3c503389dc5bd034c2e1ac375 -> 223905048087ec11e1498de03e984ff8
+  custom:scripting/monoscript/fileName/FireConstantBaseScript.cs: 9b17bb1bf0178f72ecca08faf16d781f -> 5e73485e03e1ad5c36c0de233555db46
+  custom:scripting/monoscript/fileName/Movement2D.cs: e224215a0baf4a503bfb30da7b18ee63 -> 1cf81e42337f4735d467a8ce2f3ac35e
+  custom:scripting/monoscript/fileName/EnviroUNetServer.cs: 1a4dd40bcdc761e5ecc5be303384212a -> aff9ef51ad2fa5fb11e8fbdbc3b6724c
+  custom:scripting/monoscript/fileName/DialogueManager.cs: 610c9a3ec568e7ae99407121392c4d8e -> c09c7a44e01815fadfdfe74359a136b7
+  custom:scripting/monoscript/fileName/ExtraHoneyCombValueToUI.cs: 6304793d55a2ffca821015acf8ac218f -> f4a84916e01e42373733aad9418d6197
+  custom:scripting/monoscript/fileName/DropMe.cs: a1fff044883bf3ce2daae5b1a14bedf0 -> beef0a0bedca9a39ef11158a12b17f64
+  custom:scripting/monoscript/fileName/EnviroAddDefineSymbolsLW.cs: 605851a66b86527a1025746056675fac -> d6ba3adaba844becb96e77c50cda7961
+  custom:scripting/monoscript/fileName/UIVirtualJoystick.cs: d91cd492c08816cfcd7c002f705e2a97 -> 940ec13d5cec07955291b086529e4dd6
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/ItemCollectorGoldenFeather.cs: 3e5b265c68b7825ab86c308c4491964a -> b3e8e4f893fb1e89b96ede1ebd5105eb
+  custom:scripting/monoscript/fileName/EnviroLiteAdditionalCamera.cs: cb459eeb461b5dc07eb9172986cd89f7 -> 169e7383c12292eaabc0a2937ed73c80
+  custom:scripting/monoscript/fileName/ApplicationManager.cs: deda48c1aaf6f4e50979a852ac783391 -> 6100f98dc72a5824900b7fa765f78bcb
+  custom:scripting/monoscript/fileName/EnviroLightning.cs: abd98afba9dd1e0f3fb7f2383c522210 -> 3d4af1f0253e32058cb04824524f4cab
+  custom:scripting/monoscript/fileName/Example2CubeMove.cs: 331d8557dd28024988c47359dd4f750b -> f7bc238db4874068aed6a4be0e0b2dc9
+  custom:scripting/monoscript/fileName/PanelManager.cs: 80881783e0974ee6e1bb248c9a66b414 -> 5ada60b94cd9aff0399aed4fd5590b0a
+  custom:scripting/monoscript/fileName/EnviroZone.cs: de234abf88e99a3ab79cea1c0afcbe30 -> 87ee7fe97586dd7222c05b2802dac2ea
+  custom:scripting/monoscript/fileName/ShowSliderValue.cs: 23e146ee57658c1a11b135e578ef3ffb -> c183894b55a0530492e3822bb63c8714
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/DemoUI.cs: 6350c543b983095625b3abcc12c35bbe -> 98dd975e9a518b504c678a865d4fbdbe
+  custom:scripting/monoscript/fileName/EnviroTrigger.cs: 55863c8ce0b959551cb58bf7d3bcf5c8 -> cdc5afd66e1cd4a6c717e44c4ec2df77
+  custom:scripting/monoscript/fileName/EnviroDayNightSwitch.cs: 8c236c83223f25143036b807ead6704c -> d938a6625a90f27b65415a33030a4ab0
+  custom:scripting/monoscript/fileName/ItemCollectorRedFeather.cs: 623f5a7729485fc1eb285512e137da17 -> c8eac49c14453336ba22b6b597c18748
+  custom:scripting/monoscript/fileName/PyroParticlesEditor.cs: 354c1c059e65b89ca635b50432c8e57c -> fee59225a15cfc1f239b8cceea91e420
+  custom:scripting/monoscript/fileName/HoneyCombValueToUI.cs: e8483be6422cfc4ae5ac2eaf4906943f -> f0cad499864e56e52de25f3ee6ee7388
+  custom:scripting/monoscript/fileName/CoroutineUtlities.cs: aabb6a534a8c0e02fb5adeb9565ef439 -> f6325ac321aace1a31cc4d226bd80d4f
+  custom:scripting/monoscript/fileName/EnviroInterior.cs: 5ceb0c6c1f2f59ca1ecc767db0762994 -> 36c22bcc0f9592f0418eacdeccfec60d
+  custom:scripting/monoscript/fileName/EnviroZoneEditor.cs: d132c05b8cb2ed511480c1a54c2d0f14 -> 21c7b35812441eed0210dedee57369e2
+  custom:scripting/monoscript/fileName/TiltWindow.cs: d3be76bc391b000530c01191248c1495 -> e10ba45f0e31c6702d884b3e538d583e
+  custom:scripting/monoscript/fileName/BanjoClimbing.cs: 56efd10758a08c4dd1e1db40a8767d95 -> c8ea49a7dfd9951ccf7f7aad288693ef
+  custom:scripting/monoscript/fileName/EnviroAudioSource.cs: 151ae88213d941577bde01f1ffcc32d3 -> 8a383cb27fa02920887a0dd65dcf480a
+  custom:scripting/monoscript/fileName/EnemyHealth.cs: e07955fcc26f7ca9605fdaf70d2e6e10 -> a4d027726692f4f1a1dc379aafbb87e2
+  custom:scripting/monoscript/fileName/DialogueTrigger.cs: 685444f86bfff8af51a76ef3598b4fc3 -> 6892ca3e8a39dce550b1fdeb80bddaa1
+  custom:scripting/monoscript/fileName/EnviroPhotonPlayerAssign.cs: ad8308ed69e863fd2ecbb026f2e86a7f -> 6cf1ab8161d50cae91d4119f33d4c22a
+  custom:scripting/monoscript/fileName/EnviroVegetationInstance.cs: a52570207f85d8cb9b019c9563826557 -> 1c481569f467f77ad559684b17e4d1ca
+  custom:scripting/monoscript/fileName/EventTest.cs: f994f2658666f480b7b00483cb3e49b1 -> 5b7fa55bb14b902d317f14591fc75048
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/EnviroReflectionProbe.cs: 1fe98f7a5eb444314c98740d450327d0 -> 308c8eb768abc44d8cb929abad091894
+  custom:scripting/monoscript/fileName/EnviroRTPIntegration.cs: d461d656593ffdbd60433fbc43d149fa -> b041fbabad334adb2188420f195de000
+  custom:scripting/monoscript/fileName/IDamageable.cs: e467737bb1de31f1bb48463adeec4aff -> e64f76ace9702e1e0c6016368cb48d14
+  custom:scripting/monoscript/fileName/EnviroMirrorServer.cs: 3b133df6971764a4d3b6e70801084ccd -> 23255bc9c93286c3b288e1b7b34998c0
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/ItemCollector.cs: a92820780af2269cf1af5a264c8fd682 -> 274b16316a682c53089de40686e418a0
+  custom:scripting/monoscript/fileName/StarterAssetsInputs.cs: a7e8a1b91929a93d3b5a09196688da9f -> 109cc5d80cf92b9046134880b5edcf1b
+  custom:scripting/monoscript/fileName/ItemUsage.cs: 786433ae211823212febba5423049f3e -> bde90b5a5e2156053f446cd42bd5a394
+  custom:scripting/monoscript/fileName/EnviroReflectionProbeEditor.cs: 817b1ae31ff40f30beea4609a56577e2 -> 71af79f94e6f94cdf547ff450a19f1d6
+  custom:scripting/monoscript/fileName/ScrollDetailTexture.cs: 41bc6030a19c0f237fefc6c8940db611 -> 37d922539062f65f7453f83a08800a54
+  custom:scripting/monoscript/fileName/EnviroPhotonIntegration.cs: f7ecc43c8349243fe68e5e11a967e7be -> 6bf8f6b7764de46c23be4eba33683147
+  custom:scripting/monoscript/fileName/VideoPlayerSceneChanger.cs: 215e20dff67ad7bc03416f3ace8b516e -> 5b5aae1e56cd9c320c839e6dad3a98f4
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:scripting/monoscript/fileName/VertexPainter.cs: 17ab65aac056c13d8995891dfc094569 -> 16560ca2edadf0d72db8e5b63449e2fe
+  custom:scripting/monoscript/fileName/Readme.cs: 0243834a66c4d02c43eccfe3f1926748 -> 5aedf578fb2663036982fb7b05aaf325
+  custom:scripting/monoscript/fileName/FollowTarget.cs: 174812568156b4e69858495c8e84d1a6 -> 63124a3107f1b26a367b11384bde8238
+  custom:scripting/monoscript/fileName/VideoPlayerObjectToggler.cs: 12ef41d1bca4f44e617eddfcece65b00 -> fbb4ca31f6207636ebb5f0a7fb16cac9
+  custom:scripting/monoscript/fileName/ItemCollectorExtraHoneyComb.cs: d4c67c1bd99e509a9e42eb543d8ce686 -> 54ee42d600cade2472f9483b585842c0
+  custom:scripting/monoscript/fileName/SaveIsEasyMenu.cs: 213f81092880a977270c1f97da72bdb2 -> 8daff0cb8941a466bd195d6f45312eba
+  custom:scripting/monoscript/fileName/ThirdPersonStarterAssetsDeployMenu.cs: 8f6297df34271fdb1ce2d9607ec6261d -> 90647cc400823b41df847a6cbfc29026
+  custom:scripting/monoscript/fileName/PauseManager.cs: c73b7e254cc927769caff0a393fea5e5 -> 6da8654f04c4fce9e21fd3a53b4562a9
+  custom:scripting/monoscript/fileName/UIManager.cs: 619f5747dc184f3577c898ec321c40d4 -> 2595dc2cbd41cc2d023a3ebb28d87e9e
+  custom:scripting/monoscript/fileName/NoteValueToUI.cs: 5f3157baf60a4bb1b324791e624ed6a0 -> e7cf5ede8c34c371c6a0fe9cd26d5348
+  custom:scripting/monoscript/fileName/SaveSettings.cs: a27ae927ed149f94e5b922cf7b55cccc -> f6c1e1ad1e1ed8c62db7e88b1c618e4e
+  custom:scripting/monoscript/fileName/DeleteDontDestroyObjects.cs: 18779d7e8222c94df8e549c979f62aad -> 923a65a8485553f1bfc254d9e3d324bd
+  custom:scripting/monoscript/fileName/EnviroRemoveDefines.cs: 407eb043761e47cea766b66acbed7970 -> fe3f56b82806cdcd7853cae45ec32554
+  custom:scripting/monoscript/fileName/EnviroInteriorEditor.cs: 5c06babd0744eaea76306395c1c1836f -> 05545dfc07975ba6547b8165023d40d9
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/ItemCollectorNote.cs: f08304847873ad38e237c415ff0ad27f -> cb602a81a8403b18a19e6e4a47c2ee24
+  custom:scripting/monoscript/fileName/UIVirtualButton.cs: 52482648e6f5e190b30c7811823ff594 -> 4484a5293e7a4abb96c3b06b8d8dca11
+  custom:scripting/monoscript/fileName/EggValueToUI.cs: c71ee78dac3b51cd009d27c09adc16f2 -> a8c96eaffecb3b547a2679faba256ea1
+  custom:scripting/monoscript/fileName/ExtraLifeValueToUI.cs: b2d6caaa7e89f04fc9b3edb640bf409b -> e52fa8f6278a3bc3d646c3c84545cbb1
+  custom:scripting/monoscript/fileName/ClickMovement.cs: 1ced19cd8986728f2f3e74edbc0fb377 -> fbdd972bf30b929a6f7e129e91bb41e9
+  custom:scripting/monoscript/fileName/DialogueUI.cs: 7d5ae66f43cb06d37e8652f35318e359 -> a2104b8f7520c27bb29c5145452c68af
+  custom:scripting/monoscript/fileName/EnviroWeatherPrefab.cs: 785fa606b9e96d06866931820ce4344f -> 264c20cb3000e12c8b063c33977b7cf0
+  custom:scripting/monoscript/fileName/DragPanel.cs: e1733add76e341ee0ce9f3b2eed2cfdb -> 376a07f318599d41c8186ab66774b222
+  custom:scripting/monoscript/fileName/RedFeatherValueToUI.cs: 2aae40c01c903bead3cdeae177d8410a -> db540fcb0ca3d9266d3cc629c8096d35
+  custom:scripting/monoscript/fileName/FireCollisionForwardScript.cs: fd00725bd46e8a02dda959e3f512bf7c -> 304e3b05ac7796692d6a091f1e220ef2
+  custom:scripting/monoscript/fileName/SimpleNavAgentAnimation.cs: 6aa3ec379a911ad4c18dc380aa604112 -> cf5684c82edbfbb294ad92f66754ec70
+  custom:scripting/monoscript/fileName/EnviroAudioMixerSupport.cs: 8aaa6b2d750d43ecdf6aa1e10573559a -> 5172fc0234aebc21eda54d95271f2e22
+  custom:scripting/monoscript/fileName/EnviroCore.cs: 98b172b51537d5aed94eb21ccb189f32 -> 82cbb0e78bc3f77b270a14b3bb743dc9
+  custom:scripting/monoscript/fileName/DialogueCharacter.cs: 35015b4264316faf839cc23f02960e61 -> 21de41370f05905b9f5a0af418c3205b
+  custom:scripting/monoscript/fileName/SnowManagerEditor.cs: 82cf022ffb4017ab7db47cff6a435dc6 -> 221882dc98e5c75d83579c2ca7ed29c1
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/JiggyValueToUI.cs: 6728f46c5505c4f978ba2129e9551d85 -> 591de6bf32f130ae0ff87b64da9e788a
+  custom:scripting/monoscript/fileName/Rotate.cs: 661b2fac88ab54dc25bfe20f0c181379 -> 3ee7f54d429059cfe21852309a1cf0e7
+  custom:scripting/monoscript/fileName/FPSController.cs: 456d3ee73eba2a3e99dc2224bcc70f8a -> 899457d85863c3f770d05769363e24ee
+  custom:scripting/monoscript/fileName/ThirdPersonController.cs: f0a66fb3e07e7abc99dc53a3859e4fb8 -> a689853034d5fa0ef10dab801796c594
+  custom:scripting/monoscript/fileName/ItemCollectorEgg.cs: c6c3d1eae3e7790ac12451a57139a054 -> b8f4d1aa2dc9b7bf421516c527b84372
+  custom:scripting/monoscript/fileName/EnviroProfile.cs: 435256d8b6dc5aa2293aabe4837a1dff -> ba8b193d033841dc41b0dbbff7e09295
+  custom:scripting/monoscript/fileName/SingleLineAttribute.cs: 5ef1da73cf4538da264117fa87890c12 -> 4dfb29cf7aa5358eaec0c143035397cf
+  custom:scripting/monoscript/fileName/SlipperySurfaceHandler.cs: 8addbe703b9f0454c2416bd5418406a0 -> 3f1dad09f7272d999cdcb5b8aa88b5c3
+  custom:scripting/monoscript/fileName/ItemCollectorHoneyComb.cs: d85c503532712bedea134a953e668c96 -> dd4141fa8703ff80b28061001d44e161
+  custom:scripting/monoscript/fileName/GlobalSnowIntegration.cs: 1a65514d8fd4179adc1c4d10fe871d84 -> f3fea83a173e5db23f54a7078853f119
+  custom:scripting/monoscript/fileName/EnviroVegetationStudioPro.cs: 38ed3a4b1f7c661b2315bab04da25894 -> 008aaecb9f128995a36f3460e17a81f5
+  custom:scripting/monoscript/fileName/SnowManager.cs: 360d296e98e57b576d1eddbca31e34cc -> 96c44207f09bfdaf9755d78998af9cb5
+  custom:scripting/monoscript/fileName/EnviroWeatherPreset.cs: 162654de1aab2d7eb6aa42eca56593a3 -> b69fe818306e79b099c18a4a51542c83
+  custom:scripting/monoscript/fileName/EnviroSkyMgrEditor.cs: 2802bc18cc0a9e4c8da48fc7ecc04914 -> 5f528d0c6e6b163d26d0cae6c1f6d48a
+  custom:scripting/monoscript/fileName/EnviroWeatherPresetEditor.cs: a7d2316c1de18dc46a19d610fd9f2697 -> 73efe0d9731e597368dc79c32ffe13f2
+  custom:scripting/monoscript/fileName/MobileDisableAutoSwitchControls.cs: d7ed10b4aca925877e80f08d0210b16a -> 6080624f52a6a8173325efe0ce361f18
+  custom:scripting/monoscript/fileName/Door.cs: d36eb47cba4917a67e90204eb4994581 -> e594c8ff05d11b07988fd85149762f72
+  custom:scripting/monoscript/fileName/EnviroFogVolumeIntegration.cs: 1385b192193d42ac2629e5bb8f443da1 -> e452b5847f75aeb694686b83cd538158
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:scripting/monoscript/fileName/ReadmeEditor.cs: f90a78a692f36537585f0ffe30196b53 -> ff7ced1e41c1b99ddf5dfefc88f6bd50
+  custom:scripting/monoscript/fileName/LineRendererAdapter.cs: c5fbceeb8ba6bd0b45f0f91d9694546f -> d3aeab4c6e8d55925147d0ddf8b35ffa
+  custom:scripting/monoscript/fileName/DontDestroyOnLoadSingleton.cs: 59f3bd6b137c5ac8b79efc7cced6f9e7 -> 2cb26bf176f98e9289f3d7ebb3933672
+  custom:scripting/monoscript/fileName/ExampleCube.cs: b5aa584598a44742ac8e59cd57688114 -> 84b501d881f26c94122e9bb3bed8cf20
+========================================================================
+Received Import Request.
+  Time since last request: 61.491894 seconds.
+  path: Assets/Gruntilda Lair 1.prefab
+  artifactKey: Guid(bc4808dcea7356444ad2b1b378ae14cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gruntilda Lair 1.prefab using Guid(bc4808dcea7356444ad2b1b378ae14cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b4ea2fb3db95a78b1205babc3633268') in 14.519335 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10054
+========================================================================
+Received Import Request.
+  Time since last request: 0.000202 seconds.
+  path: Assets/Gobi's Valley.prefab
+  artifactKey: Guid(f77b689190542184d97f6748c4b7c17d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gobi's Valley.prefab using Guid(f77b689190542184d97f6748c4b7c17d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17ff24b78ff39ebaeb842395179df5fd') in 10.044303 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6039
+========================================================================
+Received Import Request.
+  Time since last request: 0.003453 seconds.
+  path: Assets/Bawl.prefab
+  artifactKey: Guid(e3721dbbc3b7e054397ce12ca4f4eb87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bawl.prefab using Guid(e3721dbbc3b7e054397ce12ca4f4eb87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3981fa7c6f5c3baedf51f4002b683c4') in 2.344945 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 165
+========================================================================
+Received Import Request.
+  Time since last request: 0.000100 seconds.
+  path: Assets/Mad Monster Mansion.prefab
+  artifactKey: Guid(4eab083fbe85fdd4e9077a1acf5f91ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mad Monster Mansion.prefab using Guid(4eab083fbe85fdd4e9077a1acf5f91ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b4e52824706522f608547ceef3e7851') in 25.830596 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6015
+========================================================================
+Received Import Request.
+  Time since last request: 0.006993 seconds.
+  path: Assets/Rocky New 2 (1).prefab
+  artifactKey: Guid(cfad4d9407c9b2a4197d1c65309f17b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rocky New 2 (1).prefab using Guid(cfad4d9407c9b2a4197d1c65309f17b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e601b265bd1712b9f82f53776dc5fee') in 2.315893 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 101
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/Rocky.prefab
+  artifactKey: Guid(fbad176fdca35bb40b3ee567b530f2f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rocky.prefab using Guid(fbad176fdca35bb40b3ee567b530f2f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42f774ffc7ba56beb644bfa94eac74be') in 0.421976 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 138
+========================================================================
+Received Import Request.
+  Time since last request: 0.000115 seconds.
+  path: Assets/Topper.prefab
+  artifactKey: Guid(49f7440c16599a34eb773d32713b5599) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Topper.prefab using Guid(49f7440c16599a34eb773d32713b5599) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc846ce2909611ec25fac7f754b533f8') in 0.274581 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 184
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/Rocky New 1 (1).prefab
+  artifactKey: Guid(c258a43e176818143bce9bb633f8841e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rocky New 1 (1).prefab using Guid(c258a43e176818143bce9bb633f8841e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c70a6e9d38b3dd4083998715e666280') in 0.128976 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 99
+========================================================================
+Received Import Request.
+  Time since last request: 0.000082 seconds.
+  path: Assets/Mumbo's Mountain.prefab
+  artifactKey: Guid(390b2c88f14418849b6a3d783b8eebdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mumbo's Mountain.prefab using Guid(390b2c88f14418849b6a3d783b8eebdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4645171480b42178402b92a735b4e6a5') in 21.682801 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6898
+========================================================================
+Received Import Request.
+  Time since last request: 0.005217 seconds.
+  path: Assets
+  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a4fe85251aa2e89732c359432baa2c3') in 0.013861 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.001653 seconds.
+  path: Assets/Rocky New 2 (3).prefab
+  artifactKey: Guid(4a3a21c193778154296f5df493f364bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rocky New 2 (3).prefab using Guid(4a3a21c193778154296f5df493f364bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed43d7eb32ce8932f7223b66365d7102') in 0.179236 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 133
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Sky.prefab
+  artifactKey: Guid(84cecc160b23fd241bc8564fa7b0d894) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sky.prefab using Guid(84cecc160b23fd241bc8564fa7b0d894) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd256fb98b428a8cba9da2568765ecb3e') in 10.823181 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 208
+========================================================================
+Received Import Request.
+  Time since last request: 0.000265 seconds.
+  path: Assets/Player.prefab
+  artifactKey: Guid(fe00cf4536842f645b0273fe79a9ab92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player.prefab using Guid(fe00cf4536842f645b0273fe79a9ab92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f064edbce20e8fdd5d439ea0c225534') in 22.717067 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3358
+========================================================================
+Received Import Request.
+  Time since last request: 0.046575 seconds.
+  path: Assets/Rocky New 2.prefab
+  artifactKey: Guid(e8fc9a4415ed1654ea791972864ae690) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Rocky New 2.prefab using Guid(e8fc9a4415ed1654ea791972864ae690) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ede17a69dc1e64cd5ff94ecb9419e20a') in 3.139002 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 69
+========================================================================
+Received Import Request.
+  Time since last request: 0.004293 seconds.
+  path: Assets/Player Complete Player 1.prefab
+  artifactKey: Guid(22fe59d0beeda024e9b60583c9ba521a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player Complete Player 1.prefab using Guid(22fe59d0beeda024e9b60583c9ba521a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7efafe3874a138384cc63158f942ba79') in 8.963259 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4517
+========================================================================
+Received Import Request.
+  Time since last request: 0.000097 seconds.
+  path: Assets/Enemy.prefab
+  artifactKey: Guid(8002d34de5414bf4a8cc6b34b0da9a6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemy.prefab using Guid(8002d34de5414bf4a8cc6b34b0da9a6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1df7216dea9d1237e15a59ba20ca31d0') in 0.481674 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 349
+========================================================================
+Received Import Request.
+  Time since last request: 0.000092 seconds.
+  path: Assets/Player Complete.prefab
+  artifactKey: Guid(7f6843702daf64c4e81ab25150ee3ca2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player Complete.prefab using Guid(7f6843702daf64c4e81ab25150ee3ca2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f435332af22cd3629d9c2f467e75b884') in 3.981420 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4493
+========================================================================
+Received Import Request.
+  Time since last request: 0.000086 seconds.
+  path: Assets/Gruntilda Lair 3.prefab
+  artifactKey: Guid(d60f23e2eadab76498b51927b8ac242d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gruntilda Lair 3.prefab using Guid(d60f23e2eadab76498b51927b8ac242d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57a2bc65a3f0ad628271807aea913834') in 8.907419 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6529
+========================================================================
+Received Import Request.
+  Time since last request: 0.000124 seconds.
+  path: Assets/Clanker's Cavern.prefab
+  artifactKey: Guid(870f5df1f3dbd014fa5aeaf54a85d926) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Clanker's Cavern.prefab using Guid(870f5df1f3dbd014fa5aeaf54a85d926) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc7372632c247c6508f1ad36bd460e5e') in 31.884775 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5518
+========================================================================
+Received Import Request.
+  Time since last request: 0.062177 seconds.
+  path: Assets/Treasure Trove Cove.prefab
+  artifactKey: Guid(656a8f2c7d97edf40946787aed980384) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Treasure Trove Cove.prefab using Guid(656a8f2c7d97edf40946787aed980384) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '523adb13bb4519096ead4354c2cf89be') in 12.741367 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5535
+========================================================================
+Received Import Request.
+  Time since last request: 0.007911 seconds.
+  path: Assets/demo_rock_01.prefab
+  artifactKey: Guid(db457fdce32976542a88231279205446) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/demo_rock_01.prefab using Guid(db457fdce32976542a88231279205446) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8da7073f690a80a231985c4b3de98a08') in 0.277362 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 40
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/Gruntilda Lair 2.prefab
+  artifactKey: Guid(bf47095770ef4f54da62677f2fb00cda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gruntilda Lair 2.prefab using Guid(bf47095770ef4f54da62677f2fb00cda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac68212ee9e353e57fd7eb773411f775') in 37.422156 seconds

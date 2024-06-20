@@ -1,0 +1,1919 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <!-- Generated file, do not modify, your changes will be overwritten (use AssetPostprocessor.OnGeneratedCSProject) -->
+  <PropertyGroup>
+    <LangVersion>9.0</LangVersion>
+  </PropertyGroup>
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <RootNamespace></RootNamespace>
+    <ProjectGuid>{DEDD8C7C-0AA7-B08D-487E-30C47E103A38}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <BaseDirectory>.</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\bin\Debug\</OutputPath>
+    <DefineConstants>UNITY_2022_3_26;UNITY_2022_3;UNITY_2022;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;UNITY_2020_1_OR_NEWER;UNITY_2020_2_OR_NEWER;UNITY_2020_3_OR_NEWER;UNITY_2021_1_OR_NEWER;UNITY_2021_2_OR_NEWER;UNITY_2021_3_OR_NEWER;UNITY_2022_1_OR_NEWER;UNITY_2022_2_OR_NEWER;UNITY_2022_3_OR_NEWER;PLATFORM_ARCH_64;UNITY_64;UNITY_INCLUDE_TESTS;ENABLE_AR;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_EVENT_QUEUE;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_VIRTUALTEXTURING;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_EDITOR_GAME_SERVICES;ENABLE_UNITY_GAME_SERVICES_ANALYTICS_SUPPORT;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_GENERATE_NATIVE_PLUGINS_FOR_ASSEMBLIES_API;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;ENABLE_MANAGED_UNITYTLS;INCLUDE_DYNAMIC_GI;ENABLE_SCRIPTING_GC_WBARRIERS;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;ENABLE_VIDEO;ENABLE_ACCELERATOR_CLIENT_DEBUGGING;ENABLE_NAVIGATION_PACKAGE_DEBUG_VISUALIZATION;ENABLE_NAVIGATION_HEIGHTMESH_RUNTIME_SUPPORT;ENABLE_NAVIGATION_UI_REQUIRES_PACKAGE;PLATFORM_STANDALONE;TEXTCORE_1_0_OR_NEWER;PLATFORM_STANDALONE_WIN;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_NVIDIA;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_OUT_OF_PROCESS_CRASH_HANDLER;ENABLE_CLUSTER_SYNC;ENABLE_CLUSTERINPUT;PLATFORM_UPDATES_TIME_OUTSIDE_OF_PLAYER_LOOP;GFXDEVICE_WAITFOREVENT_MESSAGEPUMP;PLATFORM_INITIALIZES_MEMORY_MANAGER_EXPLICITLY;ENABLE_MONO;NET_STANDARD_2_0;NET_STANDARD;NET_STANDARD_2_1;NETSTANDARD;NETSTANDARD2_1;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_INPUT_SYSTEM;ENABLE_LEGACY_INPUT_MANAGER;TEXTCORE_FONT_ENGINE_1_5_OR_NEWER;STARTER_ASSETS_PACKAGES_CHECKED;ENVIRO_LW;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169;USG0001</NoWarn>
+    <AllowUnsafeBlocks>False</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Temp\bin\Release\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169;USG0001</NoWarn>
+    <AllowUnsafeBlocks>False</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup>
+    <NoConfig>true</NoConfig>
+    <NoStdLib>true</NoStdLib>
+    <AddAdditionalExplicitAssemblyReferences>false</AddAdditionalExplicitAssemblyReferences>
+    <ImplicitlyExpandNETStandardFacades>false</ImplicitlyExpandNETStandardFacades>
+    <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <UnityProjectGenerator>Package</UnityProjectGenerator>
+    <UnityProjectGeneratorVersion>2.0.22</UnityProjectGeneratorVersion>
+    <UnityProjectGeneratorStyle>Legacy</UnityProjectGeneratorStyle>
+    <UnityProjectType>Game:1</UnityProjectType>
+    <UnityBuildTarget>StandaloneWindows64:19</UnityBuildTarget>
+    <UnityVersion>2022.3.26f1</UnityVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <Analyzer Include="C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
+    <Analyzer Include="C:\Users\keari\Desktop\Happy Dayz Games\Project Kazooie\Project Kazooie\Assets\Banjo Kazooie - Assests\AssetStore\Save is easy\SaveIsEasyDLL.dll" />
+    <Analyzer Include="C:\Users\keari\Desktop\Happy Dayz Games\Project Kazooie\Project Kazooie\Assets\Banjo Kazooie - Assests\AssetStore\StarterAssets\Editor\PackageChecker\StarterAssetsPackageChecker.dll" />
+    <Analyzer Include="C:\Program Files\Unity\Hub\Editor\2022.3.26f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.SourceGenerators.dll" />
+    <Analyzer Include="C:\Program Files\Unity\Hub\Editor\2022.3.26f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Assets\Scripts\Map\ItemSpawnEmptyHoneyComb.cs" />
+    <Compile Include="Assets\Scripts\Misc\VideoPlayerSceneChangernew.cs" />
+    <Compile Include="Assets\Scripts\UI\PauseMenuController.cs" />
+    <Compile Include="Assets\Scripts\Player\TogglePlayerInput.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_UiFrameRateCounter.cs" />
+    <Compile Include="Assets\Scripts\UI\LoadButtonHandler.cs" />
+    <Compile Include="Assets\Scripts\Object\SpinObject.cs" />
+    <Compile Include="Assets\Scripts\Item\ItemCollectorRedFeather.cs" />
+    <Compile Include="Assets\Shaders\#NVJOB Simple Water Shaders\Example Scenes\PostProcessing\Runtime\Models\FogModel.cs" />
+    <Compile Include="Assets\Banjo Kazooie - Assests\AssetStore\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Scripts\TiltShift.cs" />
+    <Compile Include="Assets\Banjo Kazooie - Assests\AssetStore\HeneGames\Dialogue System\Scripts\Movement2D.cs" />
+    <Compile Include="Assets\Banjo Kazooie - Assests\AssetStore\Pause Menu Assets\Scripts\Utlities\CoroutineUtlities.cs" />
+    <Compile Include="Assets\Banjo Kazooie - Assests\AssetStore\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Scripts\CreaseShading.cs" />
+    <Compile Include="Assets\Banjo Kazooie - Assests\AssetStore\Enviro - Sky and Weather\Core\URP Support\Scripts\EnviroBlitPassShafts.cs" />
+    <Compile Include="Assets\Banjo Kazooie - Assests\AssetStore\NatureManufacture Assets\Scripts\SnowManager.cs" />
+    <Compile Include="Assets\Banjo Kazooie - Assests\AssetStore\Enviro - Sky and Weather\Core\Scripts\3rd Party Integrations\Photon Integration\EnviroPhotonPlayerAssign.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TextMeshSpawner.cs" />
+    <Compile Include="Assets\Banjo Kazooie - Assests\AssetStore\HeneGames\Dialogue System\Scripts\DialogueUI.cs" />
+    <Compile Include="Assets\Scripts\Item\RedFeatherValueToUI.cs" />
+    <Compile Include="Assets\Banjo Kazooie - Assests\AssetStore\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Scripts\ContrastStretch.cs" />
+    <Compile Include="Assets\Banjo Kazooie - Assests\AssetStore\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Scripts\BloomOptimized.cs" />
+    <Compile Include="Assets\Scripts\AI\MeleeAttack.cs" />
+    <Compile Include="Assets\Banjo Kazooie - Assests\AssetStore\EazyCamera\Code\Camera\Events\EazyEventManager.cs" />
+    <Compile Include="Assets\Banjo Kazooie - Assests\AssetStore\Enviro - Sky and Weather\Core\Scripts\Utility\EnviroAudioMixerSupport.cs" />
+    <Compile Include="Assets\Scripts\UI\SaveButtonHandler.cs" />
+    <Compile Include="Assets\Scripts\Item\ItemCollectorMumboToken.cs" />
+    <Compile Include="Assets\Shaders\#NVJOB Simple Water Shaders\Example Scenes\PostProcessing\Runtime\Models\ChromaticAberrationModel.cs" />
+    <Compile Include="Assets\Shaders\#NVJOB Simple Water Shaders\Example Scenes\PostProcessing\Runtime\Models\ColorGradingModel.cs" />
+    <Compile Include="Assets\Shaders\#NVJOB Simple Water Shaders\Example Scenes\PostProcessing\Runtime\Models\DepthOfFieldModel.cs" />
+    <Compile Include="Assets\Banjo Kazooie - Assests\AssetStore\Enviro - Sky and Weather\Core\Scripts\3rd Party Integrations\Pegasus Integration\TriggerControlEnviro.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexZoom.cs" />
+    <Compile Include="Assets\Scripts\Item\PlayerHealth.cs" />
+    <Compile Include="Assets\Banjo Kazooie - Assests\AssetStore\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Scripts\DepthOfField.cs" />
+    <Compile Include="Assets\Banjo Kazooie - Assests\AssetStore\HeneGames\Dialogue System\Scripts\DialogueTrigger.cs" />
+    <Compile Include="Assets\Banjo Kazooie - Assests\AssetStore\Enviro - Sky and Weather\Core\Scripts\3rd Party Integrations\UNet Integration\EnviroUNetServer.cs" />
+    <Compile Include="Assets\Scripts\UI\MainMenuController.cs" />
+    <Compile Include="Assets\Banjo Kazooie - Assests\AssetStore\EazyCamera\Code\Camera\Util\FloatRange.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextEventHandler.cs" />
+    <Compile Include="Assets\Scripts\Item\EggValueToUI.cs" />
+    <Compile Include="Assets\Banjo Kazooie - Assests\AssetStore\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Scripts\ScreenSpaceAmbientObscurance.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark02.cs" />
+    <Compile Include="Assets\Shaders\#NVJOB Simple Water Shaders\Example Scenes\PostProcessing\Runtime\Components\FogComponent.cs" />
+    <Compile Include="Assets\Shaders\#NVJOB Simple Water Shaders\Example Scenes\PostProcessing\Runtime\Components\BuiltinDebugViewsComponent.cs" />
+    <Compile Include="Assets\Banjo Kazooie - Assests\AssetStore\Save is easy\Examples\Example 1\ExampleCube.cs" />
+    <Compile Include="Assets\Banjo Kazooie - Assests\AssetStore\Unity UI Samples\Scripts\ScrollDetailTexture.cs" />
+    <Compile Include="Assets\Banjo Kazooie - Assests\AssetStore\EazyCamera\Code\StateMachine\CameraStates\EzFollowState.cs" />
+    <Compile Include="Assets\Banjo Kazooie - Assests\AssetStore\Enviro - Sky and Weather\Core\Scripts\3rd Party Integrations\Vegetation Studio Pro\EnviroVegetationStudioPro.cs" />
+    <Compile Include="Assets\Banjo Kazooie - Assests\AssetStore\PyroParticles\Prefab\Script\MeteorSwarmScript.cs" />
+    <Compile Include="Assets\Banjo Kazooie - Assests\AssetStore\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Scripts\ImageEffects.cs" />
+    <Compile Include="Assets\Shaders\#NVJOB Simple Water Shaders\Example Scenes\PostProcessing\Runtime\Attributes\MinAttribute.cs" />
+    <Compile Include="Assets\Banjo Kazooie - Assests\AssetStore\Enviro - Sky and Weather\Core\Scripts\Utility\EnviroDayNightSwitch.cs" />
+    <Compile Include="Assets\Banjo Kazooie - Assests\AssetStore\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Scripts\ColorCorrectionLookup.cs" />
+    <Compile Include="Assets\Scripts\Item\ItemCollectorOrange.cs" />
+    <Compile Include="Assets\Shaders\#NVJOB Simple Water Shaders\Example Scenes\PostProcessing\Runtime\Models\GrainModel.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexShakeA.cs" />
+    <Compile Include="Assets\Banjo Kazooie - Assests\AssetStore\HeneGames\Dialogue System\Scripts\ClickMovement.cs" />
+    <Compile Include="Assets\Banjo Kazooie - Assests\AssetStore\StarterAssets\InputSystem\StarterAssetsInputs.cs" />
+    <Compile Include="Assets\Banjo Kazooie - Assests\AssetStore\Unity UI Samples\Scripts\ShowSliderValue.cs" />
+    <Compile Include="Assets\Scripts\Player\CameraManager.cs" />
+    <Compile Include="Assets\Banjo Kazooie - Assests\AssetStore\EazyCamera\Code\Camera\EazyLockOnTarget.cs" />
+    <Compile Include="Assets\Banjo Kazooie - Assests\AssetStore\Enviro - Sky and Weather\Core\Scripts\3rd Party Integrations\WAPI Integration\EnviroWorldAPIIntegration.cs" />
+    <Compile Include="Assets\Banjo Kazooie - Assests\AssetStore\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Scripts\SunShafts.cs" />
+    <Compile Include="Assets\Banjo Kazooie - Assests\AssetStore\EazyCamera\Code\StateMachine\CameraStates\EzStationaryState.cs" />
+    <Compile Include="Assets\Scripts\Item\ItemCollectorHoneyComb.cs" />
+    <Compile Include="Assets\Shaders\#NVJOB Simple Water Shaders\Example Scenes\PostProcessing\Runtime\PostProcessingContext.cs" />
+    <Compile Include="Assets\Banjo Kazooie - Assests\AssetStore\Enviro - Sky and Weather\Core\Scripts\Effects\EnviroPostProcessing.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_ExampleScript_01.cs" />
+    <Compile Include="Assets\Banjo Kazooie - Assests\AssetStore\PyroParticles\Prefab\Script\FireConstantBaseScript.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMPro_InstructionOverlay.cs" />
+    <Compile Include="Assets\Shaders\#NVJOB Simple Water Shaders\Example Scenes\PostProcessing\Runtime\Components\VignetteComponent.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextSelector_B.cs" />
+    <Compile Include="Assets\Shaders\#NVJOB Simple Water Shaders\Example Scenes\PostProcessing\Runtime\Attributes\TrackballGroupAttribute.cs" />
+    <Compile Include="Assets\Scripts\Player\CameraFollow.cs" />
+    <Compile Include="Assets\Banjo Kazooie - Assests\AssetStore\EazyCamera\Code\Camera\Legacy\EzCameraSettings.cs" />
+    <Compile Include="Assets\Banjo Kazooie - Assests\AssetStore\Enviro - Sky and Weather\Core\Scripts\3rd Party Integrations\AQUAS Integration\EnviroAquasIntegration.cs" />
+    <Compile Include="Assets\Banjo Kazooie - Assests\AssetStore\Enviro - Sky and Weather\Core\Scripts\EnviroEvents.cs" />
+    <Compile Include="Assets\Scripts\AI\IDamageable.cs" />
+    <Compile Include="Assets\Scripts\Player\ThirdPersonController.cs" />
+    <Compile Include="Assets\Banjo Kazooie - Assests\AssetStore\Pause Menu Assets\Scripts\Pausemenu\PauseManager.cs" />
+    <Compile Include="Assets\Scripts\Item\ItemCollectorJiggy.cs" />
+    <Compile Include="Assets\Banjo Kazooie - Assests\AssetStore\EazyCamera\Code\Camera\Events\EazyEventKey.cs" />
+    <Compile Include="Assets\Banjo Kazooie - Assests\AssetStore\Enviro - Sky and Weather\Core\Scripts\Utility\EnviroInterior.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexShakeB.cs" />
+    <Compile Include="Assets\Banjo Kazooie - Assests\AssetStore\EazyCamera\Code\Camera\EazyTargetManager.cs" />
+    <Compile Include="Assets\Banjo Kazooie - Assests\AssetStore\Enviro - Sky and Weather\Enviro Lite\URP Support\Scripts\EnviroLiteFogLWRP.cs" />
+    <Compile Include="Assets\Shaders\#NVJOB Simple Water Shaders\Example Scenes\PostProcessing\Runtime\Models\BloomModel.cs" />
+    <Compile Include="Assets\Shaders\#NVJOB Simple Water Shaders\Example Scenes\PostProcessing\Runtime\Utils\GraphicsUtils.cs" />
+    <Compile Include="Assets\Banjo Kazooie - Assests\AssetStore\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Scripts\BloomAndFlares.cs" />
+    <Compile Include="Assets\Shaders\#NVJOB Simple Water Shaders\Example Scenes\PostProcessing\Runtime\Utils\MaterialFactory.cs" />
+    <Compile Include="Assets\Banjo Kazooie - Assests\AssetStore\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Scripts\Blur.cs" />
+    <Compile Include="Assets\Shaders\#NVJOB Simple Water Shaders\Example Scenes\PostProcessing\Runtime\Attributes\GetSetAttribute.cs" />
+    <Compile Include="Assets\Banjo Kazooie - Assests\AssetStore\Enviro - Sky and Weather\Core\Scripts\3rd Party Integrations\GlobalSnow Integration\GlobalSnowIntegration.cs" />
+    <Compile Include="Assets\Banjo Kazooie - Assests\AssetStore\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Scripts\Grayscale.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\DropdownSample.cs" />
+    <Compile Include="Assets\Scripts\UI\MainMenuButton.cs" />
+    <Compile Include="Assets\Banjo Kazooie - Assests\AssetStore\Unity UI Samples\Scripts\ResizePanel.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexColorCycler.cs" />
+    <Compile Include="Assets\Banjo Kazooie - Assests\AssetStore\EazyCamera\Code\Camera\Util\EazyCameraUtility.cs" />
+    <Compile Include="Assets\Banjo Kazooie - Assests\AssetStore\PyroParticles\Prefab\Script\FireProjectileScript.cs" />
+    <Compile Include="Assets\Banjo Kazooie - Assests\AssetStore\Enviro - Sky and Weather\Core\Scripts\EnviroProfile.cs" />
+    <Compile Include="Assets\Scripts\Audio\TriggerAudio.cs" />
+    <Compile Include="Assets\Banjo Kazooie - Assests\AssetStore\EazyCamera\Code\StateMachine\CameraStates\EzCameraState.cs" />
+    <Compile Include="Assets\Shaders\#NVJOB Simple Water Shaders\Example Scenes\PostProcessing\Runtime\Components\ChromaticAberrationComponent.cs" />
+    <Compile Include="Assets\Scripts\Item\ExtraLifeValueToUI.cs" />
+    <Compile Include="Assets\Banjo Kazooie - Assests\AssetStore\Enviro - Sky and Weather\Samples\Scripts\SampleHUDFPS.cs" />
+    <Compile Include="Assets\Banjo Kazooie - Assests\AssetStore\Enviro - Sky and Weather\Core\Scripts\3rd Party Integrations\MicroSplat Integration\EnviroMicroSplatIntegration.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\EnvMapAnimator.cs" />
+    <Compile Include="Assets\Banjo Kazooie - Assests\AssetStore\EazyCamera\Code\Util\ExtensionMethods.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\SkewTextExample.cs" />
+    <Compile Include="Assets\Banjo Kazooie - Assests\AssetStore\Enviro - Sky and Weather\Core\Scripts\3rd Party Integrations\Photon Integration\EnviroPhotonIntegration.cs" />
+    <Compile Include="Assets\Banjo Kazooie - Assests\AssetStore\Enviro - Sky and Weather\Core\Scripts\3rd Party Integrations\RTP Integration\EnviroRTPIntegration.cs" />
+    <Compile Include="Assets\Banjo Kazooie - Assests\AssetStore\Enviro - Sky and Weather\Enviro Lite\Scripts\Utilities\EnviroLiteAdditionalCamera.cs" />
+    <Compile Include="Assets\Scripts\Player\BanjoClimbing.cs" />
+    <Compile Include="Assets\Banjo Kazooie - Assests\AssetStore\EazyCamera\Code\StateMachine\EzStateMachine.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\WarpTextExample.cs" />
+    <Compile Include="Assets\Scripts\Misc\DeleteDontDestroyObjects.cs" />
+    <Compile Include="Assets\Banjo Kazooie - Assests\AssetStore\Enviro - Sky and Weather\Core\Scripts\3rd Party Integrations\Lux Integration\EnviroLUXIntegration.cs" />
+    <Compile Include="Assets\Banjo Kazooie - Assests\AssetStore\Enviro - Sky and Weather\Core\Scripts\Utility\EnviroWindSynchronize.cs" />
+    <Compile Include="Assets\Banjo Kazooie - Assests\AssetStore\EazyCamera\Code\Controller\EzPlayerController.cs" />
+    <Compile Include="Assets\Banjo Kazooie - Assests\AssetStore\Unity UI Samples\Scripts\DropMe.cs" />
+    <Compile Include="Assets\Banjo Kazooie - Assests\AssetStore\Enviro - Sky and Weather\Samples\Scripts\EventTest.cs" />
+    <Compile Include="Assets\Shaders\#NVJOB Simple Water Shaders\Example Scenes\PostProcessing\Runtime\Components\DepthOfFieldComponent.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TextMeshProFloatingText.cs" />
+    <Compile Include="Assets\Banjo Kazooie - Assests\AssetStore\Save is easy\Examples\Example 2\Example2CubeMove.cs" />
+    <Compile Include="Assets\Shaders\#NVJOB Simple Water Shaders\Example Scenes\PostProcessing\Runtime\Utils\ColorGradingCurve.cs" />
+    <Compile Include="Assets\Banjo Kazooie - Assests\AssetStore\HeneGames\Dialogue System\Scripts\DialogueCharacter.cs" />
+    <Compile Include="Assets\Scripts\Misc\LevelTransitionController.cs" />
+    <Compile Include="Assets\Shaders\#NVJOB Simple Water Shaders\Example Scenes\PostProcessing\Runtime\PostProcessingComponent.cs" />
+    <Compile Include="Assets\Scripts\Player\BanjoCrouch.cs" />
+    <Compile Include="Assets\Banjo Kazooie - Assests\AssetStore\Enviro - Sky and Weather\Samples\Scripts\DemoUI.cs" />
+    <Compile Include="Assets\Banjo Kazooie - Assests\AssetStore\Enviro - Sky and Weather\Core\Scripts\Utility\EnviroMeshSeasons.cs" />
+    <Compile Include="Assets\Banjo Kazooie - Assests\AssetStore\Enviro - Sky and Weather\Core\Scripts\3rd Party Integrations\Gaia Integration\EnviroWithGAIA.cs" />
+    <Compile Include="Assets\Banjo Kazooie - Assests\AssetStore\HeneGames\Dialogue System\Scripts\SimpleNavAgentAnimation.cs" />
+    <Compile Include="Assets\Banjo Kazooie - Assests\AssetStore\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Scripts\Quads.cs" />
+    <Compile Include="Assets\Banjo Kazooie - Assests\AssetStore\Enviro - Sky and Weather\Core\Scripts\3rd Party Integrations\Mirror Integration\EnviroMirrorPlayer.cs" />
+    <Compile Include="Assets\Banjo Kazooie - Assests\AssetStore\Save is easy\Examples\Example Menu\SaveIsEasyMenu.cs" />
+    <Compile Include="Assets\Shaders\#NVJOB Simple Water Shaders\Example Scenes\PostProcessing\Runtime\Models\MotionBlurModel.cs" />
+    <Compile Include="Assets\Banjo Kazooie - Assests\AssetStore\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Scripts\BlurOptimized.cs" />
+    <Compile Include="Assets\Banjo Kazooie - Assests\AssetStore\Enviro - Sky and Weather\Core\URP Support\Scripts\EnviroBlitPass.cs" />
+    <Compile Include="Assets\Shaders\#NVJOB Simple Water Shaders\Example Scenes\PostProcessing\Runtime\Models\AmbientOcclusionModel.cs" />
+    <Compile Include="Assets\Banjo Kazooie - Assests\AssetStore\PyroParticles\Prefab\Script\FireLightScript.cs" />
+    <Compile Include="Assets\Banjo Kazooie - Assests\AssetStore\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Scripts\SepiaTone.cs" />
+    <Compile Include="Assets\Banjo Kazooie - Assests\AssetStore\Unity UI Samples\Scripts\DragMe.cs" />
+    <Compile Include="Assets\Scripts\Item\ItemCollectorExtraLife.cs" />
+    <Compile Include="Assets\Scripts\Npc\GrassSpawner.cs" />
+    <Compile Include="Assets\Scripts\Doors\Doorlevel2tolevel1.cs" />
+    <Compile Include="Assets\Shaders\#NVJOB Simple Water Shaders\Example Scenes\PostProcessing\Runtime\Components\FxaaComponent.cs" />
+    <Compile Include="Assets\Banjo Kazooie - Assests\AssetStore\Enviro - Sky and Weather\Core\Scripts\3rd Party Integrations\FogVolume3 Integration\EnviroFogVolumeIntegration.cs" />
+    <Compile Include="Assets\Banjo Kazooie - Assests\AssetStore\Enviro - Sky and Weather\Core\Scripts\Utility\EnviroSeasonObjectSwitcher.cs" />
+    <Compile Include="Assets\Shaders\#NVJOB Simple Water Shaders\Example Scenes\PostProcessing\Runtime\Models\EyeAdaptationModel.cs" />
+    <Compile Include="Assets\Banjo Kazooie - Assests\AssetStore\Save is easy\Adapters\AnimationAdapter.cs" />
+    <Compile Include="Assets\Shaders\#NVJOB Simple Water Shaders\Example Scenes\PostProcessing\Runtime\Components\GrainComponent.cs" />
+    <Compile Include="Assets\Banjo Kazooie - Assests\AssetStore\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Scripts\ScreenSpaceAmbientOcclusion.cs" />
+    <Compile Include="Assets\Banjo Kazooie - Assests\AssetStore\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Scripts\ScreenOverlay.cs" />
+    <Compile Include="Assets\Scripts\UI\TabMenuController.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ShaderPropAnimator.cs" />
+    <Compile Include="Assets\Scripts\Item\GoldenFeatherValueToUI.cs" />
+    <Compile Include="Assets\Scripts\Misc\SaveLoadManager.cs" />
+    <Compile Include="Assets\Banjo Kazooie - Assests\AssetStore\Enviro - Sky and Weather\Core\Scripts\EnviroCore.cs" />
+    <Compile Include="Assets\Banjo Kazooie - Assests\AssetStore\Enviro - Sky and Weather\Core\Scripts\3rd Party Integrations\MegaSplat Integration\EnviroMegaSplatIntegration.cs" />
+    <Compile Include="Assets\Scripts\Audio\MusicController.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextSelector_A.cs" />
+    <Compile Include="Assets\Banjo Kazooie - Assests\AssetStore\Save is easy\Examples\ExampleControlGUI.cs" />
+    <Compile Include="Assets\Scripts\Misc\SceneLoader.cs" />
+    <Compile Include="Assets\Shaders\#NVJOB Simple Water Shaders\Example Scenes\PostProcessing\Runtime\Models\ScreenSpaceReflectionModel.cs" />
+    <Compile Include="Assets\Banjo Kazooie - Assests\AssetStore\HeneGames\Dialogue System\Scripts\Door.cs" />
+    <Compile Include="Assets\Banjo Kazooie - Assests\AssetStore\Enviro - Sky and Weather\Core\Scripts\3rd Party Integrations\Mirror Integration\EnviroMirrorServer.cs" />
+    <Compile Include="Assets\Banjo Kazooie - Assests\AssetStore\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Scripts\ImageEffectBase.cs" />
+    <Compile Include="Assets\Banjo Kazooie - Assests\AssetStore\Enviro - Sky and Weather\Core\Scripts\EnviroSkyMgr.cs" />
+    <Compile Include="Assets\Scripts\Misc\VideoPlayerSceneChanger.cs" />
+    <Compile Include="Assets\Scripts\Item\NoteValueToUI.cs" />
+    <Compile Include="Assets\Banjo Kazooie - Assests\AssetStore\Enviro - Sky and Weather\Core\URP Support\Scripts\EnviroSunShaftsLWRP.cs" />
+    <Compile Include="Assets\Banjo Kazooie - Assests\AssetStore\StarterAssets\Mobile\Scripts\CanvasInputs\UICanvasControllerInput.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\CameraController.cs" />
+    <Compile Include="Assets\Scripts\AI\EnemyAI.cs" />
+    <Compile Include="Assets\Banjo Kazooie - Assests\AssetStore\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Scripts\Vortex.cs" />
+    <Compile Include="Assets\Banjo Kazooie - Assests\AssetStore\EazyCamera\Code\Camera\Events\EventData.cs" />
+    <Compile Include="Assets\Banjo Kazooie - Assests\AssetStore\Enviro - Sky and Weather\Enviro Lite\Scripts\EnviroSkyLite.cs" />
+    <Compile Include="Assets\Shaders\#NVJOB Simple Water Shaders\Example Scenes\PostProcessing\Runtime\PostProcessingModel.cs" />
+    <Compile Include="Assets\Banjo Kazooie - Assests\AssetStore\Enviro - Sky and Weather\Core\Scripts\EnviroVegetationInstance.cs" />
+    <Compile Include="Assets\Shaders\#NVJOB Simple Water Shaders\Example Scenes\PostProcessing\Utilities\CustomMotionTexture\ExampleWheelController.cs" />
+    <Compile Include="Assets\Banjo Kazooie - Assests\AssetStore\Enviro - Sky and Weather\Core\Scripts\3rd Party Integrations\UBER Integration\EnviroUBERIntegration.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01_UGUI.cs" />
+    <Compile Include="Assets\Scripts\Player\BasicRigidBodyPush.cs" />
+    <Compile Include="Assets\Scripts\Item\ItemCollector.cs" />
+    <Compile Include="Assets\Banjo Kazooie - Assests\AssetStore\Unity UI Samples\Scripts\ActiveStateToggler.cs" />
+    <Compile Include="Assets\Banjo Kazooie - Assests\AssetStore\StarterAssets\TutorialInfo\Scripts\Readme.cs" />
+    <Compile Include="Assets\Scripts\UI\TitleScreenController.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\SimpleScript.cs" />
+    <Compile Include="Assets\Shaders\#NVJOB Simple Water Shaders\#NVJOB Simple Water Shaders\SimpleWaterShaders.cs" />
+    <Compile Include="Assets\Scripts\Item\HoneyCombValueToUI.cs" />
+    <Compile Include="Assets\Scripts\Map\SpirialMountainTriggerController.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark04.cs" />
+    <Compile Include="Assets\Banjo Kazooie - Assests\AssetStore\PyroParticles\Prefab\Script\FireBaseScript.cs" />
+    <Compile Include="Assets\Banjo Kazooie - Assests\AssetStore\Unity UI Samples\Scripts\PanelManager.cs" />
+    <Compile Include="Assets\Banjo Kazooie - Assests\AssetStore\Enviro - Sky and Weather\Core\Scripts\EnviroReflectionProbe.cs" />
+    <Compile Include="Assets\Shaders\#NVJOB Simple Water Shaders\Example Scenes\PostProcessing\Runtime\Components\DitheringComponent.cs" />
+    <Compile Include="Assets\Scripts\Audio\RandomAudioPlayer.cs" />
+    <Compile Include="Assets\Banjo Kazooie - Assests\AssetStore\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Scripts\Bloom.cs" />
+    <Compile Include="Assets\Shaders\#NVJOB Simple Water Shaders\Example Scenes\PostProcessing\Runtime\Models\DitheringModel.cs" />
+    <Compile Include="Assets\Scripts\Item\JiggyValueToUI.cs" />
+    <Compile Include="Assets\Shaders\#NVJOB Simple Water Shaders\Example Scenes\Environment\Scripts\Lighthouse.cs" />
+    <Compile Include="Assets\Banjo Kazooie - Assests\AssetStore\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Scripts\PostEffectsHelper.cs" />
+    <Compile Include="Assets\Shaders\#NVJOB Simple Water Shaders\Example Scenes\Environment\Scripts\TDControl.cs" />
+    <Compile Include="Assets\Scripts\Npc\AnimationTriggerController.cs" />
+    <Compile Include="Assets\Scripts\Player\ShowHideKazooie.cs" />
+    <Compile Include="Assets\Scripts\UI\UIManager.cs" />
+    <Compile Include="Assets\Scripts\Item\ItemCollectorNote.cs" />
+    <Compile Include="Assets\Shaders\#NVJOB Simple Water Shaders\Example Scenes\PostProcessing\Runtime\Models\VignetteModel.cs" />
+    <Compile Include="Assets\Banjo Kazooie - Assests\AssetStore\Enviro - Sky and Weather\Core\Scripts\3rd Party Integrations\CTS Integration\EnviroCTSIntegration.cs" />
+    <Compile Include="Assets\Shaders\#NVJOB Simple Water Shaders\Example Scenes\PostProcessing\Runtime\Components\BloomComponent.cs" />
+    <Compile Include="Assets\Banjo Kazooie - Assests\AssetStore\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Scripts\DepthOfFieldDeprecated.cs" />
+    <Compile Include="Assets\Shaders\#NVJOB Simple Water Shaders\Example Scenes\PostProcessing\Runtime\Models\UserLutModel.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark03.cs" />
+    <Compile Include="Assets\Shaders\#NVJOB Simple Water Shaders\Example Scenes\PostProcessing\Runtime\Attributes\TrackballAttribute.cs" />
+    <Compile Include="Assets\Scripts\Misc\VideoPlayerObjectToggler.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ChatController.cs" />
+    <Compile Include="Assets\Shaders\#NVJOB Simple Water Shaders\Example Scenes\PostProcessing\Runtime\Components\EyeAdaptationComponent.cs" />
+    <Compile Include="Assets\Scripts\Misc\DontDestroyOnSceneChange.cs" />
+    <Compile Include="Assets\Banjo Kazooie - Assests\AssetStore\StarterAssets\Mobile\Scripts\VirtualInputs\UIVirtualJoystick.cs" />
+    <Compile Include="Assets\Banjo Kazooie - Assests\AssetStore\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Scripts\GlobalFog.cs" />
+    <Compile Include="Assets\Banjo Kazooie - Assests\AssetStore\Enviro - Sky and Weather\Core\Scripts\Utility\EnviroTrigger.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ObjectSpin.cs" />
+    <Compile Include="Assets\Shaders\#NVJOB Simple Water Shaders\Example Scenes\PostProcessing\Runtime\Components\TaaComponent.cs" />
+    <Compile Include="Assets\Banjo Kazooie - Assests\AssetStore\Pause Menu Assets\Scripts\Utlities\Rotate.cs" />
+    <Compile Include="Assets\Scripts\Object\ObjectPoolManager.cs" />
+    <Compile Include="Assets\Banjo Kazooie - Assests\AssetStore\StarterAssets\Mobile\Scripts\VirtualInputs\UIVirtualTouchZone.cs" />
+    <Compile Include="Assets\Banjo Kazooie - Assests\AssetStore\EazyCamera\Code\StateMachine\CameraStates\EzLockOnState.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_PhoneNumberValidator.cs" />
+    <Compile Include="Assets\Banjo Kazooie - Assests\AssetStore\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Scripts\ColorCorrectionCurves.cs" />
+    <Compile Include="Assets\Banjo Kazooie - Assests\AssetStore\Enviro - Sky and Weather\Core\Scripts\Utility\EnviroAudioSource.cs" />
+    <Compile Include="Assets\Banjo Kazooie - Assests\AssetStore\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Scripts\NoiseAndGrain.cs" />
+    <Compile Include="Assets\Banjo Kazooie - Assests\AssetStore\Unity UI Samples\Scripts\ApplicationManager.cs" />
+    <Compile Include="Assets\Banjo Kazooie - Assests\AssetStore\Enviro - Sky and Weather\Core\Scripts\EnviroWeatherPrefab.cs" />
+    <Compile Include="Assets\Banjo Kazooie - Assests\AssetStore\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Scripts\Twirl.cs" />
+    <Compile Include="Assets\Banjo Kazooie - Assests\AssetStore\Pause Menu Assets\Scripts\Pausemenu\SaveSettings.cs" />
+    <Compile Include="Assets\Banjo Kazooie - Assests\AssetStore\HeneGames\Dialogue System\Scripts\DialogueManager.cs" />
+    <Compile Include="Assets\Banjo Kazooie - Assests\AssetStore\EazyCamera\Code\Camera\Util\EazyConstants.cs" />
+    <Compile Include="Assets\Scripts\AI\EnemyHealth.cs" />
+    <Compile Include="Assets\Banjo Kazooie - Assests\AssetStore\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Scripts\Triangles.cs" />
+    <Compile Include="Assets\Scripts\Item\ItemCollectorExtraHoneyComb.cs" />
+    <Compile Include="Assets\Scripts\Item\OrangeValueToUI.cs" />
+    <Compile Include="Assets\Banjo Kazooie - Assests\AssetStore\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Scripts\Antialiasing.cs" />
+    <Compile Include="Assets\Banjo Kazooie - Assests\AssetStore\Enviro - Sky and Weather\Core\Scripts\3rd Party Integrations\UNet Integration\EnviroUNetPlayer.cs" />
+    <Compile Include="Assets\Banjo Kazooie - Assests\AssetStore\EazyCamera\Code\Animation\EzAnimator.cs" />
+    <Compile Include="Assets\Banjo Kazooie - Assests\AssetStore\StarterAssets\Mobile\Scripts\Utilities\MobileDisableAutoSwitchControls.cs" />
+    <Compile Include="Assets\Shaders\#NVJOB Simple Water Shaders\Example Scenes\PostProcessing\Runtime\Models\AntialiasingModel.cs" />
+    <Compile Include="Assets\Shaders\#NVJOB Simple Water Shaders\Example Scenes\PostProcessing\Runtime\Components\UserLutComponent.cs" />
+    <Compile Include="Assets\Banjo Kazooie - Assests\AssetStore\Save is easy\Examples\Example Menu\LoadPart.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexJitter.cs" />
+    <Compile Include="Assets\Banjo Kazooie - Assests\AssetStore\EazyCamera\Code\Camera\Legacy\EzLockOnTarget.cs" />
+    <Compile Include="Assets\Banjo Kazooie - Assests\AssetStore\EazyCamera\Code\Camera\Legacy\EzCamera.cs" />
+    <Compile Include="Assets\Scripts\Map\SlipperySurfaceHandler.cs" />
+    <Compile Include="Assets\Banjo Kazooie - Assests\AssetStore\EazyCamera\Code\StateMachine\CameraStates\EzOrbitState.cs" />
+    <Compile Include="Assets\Scripts\Item\ItemCollectorEgg.cs" />
+    <Compile Include="Assets\Shaders\#NVJOB Simple Water Shaders\Example Scenes\PostProcessing\Runtime\Models\BuiltinDebugViewsModel.cs" />
+    <Compile Include="Assets\Banjo Kazooie - Assests\AssetStore\Unity UI Samples\Scripts\TiltWindow.cs" />
+    <Compile Include="Assets\Scripts\Misc\DontDestroyOnLoadSingleton.cs" />
+    <Compile Include="Assets\Banjo Kazooie - Assests\AssetStore\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Scripts\ContrastEnhance.cs" />
+    <Compile Include="Assets\Banjo Kazooie - Assests\AssetStore\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Scripts\VignetteAndChromaticAberration.cs" />
+    <Compile Include="Assets\Banjo Kazooie - Assests\AssetStore\EazyCamera\Code\Camera\Legacy\EzCameraCollider.cs" />
+    <Compile Include="Assets\Banjo Kazooie - Assests\AssetStore\Enviro - Sky and Weather\Core\Scripts\EnviroZone.cs" />
+    <Compile Include="Assets\Banjo Kazooie - Assests\AssetStore\EazyCamera\Code\Camera\Legacy\EzCameraController.cs" />
+    <Compile Include="Assets\Shaders\#NVJOB Simple Water Shaders\Example Scenes\PostProcessing\Runtime\Components\AmbientOcclusionComponent.cs" />
+    <Compile Include="Assets\Shaders\#NVJOB Simple Water Shaders\Example Scenes\Environment\#NVJOB Assets\Dynamic Sky (For Demo)\DynamicSkyForDemo.cs" />
+    <Compile Include="Assets\Banjo Kazooie - Assests\AssetStore\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Scripts\CameraMotionBlur.cs" />
+    <Compile Include="Assets\Banjo Kazooie - Assests\AssetStore\HeneGames\Dialogue System\Scripts\FollowTarget.cs" />
+    <Compile Include="Assets\Banjo Kazooie - Assests\AssetStore\Unity UI Samples\Scripts\DragPanel.cs" />
+    <Compile Include="Assets\Banjo Kazooie - Assests\AssetStore\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Scripts\Fisheye.cs" />
+    <Compile Include="Assets\Banjo Kazooie - Assests\AssetStore\StarterAssets\Mobile\Scripts\VirtualInputs\UIVirtualButton.cs" />
+    <Compile Include="Assets\Banjo Kazooie - Assests\AssetStore\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Scripts\MotionBlur.cs" />
+    <Compile Include="Assets\Banjo Kazooie - Assests\AssetStore\EazyCamera\Code\Player\Locomotion\EzMotor.cs" />
+    <Compile Include="Assets\Banjo Kazooie - Assests\AssetStore\EazyCamera\Code\Camera\EazyController.cs" />
+    <Compile Include="Assets\Banjo Kazooie - Assests\AssetStore\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Scripts\EdgeDetection.cs" />
+    <Compile Include="Assets\Banjo Kazooie - Assests\AssetStore\NatureManufacture Assets\Scripts\DynamicNatureWorldAPIIntegration.cs" />
+    <Compile Include="Assets\Scripts\Item\MumboTokenValueToUI.cs" />
+    <Compile Include="Assets\Scripts\Object\WheatOptimization.cs" />
+    <Compile Include="Assets\Banjo Kazooie - Assests\AssetStore\Save is easy\Adapters\LineRendererAdapter.cs" />
+    <Compile Include="Assets\Shaders\#NVJOB Simple Water Shaders\Example Scenes\PostProcessing\Runtime\Components\MotionBlurComponent.cs" />
+    <Compile Include="Assets\Banjo Kazooie - Assests\AssetStore\PyroParticles\Prefab\Script\SingleLineAttribute.cs" />
+    <Compile Include="Assets\Banjo Kazooie - Assests\AssetStore\EazyCamera\Code\Camera\EazyCollider.cs" />
+    <Compile Include="Assets\Scripts\Item\ItemCollectorGoldenFeather.cs" />
+    <Compile Include="Assets\Banjo Kazooie - Assests\AssetStore\Enviro - Sky and Weather\Samples\Scripts\FPSController.cs" />
+    <Compile Include="Assets\Banjo Kazooie - Assests\AssetStore\EazyCamera\Code\Camera\Targeting\EazyTargetReticle.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_DigitValidator.cs" />
+    <Compile Include="Assets\Banjo Kazooie - Assests\AssetStore\Enviro - Sky and Weather\Core\Scripts\Utility\EnviroCopyLightSettings.cs" />
+    <Compile Include="Assets\Scripts\Item\ItemUsage.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_FrameRateCounter.cs" />
+    <Compile Include="Assets\Banjo Kazooie - Assests\AssetStore\Enviro - Sky and Weather\Core\Scripts\Utility\EnviroLightning.cs" />
+    <Compile Include="Assets\Shaders\#NVJOB Simple Water Shaders\Example Scenes\PostProcessing\Runtime\Components\ColorGradingComponent.cs" />
+    <Compile Include="Assets\Scripts\Item\ExtraHoneyCombValueToUI.cs" />
+    <Compile Include="Assets\Scripts\Player\PlayerInfoDisplay.cs" />
+    <Compile Include="Assets\Scripts\UI\EnableDisableUI.cs" />
+    <Compile Include="Assets\Banjo Kazooie - Assests\AssetStore\Enviro - Sky and Weather\Enviro Lite\Scripts\EnviroSkyRenderingLW.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TextConsoleSimulator.cs" />
+    <Compile Include="Assets\Banjo Kazooie - Assests\AssetStore\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Scripts\ColorCorrectionRamp.cs" />
+    <Compile Include="Assets\Banjo Kazooie - Assests\AssetStore\Enviro - Sky and Weather\Core\Scripts\EnviroWeatherPreset.cs" />
+    <Compile Include="Assets\Banjo Kazooie - Assests\AssetStore\EazyCamera\Code\Camera\EazyCam.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TeleType.cs" />
+    <Compile Include="Assets\Banjo Kazooie - Assests\AssetStore\Enviro - Sky and Weather\Core\URP Support\Scripts\EnviroMoonShaftsLWRP.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextInfoDebugTool.cs" />
+    <Compile Include="Assets\Shaders\#NVJOB Simple Water Shaders\Example Scenes\PostProcessing\Runtime\PostProcessingBehaviour.cs" />
+    <Compile Include="Assets\Banjo Kazooie - Assests\AssetStore\Unity UI Samples\Scripts\ChangeColor.cs" />
+    <Compile Include="Assets\Banjo Kazooie - Assests\AssetStore\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Scripts\Tonemapping.cs" />
+    <Compile Include="Assets\Shaders\#NVJOB Simple Water Shaders\Example Scenes\PostProcessing\Runtime\Utils\RenderTextureFactory.cs" />
+    <Compile Include="Assets\Banjo Kazooie - Assests\AssetStore\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Scripts\NoiseAndScratches.cs" />
+    <Compile Include="Assets\Shaders\#NVJOB Simple Water Shaders\Example Scenes\PostProcessing\Runtime\PostProcessingProfile.cs" />
+    <Compile Include="Assets\Banjo Kazooie - Assests\AssetStore\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Scripts\PostEffectsBase.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextEventCheck.cs" />
+    <Compile Include="Assets\Shaders\#NVJOB Simple Water Shaders\Example Scenes\PostProcessing\Runtime\Components\ScreenSpaceReflectionComponent.cs" />
+    <Compile Include="Assets\Banjo Kazooie - Assests\AssetStore\PyroParticles\Prefab\Script\FireCollisionForwardScript.cs" />
+    <Compile Include="Assets\Scripts\Object\DisableGameObject.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Banjo Kazooie - Assests\AssetStore\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Shaders\Tonemapper.shader" />
+    <None Include="Assets\Banjo Kazooie - Assests\AssetStore\StarterAssets\ThirdPersonController\BanjoKazooie\Banjo.props.txt" />
+    <None Include="Assets\Shaders\#NVJOB Simple Water Shaders\Example Scenes\PostProcessing\Resources\Shaders\DepthOfField.cginc" />
+    <None Include="Assets\Shaders\#NVJOB Simple Water Shaders\Example Scenes\PostProcessing\Resources\Shaders\EyeAdaptation.cginc" />
+    <None Include="Assets\Banjo Kazooie - Assests\Rips\Jinjo pack\Jinjos\Using Normal Mapping with this model.txt" />
+    <None Include="Assets\Banjo Kazooie - Assests\Rips\Unreal Rips\Characters\BanjoKazooie\Animations\Banjo_Duck.props.txt" />
+    <None Include="Assets\Banjo Kazooie - Assests\Rips\BanjoRMX\Animation\Bull\bull_running_Anim.props.txt" />
+    <None Include="Assets\Banjo Kazooie - Assests\Rips\Unreal Rips\Characters\BanjoKazooie\Animations\BanjoTalonTrot.props.txt" />
+    <None Include="Assets\Banjo Kazooie - Assests\Rips\BanjoRMX\Animation\Bottles\bottle_out_Anim.props.txt" />
+    <None Include="Assets\Banjo Kazooie - Assests\Rips\Unreal Rips\Characters\Meshes\Shape_4806.props.txt" />
+    <None Include="Assets\Shaders\_DoubleSidedShaders\Shaders\DoubleSided\Legacy\DecalDS.shader" />
+    <None Include="Assets\Banjo Kazooie - Assests\Rips\BanjoRMX\Material\Perso\Banjo_eye_R.props.txt" />
+    <None Include="Assets\Banjo Kazooie - Assests\Rips\Unreal Rips\Characters\BanjoKazooie\Materials\EyeR.props.txt" />
+    <None Include="Assets\Banjo Kazooie - Assests\Rips\BanjoRMX\Animation\Grublin\grublin_see.props.txt" />
+    <None Include="Assets\Banjo Kazooie - Assests\Rips\BanjoRMX\Animation\Jinjo\jinjo_idle_Anim.props.txt" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
+    <None Include="Assets\Banjo Kazooie - Assests\Rips\BanjoRMX\Animation\Playable\Banjo_kazooie\kazooie_tatata_Anim.props.txt" />
+    <None Include="Assets\Shaders\_DoubleSidedShaders\Shaders\DoubleSided\Mobile\MobileBumpedSpecular.shader" />
+    <None Include="Assets\Shaders\#NVJOB Simple Water Shaders\Example Scenes\PostProcessing\Resources\Shaders\MotionBlur.shader" />
+    <None Include="Assets\Banjo Kazooie - Assests\Rips\BanjoRMX\Animation\Jinjo\jinjo_oneHand_Anim.props.txt" />
+    <None Include="Assets\Banjo Kazooie - Assests\Rips\Unreal Rips\Characters\BanjoKazooie\Animations\Banjo_Walk.props.txt" />
+    <None Include="Assets\Shaders\#NVJOB Simple Water Shaders\Example Scenes\PostProcessing\Resources\Shaders\Tonemapping.cginc" />
+    <None Include="Assets\Banjo Kazooie - Assests\AssetStore\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Shaders\GlobalFog.shader" />
+    <None Include="Assets\Banjo Kazooie - Assests\AssetStore\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Shaders\VortexEffect.shader" />
+    <None Include="Assets\Banjo Kazooie - Assests\AssetStore\Enviro - Sky and Weather\Core\Scripts\3rd Party Integrations\MegaSplat Integration\MegaSplat Integration.txt" />
+    <None Include="Assets\Shaders\#NVJOB Simple Water Shaders\Example Scenes\PostProcessing\Resources\Shaders\ACES.cginc" />
+    <None Include="Assets\Banjo Kazooie - Assests\Rips\BanjoRMX\Animation\Jinjo\jinjo_collected.props.txt" />
+    <None Include="Assets\Banjo Kazooie - Assests\Rips\BanjoRMX\Maps\MumbosMountain\Level\cylindre_w1.props.txt" />
+    <None Include="Assets\Banjo Kazooie - Assests\AssetStore\Shader Vegetation\Shaders\Vegetation Simple.shader" />
+    <None Include="Assets\Banjo Kazooie - Assests\Rips\BanjoRMX\Model\Feature\mumbo_head_Cylinder.props.txt" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
+    <None Include="Assets\Banjo Kazooie - Assests\AssetStore\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Shaders\NoiseAndGrain.shader" />
+    <None Include="Assets\Banjo Kazooie - Assests\Rips\BanjoRMX\Model\Object\extra_life.props.txt" />
+    <None Include="Assets\Banjo Kazooie - Assests\AssetStore\NatureStarterKit2\Standard Assets\Effects\Projectors\Shaders\ProjectorLight.shader" />
+    <None Include="Assets\Banjo Kazooie - Assests\Rips\Unreal Rips\Collectibles\Materials\Glowbo_Mat.props.txt" />
+    <None Include="Assets\Banjo Kazooie - Assests\Rips\BanjoRMX\Sprite\menu\tootie_menu_sprite_mat.props.txt" />
+    <None Include="Assets\Banjo Kazooie - Assests\Rips\BanjoRMX\Material\Object\Moss.props.txt" />
+    <None Include="Assets\Banjo Kazooie - Assests\AssetStore\NatureStarterKit2\Standard Assets\Effects\Projectors\Shaders\ProjectorMultiply.shader" />
+    <None Include="Assets\Banjo Kazooie - Assests\AssetStore\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\DLAA.shader" />
+    <None Include="Assets\Banjo Kazooie - Assests\Rips\BanjoRMX\Material\Perso\Banjo_Body_2.props.txt" />
+    <None Include="Assets\Banjo Kazooie - Assests\Rips\BanjoRMX\Maps\MumbosMountain\Level\Materials\maritime_tree_bark_inst.props.txt" />
+    <None Include="Assets\Banjo Kazooie - Assests\Rips\BanjoRMX\Model\Object\beehive_v2_Anim.props.txt" />
+    <None Include="Assets\Banjo Kazooie - Assests\Rips\BanjoRMX\Material\Perso\Jinjo_blue.props.txt" />
+    <None Include="Assets\Banjo Kazooie - Assests\AssetStore\NatureManufacture Assets\Foliage Shaders\NMWindNoShiver.cginc" />
+    <None Include="Assets\Banjo Kazooie - Assests\AssetStore\Enviro - Sky and Weather\Core\Resources\Shaders\EnviroReflectionProbe.shader" />
+    <None Include="Assets\Banjo Kazooie - Assests\AssetStore\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Shaders\frag_ao.cginc" />
+    <None Include="Assets\Banjo Kazooie - Assests\Rips\BanjoRMX\Maps\MumbosMountain\OUTSIDE_test.props.txt" />
+    <None Include="Assets\Banjo Kazooie - Assests\Rips\BanjoRMX\Vfx\Water\WaterMat.props.txt" />
+    <None Include="Assets\Banjo Kazooie - Assests\Rips\BanjoRMX\Animation\Conga\conga_hit2.props.txt" />
+    <None Include="Assets\Banjo Kazooie - Assests\Rips\Unreal Rips\Characters\BanjoKazooie\Animations\Banjo_Rotate.props.txt" />
+    <None Include="Assets\Banjo Kazooie - Assests\Rips\BanjoRMX\Model\Object\note.props.txt" />
+    <None Include="Assets\Banjo Kazooie - Assests\Rips\Unreal Rips\Characters\BanjoKazooie\Animations\BanjoDamage.props.txt" />
+    <None Include="Assets\Banjo Kazooie - Assests\Rips\Unreal Rips\Characters\BanjoKazooie\Animations\Banjo_BackEgg.props.txt" />
+    <None Include="Assets\Banjo Kazooie - Assests\AssetStore\NatureManufacture Assets\Foliage Shaders\Third-Party Notices.txt" />
+    <None Include="Assets\Shaders\_DoubleSidedShaders\Shaders\DoubleSided\TwoFaceTexture\TwoFaceBumpSpec.shader" />
+    <None Include="Assets\Banjo Kazooie - Assests\Rips\BanjoRMX\Material\Perso\grublin01.props.txt" />
+    <None Include="Assets\Banjo Kazooie - Assests\Rips\BanjoRMX\Model\Perso\Conga\Conga_body.props.txt" />
+    <None Include="Assets\Shaders\#NVJOB Simple Water Shaders\license_unity.txt" />
+    <None Include="Assets\Banjo Kazooie - Assests\AssetStore\EazyCamera\README.txt" />
+    <None Include="Assets\Banjo Kazooie - Assests\Rips\BanjoRMX\Maps\MumbosMountain\Model\jinjo_dirt.props.txt" />
+    <None Include="Assets\Banjo Kazooie - Assests\AssetStore\Enviro - Sky and Weather\Enviro Lite\Resources\Shaders\EnviroLiteMoonShaderCustom.shader" />
+    <None Include="Assets\Banjo Kazooie - Assests\AssetStore\NatureManufacture Assets\Foliage Shaders\Tree_Leaves_Specular.shader" />
+    <None Include="Assets\Banjo Kazooie - Assests\Rips\Unreal Rips\Characters\Meshes\MayahemCow.props.txt" />
+    <None Include="Assets\Banjo Kazooie - Assests\AssetStore\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\FXAAPreset3.shader" />
+    <None Include="Assets\Banjo Kazooie - Assests\AssetStore\NatureManufacture Assets\Foliage Shaders\Tree_Leaves_Specular_Snow.shader" />
+    <None Include="Assets\Banjo Kazooie - Assests\Rips\BanjoRMX\Maps\MumbosHut\mumbo_black_bag.props.txt" />
+    <None Include="Assets\Banjo Kazooie - Assests\AssetStore\NatureManufacture Assets\River Auto Material Trial\River\Shaders\Water Particles.shader" />
+    <None Include="Assets\Banjo Kazooie - Assests\Rips\BanjoRMX\Material\Object\grass_Inst.props.txt" />
+    <None Include="Assets\Banjo Kazooie - Assests\Rips\BanjoRMX\Maps\MumbosHut\mumbo_pillar.props.txt" />
+    <None Include="Assets\Banjo Kazooie - Assests\Rips\Unreal Rips\Characters\BanjoKazooie\Animations\BanjoTalonTrotJump.props.txt" />
+    <None Include="Assets\Banjo Kazooie - Assests\AssetStore\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Shaders\CameraMotionBlurDX11.shader" />
+    <None Include="Assets\Banjo Kazooie - Assests\Rips\BanjoRMX\Animation\Playable\Banjo_kazooie\banjo_punch_3_Anim.props.txt" />
+    <None Include="Assets\Banjo Kazooie - Assests\Rips\BanjoRMX\Maps\MumbosMountain\Level\w1_lvl_v2_group_0_855_ID6911_001.props.txt" />
+    <None Include="Assets\Banjo Kazooie - Assests\Rips\Unreal Rips\Characters\BanjoKazooie\Materials\alp_buddy_005.props.txt" />
+    <None Include="Assets\Shaders\#NVJOB Simple Water Shaders\Example Scenes\PostProcessing\Resources\Shaders\BuiltinDebugViews.shader" />
+    <None Include="Assets\Banjo Kazooie - Assests\Rips\Unreal Rips\Collectibles\Meshes\Shape_1152.props.txt" />
+    <None Include="Assets\Banjo Kazooie - Assests\Rips\Unreal Rips\Collectibles\Materials\RedJinjo_Mat.props.txt" />
+    <None Include="Assets\Shaders\#NVJOB Simple Water Shaders\Example Scenes\PostProcessing\Editor Resources\Monitors\WaveformCompute.compute" />
+    <None Include="Assets\Banjo Kazooie - Assests\Rips\BanjoRMX\Model\Object\honey_comb.props.txt" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
+    <None Include="Assets\Banjo Kazooie - Assests\AssetStore\Enviro - Sky and Weather\Core\Shaders\Particle\EnviroLitParticles.shader" />
+    <None Include="Assets\Banjo Kazooie - Assests\AssetStore\Enviro - Sky and Weather\Core\Resources\Shaders\Core\EnviroFogCore.hlsl" />
+    <None Include="Assets\Banjo Kazooie - Assests\Rips\Unreal Rips\Characters\Meshes\Shape_4808.props.txt" />
+    <None Include="Assets\Banjo Kazooie - Assests\Rips\BanjoRMX\Material\Object\Material_131.props.txt" />
+    <None Include="Assets\Banjo Kazooie - Assests\Rips\BanjoRMX\Maps\MumbosMountain\Model\Material_001.props.txt" />
+    <None Include="Assets\Banjo Kazooie - Assests\Rips\BanjoRMX\Animation\Playable\Banjo_kazooie\testjiggy2.props.txt" />
+    <None Include="Assets\Shaders\#NVJOB Simple Water Shaders\#NVJOB Simple Water Shaders\Water Surface.shader" />
+    <None Include="Assets\Banjo Kazooie - Assests\Rips\BanjoRMX\Maps\MumbosMountain\Level\Materials\tree_trunk_inst.props.txt" />
+    <None Include="Assets\Shaders\#NVJOB Simple Water Shaders\Example Scenes\PostProcessing\Resources\Shaders\AmbientOcclusion.shader" />
+    <None Include="Assets\Shaders\#NVJOB Simple Water Shaders\Example Scenes\PostProcessing\Resources\Shaders\EyeHistogram.compute" />
+    <None Include="Assets\Banjo Kazooie - Assests\AssetStore\Enviro - Sky and Weather\Enviro Lite\Resources\Shaders\EnviroLiteFogRenderingSimple.shader" />
+    <None Include="Assets\Banjo Kazooie - Assests\AssetStore\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Shaders\VignettingShader.shader" />
+    <None Include="Assets\Banjo Kazooie - Assests\AssetStore\Shader Vegetation\Shaders\Mobile Vegetation Fade.shader" />
+    <None Include="Assets\Banjo Kazooie - Assests\AssetStore\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Shaders\ColorCorrectionCurves.shader" />
+    <None Include="Assets\Banjo Kazooie - Assests\AssetStore\NatureManufacture Assets\Additional Tools\Debug\Debug Shaders\Debug Vertex Colors.shader" />
+    <None Include="Assets\Banjo Kazooie - Assests\Rips\Unreal Rips\Collectibles\Meshes\HoneyComb.props.txt" />
+    <None Include="Assets\Banjo Kazooie - Assests\Rips\BanjoRMX\Model\Object\egg.props.txt" />
+    <None Include="Assets\Banjo Kazooie - Assests\Rips\BanjoRMX\Material\Object\Material_004.props.txt" />
+    <None Include="Assets\Banjo Kazooie - Assests\Rips\Clanker&apos;s Cavern\Readme.txt" />
+    <None Include="Assets\Shaders\#NVJOB Simple Water Shaders\Example Scenes\PostProcessing\Resources\Shaders\ColorGrading.cginc" />
+    <None Include="Assets\Shaders\_DoubleSidedShaders\Shaders\DoubleSided\Requested\MobileVertexLitCutoutCullOff.shader" />
+    <None Include="Assets\Banjo Kazooie - Assests\Rips\BanjoRMX\Model\Perso\Playable\TermiteBanjo\TermiteBanjo_SM.props.txt" />
+    <None Include="Assets\Shaders\_DoubleSidedShaders\Shaders\DoubleSided\Standard\StandardDSCoreForward.cginc" />
+    <None Include="Assets\Banjo Kazooie - Assests\AssetStore\NatureStarterKit2\Standard Assets\Effects\Projectors\Guidelines.txt" />
+    <None Include="Assets\Banjo Kazooie - Assests\AssetStore\Pause Menu Assets\Fonts\open-sans\Apache License.txt" />
+    <None Include="Assets\Banjo Kazooie - Assests\AssetStore\NatureManufacture Assets\River Auto Material Trial\River\Shaders\Water Particles Foam.shader" />
+    <None Include="Assets\Banjo Kazooie - Assests\Rips\BanjoRMX\Material\Object\Material_143.props.txt" />
+    <None Include="Assets\TextMesh Pro\Examples &amp; Extras\Fonts\Oswald-Bold - OFL.txt" />
+    <None Include="Assets\Banjo Kazooie - Assests\Rips\BanjoRMX\Material\Object\Material_144.props.txt" />
+    <None Include="Assets\Banjo Kazooie - Assests\AssetStore\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\MultiPassHollywoodFlares.shader" />
+    <None Include="Assets\Banjo Kazooie - Assests\AssetStore\Shader Vegetation\Shaders\Vegetation Fade.shader" />
+    <None Include="Assets\Banjo Kazooie - Assests\Rips\BanjoRMX\Material\Object\mumbo_feather.props.txt" />
+    <None Include="Assets\Shaders\_DoubleSidedShaders\Shaders\DoubleSided\Legacy\VertexLitCullOff.shader" />
+    <None Include="Assets\Banjo Kazooie - Assests\Rips\Unreal Rips\Characters\BanjoKazooie\Animations\Banjo3FlyUp.props.txt" />
+    <None Include="Assets\Shaders\_DoubleSidedShaders\Shaders\DoubleSided\Legacy\ParallaxDiffuseDS.shader" />
+    <None Include="Assets\Banjo Kazooie - Assests\Rips\BanjoRMX\Vfx\Water\Lvl1_water.props.txt" />
+    <None Include="Assets\Banjo Kazooie - Assests\AssetStore\Enviro - Sky and Weather\Core\Resources\Shaders\EnviroParticleClouds.shader" />
+    <None Include="Assets\Banjo Kazooie - Assests\Rips\BanjoRMX\Material\Perso\Jinjo_eye.props.txt" />
+    <None Include="Assets\Banjo Kazooie - Assests\Rips\Unreal Rips\Characters\Meshes\Shape_4801.props.txt" />
+    <None Include="Assets\Banjo Kazooie - Assests\AssetStore\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Shaders\SSAOShader.shader" />
+    <None Include="Assets\Banjo Kazooie - Assests\AssetStore\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Shaders\ColorCorrectionCurvesSimple.shader" />
+    <None Include="Assets\Shaders\_DoubleSidedShaders\Shaders\DoubleSided\Requested\MobDiffNoLighting.shader" />
+    <None Include="Assets\Banjo Kazooie - Assests\AssetStore\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\Blend.shader" />
+    <None Include="Assets\Shaders\#NVJOB Simple Water Shaders\#NVJOB Simple Water Shaders\Water Specular.shader" />
+    <None Include="Assets\Banjo Kazooie - Assests\Rips\Unreal Rips\Characters\Meshes\Shape_4804.props.txt" />
+    <None Include="Assets\Banjo Kazooie - Assests\Rips\BanjoRMX\Animation\Playable\Banjo_kazooie\kazooie_falling_attack_land_Anim.props.txt" />
+    <None Include="Assets\TextMesh Pro\Examples &amp; Extras\Fonts\Anton OFL.txt" />
+    <None Include="Assets\Banjo Kazooie - Assests\AssetStore\NatureManufacture Assets\Foliage Shaders\NM_indirect.cginc" />
+    <None Include="Assets\Banjo Kazooie - Assests\AssetStore\Enviro - Sky and Weather\Core\Shaders\Transparent\EnviroTransparentMetallic.shader" />
+    <None Include="Assets\Banjo Kazooie - Assests\AssetStore\NatureManufacture Assets\Foliage Shaders\Advanced Grass Standard.shader" />
+    <None Include="Assets\Banjo Kazooie - Assests\Rips\Unreal Rips\Collectibles\Meshes\Jiggy.props.txt" />
+    <None Include="Assets\Banjo Kazooie - Assests\AssetStore\Enviro - Sky and Weather\Core\Shaders\Particle\EnviroParticlesAdditive.shader" />
+    <None Include="Assets\Banjo Kazooie - Assests\Rips\Unreal Rips\Collectibles\Meshes\RedFeathers.props.txt" />
+    <None Include="Assets\Banjo Kazooie - Assests\AssetStore\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\SSAA.shader" />
+    <None Include="Assets\Banjo Kazooie - Assests\Rips\Unreal Rips\Collectibles\Meshes\Jinjo_Anim.props.txt" />
+    <None Include="Assets\Banjo Kazooie - Assests\Rips\Unreal Rips\Characters\BanjoKazooie\Animations\Banjo_ForwardEgg.props.txt" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMPro_Mobile.cginc" />
+    <None Include="Assets\Banjo Kazooie - Assests\AssetStore\Unity UI Samples\Textures and Sprites\SF UI\Background\LICENSE.txt" />
+    <None Include="Assets\Banjo Kazooie - Assests\Rips\BanjoRMX\Animation\Grublin\grublin_sneak.props.txt" />
+    <None Include="Assets\Banjo Kazooie - Assests\AssetStore\Enviro - Sky and Weather\Core\Scripts\3rd Party Integrations\MicroSplat Integration\MicroSplat Integration.txt" />
+    <None Include="Assets\Banjo Kazooie - Assests\AssetStore\Save is easy\SaveIsEasyDLL.dll" />
+    <None Include="Assets\Banjo Kazooie - Assests\AssetStore\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Shaders\SunShaftsComposite.shader" />
+    <None Include="Assets\Banjo Kazooie - Assests\Rips\BanjoRMX\Material\Perso\Main\Banjo_Eye.props.txt" />
+    <None Include="Assets\Banjo Kazooie - Assests\Rips\BanjoRMX\Model\Feature\mumbo_head_Head_lod.props.txt" />
+    <None Include="Assets\Banjo Kazooie - Assests\AssetStore\NatureManufacture Assets\Additional Tools\Debug\Debug Shaders\Debug Terrain Carve.shader" />
+    <None Include="Assets\Banjo Kazooie - Assests\Rips\BanjoRMX\Material\Perso\grublin02.props.txt" />
+    <None Include="Assets\Banjo Kazooie - Assests\Rips\Unreal Rips\Characters\BanjoKazooie\Materials\alp_buddy_004.props.txt" />
+    <None Include="Assets\Banjo Kazooie - Assests\AssetStore\NatureManufacture Assets\Foliage Shaders\Advanced Grass Light.shader" />
+    <None Include="Assets\Banjo Kazooie - Assests\AssetStore\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Shaders\ConvertDepth.shader" />
+    <None Include="Assets\Banjo Kazooie - Assests\Rips\BanjoRMX\Maps\MumbosMountain\Level\w1_lvl_v2_group_0_892_ID7306_001.props.txt" />
+    <None Include="Assets\Shaders\#NVJOB Simple Water Shaders\license_nvjob.txt" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF SSD.shader" />
+    <None Include="Assets\Banjo Kazooie - Assests\Rips\BanjoRMX\Maps\MumbosMountain\Level\conga_tree.props.txt" />
+    <None Include="Assets\Banjo Kazooie - Assests\Rips\BanjoRMX\Material\StoneGrassVertex.props.txt" />
+    <None Include="Assets\Banjo Kazooie - Assests\Rips\Unreal Rips\Collectibles\Meshes\EmptyHoneycomb.props.txt" />
+    <None Include="Assets\Banjo Kazooie - Assests\Rips\Unreal Rips\Characters\BanjoKazooie\Animations\Banjo_Idle1_Anim.props.txt" />
+    <None Include="Assets\Banjo Kazooie - Assests\Rips\BanjoRMX\Material\Perso\Main\Kazooie_Eye.props.txt" />
+    <None Include="Assets\Banjo Kazooie - Assests\AssetStore\PyroParticles\Prefab\Materials\AdditiveTintable.shader" />
+    <None Include="Assets\Banjo Kazooie - Assests\AssetStore\NatureManufacture Assets\Shaders\Resources\WavingGrassBillboard.shader" />
+    <None Include="Assets\Banjo Kazooie - Assests\Rips\Unreal Rips\Collectibles\Meshes\Feathers_Anim.props.txt" />
+    <None Include="Assets\Banjo Kazooie - Assests\Rips\Unreal Rips\Characters\Meshes\Shape_4809.props.txt" />
+    <None Include="Assets\Banjo Kazooie - Assests\Rips\Jinjo pack\King Jingaling\Using Normal Mapping with this model.txt" />
+    <None Include="Assets\Banjo Kazooie - Assests\AssetStore\NatureManufacture Assets\Object Shaders\Standard_Metalic_Snow.shader" />
+    <None Include="Assets\Banjo Kazooie - Assests\AssetStore\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Shaders\TwirlEffect.shader" />
+    <None Include="Assets\Banjo Kazooie - Assests\Rips\BanjoRMX\Sprite\voices\banjo_talk_mat.props.txt" />
+    <None Include="Assets\Banjo Kazooie - Assests\Rips\BanjoRMX\Maps\MumbosHut\mumbo_green_bag.props.txt" />
+    <None Include="Assets\Banjo Kazooie - Assests\Rips\BanjoRMX\Model\Object\Witchswitch_Cube.props.txt" />
+    <None Include="Assets\Shaders\_DoubleSidedShaders\Shaders\DoubleSided\Legacy\BumpedDiffuseDS.shader" />
+    <None Include="Assets\Shaders\#NVJOB Simple Water Shaders\Example Scenes\PostProcessing\Resources\Shaders\Bloom.shader" />
+    <None Include="Assets\Banjo Kazooie - Assests\AssetStore\Enviro - Sky and Weather\Core\Resources\Shaders\EnviroSkyboxSimple.shader" />
+    <None Include="Assets\Banjo Kazooie - Assests\Rips\Unreal Rips\Characters\NPC\JamjarsHatch_inactive.props.txt" />
+    <None Include="Assets\Banjo Kazooie - Assests\Rips\BanjoRMX\Model\Object\beehive_v2.props.txt" />
+    <None Include="Assets\Banjo Kazooie - Assests\AssetStore\Enviro - Sky and Weather\Core\Scripts\3rd Party Integrations\FogVolume3 Integration\Fog Volume 3 Integration.txt" />
+    <None Include="Assets\Banjo Kazooie - Assests\Rips\BanjoRMX\Maps\MumbosHut\mumbo_pics.props.txt" />
+    <None Include="Assets\Banjo Kazooie - Assests\Rips\Unreal Rips\Characters\BanjoKazooie\Materials\def_partner_001_alp.props.txt" />
+    <None Include="Assets\Shaders\#NVJOB Simple Water Shaders\Example Scenes\PostProcessing\Resources\Shaders\ScreenSpaceReflection.shader" />
+    <None Include="Assets\Banjo Kazooie - Assests\Models\Items\Credit.txt" />
+    <None Include="Assets\Banjo Kazooie - Assests\Rips\Unreal Rips\Collectibles\Meshes\Eggs.props.txt" />
+    <None Include="Assets\Banjo Kazooie - Assests\Rips\BanjoRMX\Maps\MumbosMountain\ticker_tower_in_vines_Plane.props.txt" />
+    <None Include="Assets\Shaders\Fur_0_1_Basic\FurShader.shader" />
+    <None Include="Assets\Banjo Kazooie - Assests\Rips\BanjoRMX\Vfx\Fire\FireMat.props.txt" />
+    <None Include="Assets\Shaders\Fur_0_4_RimColor\FurHelper.cginc" />
+    <None Include="Assets\Banjo Kazooie - Assests\Rips\Unreal Rips\Characters\Meshes\Shape_4810.props.txt" />
+    <None Include="Assets\Banjo Kazooie - Assests\AssetStore\NatureManufacture Assets\River Auto Material Trial\River\Shaders\Water River Tesseled.shader" />
+    <None Include="Assets\Banjo Kazooie - Assests\Rips\BanjoRMX\Maps\MumbosMountain\Level\Materials\TickerSand_inst.props.txt" />
+    <None Include="Assets\Banjo Kazooie - Assests\Audio\Credits.txt" />
+    <None Include="Assets\Banjo Kazooie - Assests\AssetStore\NatureStarterKit2\info.txt" />
+    <None Include="Assets\Banjo Kazooie - Assests\Rips\BanjoRMX\Material\Object\Material_140.props.txt" />
+    <None Include="Assets\Banjo Kazooie - Assests\AssetStore\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Shaders\Contrast Stretch\Apply.shader" />
+    <None Include="Assets\Banjo Kazooie - Assests\AssetStore\NatureManufacture Assets\River Auto Material Trial\River\Shaders\Water River Tesseled Vertex Color.shader" />
+    <None Include="Assets\Banjo Kazooie - Assests\AssetStore\NatureStarterKit2\Standard Assets\Effects\ToonShading\Shaders\ToonLitOutline.shader" />
+    <None Include="Assets\Banjo Kazooie - Assests\Rips\BanjoRMX\Maps\MumbosHut\mumbo_sign.props.txt" />
+    <None Include="Assets\Banjo Kazooie - Assests\Rips\BanjoRMX\Material\SurfaceMaterial.props.txt" />
+    <None Include="Assets\Banjo Kazooie - Assests\Rips\Unreal Rips\Collectibles\Meshes\GoldFeathers.props.txt" />
+    <None Include="Assets\Banjo Kazooie - Assests\Rips\BanjoRMX\Material\Object\honey_Mat.props.txt" />
+    <None Include="Assets\Banjo Kazooie - Assests\Rips\BanjoRMX\Material\Object\Main\NotMoving_grass.props.txt" />
+    <None Include="Assets\Banjo Kazooie - Assests\Rips\Unreal Rips\Collectibles\Meshes\Eggs_Anim.props.txt" />
+    <None Include="Assets\Banjo Kazooie - Assests\AssetStore\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Shaders\Contrast Stretch\Adaptation.shader" />
+    <None Include="Assets\Shaders\_DoubleSidedShaders\Shaders\DoubleSided\Requested\MobileBumoTileBoth.shader" />
+    <None Include="Assets\Banjo Kazooie - Assests\AssetStore\Unity UI Samples\Materials\UI-Default-No-Alpha.shader" />
+    <None Include="Assets\Banjo Kazooie - Assests\Rips\BanjoRMX\Maps\MumbosMountain\w1_lvl_v4_group_0_006_ID2187_001.props.txt" />
+    <None Include="Assets\Banjo Kazooie - Assests\Rips\BanjoRMX\Maps\MumbosMountain\Level\Materials\CloverGrassSand_inst.props.txt" />
+    <None Include="Assets\Banjo Kazooie - Assests\AssetStore\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\LensFlareCreate.shader" />
+    <None Include="Assets\Banjo Kazooie - Assests\Rips\BanjoRMX\Animation\Playable\Banjo_kazooie\kazooie_slide_attack_Anim.props.txt" />
+    <None Include="Assets\Banjo Kazooie - Assests\Rips\Unreal Rips\Characters\Meshes\goldenstatue.props.txt" />
+    <None Include="Assets\Banjo Kazooie - Assests\AssetStore\Enviro - Sky and Weather\Core\Resources\Shaders\Core\EnviroFogCore.cginc" />
+    <None Include="Assets\Banjo Kazooie - Assests\Rips\BanjoRMX\Material\Object\Material_143b.props.txt" />
+    <None Include="Assets\Banjo Kazooie - Assests\Rips\BanjoRMX\Maps\MumbosMountain\Model\mumbo_start_Cube.props.txt" />
+    <None Include="Assets\Banjo Kazooie - Assests\Rips\Unreal Rips\Collectibles\Materials\YellowJinjo_Mat.props.txt" />
+    <None Include="Assets\Banjo Kazooie - Assests\Rips\BanjoRMX\Maps\MumbosMountain\Level\tree_leaves.props.txt" />
+    <None Include="Assets\Banjo Kazooie - Assests\Rips\BanjoRMX\Maps\MumbosMountain\Level\Materials\SlateRocksDriedDirt_inst.props.txt" />
+    <None Include="Assets\Shaders\_DoubleSidedShaders\Shaders\DoubleSided\Legacy\Cutout\DiffuseDS.shader" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface-Mobile.shader" />
+    <None Include="Assets\Banjo Kazooie - Assests\AssetStore\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Shaders\CameraMotionBlur.shader" />
+    <None Include="Assets\Shaders\#NVJOB Simple Water Shaders\Example Scenes\PostProcessing\Resources\Shaders\FXAA.shader" />
+    <None Include="Assets\Banjo Kazooie - Assests\Rips\BanjoRMX\Maps\MumbosMountain\Level\Materials\CloverGrassDryDirt_inst.props.txt" />
+    <None Include="Assets\Banjo Kazooie - Assests\Rips\Unreal Rips\Characters\BanjoKazooie\Animations\BanjoTalonTrotCycleSlow.props.txt" />
+    <None Include="Assets\Banjo Kazooie - Assests\AssetStore\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Shaders\ScreenSpaceAmbientObscurance.shader" />
+    <None Include="Assets\Banjo Kazooie - Assests\Rips\BanjoRMX\Material\Object\gold.props.txt" />
+    <None Include="Assets\Banjo Kazooie - Assests\Rips\BanjoRMX\Animation\Playable\TermiteBanjo\TermiteBanjo_Idle.props.txt" />
+    <None Include="Assets\Banjo Kazooie - Assests\Rips\BanjoRMX\Animation\Grublin\grublin_idle.props.txt" />
+    <None Include="Assets\Banjo Kazooie - Assests\Rips\BanjoRMX\Maps\MumbosMountain\Level\Materials\SlateRocksSand_inst.props.txt" />
+    <None Include="Assets\Banjo Kazooie - Assests\Rips\Unreal Rips\Collectibles\Meshes\Nest.props.txt" />
+    <None Include="Assets\Banjo Kazooie - Assests\AssetStore\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Shaders\CreaseApply.shader" />
+    <None Include="Assets\Banjo Kazooie - Assests\Rips\BanjoRMX\Maps\MumbosHut\mumbo_3bags.props.txt" />
+    <None Include="Assets\Banjo Kazooie - Assests\Rips\BanjoRMX\Maps\MumbosMountain\Level\tree_bark.props.txt" />
+    <None Include="Assets\Banjo Kazooie - Assests\AssetStore\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\FXAA3Console.shader" />
+    <None Include="Assets\Banjo Kazooie - Assests\Rips\BanjoRMX\Animation\Playable\Banjo_kazooie\kazooie_jump_Anim.props.txt" />
+    <None Include="Assets\Banjo Kazooie - Assests\Rips\Unreal Rips\Characters\Meshes\Shape_4799.props.txt" />
+    <None Include="Assets\Shaders\_DoubleSidedShaders\Shaders\DoubleSided\Requested\MobBumpSpecTileBoth.shader" />
+    <None Include="Assets\Banjo Kazooie - Assests\AssetStore\NatureManufacture Assets\Foliage Shaders\Tree_Bark_Metalic_Snow.shader" />
+    <None Include="Assets\Banjo Kazooie - Assests\AssetStore\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Shaders\ColorCorrectionSelective.shader" />
+    <None Include="Assets\Banjo Kazooie - Assests\Rips\BanjoRMX\Model\Perso\Bottles\SFX_bottles_body.props.txt" />
+    <None Include="Assets\Banjo Kazooie - Assests\AssetStore\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Shaders\RadialBlur.shader" />
+    <None Include="Assets\Shaders\_DoubleSidedShaders\Shaders\DoubleSided\Mobile\MobileVertexLitCullOff.shader" />
+    <None Include="Assets\Shaders\#NVJOB Simple Water Shaders\Example Scenes\PostProcessing\Editor Resources\Monitors\ParadeRender.shader" />
+    <None Include="Assets\Banjo Kazooie - Assests\Rips\BanjoRMX\Sprite\voices\bottles_talk_mat.props.txt" />
+    <None Include="Assets\Banjo Kazooie - Assests\Rips\Jinjo pack\Jinjonator\Using Normal Mapping with this model.txt" />
+    <None Include="Assets\Banjo Kazooie - Assests\Rips\BanjoRMX\Maps\MumbosMountain\Level\jinjo_pic.props.txt" />
+    <None Include="Assets\Banjo Kazooie - Assests\Rips\BanjoRMX\Animation\Playable\Banjo_kazooie\banjo_backflip.props.txt" />
+    <None Include="Assets\Banjo Kazooie - Assests\AssetStore\Enviro - Sky and Weather\Core\Scripts\3rd Party Integrations\UBER Integration\UBER Integration.txt" />
+    <None Include="Assets\Banjo Kazooie - Assests\Rips\BanjoRMX\Maps\MumbosMountain\Model\Shape_001.props.txt" />
+    <None Include="Assets\Banjo Kazooie - Assests\Rips\Unreal Rips\Characters\BanjoKazooie\Animations\Banjo_Run.props.txt" />
+    <None Include="Assets\Banjo Kazooie - Assests\Rips\BanjoRMX\Model\Feature\mumbo_head_Head_lod__colFBX.props.txt" />
+    <None Include="Assets\Banjo Kazooie - Assests\AssetStore\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\VignetteShader.shader" />
+    <None Include="Assets\Shaders\#NVJOB Simple Water Shaders\Example Scenes\PostProcessing\Resources\Shaders\MotionBlur.cginc" />
+    <None Include="Assets\Banjo Kazooie - Assests\AssetStore\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Shaders\MotionBlurClear.shader" />
+    <None Include="Assets\Banjo Kazooie - Assests\Rips\BanjoRMX\Material\Object\Grass.props.txt" />
+    <None Include="Assets\Banjo Kazooie - Assests\Rips\Unreal Rips\Characters\Meshes\Shape_4802.props.txt" />
+    <None Include="Assets\Banjo Kazooie - Assests\AssetStore\NatureStarterKit2\Standard Assets\Effects\GlassRefraction\Shaders\GlassStainedBumpDistort.shader" />
+    <None Include="Assets\Banjo Kazooie - Assests\Rips\Unreal Rips\Characters\BanjoKazooie\Animations\Banjo_Anim.props.txt" />
+    <None Include="Assets\Banjo Kazooie - Assests\AssetStore\NatureManufacture Assets\Foliage Shaders\Cross_Model_Shader.shader" />
+    <None Include="Assets\Shaders\#NVJOB Simple Water Shaders\Example Scenes\PostProcessing\Resources\Shaders\TAA.shader" />
+    <None Include="Assets\Banjo Kazooie - Assests\AssetStore\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Shaders\SepiaToneEffect.shader" />
+    <None Include="Assets\Banjo Kazooie - Assests\AssetStore\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Shaders\ColorCorrection3DLut.shader" />
+    <None Include="Assets\Shaders\#NVJOB Simple Water Shaders\Example Scenes\PostProcessing\Resources\Shaders\FXAA3.cginc" />
+    <None Include="Assets\Banjo Kazooie - Assests\Rips\Unreal Rips\Collectibles\Materials\BlueJinjo_Mat.props.txt" />
+    <None Include="Assets\Banjo Kazooie - Assests\AssetStore\Enviro - Sky and Weather\version.txt" />
+    <None Include="Assets\Banjo Kazooie - Assests\AssetStore\Enviro - Sky and Weather\Core\Scripts\3rd Party Integrations\CTS Integration\CTS Integration Quickstart.txt" />
+    <None Include="Assets\Banjo Kazooie - Assests\Rips\Unreal Rips\Characters\BanjoKazooie\Animations\BanjoTalonTrotIdle.props.txt" />
+    <None Include="Assets\Banjo Kazooie - Assests\AssetStore\StarterAssets\Environment\Shaders\Built-in_RP\Triplanar.shader" />
+    <None Include="Assets\Banjo Kazooie - Assests\Rips\BanjoRMX\Model\Perso\Conga\Conga_eye.props.txt" />
+    <None Include="Assets\Banjo Kazooie - Assests\AssetStore\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Shaders\SimpleClear.shader" />
+    <None Include="Assets\Banjo Kazooie - Assests\AssetStore\Enviro - Sky and Weather\Update Notes.txt" />
+    <None Include="Assets\Banjo Kazooie - Assests\AssetStore\NatureManufacture Assets\Foliage Shaders\NMWind.cginc" />
+    <None Include="Assets\Shaders\#NVJOB Simple Water Shaders\Example Scenes\PostProcessing\Resources\Shaders\DiskKernels.cginc" />
+    <None Include="Assets\Banjo Kazooie - Assests\Rips\Unreal Rips\Characters\BanjoKazooie\Animations\Banjo3FlyDown.props.txt" />
+    <None Include="Assets\Banjo Kazooie - Assests\Rips\BanjoRMX\Model\Perso\Bull\bull_eating.props.txt" />
+    <None Include="Assets\Banjo Kazooie - Assests\AssetStore\Enviro - Sky and Weather\Core\Resources\Shaders\Effects\EnviroLightShafts.shader" />
+    <None Include="Assets\Banjo Kazooie - Assests\AssetStore\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Shaders\ContrastComposite.shader" />
+    <None Include="Assets\Banjo Kazooie - Assests\Rips\Unreal Rips\Characters\NPC\Hatch.props.txt" />
+    <None Include="Assets\Banjo Kazooie - Assests\Rips\BanjoRMX\Material\Perso\Banjo_Body.props.txt" />
+    <None Include="Assets\Banjo Kazooie - Assests\Rips\BanjoRMX\Maps\MumbosMountain\Level\Materials\dried_dirt_inst.props.txt" />
+    <None Include="Assets\Banjo Kazooie - Assests\Rips\Unreal Rips\Characters\Banjo_Idle2.props.txt" />
+    <None Include="Assets\Banjo Kazooie - Assests\Rips\BanjoRMX\Animation\Bottles\bottle_going_hole_Anim.props.txt" />
+    <None Include="Assets\Banjo Kazooie - Assests\Rips\Jinjo pack\King Jingaling\Credit.txt" />
+    <None Include="Assets\Banjo Kazooie - Assests\Rips\BanjoRMX\Material\Perso\Jinjo_orange.props.txt" />
+    <None Include="Assets\Banjo Kazooie - Assests\Rips\BanjoRMX\Model\Perso\Bull\BigbuttBull.props.txt" />
+    <None Include="Assets\Banjo Kazooie - Assests\Rips\Unreal Rips\Characters\BanjoKazooie\Materials\def_partner_001.props.txt" />
+    <None Include="Assets\Banjo Kazooie - Assests\Rips\BanjoRMX\Maps\MumbosMountain\Level\Materials\lvl1_leavesnotMoving.props.txt" />
+    <None Include="Assets\Banjo Kazooie - Assests\Rips\Unreal Rips\Collectibles\Meshes\HoneyComb_Anim.props.txt" />
+    <None Include="Assets\Banjo Kazooie - Assests\AssetStore\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Shaders\Contrast Stretch\MinMaxReduction.shader" />
+    <None Include="Assets\Banjo Kazooie - Assests\AssetStore\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Shaders\BlurEffectConeTaps.shader" />
+    <None Include="Assets\Banjo Kazooie - Assests\AssetStore\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\Bokeh34.shader" />
+    <None Include="Assets\Banjo Kazooie - Assests\Rips\Unreal Rips\Collectibles\Meshes\Jinjo_Anim_Anim.props.txt" />
+    <None Include="Assets\Banjo Kazooie - Assests\Rips\Items\User Guide.txt" />
+    <None Include="Assets\Banjo Kazooie - Assests\AssetStore\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Shaders\ColorCorrectionEffect.shader" />
+    <None Include="Assets\Banjo Kazooie - Assests\AssetStore\NatureManufacture Assets\River Auto Material\River\Shaders\Water Particles.shader" />
+    <None Include="Assets\Banjo Kazooie - Assests\Rips\BanjoRMX\Animation\Playable\Banjo_kazooie\kazoie_run_start_Anim.props.txt" />
+    <None Include="Assets\Shaders\_DoubleSidedShaders\Shaders\DoubleSided\Legacy\BumpedSpecularDS.shader" />
+    <None Include="Assets\Banjo Kazooie - Assests\Rips\Unreal Rips\Characters\NPC\Jamjars.props.txt" />
+    <None Include="Assets\Shaders\_DoubleSidedShaders\Shaders\DoubleSided\Legacy\DiffuseDS.shader" />
+    <None Include="Assets\Banjo Kazooie - Assests\Rips\Unreal Rips\Characters\BanjoKazooie\Materials\alp_buddy_001.props.txt" />
+    <None Include="Assets\Banjo Kazooie - Assests\Rips\BanjoRMX\Animation\Playable\Banjo_kazooie\banjo_underswim.props.txt" />
+    <None Include="Assets\Banjo Kazooie - Assests\Rips\BanjoRMX\Animation\Playable\Banjo_kazooie\banjo_fall.props.txt" />
+    <None Include="Assets\Banjo Kazooie - Assests\Rips\Unreal Rips\Characters\BanjoKazooie\Animations\Banjo_FeatheryFlap.props.txt" />
+    <None Include="Assets\Banjo Kazooie - Assests\AssetStore\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Shaders\FisheyeShader.shader" />
+    <None Include="Assets\Shaders\_DoubleSidedShaders\Shaders\DoubleSided\Standard\StandardDS.shader" />
+    <None Include="Assets\Banjo Kazooie - Assests\Rips\Unreal Rips\Eggs\Eggs.props.txt" />
+    <None Include="Assets\Banjo Kazooie - Assests\Rips\Unreal Rips\Characters\BanjoKazooie\Animations\Banjo_FeatheryFlapLand.props.txt" />
+    <None Include="Assets\Banjo Kazooie - Assests\Rips\BanjoRMX\Maps\MumbosMountain\Shape_011.props.txt" />
+    <None Include="Assets\Banjo Kazooie - Assests\Rips\Unreal Rips\Characters\NPC\JamjarsHatch_open.props.txt" />
+    <None Include="Assets\Banjo Kazooie - Assests\Rips\Unreal Rips\Characters\BanjoKazooie\Animations\Banjo_Idle2_Anim.props.txt" />
+    <None Include="Assets\Banjo Kazooie - Assests\Rips\BanjoRMX\Model\Object\Witchswitch_Cube_001.props.txt" />
+    <None Include="Assets\Banjo Kazooie - Assests\Rips\Unreal Rips\Characters\Meshes\Shape_4814.props.txt" />
+    <None Include="Assets\Banjo Kazooie - Assests\Rips\BanjoRMX\Model\Perso\Conga\red_leather.props.txt" />
+    <None Include="Assets\Shaders\#NVJOB Simple Water Shaders\Example Scenes\PostProcessing\Editor Resources\Monitors\VectorscopeCompute.compute" />
+    <None Include="Assets\Banjo Kazooie - Assests\AssetStore\NatureManufacture Assets\Foliage Shaders\Advanced Grass Specular.shader" />
+    <None Include="Assets\Banjo Kazooie - Assests\Rips\BanjoRMX\Model\Perso\Bottles\boddy_bottles_soil.props.txt" />
+    <None Include="Assets\Banjo Kazooie - Assests\Rips\BanjoRMX\Maps\MumbosMountain\Model\stonebuild_group_0_492_ID2957_001.props.txt" />
+    <None Include="Assets\Banjo Kazooie - Assests\Rips\BanjoRMX\Material\Perso\Jinjo_green.props.txt" />
+    <None Include="Assets\Banjo Kazooie - Assests\AssetStore\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BlendOneOne.shader" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface.shader" />
+    <None Include="Assets\Banjo Kazooie - Assests\Rips\BanjoRMX\Material\Perso\Banjo_eye_L.props.txt" />
+    <None Include="Assets\Banjo Kazooie - Assests\Rips\BanjoRMX\Maps\MumbosMountain\Model\stonebuild_group_0_492_ID2957.props.txt" />
+    <None Include="Assets\Banjo Kazooie - Assests\Rips\BanjoRMX\Sprite\menu\jiggy_menu_sprite_mat.props.txt" />
+    <None Include="Assets\Banjo Kazooie - Assests\Rips\BanjoRMX\Animation\Jinjo\jinjo_jump_Anim.props.txt" />
+    <None Include="Assets\Banjo Kazooie - Assests\Rips\Unreal Rips\Characters\NPC\JamjarsHatch.props.txt" />
+    <None Include="Assets\Banjo Kazooie - Assests\Rips\BanjoRMX\Animation\Grublin\grublin_idle.txt" />
+    <None Include="Assets\Banjo Kazooie - Assests\AssetStore\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BrightPassFilter.shader" />
+    <None Include="Assets\Banjo Kazooie - Assests\Rips\BanjoRMX\Animation\Playable\Banjo_kazooie\kazooie_idle_Anim.props.txt" />
+    <None Include="Assets\Shaders\_DoubleSidedShaders\Shaders\DoubleSided\Requested\MobileCutoutDiffuseDS.shader" />
+    <None Include="Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
+    <None Include="Assets\Banjo Kazooie - Assests\Rips\BanjoRMX\Material\Perso\Main\Jinjo_skin.props.txt" />
+    <None Include="Assets\Banjo Kazooie - Assests\AssetStore\Enviro - Sky and Weather\Core\Resources\Shaders\EnviroBakeCubemap.shader" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Custom-Atlas.shader" />
+    <None Include="Assets\Banjo Kazooie - Assests\AssetStore\NatureStarterKit2\Standard Assets\Effects\ToonShading\Shaders\ToonLit.shader" />
+    <None Include="Assets\Banjo Kazooie - Assests\Rips\BanjoRMX\Animation\Bull\bull_eating_anim.props.txt" />
+    <None Include="Assets\Shaders\_DoubleSidedShaders\Shaders\DoubleSided\TwoFaceTexture\TwoFaceVertexLitCutoutCullOff.shader" />
+    <None Include="Assets\Banjo Kazooie - Assests\AssetStore\Enviro - Sky and Weather\Core\Shaders\Transparent\EnviroTransparent.shader" />
+    <None Include="Assets\Banjo Kazooie - Assests\Rips\BanjoRMX\Maps\MumbosMountain\orange_pad_OrangePad_001.props.txt" />
+    <None Include="Assets\Banjo Kazooie - Assests\AssetStore\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\MobileBloom.shader" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF.shader" />
+    <None Include="Assets\Banjo Kazooie - Assests\Rips\BanjoRMX\Animation\Playable\Banjo_kazooie\banjo_underswim_little.props.txt" />
+    <None Include="Assets\Banjo Kazooie - Assests\AssetStore\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BlendForBloom.shader" />
+    <None Include="Assets\Banjo Kazooie - Assests\AssetStore\Enviro - Sky and Weather\Core\Shaders\Particle\EnviroWeatherParticlesAdditive.shader" />
+    <None Include="Assets\Banjo Kazooie - Assests\AssetStore\NatureManufacture Assets\Foliage Shaders\Tree_Bark_Metalic.shader" />
+    <None Include="Assets\Banjo Kazooie - Assests\Rips\BanjoRMX\Maps\MumbosMountain2\MaterialInstanceDynamic_0.props.txt" />
+    <None Include="Assets\Shaders\#NVJOB Simple Water Shaders\Example Scenes\PostProcessing\Resources\Shaders\TAA.cginc" />
+    <None Include="Assets\Banjo Kazooie - Assests\AssetStore\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\DepthOfField34.shader" />
+    <None Include="Assets\Shaders\#NVJOB Simple Water Shaders\Example Scenes\PostProcessing\Resources\Shaders\Fog.shader" />
+    <None Include="Assets\Banjo Kazooie - Assests\Rips\BanjoRMX\Model\Perso\Bottles\bottle_out.props.txt" />
+    <None Include="Assets\Banjo Kazooie - Assests\AssetStore\StarterAssets\license.txt" />
+    <None Include="Assets\Banjo Kazooie - Assests\AssetStore\Enviro - Sky and Weather\Core\Scripts\3rd Party Integrations\Lux Integration\Lux Integration.txt" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile SSD.shader" />
+    <None Include="Assets\Banjo Kazooie - Assests\Rips\Unreal Rips\Characters\BanjoKazooie\Animations\Banjo_Ducking.props.txt" />
+    <None Include="Assets\Shaders\_DoubleSidedShaders\Shaders\DoubleSided\Standard\StandardSpecularDS.shader" />
+    <None Include="Assets\Banjo Kazooie - Assests\AssetStore\NatureStarterKit2\Standard Assets\Effects\ToonShading\Shaders\ToonBasic.shader" />
+    <None Include="Assets\Banjo Kazooie - Assests\AssetStore\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\DepthOfFieldDX11.shader" />
+    <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
+    <None Include="Assets\Shaders\#NVJOB Simple Water Shaders\Example Scenes\Environment\#NVJOB Assets\Dynamic Sky (For Demo)\Dynamic Sky (For Demo).shader" />
+    <None Include="Assets\Banjo Kazooie - Assests\Rips\BanjoRMX\Model\Perso\Conga\black_leather.props.txt" />
+    <None Include="Assets\Banjo Kazooie - Assests\Rips\BanjoRMX\Maps\MumbosHut\test_Mat.props.txt" />
+    <None Include="Assets\Banjo Kazooie - Assests\Rips\BanjoRMX\Maps\MumbosMountain\Level\Materials\clover_patches_inst.props.txt" />
+    <None Include="Assets\Banjo Kazooie - Assests\Rips\BanjoRMX\Material\Object\Material_142.props.txt" />
+    <None Include="Assets\Shaders\_DoubleSidedShaders\Shaders\DoubleSided\TwoFaceTexture\TwoFaceBumped.shader" />
+    <None Include="Assets\Banjo Kazooie - Assests\Rips\Unreal Rips\Collectibles\Meshes\Note.props.txt" />
+    <None Include="Assets\Banjo Kazooie - Assests\AssetStore\NatureManufacture Assets\Object Shaders\Standard_Metalic_Snow CutOut.shader" />
+    <None Include="Assets\Banjo Kazooie - Assests\Rips\BanjoRMX\Material\Perso\Banjo_Body_alpha.props.txt" />
+    <None Include="Assets\Banjo Kazooie - Assests\AssetStore\PyroParticles\Readme.txt" />
+    <None Include="Assets\Banjo Kazooie - Assests\Rips\BanjoRMX\Vfx\Fire\FireMat_Inst.props.txt" />
+    <None Include="Assets\Banjo Kazooie - Assests\Rips\Unreal Rips\Characters\Meshes\Shape_4817.props.txt" />
+    <None Include="Assets\Shaders\_DoubleSidedShaders\Shaders\DoubleSided\TwoFaceTexture\TwoFaceTextureDiffuse.shader" />
+    <None Include="Assets\Shaders\_DoubleSidedShaders\Shaders\DoubleSided\Legacy\Cutout\BumpedSpecularDS.shader" />
+    <None Include="Assets\Shaders\_DoubleSidedShaders\Shaders\DoubleSided\Mobile\MobileDiffuseDS.shader" />
+    <None Include="Assets\Banjo Kazooie - Assests\AssetStore\NatureStarterKit2\Standard Assets\Effects\TessellationShaders\Shaders\BumpedSpecularSmooth.shader" />
+    <None Include="Assets\Banjo Kazooie - Assests\Rips\Unreal Rips\Characters\Meshes\Shape_4815.props.txt" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMPro_Properties.cginc" />
+    <None Include="Assets\Shaders\Fur_0_4_RimColor\FurShader.shader" />
+    <None Include="Assets\Banjo Kazooie - Assests\Rips\BanjoRMX\Sprite\menu\banjo_menu_sprite_mat.props.txt" />
+    <None Include="Assets\Banjo Kazooie - Assests\Rips\Unreal Rips\Collectibles\Materials\OrangeJinjo_Mat.props.txt" />
+    <None Include="Assets\Banjo Kazooie - Assests\Rips\BanjoRMX\Material\Object\mumbo_head_teeth.props.txt" />
+    <None Include="Assets\Shaders\#NVJOB Simple Water Shaders\Example Scenes\PostProcessing\Utilities\CustomMotionTexture\Shaders\CustomMotionVectorTexture.shader" />
+    <None Include="Assets\Banjo Kazooie - Assests\Rips\BanjoRMX\Model\Object\house_final.props.txt" />
+    <None Include="Assets\Banjo Kazooie - Assests\AssetStore\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\SeparableBlurPlus.shader" />
+    <None Include="Assets\Banjo Kazooie - Assests\Rips\BanjoRMX\Model\Perso\Conga\congaNew.props.txt" />
+    <None Include="Assets\Banjo Kazooie - Assests\Rips\BanjoRMX\Animation\Playable\Banjo_kazooie\banjo_punch_2_Anim.props.txt" />
+    <None Include="Assets\Banjo Kazooie - Assests\Rips\BanjoRMX\Maps\MumbosMountain\w1_lvl_v4_group_0_006_ID2187.props.txt" />
+    <None Include="Assets\Banjo Kazooie - Assests\Rips\BanjoRMX\Model\grass.props.txt" />
+    <None Include="Assets\Banjo Kazooie - Assests\Rips\Unreal Rips\Characters\BanjoKazooie\Animations\BanjoTalonTrotCycle.props.txt" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMPro_Surface.cginc" />
+    <None Include="Assets\Shaders\Fur_0_1_Basic\FurHelper.cginc" />
+    <None Include="Assets\Banjo Kazooie - Assests\Rips\BanjoRMX\Maps\MumbosMountain\Level\Materials\sand_inst.props.txt" />
+    <None Include="Assets\Banjo Kazooie - Assests\AssetStore\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Shaders\MotionBlur.shader" />
+    <None Include="Assets\Banjo Kazooie - Assests\AssetStore\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\SeparableBlur.shader" />
+    <None Include="Assets\Banjo Kazooie - Assests\AssetStore\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\MobileBlur.shader" />
+    <None Include="Assets\Banjo Kazooie - Assests\Rips\BanjoRMX\Vfx\Water\UnderWaterMat.props.txt" />
+    <None Include="Assets\Shaders\#NVJOB Simple Water Shaders\Example Scenes\PostProcessing\Resources\Shaders\UberSecondPass.cginc" />
+    <None Include="Assets\Banjo Kazooie - Assests\AssetStore\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BrightPassFilter2.shader" />
+    <None Include="Assets\Banjo Kazooie - Assests\AssetStore\NatureStarterKit2\Standard Assets\Effects\TessellationShaders\Shaders\BumpedSpecularDisplacement.shader" />
+    <None Include="Assets\Shaders\#NVJOB Simple Water Shaders\Example Scenes\PostProcessing\Resources\Shaders\Bloom.cginc" />
+    <None Include="Assets\Banjo Kazooie - Assests\Rips\BanjoRMX\Animation\Playable\Banjo_kazooie\banjo_run.props.txt" />
+    <None Include="Assets\Banjo Kazooie - Assests\AssetStore\NatureManufacture Assets\Foliage Shaders\Tree_Bark_Specular.shader" />
+    <None Include="Assets\Banjo Kazooie - Assests\Rips\BanjoRMX\Maps\MumbosMountain\w1_lvl_v4_group_0_006_ID2187_002.props.txt" />
+    <None Include="Assets\Banjo Kazooie - Assests\AssetStore\NatureManufacture Assets\Foliage Shaders\Tree_Leaves_Metalic.shader" />
+    <None Include="Assets\Banjo Kazooie - Assests\Rips\BanjoRMX\Material\Perso\Jinjo_pink.props.txt" />
+    <None Include="Assets\Banjo Kazooie - Assests\Rips\Unreal Rips\Collectibles\Materials\BlackJinjo_Mat.props.txt" />
+    <None Include="Assets\Banjo Kazooie - Assests\Rips\BanjoRMX\Maps\MumbosMountain\Level\lvl1_bridge_col.props.txt" />
+    <None Include="Assets\Banjo Kazooie - Assests\Rips\BanjoRMX\Animation\Grublin\grublin_walk.props.txt" />
+    <None Include="Assets\Banjo Kazooie - Assests\Rips\BanjoRMX\Maps\MumbosMountain\Model\Material_002.props.txt" />
+    <None Include="Assets\Banjo Kazooie - Assests\Rips\Unreal Rips\Characters\BanjoKazooie\Animations\Banjo_Roll.props.txt" />
+    <None Include="Assets\Shaders\#NVJOB Simple Water Shaders\Example Scenes\PostProcessing\Resources\Shaders\Uber.shader" />
+    <None Include="Assets\Shaders\#NVJOB Simple Water Shaders\Example Scenes\PostProcessing\Resources\Bluenoise64\COPYING.txt" />
+    <None Include="Assets\Banjo Kazooie - Assests\AssetStore\Enviro - Sky and Weather\Enviro Lite\Resources\Shaders\EnviroLiteMoonShader.shader" />
+    <None Include="Assets\Banjo Kazooie - Assests\Rips\BanjoRMX\Animation\Playable\Banjo_kazooie\kazooie_egg_back_Anim.props.txt" />
+    <None Include="Assets\Banjo Kazooie - Assests\Rips\Unreal Rips\Characters\BanjoKazooie\Animations\BanjoJump_Land.props.txt" />
+    <None Include="Assets\Banjo Kazooie - Assests\AssetStore\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Shaders\PrepareSunShaftsBlur.shader" />
+    <None Include="Assets\Banjo Kazooie - Assests\Rips\Unreal Rips\Characters\Meshes\Shape_4813.props.txt" />
+    <None Include="Assets\Banjo Kazooie - Assests\AssetStore\Unity UI Samples\Fonts\Jupiter\LICENSE.txt" />
+    <None Include="Assets\Banjo Kazooie - Assests\Rips\Unreal Rips\Collectibles\Meshes\EmptyHoneycombCollision.props.txt" />
+    <None Include="Assets\Banjo Kazooie - Assests\Rips\BanjoRMX\Animation\Playable\Banjo_kazooie\banjo_dash_attack_Anim.props.txt" />
+    <None Include="Assets\Banjo Kazooie - Assests\AssetStore\NatureManufacture Assets\Additional Tools\Debug\Debug Shaders\Debug Flowmap Direction.shader" />
+    <None Include="Assets\Banjo Kazooie - Assests\Rips\Unreal Rips\Collectibles\Meshes\Glowbo.props.txt" />
+    <None Include="Assets\Banjo Kazooie - Assests\Rips\Unreal Rips\Characters\Meshes\Shape_4807.props.txt" />
+    <None Include="Assets\Banjo Kazooie - Assests\AssetStore\Enviro - Sky and Weather\Core\Resources\Shaders\Effects\EnviroClearLightShafts.shader" />
+    <None Include="Assets\Banjo Kazooie - Assests\Rips\BanjoRMX\Material\Perso\Kazooie_Body_2.props.txt" />
+    <None Include="Assets\Banjo Kazooie - Assests\Rips\BanjoRMX\Material\Perso\Jinjo_yellow.props.txt" />
+    <None Include="Assets\Banjo Kazooie - Assests\Rips\BanjoRMX\Material\Object\Material_145.props.txt" />
+    <None Include="Assets\Banjo Kazooie - Assests\AssetStore\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Shaders\ShowAlphaChannel.shader" />
+    <None Include="Assets\Banjo Kazooie - Assests\AssetStore\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Shaders\GrayscaleEffect.shader" />
+    <None Include="Assets\Banjo Kazooie - Assests\Rips\Unreal Rips\Characters\Meshes\Shape_4819.props.txt" />
+    <None Include="Assets\Banjo Kazooie - Assests\Rips\BanjoRMX\Maps\MumbosMountain\Level\Materials\CloverGrassDriedDirt_inst.props.txt" />
+    <None Include="Assets\Banjo Kazooie - Assests\Rips\BanjoRMX\Maps\MumbosMountain\Level\w1_lvl_v2_group_0_878_ID7166_001.props.txt" />
+    <None Include="Assets\Banjo Kazooie - Assests\Rips\BanjoRMX\Animation\Playable\Banjo_kazooie\kazooie_second_jump_Anim.props.txt" />
+    <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
+    <None Include="Assets\Banjo Kazooie - Assests\Rips\Unreal Rips\Characters\Meshes\Shape_4820.props.txt" />
+    <None Include="Assets\Banjo Kazooie - Assests\AssetStore\NatureManufacture Assets\Foliage Shaders\NMWindTouchRect.cginc" />
+    <None Include="Assets\Banjo Kazooie - Assests\AssetStore\NatureManufacture Assets\River Auto Material Trial\Shaders\Water Swamp Offset Vertex Color Flow.shader" />
+    <None Include="Assets\Banjo Kazooie - Assests\Rips\BanjoRMX\Animation\Conga\conga_loose_Anim.props.txt" />
+    <None Include="Assets\Banjo Kazooie - Assests\Rips\Unreal Rips\Characters\Meshes\Shape_4818.props.txt" />
+    <None Include="Assets\Banjo Kazooie - Assests\Rips\Unreal Rips\Characters\NPC\Jamjars_Exit.props.txt" />
+    <None Include="Assets\Banjo Kazooie - Assests\AssetStore\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Shaders\ChromaticAberrationShader.shader" />
+    <None Include="Assets\Banjo Kazooie - Assests\Rips\Unreal Rips\Collectibles\Meshes\Glowbo_Anim.props.txt" />
+    <None Include="Assets\Banjo Kazooie - Assests\Rips\BanjoRMX\Sprite\voices\kazooie_talk_mat.props.txt" />
+    <None Include="Assets\Banjo Kazooie - Assests\Rips\BanjoRMX\Maps\MumbosMountain\Model\mumbo_start_Cylinder.props.txt" />
+    <None Include="Assets\Banjo Kazooie - Assests\AssetStore\Enviro - Sky and Weather\Core\Shaders\Particle\EnviroParticlesAlphaBlend.shader" />
+    <None Include="Assets\Banjo Kazooie - Assests\Rips\BanjoRMX\Animation\Playable\Banjo_kazooie\banjo_idle.props.txt" />
+    <None Include="Assets\Banjo Kazooie - Assests\AssetStore\Enviro - Sky and Weather\Enviro Lite\Resources\Shaders\EnviroLiteFogRendering.shader" />
+    <None Include="Assets\Banjo Kazooie - Assests\AssetStore\NatureManufacture Assets\Object Shaders\NM_indirect.cginc" />
+    <None Include="Assets\Banjo Kazooie - Assests\Rips\BanjoRMX\Maps\MumbosMountain\ticker_tower_in_vines_Cylinder_034.props.txt" />
+    <None Include="Assets\Shaders\#NVJOB Simple Water Shaders\Example Scenes\PostProcessing\Resources\Bluenoise64\LICENSE.txt" />
+    <None Include="Assets\Shaders\_DoubleSidedShaders\Shaders\DoubleSided\Legacy\VertexLitCutoutCullOff.shader" />
+    <None Include="Assets\Banjo Kazooie - Assests\Rips\BanjoRMX\Maps\MumbosMountain\tibhfezva_Preview_Mat.props.txt" />
+    <None Include="Assets\Shaders\_DoubleSidedShaders\Shaders\DoubleSided\Requested\StandardDSTrans2pass.shader" />
+    <None Include="Assets\Banjo Kazooie - Assests\Rips\BanjoRMX\Maps\MumbosHut\Show_your_hand_painted_stuff__pls__-_Page_9_$$_Mat.props.txt" />
+    <None Include="Assets\Banjo Kazooie - Assests\Rips\Unreal Rips\Collectibles\Materials\GreenJinjo_Mat.props.txt" />
+    <None Include="Assets\Banjo Kazooie - Assests\Rips\BanjoRMX\Model\Perso\Jinjo\jinjo_oneHand.props.txt" />
+    <None Include="Assets\Banjo Kazooie - Assests\Rips\BanjoRMX\Animation\Playable\Banjo_kazooie\banjo_punch_1_Anim.props.txt" />
+    <None Include="Assets\Banjo Kazooie - Assests\Rips\BanjoRMX\Maps\MumbosMountain\ticker_tower_in_sand.props.txt" />
+    <None Include="Assets\Shaders\Fur_0_3_Force\FurShader.shader" />
+    <None Include="Assets\Banjo Kazooie - Assests\AssetStore\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Shaders\NoiseAndGrainDX11.shader" />
+    <None Include="Assets\Banjo Kazooie - Assests\Rips\BanjoRMX\Material\DirtGrassVertex.props.txt" />
+    <None Include="Assets\Banjo Kazooie - Assests\Rips\Unreal Rips\Characters\Meshes\Shape_4812.props.txt" />
+    <None Include="Assets\Shaders\#NVJOB Simple Water Shaders\Example Scenes\PostProcessing\Resources\Shaders\LutGen.shader" />
+    <None Include="Assets\Banjo Kazooie - Assests\Rips\Jinjo pack\Jinjo!.txt" />
+    <None Include="Assets\Banjo Kazooie - Assests\Rips\BanjoRMX\Material\Object\egg_normal.props.txt" />
+    <None Include="Assets\Shaders\_DoubleSidedShaders\Shaders\DoubleSided\Requested\SpriteStandard.shader" />
+    <None Include="Assets\Banjo Kazooie - Assests\AssetStore\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\SeparableWeightedBlurDof34.shader" />
+    <None Include="Assets\Shaders\Fur_0_3_Force\FurHelper.cginc" />
+    <None Include="Assets\Banjo Kazooie - Assests\Rips\BanjoRMX\Maps\MumbosMountain\w1_lvl_v4_group_0_006_ID2187_003.props.txt" />
+    <None Include="Assets\Banjo Kazooie - Assests\Rips\BanjoRMX\Maps\MumbosHut\mumbo_seat.props.txt" />
+    <None Include="Assets\Banjo Kazooie - Assests\Rips\BanjoRMX\Maps\MumbosHut\mumbo_shield.props.txt" />
+    <None Include="Assets\Banjo Kazooie - Assests\AssetStore\Enviro - Sky and Weather\Core\Shaders\Particle\EnviroParticlesLightning.shader" />
+    <None Include="Assets\Shaders\#NVJOB Simple Water Shaders\Example Scenes\PostProcessing\Editor Resources\Monitors\WaveformRender.shader" />
+    <None Include="Assets\Banjo Kazooie - Assests\Rips\Unreal Rips\Characters\NPC\Jamjars_Mat.props.txt" />
+    <None Include="Assets\Banjo Kazooie - Assests\Rips\BanjoRMX\Animation\Playable\TermiteBanjo\BanjoTermite_walk_Anim.props.txt" />
+    <None Include="Assets\Shaders\_DoubleSidedShaders\Shaders\DoubleSided\Requested\StandardDS_ZWrite.shader" />
+    <None Include="Assets\Banjo Kazooie - Assests\Rips\Unreal Rips\Characters\Meshes\Rockman.props.txt" />
+    <None Include="Assets\Banjo Kazooie - Assests\AssetStore\NatureManufacture Assets\Foliage Shaders\Tree_Bark_Specular_Snow.shader" />
+    <None Include="Assets\Banjo Kazooie - Assests\Rips\BanjoRMX\Maps\MainMenu\MaterialInstanceDynamic_0.props.txt" />
+    <None Include="Assets\Banjo Kazooie - Assests\Rips\BanjoRMX\Animation\Playable\Banjo_kazooie\kazooie_egg_front_Anim.props.txt" />
+    <None Include="Assets\Banjo Kazooie - Assests\Rips\BanjoRMX\Sprite\sprite_mat.props.txt" />
+    <None Include="Assets\Shaders\#NVJOB Simple Water Shaders\Example Scenes\Environment\Palm Trees\Materials\Standard 2-Sided.shader" />
+    <None Include="Assets\Banjo Kazooie - Assests\Rips\Unreal Rips\Characters\Meshes\Shape_4800.props.txt" />
+    <None Include="Assets\Shaders\Fur_0_2_Attributes\FurShader.shader" />
+    <None Include="Assets\Shaders\_DoubleSidedShaders\Shaders\DoubleSided\Mobile\MobileBumpedDiffuseDS.shader" />
+    <None Include="Assets\Banjo Kazooie - Assests\Rips\BanjoRMX\Animation\Playable\Banjo_kazooie\kazooie_jump_start_Anim.props.txt" />
+    <None Include="Assets\Banjo Kazooie - Assests\Rips\Unreal Rips\Characters\BanjoKazooie\Animations\Banjo_Sneak.props.txt" />
+    <None Include="Assets\Banjo Kazooie - Assests\Rips\BanjoRMX\Maps\MumbosMountain\Level\Materials\SlateRocksCloverGrass_inst.props.txt" />
+    <None Include="Assets\Banjo Kazooie - Assests\Rips\Unreal Rips\Characters\BanjoKazooie\Animations\BanjoFlyFlip.props.txt" />
+    <None Include="Assets\Banjo Kazooie - Assests\Rips\BanjoRMX\Maps\MumbosMountain\termite_mountain.props.txt" />
+    <None Include="Assets\Banjo Kazooie - Assests\Rips\BanjoRMX\Animation\Playable\Banjo_kazooie\banjo_crouch_idle_Anim.props.txt" />
+    <None Include="Assets\Banjo Kazooie - Assests\AssetStore\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Shaders\BlendModesOverlay.shader" />
+    <None Include="Assets\Shaders\#NVJOB Simple Water Shaders\Example Scenes\PostProcessing\Resources\Shaders\DepthOfField.shader" />
+    <None Include="Assets\Banjo Kazooie - Assests\AssetStore\NatureStarterKit2\Standard Assets\Effects\ToonShading\Shaders\ToonBasicOutline.shader" />
+    <None Include="Assets\Shaders\#NVJOB Simple Water Shaders\Example Scenes\PostProcessing\Resources\Shaders\Blit.shader" />
+    <None Include="Assets\Shaders\#NVJOB Simple Water Shaders\Example Scenes\PostProcessing\Editor Resources\UI\CurveBackground.shader" />
+    <None Include="Assets\Shaders\#NVJOB Simple Water Shaders\Example Scenes\PostProcessing\Editor Resources\Monitors\HistogramRender.shader" />
+    <None Include="Assets\Banjo Kazooie - Assests\AssetStore\Enviro - Sky and Weather\Core\Shaders\Particle\EnviroWeatherParticles.shader" />
+    <None Include="Assets\Banjo Kazooie - Assests\AssetStore\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\DepthOfFieldScatter.shader" />
+    <None Include="Assets\Banjo Kazooie - Assests\Rips\BanjoRMX\Model\Perso\Bottles\SFX_bottles_eye.props.txt" />
+    <None Include="Assets\Banjo Kazooie - Assests\Rips\BanjoRMX\Animation\Playable\Banjo_kazooie\banjo_swim_Anim.props.txt" />
+    <None Include="Assets\Banjo Kazooie - Assests\Rips\BanjoRMX\Animation\Bottles\bottle_underground_Anim.props.txt" />
+    <None Include="Assets\Banjo Kazooie - Assests\Rips\BanjoRMX\Animation\Playable\Banjo_kazooie\banjo_swim_idle_Anim.props.txt" />
+    <None Include="Assets\Banjo Kazooie - Assests\Rips\Unreal Rips\Characters\BanjoKazooie\Animations\BanjoAirStart.props.txt" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Masking.shader" />
+    <None Include="Assets\Banjo Kazooie - Assests\Rips\BanjoRMX\Animation\Conga\Conga_Throw.props.txt" />
+    <None Include="Assets\Banjo Kazooie - Assests\Rips\BanjoRMX\Animation\Playable\Banjo_kazooie\banjo_transform.props.txt" />
+    <None Include="Assets\Shaders\#NVJOB Simple Water Shaders\Example Scenes\PostProcessing\Editor Resources\UI\Trackball.shader" />
+    <None Include="Assets\Banjo Kazooie - Assests\Rips\Unreal Rips\Collectibles\Materials\WhiteJinjo_Mat.props.txt" />
+    <None Include="Assets\Banjo Kazooie - Assests\Rips\Unreal Rips\Characters\Meshes\Shape_4803.props.txt" />
+    <None Include="Assets\Banjo Kazooie - Assests\AssetStore\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Shaders\EdgeDetectNormals.shader" />
+    <None Include="Assets\Banjo Kazooie - Assests\Rips\Unreal Rips\Characters\BanjoKazooie\Materials\EyeR1_001.props.txt" />
+    <None Include="Assets\Shaders\_DoubleSidedShaders\Shaders\DoubleSided\Standard\StandardRoughnessDS.shader" />
+    <None Include="Assets\Shaders\#NVJOB Simple Water Shaders\Example Scenes\PostProcessing\Resources\Shaders\EyeAdaptation.shader" />
+    <None Include="Assets\Banjo Kazooie - Assests\Rips\BanjoRMX\Animation\Bull\bull_walking_Anim.props.txt" />
+    <None Include="Assets\Banjo Kazooie - Assests\Rips\BanjoRMX\Model\Object\piece.props.txt" />
+    <None Include="Assets\Banjo Kazooie - Assests\Rips\Unreal Rips\Characters\BanjoKazooie\Animations\BanjoJump.props.txt" />
+    <None Include="Assets\Banjo Kazooie - Assests\Rips\BanjoRMX\Maps\MumbosMountain\testBridgeMumbo.props.txt" />
+    <None Include="Assets\Banjo Kazooie - Assests\Models\Items\User Guide.txt" />
+    <None Include="Assets\Banjo Kazooie - Assests\AssetStore\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Shaders\NoiseEffectShaderRGB.shader" />
+    <None Include="Assets\Banjo Kazooie - Assests\Rips\BanjoRMX\Maps\MumbosMountain\ticker_tower_in_slide.props.txt" />
+    <None Include="Assets\Banjo Kazooie - Assests\AssetStore\StarterAssets\Environment\Shaders\Built-in_RP\ArmatureShader.shader" />
+    <None Include="Assets\Banjo Kazooie - Assests\Rips\BanjoRMX\Maps\MumbosHut\mumbo_pad_Sphere_002.props.txt" />
+    <None Include="Assets\Shaders\#NVJOB Simple Water Shaders\Example Scenes\PostProcessing\Resources\Shaders\GrainGen.shader" />
+    <None Include="Assets\Banjo Kazooie - Assests\AssetStore\Pause Menu Assets\Fonts\exo\SIL Open Font License.txt" />
+    <None Include="Assets\Shaders\#NVJOB Simple Water Shaders\Example Scenes\PostProcessing\Resources\Shaders\AmbientOcclusion.cginc" />
+    <None Include="Assets\Shaders\Fur_0_2_Attributes\FurHelper.cginc" />
+    <None Include="Assets\Banjo Kazooie - Assests\Rips\BanjoRMX\Material\Object\pad_world_entry.props.txt" />
+    <None Include="Assets\Banjo Kazooie - Assests\Rips\BanjoRMX\Model\Object\juju.props.txt" />
+    <None Include="Assets\Banjo Kazooie - Assests\Rips\BanjoRMX\Model\Object\mumbo_token.props.txt" />
+    <None Include="Assets\Banjo Kazooie - Assests\Rips\BanjoRMX\Maps\MumbosHut\column.props.txt" />
+    <None Include="Assets\Banjo Kazooie - Assests\AssetStore\NatureManufacture Assets\Shaders\Resources\WavingGrass.shader" />
+    <None Include="Assets\Shaders\#NVJOB Simple Water Shaders\Example Scenes\Environment\Flag\Materials\Flag.shader" />
+    <None Include="Assets\Banjo Kazooie - Assests\Rips\BanjoRMX\Material\Perso\Kazooie_Body.props.txt" />
+    <None Include="Assets\Banjo Kazooie - Assests\Rips\BanjoRMX\Material\Object\Main\Egg.props.txt" />
+    <None Include="Assets\Banjo Kazooie - Assests\Rips\Unreal Rips\Characters\NPC\JamjarsHatch_Close.props.txt" />
+    <None Include="Assets\Banjo Kazooie - Assests\AssetStore\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\FXAA2.shader" />
+    <None Include="Assets\Banjo Kazooie - Assests\Rips\BanjoRMX\Maps\MumbosMountain\Level\lvl1_bridge.props.txt" />
+    <None Include="Assets\Banjo Kazooie - Assests\Rips\Unreal Rips\Collectibles\Meshes\BigNote.props.txt" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF Overlay.shader" />
+    <None Include="Assets\Banjo Kazooie - Assests\Rips\BanjoRMX\Animation\Conga\Conga_Idle.props.txt" />
+    <None Include="Assets\Banjo Kazooie - Assests\Rips\BanjoRMX\Animation\Playable\Banjo_kazooie\banjo_backflip_idle.props.txt" />
+    <None Include="Assets\Banjo Kazooie - Assests\Rips\BanjoRMX\Maps\MumbosMountain\Blueprints\flat_orange.props.txt" />
+    <None Include="Assets\Banjo Kazooie - Assests\Rips\Unreal Rips\Collectibles\Meshes\Jinjo_Anim2.props.txt" />
+    <None Include="Assets\Banjo Kazooie - Assests\AssetStore\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Shaders\NoiseEffectShaderYUV.shader" />
+    <None Include="Assets\Shaders\#NVJOB Simple Water Shaders\Example Scenes\PostProcessing\Editor Resources\Monitors\HistogramCompute.compute" />
+    <None Include="Assets\Shaders\_DoubleSidedShaders\Shaders\DoubleSided\Legacy\ParallaxSpecDS.shader" />
+    <None Include="Assets\Banjo Kazooie - Assests\Rips\BanjoRMX\Animation\Playable\Banjo_kazooie\kazoie_run_Anim.props.txt" />
+    <None Include="Assets\Banjo Kazooie - Assests\Rips\Items\Credit.txt" />
+    <None Include="Assets\Banjo Kazooie - Assests\AssetStore\Shader Vegetation\Shaders\Mobile Vegetation Cutout.shader" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Mobile.shader" />
+    <None Include="Assets\Banjo Kazooie - Assests\Rips\BanjoRMX\Model\Object\startingpoint.props.txt" />
+    <None Include="Assets\Banjo Kazooie - Assests\Rips\Unreal Rips\Characters\Meshes\Shape_4816.props.txt" />
+    <None Include="Assets\Banjo Kazooie - Assests\Rips\Unreal Rips\Characters\NPC\Jamjars_idle.props.txt" />
+    <None Include="Assets\Banjo Kazooie - Assests\AssetStore\Enviro - Sky and Weather\Core\Scripts\3rd Party Integrations\RTP Integration\RTP Integration.txt" />
+    <None Include="Assets\Banjo Kazooie - Assests\Rips\Unreal Rips\Collectibles\Materials\BrownJinjo_Mat.props.txt" />
+    <None Include="Assets\Banjo Kazooie - Assests\AssetStore\Shader Vegetation\Shaders\Vegetation Pro.shader" />
+    <None Include="Assets\Banjo Kazooie - Assests\Rips\BanjoRMX\Material\Perso\Kazooie_eye.props.txt" />
+    <None Include="Assets\Shaders\_DoubleSidedShaders\Shaders\DoubleSided\TwoFaceTexture\TwoFaceCutoff.shader" />
+    <None Include="Assets\Banjo Kazooie - Assests\Rips\Unreal Rips\Characters\BanjoKazooie\Animations\Banjo3FlyMid.props.txt" />
+    <None Include="Assets\TextMesh Pro\Fonts\LiberationSans - OFL.txt" />
+    <None Include="Assets\Banjo Kazooie - Assests\Rips\BanjoRMX\Model\Perso\Grublin\grublin.props.txt" />
+    <None Include="Assets\Banjo Kazooie - Assests\Rips\BanjoRMX\Model\Perso\Playable\TermiteBanjo\TermiteBanjo_mat.props.txt" />
+    <None Include="Assets\Banjo Kazooie - Assests\Rips\BanjoRMX\Sprite\voices\pink_jinjo.props.txt" />
+    <None Include="Assets\Banjo Kazooie - Assests\Rips\BanjoRMX\Model\Perso\Playable\Banjo\banjo.props.txt" />
+    <None Include="Assets\Banjo Kazooie - Assests\Rips\BanjoRMX\Material\Object\Main\grass.props.txt" />
+    <None Include="Assets\Banjo Kazooie - Assests\AssetStore\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Shaders\Contrast Stretch\Luminance.shader" />
+    <None Include="Assets\Banjo Kazooie - Assests\AssetStore\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BlurAndFlares.shader" />
+    <None Include="Assets\Banjo Kazooie - Assests\AssetStore\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\NFAA.shader" />
+    <None Include="Assets\Banjo Kazooie - Assests\AssetStore\NatureManufacture Assets\Foliage Shaders\Tree_Leaves_Metalic_Snow.shader" />
+    <None Include="Assets\Banjo Kazooie - Assests\Rips\Clanker\Readme.txt" />
+    <None Include="Assets\Banjo Kazooie - Assests\Rips\BanjoRMX\Maps\MumbosHut\mumbo_pad_Sphere_001.props.txt" />
+    <None Include="Assets\Banjo Kazooie - Assests\AssetStore\Save is easy\SaveIsEasyDLL.xml" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile.shader" />
+    <None Include="Assets\Banjo Kazooie - Assests\Rips\Unreal Rips\Characters\BanjoKazooie\Materials\alp_buddy_003.props.txt" />
+    <None Include="Assets\Banjo Kazooie - Assests\Rips\BanjoRMX\Maps\MumbosMountain\Level\Materials\lvl1_leaves.props.txt" />
+    <None Include="Assets\Banjo Kazooie - Assests\Rips\BanjoRMX\Animation\Jinjo\jinjo_twoHand_Anim.props.txt" />
+    <None Include="Assets\Banjo Kazooie - Assests\Rips\Unreal Rips\Characters\Meshes\Shape_4805.props.txt" />
+    <None Include="Assets\Banjo Kazooie - Assests\Rips\BanjoRMX\Animation\Playable\Banjo_kazooie\banjo_underswim_idle_model-armature_model-armatureAction.props.txt" />
+    <None Include="Assets\Banjo Kazooie - Assests\Rips\BanjoRMX\Model\Perso\Conga\Conga_shoes.props.txt" />
+    <None Include="Assets\Banjo Kazooie - Assests\Rips\BanjoRMX\Material\Object\word_entry.props.txt" />
+    <None Include="Assets\Banjo Kazooie - Assests\Rips\BanjoRMX\Animation\Playable\Banjo_kazooie\kazooie_falling_attack_Anim.props.txt" />
+    <None Include="Assets\Banjo Kazooie - Assests\AssetStore\Enviro - Sky and Weather\Core\Scripts\3rd Party Integrations\AQUAS Integration\AQUAS Integration.txt" />
+    <None Include="Assets\Banjo Kazooie - Assests\Rips\Grublin\Credit.txt" />
+    <None Include="Assets\Banjo Kazooie - Assests\Rips\BanjoRMX\Animation\Bottles\bottles_idle_Anim_Armature_Armature_Scene_Scene_001.props.txt" />
+    <None Include="Assets\Banjo Kazooie - Assests\Rips\BanjoRMX\Sprite\voices\orange_talk.props.txt" />
+    <None Include="Assets\Banjo Kazooie - Assests\Rips\Unreal Rips\Collectibles\Materials\PurpleJinjo_Mat.props.txt" />
+    <None Include="Assets\Banjo Kazooie - Assests\Rips\BanjoRMX\Model\fire.props.txt" />
+    <None Include="Assets\Banjo Kazooie - Assests\AssetStore\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\FXAAPreset2.shader" />
+    <None Include="Assets\Banjo Kazooie - Assests\AssetStore\NatureManufacture Assets\Additional Tools\Debug\Debug Shaders\Debug Flowmap UV4.shader" />
+    <None Include="Assets\Banjo Kazooie - Assests\AssetStore\NatureManufacture Assets\Foliage Shaders\Cross_Model_Shader_Snow.shader" />
+    <None Include="Assets\Shaders\#NVJOB Simple Water Shaders\Example Scenes\PostProcessing\Resources\Shaders\ScreenSpaceRaytrace.cginc" />
+    <None Include="Assets\Banjo Kazooie - Assests\Rips\BanjoRMX\Maps\MumbosMountain\Level\w1_lvl_v2_Cylindre_001.props.txt" />
+    <None Include="Assets\Banjo Kazooie - Assests\Rips\Unreal Rips\Characters\NPC\Jamjars_Enter.props.txt" />
+    <None Include="Assets\Banjo Kazooie - Assests\Rips\BanjoRMX\Maps\MumbosMountain\Level\Materials\rope_mat.props.txt" />
+    <None Include="Assets\Banjo Kazooie - Assests\Rips\BanjoRMX\Maps\MumbosMountain\Model\mumbo_rock.props.txt" />
+    <None Include="Assets\Banjo Kazooie - Assests\Rips\BanjoRMX\Maps\MumbosMountain\Level\w1_lvl_v2_walk_slope_right.props.txt" />
+    <None Include="Assets\Shaders\_DoubleSidedShaders\Shaders\DoubleSided\Mobile\MobileBumpedSpecular1DLDS.shader" />
+    <None Include="Assets\Banjo Kazooie - Assests\Rips\Unreal Rips\Eggs\Eggs_Anim.props.txt" />
+    <None Include="Assets\Banjo Kazooie - Assests\AssetStore\NatureManufacture Assets\River Auto Material Trial\Shaders\Water River Offset Vertex Color Flow.shader" />
+    <None Include="Assets\Banjo Kazooie - Assests\Rips\BanjoRMX\Model\Object\empty_honey_comb.props.txt" />
+    <None Include="Assets\Banjo Kazooie - Assests\AssetStore\NatureManufacture Assets\River Auto Material\River\Shaders\Water Particles Foam.shader" />
+    <None Include="Assets\Banjo Kazooie - Assests\AssetStore\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\TiltShiftHdrLensBlur.shader" />
+    <None Include="Assets\Banjo Kazooie - Assests\Rips\Unreal Rips\Characters\Meshes\Shape_4811.props.txt" />
+    <None Include="Assets\Banjo Kazooie - Assests\Rips\BanjoRMX\Animation\Grublin\grublin_walk.txt" />
+    <None Include="Assets\Banjo Kazooie - Assests\Rips\BanjoRMX\Model\Feature\mumbo_head_MumboJumboShape_003.props.txt" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_Sprite.shader" />
+    <None Include="Assets\Shaders\#NVJOB Simple Water Shaders\Example Scenes\PostProcessing\Editor Resources\Monitors\VectorscopeRender.shader" />
+    <None Include="Assets\Banjo Kazooie - Assests\AssetStore\NatureManufacture Assets\Object Shaders\Grass.shader" />
+    <None Include="Assets\Banjo Kazooie - Assests\Rips\Bottles\Using Normal Mapping with this model.txt" />
+    <None Include="Assets\Banjo Kazooie - Assests\Rips\BanjoRMX\Maps\VertexMat.props.txt" />
+    <None Include="Assets\Shaders\#NVJOB Simple Water Shaders\Example Scenes\PostProcessing\Resources\Shaders\Common.cginc" />
+    <None Include="Assets\TextMesh Pro\Examples &amp; Extras\Fonts\Bangers - OFL.txt" />
+    <None Include="Assets\Banjo Kazooie - Assests\Rips\BanjoRMX\Material\Object\green_eye.props.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="UnityEngine">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.26f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.AIModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.26f1\Editor\Data\Managed\UnityEngine\UnityEngine.AIModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.ARModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.26f1\Editor\Data\Managed\UnityEngine\UnityEngine.ARModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.AccessibilityModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.26f1\Editor\Data\Managed\UnityEngine\UnityEngine.AccessibilityModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.AndroidJNIModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.26f1\Editor\Data\Managed\UnityEngine\UnityEngine.AndroidJNIModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.AnimationModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.26f1\Editor\Data\Managed\UnityEngine\UnityEngine.AnimationModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.AssetBundleModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.26f1\Editor\Data\Managed\UnityEngine\UnityEngine.AssetBundleModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.AudioModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.26f1\Editor\Data\Managed\UnityEngine\UnityEngine.AudioModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.ClothModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.26f1\Editor\Data\Managed\UnityEngine\UnityEngine.ClothModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.ClusterInputModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.26f1\Editor\Data\Managed\UnityEngine\UnityEngine.ClusterInputModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.ClusterRendererModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.26f1\Editor\Data\Managed\UnityEngine\UnityEngine.ClusterRendererModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.ContentLoadModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.26f1\Editor\Data\Managed\UnityEngine\UnityEngine.ContentLoadModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.26f1\Editor\Data\Managed\UnityEngine\UnityEngine.CoreModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.CrashReportingModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.26f1\Editor\Data\Managed\UnityEngine\UnityEngine.CrashReportingModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.DSPGraphModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.26f1\Editor\Data\Managed\UnityEngine\UnityEngine.DSPGraphModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.DirectorModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.26f1\Editor\Data\Managed\UnityEngine\UnityEngine.DirectorModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.GIModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.26f1\Editor\Data\Managed\UnityEngine\UnityEngine.GIModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.GameCenterModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.26f1\Editor\Data\Managed\UnityEngine\UnityEngine.GameCenterModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.GridModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.26f1\Editor\Data\Managed\UnityEngine\UnityEngine.GridModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.HotReloadModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.26f1\Editor\Data\Managed\UnityEngine\UnityEngine.HotReloadModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.IMGUIModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.26f1\Editor\Data\Managed\UnityEngine\UnityEngine.IMGUIModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.ImageConversionModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.26f1\Editor\Data\Managed\UnityEngine\UnityEngine.ImageConversionModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.InputModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.26f1\Editor\Data\Managed\UnityEngine\UnityEngine.InputModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.InputLegacyModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.26f1\Editor\Data\Managed\UnityEngine\UnityEngine.InputLegacyModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.JSONSerializeModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.26f1\Editor\Data\Managed\UnityEngine\UnityEngine.JSONSerializeModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.LocalizationModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.26f1\Editor\Data\Managed\UnityEngine\UnityEngine.LocalizationModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.ParticleSystemModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.26f1\Editor\Data\Managed\UnityEngine\UnityEngine.ParticleSystemModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.PerformanceReportingModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.26f1\Editor\Data\Managed\UnityEngine\UnityEngine.PerformanceReportingModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.PhysicsModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.26f1\Editor\Data\Managed\UnityEngine\UnityEngine.PhysicsModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.Physics2DModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.26f1\Editor\Data\Managed\UnityEngine\UnityEngine.Physics2DModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.ProfilerModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.26f1\Editor\Data\Managed\UnityEngine\UnityEngine.ProfilerModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.PropertiesModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.26f1\Editor\Data\Managed\UnityEngine\UnityEngine.PropertiesModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.26f1\Editor\Data\Managed\UnityEngine\UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.ScreenCaptureModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.26f1\Editor\Data\Managed\UnityEngine\UnityEngine.ScreenCaptureModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.SharedInternalsModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.26f1\Editor\Data\Managed\UnityEngine\UnityEngine.SharedInternalsModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.SpriteMaskModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.26f1\Editor\Data\Managed\UnityEngine\UnityEngine.SpriteMaskModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.SpriteShapeModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.26f1\Editor\Data\Managed\UnityEngine\UnityEngine.SpriteShapeModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.StreamingModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.26f1\Editor\Data\Managed\UnityEngine\UnityEngine.StreamingModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.SubstanceModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.26f1\Editor\Data\Managed\UnityEngine\UnityEngine.SubstanceModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.SubsystemsModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.26f1\Editor\Data\Managed\UnityEngine\UnityEngine.SubsystemsModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.TLSModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.26f1\Editor\Data\Managed\UnityEngine\UnityEngine.TLSModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.TerrainModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.26f1\Editor\Data\Managed\UnityEngine\UnityEngine.TerrainModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.TerrainPhysicsModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.26f1\Editor\Data\Managed\UnityEngine\UnityEngine.TerrainPhysicsModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.TextCoreFontEngineModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.26f1\Editor\Data\Managed\UnityEngine\UnityEngine.TextCoreFontEngineModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.TextCoreTextEngineModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.26f1\Editor\Data\Managed\UnityEngine\UnityEngine.TextCoreTextEngineModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.TextRenderingModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.26f1\Editor\Data\Managed\UnityEngine\UnityEngine.TextRenderingModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.TilemapModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.26f1\Editor\Data\Managed\UnityEngine\UnityEngine.TilemapModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UIModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.26f1\Editor\Data\Managed\UnityEngine\UnityEngine.UIModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UIElementsModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.26f1\Editor\Data\Managed\UnityEngine\UnityEngine.UIElementsModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UmbraModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.26f1\Editor\Data\Managed\UnityEngine\UnityEngine.UmbraModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UnityAnalyticsModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.26f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityAnalyticsModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UnityAnalyticsCommonModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.26f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityAnalyticsCommonModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UnityConnectModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.26f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityConnectModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UnityCurlModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.26f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityCurlModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UnityTestProtocolModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.26f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityTestProtocolModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.26f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityWebRequestModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestAssetBundleModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.26f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityWebRequestAssetBundleModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestAudioModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.26f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityWebRequestAudioModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestTextureModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.26f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityWebRequestTextureModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestWWWModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.26f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityWebRequestWWWModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.VFXModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.26f1\Editor\Data\Managed\UnityEngine\UnityEngine.VFXModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.VRModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.26f1\Editor\Data\Managed\UnityEngine\UnityEngine.VRModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.VehiclesModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.26f1\Editor\Data\Managed\UnityEngine\UnityEngine.VehiclesModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.VideoModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.26f1\Editor\Data\Managed\UnityEngine\UnityEngine.VideoModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.VirtualTexturingModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.26f1\Editor\Data\Managed\UnityEngine\UnityEngine.VirtualTexturingModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.WindModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.26f1\Editor\Data\Managed\UnityEngine\UnityEngine.WindModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.XRModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.26f1\Editor\Data\Managed\UnityEngine\UnityEngine.XRModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.26f1\Editor\Data\Managed\UnityEngine\UnityEditor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.CoreModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.26f1\Editor\Data\Managed\UnityEngine\UnityEditor.CoreModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.DeviceSimulatorModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.26f1\Editor\Data\Managed\UnityEngine\UnityEditor.DeviceSimulatorModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.DiagnosticsModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.26f1\Editor\Data\Managed\UnityEngine\UnityEditor.DiagnosticsModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.EditorToolbarModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.26f1\Editor\Data\Managed\UnityEngine\UnityEditor.EditorToolbarModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.GraphViewModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.26f1\Editor\Data\Managed\UnityEngine\UnityEditor.GraphViewModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.PresetsUIModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.26f1\Editor\Data\Managed\UnityEngine\UnityEditor.PresetsUIModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.QuickSearchModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.26f1\Editor\Data\Managed\UnityEngine\UnityEditor.QuickSearchModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.SceneTemplateModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.26f1\Editor\Data\Managed\UnityEngine\UnityEditor.SceneTemplateModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.SceneViewModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.26f1\Editor\Data\Managed\UnityEngine\UnityEditor.SceneViewModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.TextCoreFontEngineModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.26f1\Editor\Data\Managed\UnityEngine\UnityEditor.TextCoreFontEngineModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.TextCoreTextEngineModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.26f1\Editor\Data\Managed\UnityEngine\UnityEditor.TextCoreTextEngineModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.UIBuilderModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.26f1\Editor\Data\Managed\UnityEngine\UnityEditor.UIBuilderModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.UIElementsModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.26f1\Editor\Data\Managed\UnityEngine\UnityEditor.UIElementsModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.UIElementsSamplesModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.26f1\Editor\Data\Managed\UnityEngine\UnityEditor.UIElementsSamplesModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.UnityConnectModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.26f1\Editor\Data\Managed\UnityEngine\UnityEditor.UnityConnectModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="SaveIsEasyDLL">
+      <HintPath>Assets\Banjo Kazooie - Assests\AssetStore\Save is easy\SaveIsEasyDLL.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.iOS.Extensions.Xcode">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.26f1\Editor\Data\PlaybackEngines\iOSSupport\UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.iOS.Extensions.Common">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.26f1\Editor\Data\PlaybackEngines\iOSSupport\UnityEditor.iOS.Extensions.Common.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Android.Types">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.26f1\Editor\Data\PlaybackEngines\AndroidPlayer\Unity.Android.Types.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Android.Gradle">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.26f1\Editor\Data\PlaybackEngines\AndroidPlayer\Unity.Android.Gradle.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Android.GradleProject">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.26f1\Editor\Data\PlaybackEngines\AndroidPlayer\Unity.Android.GradleProject.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.iOS.Extensions.Xcode">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.26f1\Editor\Data\PlaybackEngines\MacStandaloneSupport\UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="netstandard">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.26f1\Editor\Data\NetStandard\ref\2.1.0\netstandard.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.Win32.Primitives">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.26f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\Microsoft.Win32.Primitives.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.AppContext">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.26f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.AppContext.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Buffers">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.26f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Buffers.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Collections.Concurrent">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.26f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Collections.Concurrent.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Collections">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.26f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Collections.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Collections.NonGeneric">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.26f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Collections.NonGeneric.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Collections.Specialized">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.26f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Collections.Specialized.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.ComponentModel">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.26f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.ComponentModel.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.ComponentModel.EventBasedAsync">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.26f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.ComponentModel.EventBasedAsync.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.ComponentModel.Primitives">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.26f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.ComponentModel.Primitives.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.ComponentModel.TypeConverter">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.26f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.ComponentModel.TypeConverter.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Console">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.26f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Console.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Data.Common">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.26f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Data.Common.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Diagnostics.Contracts">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.26f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Diagnostics.Contracts.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Diagnostics.Debug">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.26f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Diagnostics.Debug.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Diagnostics.FileVersionInfo">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.26f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Diagnostics.FileVersionInfo.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Diagnostics.Process">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.26f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Diagnostics.Process.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Diagnostics.StackTrace">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.26f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Diagnostics.StackTrace.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Diagnostics.TextWriterTraceListener">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.26f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Diagnostics.TextWriterTraceListener.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Diagnostics.Tools">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.26f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Diagnostics.Tools.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Diagnostics.TraceSource">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.26f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Diagnostics.TraceSource.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Diagnostics.Tracing">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.26f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Diagnostics.Tracing.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Drawing.Primitives">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.26f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Drawing.Primitives.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Dynamic.Runtime">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.26f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Dynamic.Runtime.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Globalization.Calendars">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.26f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Globalization.Calendars.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Globalization">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.26f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Globalization.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Globalization.Extensions">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.26f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Globalization.Extensions.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.IO.Compression">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.26f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.IO.Compression.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.IO.Compression.ZipFile">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.26f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.IO.Compression.ZipFile.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.IO">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.26f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.IO.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.IO.FileSystem">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.26f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.IO.FileSystem.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.IO.FileSystem.DriveInfo">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.26f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.IO.FileSystem.DriveInfo.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.IO.FileSystem.Primitives">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.26f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.IO.FileSystem.Primitives.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.IO.FileSystem.Watcher">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.26f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.IO.FileSystem.Watcher.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.IO.IsolatedStorage">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.26f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.IO.IsolatedStorage.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.IO.MemoryMappedFiles">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.26f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.IO.MemoryMappedFiles.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.IO.Pipes">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.26f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.IO.Pipes.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.IO.UnmanagedMemoryStream">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.26f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.IO.UnmanagedMemoryStream.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Linq">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.26f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Linq.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Linq.Expressions">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.26f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Linq.Expressions.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Linq.Parallel">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.26f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Linq.Parallel.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Linq.Queryable">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.26f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Linq.Queryable.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Memory">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.26f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Memory.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net.Http">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.26f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Net.Http.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net.NameResolution">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.26f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Net.NameResolution.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net.NetworkInformation">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.26f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Net.NetworkInformation.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net.Ping">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.26f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Net.Ping.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net.Primitives">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.26f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Net.Primitives.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net.Requests">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.26f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Net.Requests.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net.Security">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.26f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Net.Security.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net.Sockets">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.26f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Net.Sockets.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net.WebHeaderCollection">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.26f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Net.WebHeaderCollection.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net.WebSockets.Client">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.26f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Net.WebSockets.Client.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net.WebSockets">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.26f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Net.WebSockets.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Numerics.Vectors">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.26f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Numerics.Vectors.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.ObjectModel">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.26f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.ObjectModel.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Reflection.DispatchProxy">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.26f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Reflection.DispatchProxy.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Reflection">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.26f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Reflection.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Reflection.Emit">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.26f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Reflection.Emit.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Reflection.Emit.ILGeneration">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.26f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Reflection.Emit.ILGeneration.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Reflection.Emit.Lightweight">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.26f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Reflection.Emit.Lightweight.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Reflection.Extensions">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.26f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Reflection.Extensions.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Reflection.Primitives">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.26f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Reflection.Primitives.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Resources.Reader">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.26f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Resources.Reader.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Resources.ResourceManager">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.26f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Resources.ResourceManager.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Resources.Writer">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.26f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Resources.Writer.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime.CompilerServices.VisualC">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.26f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Runtime.CompilerServices.VisualC.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.26f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Runtime.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime.Extensions">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.26f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Runtime.Extensions.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime.Handles">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.26f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Runtime.Handles.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime.InteropServices">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.26f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Runtime.InteropServices.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime.InteropServices.RuntimeInformation">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.26f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Runtime.InteropServices.RuntimeInformation.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime.Numerics">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.26f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Runtime.Numerics.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization.Formatters">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.26f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Runtime.Serialization.Formatters.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization.Json">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.26f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Runtime.Serialization.Json.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization.Primitives">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.26f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Runtime.Serialization.Primitives.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization.Xml">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.26f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Runtime.Serialization.Xml.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Security.Claims">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.26f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Security.Claims.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Algorithms">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.26f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Security.Cryptography.Algorithms.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Csp">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.26f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Security.Cryptography.Csp.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Encoding">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.26f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Security.Cryptography.Encoding.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Primitives">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.26f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Security.Cryptography.Primitives.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.X509Certificates">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.26f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Security.Cryptography.X509Certificates.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Security.Principal">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.26f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Security.Principal.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Security.SecureString">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.26f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Security.SecureString.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Text.Encoding">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.26f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Text.Encoding.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Text.Encoding.Extensions">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.26f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Text.Encoding.Extensions.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Text.RegularExpressions">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.26f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Text.RegularExpressions.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Threading">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.26f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Threading.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Threading.Overlapped">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.26f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Threading.Overlapped.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Threading.Tasks">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.26f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Threading.Tasks.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Threading.Tasks.Extensions">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.26f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Threading.Tasks.Extensions.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Threading.Tasks.Parallel">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.26f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Threading.Tasks.Parallel.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Threading.Thread">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.26f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Threading.Thread.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Threading.ThreadPool">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.26f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Threading.ThreadPool.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Threading.Timer">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.26f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Threading.Timer.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.ValueTuple">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.26f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.ValueTuple.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml.ReaderWriter">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.26f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Xml.ReaderWriter.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml.XDocument">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.26f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Xml.XDocument.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml.XmlDocument">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.26f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Xml.XmlDocument.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml.XmlSerializer">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.26f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Xml.XmlSerializer.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml.XPath">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.26f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Xml.XPath.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml.XPath.XDocument">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.26f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Xml.XPath.XDocument.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime.InteropServices.WindowsRuntime">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.26f1\Editor\Data\NetStandard\Extensions\2.0.0\System.Runtime.InteropServices.WindowsRuntime.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="mscorlib">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.26f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\mscorlib.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.ComponentModel.Composition">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.26f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.ComponentModel.Composition.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Core">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.26f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Core.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Data">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.26f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Data.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.26f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Drawing">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.26f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Drawing.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.IO.Compression.FileSystem">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.26f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.IO.Compression.FileSystem.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.26f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Net.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Numerics">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.26f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Numerics.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.26f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Runtime.Serialization.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.ServiceModel.Web">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.26f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.ServiceModel.Web.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Transactions">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.26f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Transactions.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Web">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.26f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Web.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Windows">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.26f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Windows.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.26f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Xml.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.26f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Xml.Linq.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml.Serialization">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.26f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Xml.Serialization.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Unity.Timeline.csproj">
+      <Project>{D8CE18A8-82D1-0D2E-D9EF-591A1F693AFE}</Project>
+      <Name>Unity.Timeline</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.InputSystem.csproj">
+      <Project>{65C37447-26E9-EC0C-7627-BAA6F4FAFDB9}</Project>
+      <Name>Unity.InputSystem</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.InputSystem.ForUI.csproj">
+      <Project>{3B9AE2FC-528A-5E91-4A10-C7608148BA90}</Project>
+      <Name>Unity.InputSystem.ForUI</Name>
+    </ProjectReference>
+    <ProjectReference Include="com.unity.cinemachine.editor.csproj">
+      <Project>{B30136F3-8940-B785-FE81-7768A6A5B9F3}</Project>
+      <Name>com.unity.cinemachine.editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.AI.Navigation.csproj">
+      <Project>{F20FDD11-2C97-BFEF-11F0-1C54EFE12BFD}</Project>
+      <Name>Unity.AI.Navigation</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.PlasticSCM.Editor.csproj">
+      <Project>{1AD2DE5D-C5A4-7760-7230-82B3705E1173}</Project>
+      <Name>Unity.PlasticSCM.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.AI.Navigation.Updater.csproj">
+      <Project>{D8FD71ED-A810-81EE-125D-A63A49F594FB}</Project>
+      <Name>Unity.AI.Navigation.Updater</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Timeline.Editor.csproj">
+      <Project>{1E8213B9-F233-52BF-86ED-A25A7AECBBEB}</Project>
+      <Name>Unity.Timeline.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.VisualStudio.Editor.csproj">
+      <Project>{4DFC5544-FB5A-9D75-0395-2F6121C0365B}</Project>
+      <Name>Unity.VisualStudio.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.TextMeshPro.csproj">
+      <Project>{CE0293E4-48B4-6775-21A2-DAEF51BB17A9}</Project>
+      <Name>Unity.TextMeshPro</Name>
+    </ProjectReference>
+    <ProjectReference Include="UnityEditor.UI.csproj">
+      <Project>{ADE6762A-A0F6-4C36-C7FD-FEEB7B836800}</Project>
+      <Name>UnityEditor.UI</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.TextMeshPro.Editor.csproj">
+      <Project>{D283725A-83E3-E548-D9A7-7FF73D224193}</Project>
+      <Name>Unity.TextMeshPro.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="UnityEngine.UI.csproj">
+      <Project>{3242C895-E806-3637-422A-A5610CFE11BC}</Project>
+      <Name>UnityEngine.UI</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.AI.Navigation.Editor.csproj">
+      <Project>{B90357F2-ABD6-325C-3D5C-8FC74B086F3F}</Project>
+      <Name>Unity.AI.Navigation.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Rider.Editor.csproj">
+      <Project>{5488DAEE-AD0A-FF10-7478-2AB120400B41}</Project>
+      <Name>Unity.Rider.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.AI.Navigation.Editor.ConversionSystem.csproj">
+      <Project>{B2448E96-17E5-9F8E-8352-C1BACFEDE019}</Project>
+      <Name>Unity.AI.Navigation.Editor.ConversionSystem</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.VSCode.Editor.csproj">
+      <Project>{072495A1-2E03-3792-5E09-AC2C77679B57}</Project>
+      <Name>Unity.VSCode.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Cinemachine.csproj">
+      <Project>{EF9C61E9-272B-1ECE-EDAA-AD4F470DDA32}</Project>
+      <Name>Cinemachine</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Target Name="GenerateTargetFrameworkMonikerAttribute" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

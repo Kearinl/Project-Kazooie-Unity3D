@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\keari\\Desktop\\Happy Dayz Games\\Project Kazooie\\Project Kazooie\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DEDD8C7C-0AA7-B08D-487E-30C47E103A38}|Assembly-CSharp.csproj|c:\\users\\keari\\desktop\\happy dayz games\\project kazooie\\project kazooie\\assets\\scripts\\musiccontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DEDD8C7C-0AA7-B08D-487E-30C47E103A38}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\musiccontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DEDD8C7C-0AA7-B08D-487E-30C47E103A38}|Assembly-CSharp.csproj|c:\\users\\keari\\desktop\\happy dayz games\\project kazooie\\project kazooie\\assets\\starterassets\\thirdpersoncontroller\\scripts\\itemcollectorjiggy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DEDD8C7C-0AA7-B08D-487E-30C47E103A38}|Assembly-CSharp.csproj|solutionrelative:assets\\starterassets\\thirdpersoncontroller\\scripts\\itemcollectorjiggy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MusicController.cs",
+              "DocumentMoniker": "C:\\Users\\keari\\Desktop\\Happy Dayz Games\\Project Kazooie\\Project Kazooie\\Assets\\Scripts\\MusicController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\MusicController.cs",
+              "ToolTip": "C:\\Users\\keari\\Desktop\\Happy Dayz Games\\Project Kazooie\\Project Kazooie\\Assets\\Scripts\\MusicController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\MusicController.cs",
+              "ViewState": "AQIAAIcAAAAAAAAAAAAYwM8AAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-15T14:33:21.74Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ItemCollectorJiggy.cs",
+              "DocumentMoniker": "C:\\Users\\keari\\Desktop\\Happy Dayz Games\\Project Kazooie\\Project Kazooie\\Assets\\StarterAssets\\ThirdPersonController\\Scripts\\ItemCollectorJiggy.cs",
+              "RelativeDocumentMoniker": "Assets\\StarterAssets\\ThirdPersonController\\Scripts\\ItemCollectorJiggy.cs",
+              "ToolTip": "C:\\Users\\keari\\Desktop\\Happy Dayz Games\\Project Kazooie\\Project Kazooie\\Assets\\StarterAssets\\ThirdPersonController\\Scripts\\ItemCollectorJiggy.cs",
+              "RelativeToolTip": "Assets\\StarterAssets\\ThirdPersonController\\Scripts\\ItemCollectorJiggy.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-14T04:04:18.359Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
