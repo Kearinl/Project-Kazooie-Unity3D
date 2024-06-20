@@ -3,8 +3,13 @@
 ## UI Updated | 0.0.3a
 ![image](https://github.com/Kearinl/Project-Kazooie-Unity3D/assets/170784080/a8dcb80f-dfe3-4a46-99c9-10ea5722310b)
 
-## Alpha 0.0.1 Gameplay
-[Watch Alpha 0.0.1 Gameplay on YouTube](https://www.youtube.com/watch?v=np0puAbgtl0&ab_channel=HappyDayzGames)
+# Ripped Assets that Complete the Project
+
+*Use at your own discretion. These are files from Rare, Microsoft, and Nintendo.*
+
+[Banjo Kazooie Assets | Mega.nz](https://mega.nz/file/PkwQlJCK)
+
+It will ask you for a key. Please [join the Discord](https://discord.gg/zCZw3vN4t7) to find out more.
 
 ------------------------------------------------------------------------------------
 
