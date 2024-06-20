@@ -1,0 +1,946 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1962059544471967779
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5098333990339328210}
+  - component: {fileID: 5087721423213171933}
+  - component: {fileID: 8330383525872266791}
+  - component: {fileID: 3015319488077240835}
+  m_Layer: 3
+  m_Name: Capsule (2)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5098333990339328210
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1962059544471967779}
+  m_LocalRotation: {x: -0.047594126, y: 0.07691566, z: -0.6039409, w: -0.79188025}
+  m_LocalPosition: {x: 131, y: -117, z: -3}
+  m_LocalScale: {x: 45.002502, y: 40.015003, z: 37.856247}
+  m_Children: []
+  m_Father: {fileID: 6634351390526891104}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 170.312, y: -183.742, z: 254.34601}
+--- !u!33 &5087721423213171933
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1962059544471967779}
+  m_Mesh: {fileID: 10208, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!23 &8330383525872266791
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1962059544471967779}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: a4c5cc3b60655b24e8cb1e08e6033013, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!136 &3015319488077240835
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1962059544471967779}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.5
+  m_Height: 2
+  m_Direction: 1
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!1 &9220443998109366975
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1844066824316755101}
+  - component: {fileID: 8546304785930976130}
+  - component: {fileID: 693440605178131028}
+  - component: {fileID: 5969102692504833142}
+  m_Layer: 3
+  m_Name: Capsule (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1844066824316755101
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9220443998109366975}
+  m_LocalRotation: {x: -0.047594126, y: 0.07691566, z: -0.6039409, w: -0.79188025}
+  m_LocalPosition: {x: 133, y: -111, z: -40}
+  m_LocalScale: {x: 45.002502, y: 40.015003, z: 37.856247}
+  m_Children: []
+  m_Father: {fileID: 6634351390526891104}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 170.312, y: -183.742, z: 254.34601}
+--- !u!33 &8546304785930976130
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9220443998109366975}
+  m_Mesh: {fileID: 10208, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!23 &693440605178131028
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9220443998109366975}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: a4c5cc3b60655b24e8cb1e08e6033013, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!136 &5969102692504833142
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9220443998109366975}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.5
+  m_Height: 2
+  m_Direction: 1
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!1001 &6634351390527291104
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 100000, guid: ee4a35261634b924789b289e03b2ad4e, type: 3}
+      propertyPath: m_Name
+      value: demo_rock_01
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: ee4a35261634b924789b289e03b2ad4e, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: ee4a35261634b924789b289e03b2ad4e, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.008
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: ee4a35261634b924789b289e03b2ad4e, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.008
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: ee4a35261634b924789b289e03b2ad4e, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.008
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: ee4a35261634b924789b289e03b2ad4e, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -27.16
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: ee4a35261634b924789b289e03b2ad4e, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -15.41
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: ee4a35261634b924789b289e03b2ad4e, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -24.24
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: ee4a35261634b924789b289e03b2ad4e, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.6827514
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: ee4a35261634b924789b289e03b2ad4e, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.18398511
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: ee4a35261634b924789b289e03b2ad4e, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.18398516
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: ee4a35261634b924789b289e03b2ad4e, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.6827514
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: ee4a35261634b924789b289e03b2ad4e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: ee4a35261634b924789b289e03b2ad4e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -30.163
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: ee4a35261634b924789b289e03b2ad4e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 2300000, guid: ee4a35261634b924789b289e03b2ad4e, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 6a0ec65d8116be343979473313efaf96, type: 2}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: ee4a35261634b924789b289e03b2ad4e, type: 3}
+--- !u!1 &6634351390527256640 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100000, guid: ee4a35261634b924789b289e03b2ad4e, type: 3}
+  m_PrefabInstance: {fileID: 6634351390527291104}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &6634351390526891104 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 400000, guid: ee4a35261634b924789b289e03b2ad4e, type: 3}
+  m_PrefabInstance: {fileID: 6634351390527291104}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &8101841394812340428
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6634351390527256640}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 757265e40c9ba2e46a7aa8c4e20123a0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  chaseRange: 10
+  attackRange: 1.5
+  attackDamage: 10
+  wanderRadius: 5
+  movementSpeed: 3
+  minWanderTime: 3
+  maxWanderTime: 10
+--- !u!114 &7998857228185066810
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6634351390527256640}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a48be5d5f4420d4a8a26872795ad00f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxHealth: 100
+--- !u!114 &7188893016179093120
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6634351390527256640}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -499960783, guid: c3ab396f3f53d1c4ebc7bae03391b186, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  FieldsEnable:
+    Version: 2
+    PathsEnabled:
+    - Transform/position/x
+    - Transform/position/y
+    - Transform/position/z
+    - Transform/position
+    - Transform/localPosition/x
+    - Transform/localPosition/y
+    - Transform/localPosition/z
+    - Transform/localPosition
+    - Transform/eulerAngles/x
+    - Transform/eulerAngles/y
+    - Transform/eulerAngles/z
+    - Transform/eulerAngles
+    - Transform/localEulerAngles/x
+    - Transform/localEulerAngles/y
+    - Transform/localEulerAngles/z
+    - Transform/localEulerAngles
+    - Transform/right/x
+    - Transform/right/y
+    - Transform/right/z
+    - Transform/right
+    - Transform/up/x
+    - Transform/up/y
+    - Transform/up/z
+    - Transform/up
+    - Transform/forward/x
+    - Transform/forward/y
+    - Transform/forward/z
+    - Transform/forward
+    - Transform/rotation/x
+    - Transform/rotation/y
+    - Transform/rotation/z
+    - Transform/rotation/w
+    - Transform/rotation
+    - Transform/localRotation/x
+    - Transform/localRotation/y
+    - Transform/localRotation/z
+    - Transform/localRotation/w
+    - Transform/localRotation
+    - Transform/rotationOrder/value__
+    - Transform/rotationOrder
+    - Transform/localScale/x
+    - Transform/localScale/y
+    - Transform/localScale/z
+    - Transform/localScale
+    - Transform/parent
+    - Transform/hasChanged
+    - Transform
+    - EnemyAI/chaseRange
+    - EnemyAI/attackRange
+    - EnemyAI/attackDamage
+    - EnemyAI/wanderRadius
+    - EnemyAI/movementSpeed
+    - EnemyAI/player
+    - EnemyAI/navMeshAgent
+    - EnemyAI/animator
+    - EnemyAI/isChasing
+    - EnemyAI/isWithinAttackRange
+    - EnemyAI/wanderTarget/x
+    - EnemyAI/wanderTarget/y
+    - EnemyAI/wanderTarget/z
+    - EnemyAI/wanderTarget
+    - EnemyAI/isWandering
+    - EnemyAI/wanderTimer
+    - EnemyAI/minWanderTime
+    - EnemyAI/maxWanderTime
+    - EnemyAI/enabled
+    - EnemyAI
+    - EnemyHealth/maxHealth
+    - EnemyHealth/currentHealth
+    - EnemyHealth/enabled
+    - EnemyHealth
+    - GameObject/layer
+    - GameObject/isStatic
+    - GameObject/tag
+    - GameObject/name
+    - GameObject/activeSelf
+    - GameObject
+    ModificationVersion: 4
+    ComponentsEnabled: []
+    HashFieldsEnabled: []
+    ObjectsEnabled: 
+    HashSetFieldsEnabled:
+      m_buckets: 0000000020000000300000003a0000000000000033000000430000003200000039000000000000003e0000001b0000000000000028000000000000003b0000004c000000000000002d0000003600000011000000000000000100000000000000000000001e00000000000000440000000000000000000000290000004100000018000000370000000200000000000000000000001f0000004d0000000000000000000000000000002a00000024000000130000004600000003000000490000000000000000000000040000000000000000000000000000003500000000000000000000000000000000000000000000000000000000000000000000003d000000000000000000000034000000450000002f0000000000000000000000420000004a0000004800000038000000470000001900000040000000310000000000000000000000000000004b00000000000000000000000e00000000000000000000001a000000
+      m_slots:
+      - hashCode: 407537608
+        next: -1
+        value:
+          HashCodePath: -559544797
+          HashCodeMember: -2094178328
+      - hashCode: 407981819
+        next: -1
+        value:
+          HashCodePath: -559544797
+          HashCodeMember: -2093734117
+      - hashCode: 408426030
+        next: -1
+        value:
+          HashCodePath: -559544797
+          HashCodeMember: -2093289906
+      - hashCode: 1587938851
+        next: -1
+        value:
+          HashCodePath: 289311300
+          HashCodeMember: -789838941
+      - hashCode: 1411678312
+        next: -1
+        value:
+          HashCodePath: -1346007692
+          HashCodeMember: -2094178328
+      - hashCode: 1412122523
+        next: -1
+        value:
+          HashCodePath: -1346007692
+          HashCodeMember: -2093734117
+      - hashCode: 1412566734
+        next: -1
+        value:
+          HashCodePath: -1346007692
+          HashCodeMember: -2093289906
+      - hashCode: 801475956
+        next: -1
+        value:
+          HashCodePath: 289311300
+          HashCodeMember: -1576301836
+      - hashCode: 1920823368
+        next: -1
+        value:
+          HashCodePath: -784908073
+          HashCodeMember: -2094178328
+      - hashCode: 1921267579
+        next: -1
+        value:
+          HashCodePath: -784908073
+          HashCodeMember: -2093734117
+      - hashCode: 1921711790
+        next: -1
+        value:
+          HashCodePath: -784908073
+          HashCodeMember: -2093289906
+      - hashCode: 1362575575
+        next: -1
+        value:
+          HashCodePath: 289311300
+          HashCodeMember: -1015202217
+      - hashCode: 875041576
+        next: 7
+        value:
+          HashCodePath: -781611406
+          HashCodeMember: -2094178328
+      - hashCode: 875485787
+        next: -1
+        value:
+          HashCodePath: -781611406
+          HashCodeMember: -2093734117
+      - hashCode: 875929998
+        next: -1
+        value:
+          HashCodePath: -781611406
+          HashCodeMember: -2093289906
+      - hashCode: 1365872242
+        next: -1
+        value:
+          HashCodePath: 289311300
+          HashCodeMember: -1011905550
+      - hashCode: 1114592232
+        next: -1
+        value:
+          HashCodePath: -1690467040
+          HashCodeMember: -2094178328
+      - hashCode: 1115036443
+        next: -1
+        value:
+          HashCodePath: -1690467040
+          HashCodeMember: -2093734117
+      - hashCode: 1115480654
+        next: -1
+        value:
+          HashCodePath: -1690467040
+          HashCodeMember: -2093289906
+      - hashCode: 457016608
+        next: 4
+        value:
+          HashCodePath: 289311300
+          HashCodeMember: -1920761184
+      - hashCode: 1870784008
+        next: 8
+        value:
+          HashCodePath: -477388915
+          HashCodeMember: -2094178328
+      - hashCode: 1871228219
+        next: 9
+        value:
+          HashCodePath: -477388915
+          HashCodeMember: -2093734117
+      - hashCode: 1871672430
+        next: 10
+        value:
+          HashCodePath: -477388915
+          HashCodeMember: -2093289906
+      - hashCode: 1670094733
+        next: 17
+        value:
+          HashCodePath: 289311300
+          HashCodeMember: -707683059
+      - hashCode: 66879304
+        next: -1
+        value:
+          HashCodePath: -1451870609
+          HashCodeMember: -2094178328
+      - hashCode: 67323515
+        next: -1
+        value:
+          HashCodePath: -1451870609
+          HashCodeMember: -2093734117
+      - hashCode: 67767726
+        next: 15
+        value:
+          HashCodePath: -1451870609
+          HashCodeMember: -2093289906
+      - hashCode: 695613039
+        next: -1
+        value:
+          HashCodePath: 289311300
+          HashCodeMember: -1682164753
+      - hashCode: 1958172584
+        next: -1
+        value:
+          HashCodePath: -533480314
+          HashCodeMember: -2094178328
+      - hashCode: 1958616795
+        next: -1
+        value:
+          HashCodePath: -533480314
+          HashCodeMember: -2093734117
+      - hashCode: 1959061006
+        next: -1
+        value:
+          HashCodePath: -533480314
+          HashCodeMember: -2093289906
+      - hashCode: 1957728373
+        next: -1
+        value:
+          HashCodePath: -533480314
+          HashCodeMember: -2094622539
+      - hashCode: 1614003334
+        next: 11
+        value:
+          HashCodePath: 289311300
+          HashCodeMember: -763774458
+      - hashCode: 814829640
+        next: -1
+        value:
+          HashCodePath: -1319943209
+          HashCodeMember: -2094178328
+      - hashCode: 815273851
+        next: -1
+        value:
+          HashCodePath: -1319943209
+          HashCodeMember: -2093734117
+      - hashCode: 815718062
+        next: -1
+        value:
+          HashCodePath: -1319943209
+          HashCodeMember: -2093289906
+      - hashCode: 814385429
+        next: -1
+        value:
+          HashCodePath: -1319943209
+          HashCodeMember: -2094622539
+      - hashCode: 827540439
+        next: -1
+        value:
+          HashCodePath: 289311300
+          HashCodeMember: -1550237353
+      - hashCode: 1279186351
+        next: 34
+        value:
+          HashCodePath: -702128352
+          HashCodeMember: -10968657
+      - hashCode: 1445355296
+        next: 28
+        value:
+          HashCodePath: 289311300
+          HashCodeMember: -932422496
+      - hashCode: 1695698696
+        next: 6
+        value:
+          HashCodePath: -1843319115
+          HashCodeMember: -2094178328
+      - hashCode: 1696142907
+        next: -1
+        value:
+          HashCodePath: -1843319115
+          HashCodeMember: -2093734117
+      - hashCode: 1696587118
+        next: -1
+        value:
+          HashCodePath: -1843319115
+          HashCodeMember: -2093289906
+      - hashCode: 304164533
+        next: -1
+        value:
+          HashCodePath: 289311300
+          HashCodeMember: -2073613259
+      - hashCode: 1399490486
+        next: 5
+        value:
+          HashCodePath: 289311300
+          HashCodeMember: -978287306
+      - hashCode: 1667908958
+        next: 14
+        value:
+          HashCodePath: 289311300
+          HashCodeMember: -709868834
+      - hashCode: 289311300
+        next: -1
+        value:
+          HashCodePath: 0
+          HashCodeMember: 289311300
+      - hashCode: 1582215569
+        next: 43
+        value:
+          HashCodePath: -768142952
+          HashCodeMember: 387326609
+      - hashCode: 179736735
+        next: -1
+        value:
+          HashCodePath: -768142952
+          HashCodeMember: -1015152225
+      - hashCode: 1472526189
+        next: 36
+        value:
+          HashCodePath: -768142952
+          HashCodeMember: 277637229
+      - hashCode: 1756978553
+        next: -1
+        value:
+          HashCodePath: -768142952
+          HashCodeMember: -1585394055
+      - hashCode: 1123911112
+        next: -1
+        value:
+          HashCodePath: -768142952
+          HashCodeMember: 2076505800
+      - hashCode: 994320603
+        next: 42
+        value:
+          HashCodePath: -768142952
+          HashCodeMember: -200568357
+      - hashCode: 1564910159
+        next: 33
+        value:
+          HashCodePath: -768142952
+          HashCodeMember: -1777462449
+      - hashCode: 1453375373
+        next: -1
+        value:
+          HashCodePath: -768142952
+          HashCodeMember: -1888997235
+      - hashCode: 884232963
+        next: -1
+        value:
+          HashCodePath: -768142952
+          HashCodeMember: 1836827651
+      - hashCode: 561897592
+        next: 45
+        value:
+          HashCodePath: -768142952
+          HashCodeMember: -632991368
+      - hashCode: 480746408
+        next: 20
+        value:
+          HashCodePath: -1431422426
+          HashCodeMember: -2094178328
+      - hashCode: 481190619
+        next: 21
+        value:
+          HashCodePath: -1431422426
+          HashCodeMember: -2093734117
+      - hashCode: 481634830
+        next: 22
+        value:
+          HashCodePath: -1431422426
+          HashCodeMember: -2093289906
+      - hashCode: 716061222
+        next: -1
+        value:
+          HashCodePath: -768142952
+          HashCodeMember: 1668655910
+      - hashCode: 1134360457
+        next: -1
+        value:
+          HashCodePath: -768142952
+          HashCodeMember: 2086955145
+      - hashCode: 985053380
+        next: -1
+        value:
+          HashCodePath: -768142952
+          HashCodeMember: -209835580
+      - hashCode: 971862900
+        next: -1
+        value:
+          HashCodePath: -768142952
+          HashCodeMember: 1924457588
+      - hashCode: 492902234
+        next: 38
+        value:
+          HashCodePath: -768142952
+          HashCodeMember: -701986726
+      - hashCode: 1209508647
+        next: -1
+        value:
+          HashCodePath: -768142952
+          HashCodeMember: 14619687
+      - hashCode: 1379340696
+        next: 19
+        value:
+          HashCodePath: 0
+          HashCodeMember: -768142952
+      - hashCode: 1400997176
+        next: 59
+        value:
+          HashCodePath: 755357404
+          HashCodeMember: 1250431928
+      - hashCode: 1401579543
+        next: -1
+        value:
+          HashCodePath: 755357404
+          HashCodeMember: 1251014295
+      - hashCode: 165184935
+        next: 62
+        value:
+          HashCodePath: 755357404
+          HashCodeMember: 14619687
+      - hashCode: 755357404
+        next: 27
+        value:
+          HashCodePath: 0
+          HashCodeMember: 755357404
+      - hashCode: 1829995467
+        next: 12
+        value:
+          HashCodePath: 991929691
+          HashCodeMember: -1016887061
+      - hashCode: 96753816
+        next: -1
+        value:
+          HashCodePath: 991929691
+          HashCodeMember: 1544838584
+      - hashCode: 844100458
+        next: -1
+        value:
+          HashCodePath: 991929691
+          HashCodeMember: 144701578
+      - hashCode: 1741864205
+        next: 32
+        value:
+          HashCodePath: 991929691
+          HashCodeMember: 1042465325
+      - hashCode: 1189677078
+        next: 37
+        value:
+          HashCodePath: 991929691
+          HashCodeMember: -1657205450
+      - hashCode: 991929691
+        next: -1
+        value:
+          HashCodePath: 0
+          HashCodeMember: 991929691
+      - hashCode: 0
+        next: 0
+        value:
+          HashCodePath: 0
+          HashCodeMember: 0
+      - hashCode: 0
+        next: 0
+        value:
+          HashCodePath: 0
+          HashCodeMember: 0
+      - hashCode: 0
+        next: 0
+        value:
+          HashCodePath: 0
+          HashCodeMember: 0
+      - hashCode: 0
+        next: 0
+        value:
+          HashCodePath: 0
+          HashCodeMember: 0
+      - hashCode: 0
+        next: 0
+        value:
+          HashCodePath: 0
+          HashCodeMember: 0
+      - hashCode: 0
+        next: 0
+        value:
+          HashCodePath: 0
+          HashCodeMember: 0
+      - hashCode: 0
+        next: 0
+        value:
+          HashCodePath: 0
+          HashCodeMember: 0
+      - hashCode: 0
+        next: 0
+        value:
+          HashCodePath: 0
+          HashCodeMember: 0
+      - hashCode: 0
+        next: 0
+        value:
+          HashCodePath: 0
+          HashCodeMember: 0
+      - hashCode: 0
+        next: 0
+        value:
+          HashCodePath: 0
+          HashCodeMember: 0
+      - hashCode: 0
+        next: 0
+        value:
+          HashCodePath: 0
+          HashCodeMember: 0
+      - hashCode: 0
+        next: 0
+        value:
+          HashCodePath: 0
+          HashCodeMember: 0
+      m_count: 77
+      m_lastIndex: 77
+      m_freeList: -1
+      m_version: 219
+    HashSetObjectsEnabled:
+      m_buckets: 0d000000080000000000000000000000000000000000000010000000040000000f000000000000000900000007000000020000000b000000000000000600000000000000
+      m_slots:
+      - hashCode: 289311300
+        next: -1
+        value: 289311300
+      - hashCode: 1587938851
+        next: -1
+        value: -559544797
+      - hashCode: 801475956
+        next: -1
+        value: -1346007692
+      - hashCode: 1362575575
+        next: -1
+        value: -784908073
+      - hashCode: 1365872242
+        next: -1
+        value: -781611406
+      - hashCode: 457016608
+        next: -1
+        value: -1690467040
+      - hashCode: 1670094733
+        next: -1
+        value: -477388915
+      - hashCode: 695613039
+        next: -1
+        value: -1451870609
+      - hashCode: 1614003334
+        next: -1
+        value: -533480314
+      - hashCode: 827540439
+        next: -1
+        value: -1319943209
+      - hashCode: 1445355296
+        next: 0
+        value: -702128352
+      - hashCode: 304164533
+        next: 9
+        value: -1843319115
+      - hashCode: 1379340696
+        next: 4
+        value: -768142952
+      - hashCode: 716061222
+        next: 11
+        value: -1431422426
+      - hashCode: 755357404
+        next: 2
+        value: 755357404
+      - hashCode: 991929691
+        next: 13
+        value: 991929691
+      - hashCode: 0
+        next: 0
+        value: 0
+      m_count: 16
+      m_lastIndex: 16
+      m_freeList: -1
+      m_version: 49
+    HashSetComponentsEnabled:
+      m_buckets: 020000000300000000000000
+      m_slots:
+      - hashCode: 1321165359
+        next: -1
+        value: UnityEngine.Transform
+      - hashCode: 1379340696
+        next: 0
+        value: EnemyAI
+      - hashCode: 755357404
+        next: -1
+        value: EnemyHealth
+      m_count: 3
+      m_lastIndex: 3
+      m_freeList: -1
+      m_version: 12
+    AreValidSavedHashs: 1
+  Position: 0
+  Rotation: 0
+  Scale: 0
+  Name: 0
+  Tag: 0
+  Active: 0
+  Static: 0
+  Layer: 0
+  GAMEOBJECT_STATIC_ID: 0
+  GAMEOBJECT_PATH: 
+  Private_prefabId: 1191859960
+  PrefabSetTime: 1691710681
+  CreateInRuntime: 0
+  onLoad: 0

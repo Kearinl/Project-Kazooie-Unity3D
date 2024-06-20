@@ -1,0 +1,411 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3825053945406772247
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5888008890130654630}
+  - component: {fileID: 2669728078157394640}
+  - component: {fileID: 3739862829051040738}
+  m_Layer: 5
+  m_Name: Text
+  m_TagString: NoteCount
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &5888008890130654630
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3825053945406772247}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.8, y: 0.8, z: 0.8}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 9043437256454266604}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 134, y: -16}
+  m_SizeDelta: {x: 200, y: 50}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!222 &2669728078157394640
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3825053945406772247}
+  m_CullTransparentMesh: 1
+--- !u!114 &3739862829051040738
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3825053945406772247}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.74509805, g: 0.6666667, b: 0.050980397, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 12800000, guid: 3557683fc38a1df4ba0c85824795b164, type: 3}
+    m_FontSize: 30
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 0
+    m_MaxSize: 100
+    m_Alignment: 1
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: 0
+--- !u!1 &9038023102290830668
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 9043437256454266604}
+  - component: {fileID: 5949439967924423930}
+  - component: {fileID: 7255135987658707962}
+  - component: {fileID: 1876518673879414317}
+  m_Layer: 5
+  m_Name: Egg
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &9043437256454266604
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9038023102290830668}
+  m_LocalRotation: {x: -0, y: -0, z: 1.11022276e-16, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.84258485, y: 0.84258485, z: 0.84258485}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 5888008890130654630}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 343.27805, y: 154.51859}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!222 &5949439967924423930
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9038023102290830668}
+  m_CullTransparentMesh: 1
+--- !u!114 &7255135987658707962
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9038023102290830668}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: faadc08dc4dcec24da14145ffbd5b75e, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!114 &1876518673879414317
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9038023102290830668}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -499960783, guid: c3ab396f3f53d1c4ebc7bae03391b186, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  FieldsEnable:
+    Version: 2
+    PathsEnabled:
+    - RectTransform/anchorMin/x
+    - RectTransform/anchorMin/y
+    - RectTransform/anchorMin
+    - RectTransform/anchorMax/x
+    - RectTransform/anchorMax/y
+    - RectTransform/anchorMax
+    - RectTransform/anchoredPosition/x
+    - RectTransform/anchoredPosition/y
+    - RectTransform/anchoredPosition
+    - RectTransform/sizeDelta/x
+    - RectTransform/sizeDelta/y
+    - RectTransform/sizeDelta
+    - RectTransform/pivot/x
+    - RectTransform/pivot/y
+    - RectTransform/pivot
+    - RectTransform/anchoredPosition3D/x
+    - RectTransform/anchoredPosition3D/y
+    - RectTransform/anchoredPosition3D/z
+    - RectTransform/anchoredPosition3D
+    - RectTransform/offsetMin/x
+    - RectTransform/offsetMin/y
+    - RectTransform/offsetMin
+    - RectTransform/offsetMax/x
+    - RectTransform/offsetMax/y
+    - RectTransform/offsetMax
+    - RectTransform/drivenByObject/m_InstanceID
+    - RectTransform/drivenByObject/m_UnityRuntimeErrorString
+    - RectTransform/drivenByObject
+    - RectTransform/drivenProperties/value__
+    - RectTransform/drivenProperties
+    - RectTransform/position/x
+    - RectTransform/position/y
+    - RectTransform/position/z
+    - RectTransform/position
+    - RectTransform/localPosition/x
+    - RectTransform/localPosition/y
+    - RectTransform/localPosition/z
+    - RectTransform/localPosition
+    - RectTransform/eulerAngles/x
+    - RectTransform/eulerAngles/y
+    - RectTransform/eulerAngles/z
+    - RectTransform/eulerAngles
+    - RectTransform/localEulerAngles/x
+    - RectTransform/localEulerAngles/y
+    - RectTransform/localEulerAngles/z
+    - RectTransform/localEulerAngles
+    - RectTransform/right/x
+    - RectTransform/right/y
+    - RectTransform/right/z
+    - RectTransform/right
+    - RectTransform/up/x
+    - RectTransform/up/y
+    - RectTransform/up/z
+    - RectTransform/up
+    - RectTransform/forward/x
+    - RectTransform/forward/y
+    - RectTransform/forward/z
+    - RectTransform/forward
+    - RectTransform/rotation/x
+    - RectTransform/rotation/y
+    - RectTransform/rotation/z
+    - RectTransform/rotation/w
+    - RectTransform/rotation
+    - RectTransform/localRotation/x
+    - RectTransform/localRotation/y
+    - RectTransform/localRotation/z
+    - RectTransform/localRotation/w
+    - RectTransform/localRotation
+    - RectTransform/rotationOrder/value__
+    - RectTransform/rotationOrder
+    - RectTransform/localScale/x
+    - RectTransform/localScale/y
+    - RectTransform/localScale/z
+    - RectTransform/localScale
+    - RectTransform/parent
+    - RectTransform/parentInternal
+    - RectTransform/hasChanged
+    - RectTransform/hierarchyCapacity
+    - RectTransform/constrainProportionsScale
+    - RectTransform
+    - CanvasRenderer/<isMask>k__BackingField
+    - CanvasRenderer/hasPopInstruction
+    - CanvasRenderer/materialCount
+    - CanvasRenderer/popMaterialCount
+    - CanvasRenderer/cullTransparentMesh
+    - CanvasRenderer/cull
+    - CanvasRenderer/clippingSoftness/x
+    - CanvasRenderer/clippingSoftness/y
+    - CanvasRenderer/clippingSoftness
+    - CanvasRenderer
+    - Image/m_Type/value__
+    - Image/m_Type
+    - Image/m_PreserveAspect
+    - Image/m_FillCenter
+    - Image/m_FillMethod/value__
+    - Image/m_FillMethod
+    - Image/m_FillAmount
+    - Image/m_FillClockwise
+    - Image/m_FillOrigin
+    - Image/m_AlphaHitTestMinimumThreshold
+    - Image/m_Tracked
+    - Image/m_UseSpriteMesh
+    - Image/m_PixelsPerUnitMultiplier
+    - Image/m_CachedReferencePixelsPerUnit
+    - Image/m_ShouldRecalculateStencil
+    - Image/m_StencilValue
+    - Image/m_SkipLayoutUpdate
+    - Image/m_SkipMaterialUpdate
+    - Image/m_OnDirtyLayoutCallback
+    - Image/m_OnDirtyVertsCallback
+    - Image/m_OnDirtyMaterialCallback
+    - Image/m_CachedMesh/indexFormat/value__
+    - Image/m_CachedMesh/indexFormat
+    - Image/m_CachedMesh/vertexBufferTarget/value__
+    - Image/m_CachedMesh/vertexBufferTarget
+    - Image/m_CachedMesh/indexBufferTarget/value__
+    - Image/m_CachedMesh/indexBufferTarget
+    - Image/m_CachedMesh/subMeshCount
+    - Image/m_CachedMesh/bounds/m_Center/x
+    - Image/m_CachedMesh/bounds/m_Center/y
+    - Image/m_CachedMesh/bounds/m_Center/z
+    - Image/m_CachedMesh/bounds/m_Center
+    - Image/m_CachedMesh/bounds/m_Extents/x
+    - Image/m_CachedMesh/bounds/m_Extents/y
+    - Image/m_CachedMesh/bounds/m_Extents/z
+    - Image/m_CachedMesh/bounds/m_Extents
+    - Image/m_CachedMesh/bounds/center/x
+    - Image/m_CachedMesh/bounds/center/y
+    - Image/m_CachedMesh/bounds/center/z
+    - Image/m_CachedMesh/bounds/center
+    - Image/m_CachedMesh/bounds/size/x
+    - Image/m_CachedMesh/bounds/size/y
+    - Image/m_CachedMesh/bounds/size/z
+    - Image/m_CachedMesh/bounds/size
+    - Image/m_CachedMesh/bounds/extents/x
+    - Image/m_CachedMesh/bounds/extents/y
+    - Image/m_CachedMesh/bounds/extents/z
+    - Image/m_CachedMesh/bounds/extents
+    - Image/m_CachedMesh/bounds/min/x
+    - Image/m_CachedMesh/bounds/min/y
+    - Image/m_CachedMesh/bounds/min/z
+    - Image/m_CachedMesh/bounds/min
+    - Image/m_CachedMesh/bounds/max/x
+    - Image/m_CachedMesh/bounds/max/y
+    - Image/m_CachedMesh/bounds/max/z
+    - Image/m_CachedMesh/bounds/max
+    - Image/m_CachedMesh/bounds
+    - Image/m_CachedMesh/vertices
+    - Image/m_CachedMesh/normals
+    - Image/m_CachedMesh/tangents
+    - Image/m_CachedMesh/uv
+    - Image/m_CachedMesh/uv2
+    - Image/m_CachedMesh/uv3
+    - Image/m_CachedMesh/uv4
+    - Image/m_CachedMesh/uv5
+    - Image/m_CachedMesh/uv6
+    - Image/m_CachedMesh/uv7
+    - Image/m_CachedMesh/uv8
+    - Image/m_CachedMesh/colors
+    - Image/m_CachedMesh/triangles
+    - Image/m_CachedMesh/boneWeights
+    - Image/m_CachedMesh
+    - Image/m_CachedUvs
+    - Image/type/value__
+    - Image/type
+    - Image/preserveAspect
+    - Image/fillCenter
+    - Image/fillMethod/value__
+    - Image/fillMethod
+    - Image/fillAmount
+    - Image/fillClockwise
+    - Image/fillOrigin
+    - Image/alphaHitTestMinimumThreshold
+    - Image/useSpriteMesh
+    - Image/pixelsPerUnitMultiplier
+    - Image/onCullStateChanged
+    - Image/maskable
+    - Image/isMaskingGraphic
+    - Image/color/r
+    - Image/color/g
+    - Image/color/b
+    - Image/color/a
+    - Image/color
+    - Image/raycastTarget
+    - Image/raycastPadding/x
+    - Image/raycastPadding/y
+    - Image/raycastPadding/z
+    - Image/raycastPadding/w
+    - Image/raycastPadding
+    - Image/useLegacyMeshGeneration
+    - Image/enabled
+    - Image
+    - GameObject/layer
+    - GameObject/isStatic
+    - GameObject/tag
+    - GameObject/name
+    - GameObject/activeSelf
+    - GameObject
+    ModificationVersion: 1
+    ComponentsEnabled: []
+    HashFieldsEnabled: []
+    ObjectsEnabled: 
+    HashSetFieldsEnabled:
+      m_buckets: 
+      m_slots: []
+      m_count: 0
+      m_lastIndex: 0
+      m_freeList: -1
+      m_version: 1
+    HashSetObjectsEnabled:
+      m_buckets: 
+      m_slots: []
+      m_count: 0
+      m_lastIndex: 0
+      m_freeList: -1
+      m_version: 1
+    HashSetComponentsEnabled:
+      m_buckets: 
+      m_slots: []
+      m_count: 0
+      m_lastIndex: 0
+      m_freeList: -1
+      m_version: 1
+    AreValidSavedHashs: 1
+  Position: 0
+  Rotation: 0
+  Scale: 0
+  Name: 0
+  Tag: 0
+  Active: 0
+  Static: 0
+  Layer: 0
+  GAMEOBJECT_STATIC_ID: 0
+  GAMEOBJECT_PATH: 
+  Private_prefabId: 1773258284
+  PrefabSetTime: 1718468599
+  CreateInRuntime: 0
+  onLoad: 0

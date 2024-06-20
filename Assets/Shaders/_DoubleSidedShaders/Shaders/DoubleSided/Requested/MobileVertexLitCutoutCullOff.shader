@@ -1,0 +1,123 @@
+﻿// © 2015 Mario Lelas
+
+// Simplified VertexLit shader. Differences from regular VertexLit one:
+// - no per-material color
+// - no specular
+// - no emission
+
+Shader "DoubleSided/Other/VertexLitCutoutCullOff"
+{
+	Properties
+	{
+		_MainTex("Base (RGB)", 2D) = "white" {}
+	}
+
+		SubShader
+	{
+		Tags{ "RenderType" = "Opaque" }
+		Cull Off
+		LOD 80
+
+		// Non-lightmapped
+		Pass{
+		Tags{ "LightMode" = "Vertex" }
+
+		Material
+	{
+		Diffuse(1,1,1,1)
+		Ambient(1,1,1,1)
+	}
+		Lighting On
+		SetTexture[_MainTex]{
+		constantColor(1,1,1,1)
+		Combine texture * primary DOUBLE, constant // UNITY_OPAQUE_ALPHA_FFP
+	}
+	}
+
+		// Lightmapped, encoded as dLDR
+		Pass
+	{
+		Tags{ "LightMode" = "VertexLM" }
+		Cull Off
+
+		BindChannels{
+		Bind "Vertex", vertex
+		Bind "normal", normal
+		Bind "texcoord1", texcoord0 // lightmap uses 2nd uv
+		Bind "texcoord", texcoord1 // main uses 1st uv
+	}
+
+		SetTexture[unity_Lightmap]{
+		matrix[unity_LightmapMatrix]
+		combine texture
+	}
+		SetTexture[_MainTex]{
+		constantColor(1,1,1,1)
+		combine texture * previous DOUBLE, constant // UNITY_OPAQUE_ALPHA_FFP
+	}
+	}
+
+		// Lightmapped, encoded as RGBM
+		Pass
+	{
+		Tags{ "LightMode" = "VertexLMRGBM" }
+		Cull Off
+
+		BindChannels{
+		Bind "Vertex", vertex
+		Bind "normal", normal
+		Bind "texcoord1", texcoord0 // lightmap uses 2nd uv
+		Bind "texcoord", texcoord1 // main uses 1st uv
+	}
+
+		SetTexture[unity_Lightmap]{
+		matrix[unity_LightmapMatrix]
+		combine texture * texture alpha DOUBLE
+	}
+		SetTexture[_MainTex]{
+		constantColor(1,1,1,1)
+		combine texture * previous QUAD, constant // UNITY_OPAQUE_ALPHA_FFP
+	}
+	}
+
+		// Pass to render object as a shadow caster
+		Pass
+	{
+		Name "ShadowCaster"
+		Tags{ "LightMode" = "ShadowCaster" }
+		Cull Off
+		ZWrite On ZTest LEqual Cull Off
+
+		CGPROGRAM
+#pragma vertex vert
+#pragma fragment frag
+#pragma multi_compile_shadowcaster
+#include "UnityCG.cginc"
+
+		struct v2f {
+		V2F_SHADOW_CASTER;
+		float2  uv : TEXCOORD1;
+	};
+	uniform float4 _MainTex_ST;
+	v2f vert(appdata_base v)
+	{
+		v2f o;
+		TRANSFER_SHADOW_CASTER_NORMALOFFSET(o)
+		o.uv = TRANSFORM_TEX(v.texcoord, _MainTex);
+		return o;
+	}
+
+	uniform sampler2D _MainTex;
+	uniform fixed _Cutoff;
+
+	float4 frag(v2f i) : SV_Target
+	{
+		fixed4 texcol = tex2D(_MainTex, i.uv);
+		clip(texcol.a - _Cutoff);
+
+		SHADOW_CASTER_FRAGMENT(i)
+	}
+		ENDCG
+	}
+	}
+}
