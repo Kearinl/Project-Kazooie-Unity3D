@@ -11,6 +11,9 @@
 
 It will ask you for a key. Please [join the Discord](https://discord.gg/zCZw3vN4t7) to find out more.
 
+Extract to this file path: Project Kazooie\Assets\Banjo Kazooie - Assests\
+It needs to be a sub folder inside of the assets folder.
+
 ------------------------------------------------------------------------------------
 
 "Project Kazooie" is a fan-made remake inspired by Kearin L. The original game "Banjo-Kazooie" is developed by Rare Ltd. This project focuses on game concept and design.
