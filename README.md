@@ -203,19 +203,10 @@ Interested in helping with bug testing for "Project Kazooie"? Join our Discord c
 
 ---
 
-------------------------------------------------------------------------------------
-
-## Contributions
-
-### Ryudious
-
-- Removed duplicate scripts to fix loading issues.
-
-------------------------------------------------------------------------------------
-
 ## Credits
 
 - **Programming:** [Kearin L](https://github.com/Kearinl)
+- **Audio | Visual | Programming:** [Ryudious](https://github.com/ryudious)
 - **Models | Animations:** [ItsAPT](https://github.com/ItsAPT)
 - **Models | Rips:** [Facts_about_BK](https://sketchfab.com/Facts_about_BK)
 
