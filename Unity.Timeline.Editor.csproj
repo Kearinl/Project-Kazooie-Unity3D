@@ -10,7 +10,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{1E8213B9-F233-52BF-86ED-A25A7AECBBEB}</ProjectGuid>
+    <ProjectGuid>{4DACB784-4E11-831E-8167-8985F81AAB36}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Unity.Timeline.Editor</AssemblyName>
@@ -74,8 +74,8 @@
     <Compile Include="Library\PackageCache\com.unity.timeline@1.7.6\Editor\Window\Modes\TimelineReadOnlyMode.cs" />
     <Compile Include="Library\PackageCache\com.unity.timeline@1.7.6\Editor\Signals\SignalReceiverInspector.cs" />
     <Compile Include="Library\PackageCache\com.unity.timeline@1.7.6\Editor\Actions\ClipsActions.cs" />
-    <Compile Include="Library\PackageCache\com.unity.timeline@1.7.6\Editor\inspectors\EditorClip.cs" />
     <Compile Include="Library\PackageCache\com.unity.timeline@1.7.6\Editor\Manipulators\Sequence\MarkerHeaderTrackManipulator.cs" />
+    <Compile Include="Library\PackageCache\com.unity.timeline@1.7.6\Editor\inspectors\EditorClip.cs" />
     <Compile Include="Library\PackageCache\com.unity.timeline@1.7.6\Editor\treeview\ItemGui\ISelectable.cs" />
     <Compile Include="Library\PackageCache\com.unity.timeline@1.7.6\Editor\treeview\Manipulator.cs" />
     <Compile Include="Library\PackageCache\com.unity.timeline@1.7.6\Editor\Signals\SignalManager.cs" />
@@ -89,8 +89,8 @@
     <Compile Include="Library\PackageCache\com.unity.timeline@1.7.6\Editor\inspectors\EditorClipFactory.cs" />
     <Compile Include="Library\PackageCache\com.unity.timeline@1.7.6\Editor\Audio\AudioPlayableAssetEditor.cs" />
     <Compile Include="Library\PackageCache\com.unity.timeline@1.7.6\Editor\Actions\TrackAction.cs" />
-    <Compile Include="Library\PackageCache\com.unity.timeline@1.7.6\Editor\Window\TimelineWindow_EditorCallbacks.cs" />
     <Compile Include="Library\PackageCache\com.unity.timeline@1.7.6\Editor\treeview\ItemGui\TimelineItemGUI.cs" />
+    <Compile Include="Library\PackageCache\com.unity.timeline@1.7.6\Editor\Window\TimelineWindow_EditorCallbacks.cs" />
     <Compile Include="Library\PackageCache\com.unity.timeline@1.7.6\Editor\Animation\AnimationPlayableAssetEditor.cs" />
     <Compile Include="Library\PackageCache\com.unity.timeline@1.7.6\Editor\inspectors\FrameRateDrawer.cs" />
     <Compile Include="Library\PackageCache\com.unity.timeline@1.7.6\Editor\treeview\TrackGui\TrackResizeHandle.cs" />
@@ -122,8 +122,8 @@
     <Compile Include="Library\PackageCache\com.unity.timeline@1.7.6\Editor\Manipulators\AddDelete\AddDeleteItemModeRipple.cs" />
     <Compile Include="Library\PackageCache\com.unity.timeline@1.7.6\Editor\CustomEditors\MarkerTrackEditor.cs" />
     <Compile Include="Library\PackageCache\com.unity.timeline@1.7.6\Editor\Utilities\Scopes\HorizontalScope.cs" />
-    <Compile Include="Library\PackageCache\com.unity.timeline@1.7.6\Editor\Animation\CurveTreeViewNode.cs" />
     <Compile Include="Library\PackageCache\com.unity.timeline@1.7.6\Editor\Items\ITimelineItem.cs" />
+    <Compile Include="Library\PackageCache\com.unity.timeline@1.7.6\Editor\Animation\CurveTreeViewNode.cs" />
     <Compile Include="Library\PackageCache\com.unity.timeline@1.7.6\Editor\State\PlayRange.cs" />
     <Compile Include="Library\PackageCache\com.unity.timeline@1.7.6\Editor\Window\TimelineWindow_Selection.cs" />
     <Compile Include="Library\PackageCache\com.unity.timeline@1.7.6\Editor\Manipulators\Move\MovingItems.cs" />
@@ -272,8 +272,8 @@
     <Compile Include="Library\PackageCache\com.unity.timeline@1.7.6\Editor\Utilities\StyleNormalColorOverride.cs" />
     <Compile Include="Library\PackageCache\com.unity.timeline@1.7.6\Editor\inspectors\AnimationPlayableAssetInspector.cs" />
     <Compile Include="Library\PackageCache\com.unity.timeline@1.7.6\Editor\Window\ViewModel\TimelineAssetViewModel.cs" />
-    <Compile Include="Library\PackageCache\com.unity.timeline@1.7.6\Editor\MenuPriority.cs" />
     <Compile Include="Library\PackageCache\com.unity.timeline@1.7.6\Editor\Playables\ControlPlayableInspector.cs" />
+    <Compile Include="Library\PackageCache\com.unity.timeline@1.7.6\Editor\MenuPriority.cs" />
     <Compile Include="Library\PackageCache\com.unity.timeline@1.7.6\Editor\Window\ViewModel\TimelineAssetViewModel_versions.cs" />
     <Compile Include="Library\PackageCache\com.unity.timeline@1.7.6\Editor\treeview\TrackPropertyCurvesDataSource.cs" />
     <Compile Include="Library\PackageCache\com.unity.timeline@1.7.6\Editor\Window\TimelineWindow_PlaybackControls.cs" />
@@ -317,8 +317,8 @@
     <Compile Include="Library\PackageCache\com.unity.timeline@1.7.6\Editor\Animation\AnimationTrackActions.cs" />
     <Compile Include="Library\PackageCache\com.unity.timeline@1.7.6\Editor\Recording\TimelineRecording_PlayableAsset.cs" />
     <Compile Include="Library\PackageCache\com.unity.timeline@1.7.6\Editor\Manipulators\HeaderSplitterManipulator.cs" />
-    <Compile Include="Library\PackageCache\com.unity.timeline@1.7.6\Editor\treeview\Drawers\Layers\ItemsLayer.cs" />
     <Compile Include="Library\PackageCache\com.unity.timeline@1.7.6\Editor\Animation\BindingTreeViewDataSource.cs" />
+    <Compile Include="Library\PackageCache\com.unity.timeline@1.7.6\Editor\treeview\Drawers\Layers\ItemsLayer.cs" />
     <Compile Include="Library\PackageCache\com.unity.timeline@1.7.6\Editor\Window\OverlayDrawer.cs" />
     <Compile Include="Library\PackageCache\com.unity.timeline@1.7.6\Editor\Signals\TreeView\SignalReceiverItem.cs" />
     <Compile Include="Library\PackageCache\com.unity.timeline@1.7.6\Editor\Recording\TimelineRecording_Monobehaviour.cs" />
@@ -328,10 +328,10 @@
     <Compile Include="Library\PackageCache\com.unity.timeline@1.7.6\Editor\Window\TimelineWindow_TimeCursor.cs" />
     <Compile Include="Library\PackageCache\com.unity.timeline@1.7.6\Editor\Items\ItemsUtils.cs" />
     <Compile Include="Library\PackageCache\com.unity.timeline@1.7.6\Editor\inspectors\TimelinePreferences.cs" />
-    <Compile Include="Library\PackageCache\com.unity.timeline@1.7.6\Editor\Actions\IAction.cs" />
     <Compile Include="Library\PackageCache\com.unity.timeline@1.7.6\Editor\treeview\ItemGui\TimelineMarkerGUI.cs" />
     <Compile Include="Library\PackageCache\com.unity.timeline@1.7.6\Editor\Actions\TimelineAction.cs" />
     <Compile Include="Library\PackageCache\com.unity.timeline@1.7.6\Editor\Window\TimelineWindow_TimeArea.cs" />
+    <Compile Include="Library\PackageCache\com.unity.timeline@1.7.6\Editor\Actions\IAction.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Library\PackageCache\com.unity.timeline@1.7.6\Editor\Unity.Timeline.Editor.asmdef" />
@@ -707,7 +707,7 @@
       <Private>False</Private>
     </Reference>
     <Reference Include="StarterAssetsPackageChecker">
-      <HintPath>Assets\AssetStore\StarterAssets\Editor\PackageChecker\StarterAssetsPackageChecker.dll</HintPath>
+      <HintPath>Assets\Banjo Kazooie - Assests\AssetStore\StarterAssets\Editor\PackageChecker\StarterAssetsPackageChecker.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="unityplastic">
@@ -715,7 +715,7 @@
       <Private>False</Private>
     </Reference>
     <Reference Include="SaveIsEasyDLL">
-      <HintPath>Assets\AssetStore\Save is easy\SaveIsEasyDLL.dll</HintPath>
+      <HintPath>Assets\Banjo Kazooie - Assests\AssetStore\Save is easy\SaveIsEasyDLL.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.Plastic.Antlr3.Runtime">
@@ -1265,23 +1265,23 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Unity.Timeline.csproj">
-      <Project>{D8CE18A8-82D1-0D2E-D9EF-591A1F693AFE}</Project>
+      <Project>{70D2DA10-CEC3-4910-4C36-6257DA4AE458}</Project>
       <Name>Unity.Timeline</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEditor.UI.csproj">
-      <Project>{ADE6762A-A0F6-4C36-C7FD-FEEB7B836800}</Project>
+      <Project>{8BF37C3E-3C36-51D7-CC93-0DC534961A95}</Project>
       <Name>UnityEditor.UI</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.UI.csproj">
-      <Project>{3242C895-E806-3637-422A-A5610CFE11BC}</Project>
+      <Project>{7898FC95-51B2-B111-3B4D-7A5E554017B2}</Project>
       <Name>UnityEngine.UI</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.TestRunner.csproj">
-      <Project>{B47301A4-F0FE-694E-0B2A-F0EC295F7A6E}</Project>
+      <Project>{90D04DCF-3F9A-6F52-4E06-73B477592BC3}</Project>
       <Name>UnityEngine.TestRunner</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEditor.TestRunner.csproj">
-      <Project>{74288FE2-C959-A104-8CA8-F83FAD233238}</Project>
+      <Project>{CC782EC6-3296-8EC8-7D4E-3AA4B4B13B72}</Project>
       <Name>UnityEditor.TestRunner</Name>
     </ProjectReference>
   </ItemGroup>

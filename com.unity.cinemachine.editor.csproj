@@ -10,7 +10,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{B30136F3-8940-B785-FE81-7768A6A5B9F3}</ProjectGuid>
+    <ProjectGuid>{332AB53F-F421-00B1-0670-FFF3DBBA82CF}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>com.unity.cinemachine.editor</AssemblyName>
@@ -501,7 +501,7 @@
       <Private>False</Private>
     </Reference>
     <Reference Include="StarterAssetsPackageChecker">
-      <HintPath>Assets\AssetStore\StarterAssets\Editor\PackageChecker\StarterAssetsPackageChecker.dll</HintPath>
+      <HintPath>Assets\Banjo Kazooie - Assests\AssetStore\StarterAssets\Editor\PackageChecker\StarterAssetsPackageChecker.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="unityplastic">
@@ -509,7 +509,7 @@
       <Private>False</Private>
     </Reference>
     <Reference Include="SaveIsEasyDLL">
-      <HintPath>Assets\AssetStore\Save is easy\SaveIsEasyDLL.dll</HintPath>
+      <HintPath>Assets\Banjo Kazooie - Assests\AssetStore\Save is easy\SaveIsEasyDLL.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.Plastic.Antlr3.Runtime">
@@ -1059,35 +1059,35 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Cinemachine.csproj">
-      <Project>{EF9C61E9-272B-1ECE-EDAA-AD4F470DDA32}</Project>
+      <Project>{CD2E21FC-8CE1-EA28-4469-D4E05D2AC32C}</Project>
       <Name>Cinemachine</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Timeline.csproj">
-      <Project>{D8CE18A8-82D1-0D2E-D9EF-591A1F693AFE}</Project>
+      <Project>{70D2DA10-CEC3-4910-4C36-6257DA4AE458}</Project>
       <Name>Unity.Timeline</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Timeline.Editor.csproj">
-      <Project>{1E8213B9-F233-52BF-86ED-A25A7AECBBEB}</Project>
+      <Project>{4DACB784-4E11-831E-8167-8985F81AAB36}</Project>
       <Name>Unity.Timeline.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.InputSystem.csproj">
-      <Project>{65C37447-26E9-EC0C-7627-BAA6F4FAFDB9}</Project>
+      <Project>{DD79C640-B258-BFA1-C304-C3AC939E07B2}</Project>
       <Name>Unity.InputSystem</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEditor.UI.csproj">
-      <Project>{ADE6762A-A0F6-4C36-C7FD-FEEB7B836800}</Project>
+      <Project>{8BF37C3E-3C36-51D7-CC93-0DC534961A95}</Project>
       <Name>UnityEditor.UI</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.UI.csproj">
-      <Project>{3242C895-E806-3637-422A-A5610CFE11BC}</Project>
+      <Project>{7898FC95-51B2-B111-3B4D-7A5E554017B2}</Project>
       <Name>UnityEngine.UI</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.TestRunner.csproj">
-      <Project>{B47301A4-F0FE-694E-0B2A-F0EC295F7A6E}</Project>
+      <Project>{90D04DCF-3F9A-6F52-4E06-73B477592BC3}</Project>
       <Name>UnityEngine.TestRunner</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEditor.TestRunner.csproj">
-      <Project>{74288FE2-C959-A104-8CA8-F83FAD233238}</Project>
+      <Project>{CC782EC6-3296-8EC8-7D4E-3AA4B4B13B72}</Project>
       <Name>UnityEditor.TestRunner</Name>
     </ProjectReference>
   </ItemGroup>

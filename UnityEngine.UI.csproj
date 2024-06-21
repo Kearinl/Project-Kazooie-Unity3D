@@ -10,7 +10,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{3242C895-E806-3637-422A-A5610CFE11BC}</ProjectGuid>
+    <ProjectGuid>{7898FC95-51B2-B111-3B4D-7A5E554017B2}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>UnityEngine.UI</AssemblyName>
@@ -96,8 +96,8 @@
     <Compile Include="Library\PackageCache\com.unity.ugui@1.0.0\Runtime\UI\Core\Layout\ContentSizeFitter.cs" />
     <Compile Include="Library\PackageCache\com.unity.ugui@1.0.0\Runtime\EventSystem\InputModules\TouchInputModule.cs" />
     <Compile Include="Library\PackageCache\com.unity.ugui@1.0.0\Runtime\UI\Core\Text.cs" />
-    <Compile Include="Library\PackageCache\com.unity.ugui@1.0.0\Runtime\EventSystem\Raycasters\BaseRaycaster.cs" />
     <Compile Include="Library\PackageCache\com.unity.ugui@1.0.0\Runtime\UI\Core\StencilMaterial.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ugui@1.0.0\Runtime\EventSystem\Raycasters\BaseRaycaster.cs" />
     <Compile Include="Library\PackageCache\com.unity.ugui@1.0.0\Runtime\UI\Core\AnimationTriggers.cs" />
     <Compile Include="Library\PackageCache\com.unity.ugui@1.0.0\Runtime\EventSystem\EventData\AxisEventData.cs" />
     <Compile Include="Library\PackageCache\com.unity.ugui@1.0.0\Runtime\EventSystem\ExecuteEvents.cs" />
@@ -511,7 +511,7 @@
       <Private>False</Private>
     </Reference>
     <Reference Include="StarterAssetsPackageChecker">
-      <HintPath>Assets\AssetStore\StarterAssets\Editor\PackageChecker\StarterAssetsPackageChecker.dll</HintPath>
+      <HintPath>Assets\Banjo Kazooie - Assests\AssetStore\StarterAssets\Editor\PackageChecker\StarterAssetsPackageChecker.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="unityplastic">
@@ -519,7 +519,7 @@
       <Private>False</Private>
     </Reference>
     <Reference Include="SaveIsEasyDLL">
-      <HintPath>Assets\AssetStore\Save is easy\SaveIsEasyDLL.dll</HintPath>
+      <HintPath>Assets\Banjo Kazooie - Assests\AssetStore\Save is easy\SaveIsEasyDLL.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.Plastic.Antlr3.Runtime">

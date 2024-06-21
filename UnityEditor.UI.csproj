@@ -10,7 +10,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{ADE6762A-A0F6-4C36-C7FD-FEEB7B836800}</ProjectGuid>
+    <ProjectGuid>{8BF37C3E-3C36-51D7-CC93-0DC534961A95}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>UnityEditor.UI</AssemblyName>
@@ -467,7 +467,7 @@
       <Private>False</Private>
     </Reference>
     <Reference Include="StarterAssetsPackageChecker">
-      <HintPath>Assets\AssetStore\StarterAssets\Editor\PackageChecker\StarterAssetsPackageChecker.dll</HintPath>
+      <HintPath>Assets\Banjo Kazooie - Assests\AssetStore\StarterAssets\Editor\PackageChecker\StarterAssetsPackageChecker.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="unityplastic">
@@ -475,7 +475,7 @@
       <Private>False</Private>
     </Reference>
     <Reference Include="SaveIsEasyDLL">
-      <HintPath>Assets\AssetStore\Save is easy\SaveIsEasyDLL.dll</HintPath>
+      <HintPath>Assets\Banjo Kazooie - Assests\AssetStore\Save is easy\SaveIsEasyDLL.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.Plastic.Antlr3.Runtime">
@@ -1025,15 +1025,15 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="UnityEngine.UI.csproj">
-      <Project>{3242C895-E806-3637-422A-A5610CFE11BC}</Project>
+      <Project>{7898FC95-51B2-B111-3B4D-7A5E554017B2}</Project>
       <Name>UnityEngine.UI</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.TestRunner.csproj">
-      <Project>{B47301A4-F0FE-694E-0B2A-F0EC295F7A6E}</Project>
+      <Project>{90D04DCF-3F9A-6F52-4E06-73B477592BC3}</Project>
       <Name>UnityEngine.TestRunner</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEditor.TestRunner.csproj">
-      <Project>{74288FE2-C959-A104-8CA8-F83FAD233238}</Project>
+      <Project>{CC782EC6-3296-8EC8-7D4E-3AA4B4B13B72}</Project>
       <Name>UnityEditor.TestRunner</Name>
     </ProjectReference>
   </ItemGroup>

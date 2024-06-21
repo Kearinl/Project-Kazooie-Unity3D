@@ -10,7 +10,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{EF9C61E9-272B-1ECE-EDAA-AD4F470DDA32}</ProjectGuid>
+    <ProjectGuid>{CD2E21FC-8CE1-EA28-4469-D4E05D2AC32C}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Cinemachine</AssemblyName>
@@ -75,9 +75,9 @@
     <Compile Include="Library\PackageCache\com.unity.cinemachine@2.10.0\Runtime\Behaviours\CinemachineSmoothPath.cs" />
     <Compile Include="Library\PackageCache\com.unity.cinemachine@2.10.0\Runtime\Core\CinemachineBlenderSettings.cs" />
     <Compile Include="Library\PackageCache\com.unity.cinemachine@2.10.0\Runtime\Core\CinemachineVirtualCameraBase.cs" />
+    <Compile Include="Library\PackageCache\com.unity.cinemachine@2.10.0\Runtime\Behaviours\CinemachinePath.cs" />
     <Compile Include="Library\PackageCache\com.unity.cinemachine@2.10.0\Runtime\Components\CinemachineBasicMultiChannelPerlin.cs" />
     <Compile Include="Library\PackageCache\com.unity.cinemachine@2.10.0\Runtime\Timeline\CinemachineShotPlayable.cs" />
-    <Compile Include="Library\PackageCache\com.unity.cinemachine@2.10.0\Runtime\Behaviours\CinemachinePath.cs" />
     <Compile Include="Library\PackageCache\com.unity.cinemachine@2.10.0\Runtime\Impulse\CinemachineImpulseSource.cs" />
     <Compile Include="Library\PackageCache\com.unity.cinemachine@2.10.0\Runtime\PostProcessing\CinemachineVolumeSettings.cs" />
     <Compile Include="Library\PackageCache\com.unity.cinemachine@2.10.0\Runtime\Behaviours\CinemachineExternalCamera.cs" />
@@ -506,7 +506,7 @@
       <Private>False</Private>
     </Reference>
     <Reference Include="StarterAssetsPackageChecker">
-      <HintPath>Assets\AssetStore\StarterAssets\Editor\PackageChecker\StarterAssetsPackageChecker.dll</HintPath>
+      <HintPath>Assets\Banjo Kazooie - Assests\AssetStore\StarterAssets\Editor\PackageChecker\StarterAssetsPackageChecker.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="unityplastic">
@@ -514,7 +514,7 @@
       <Private>False</Private>
     </Reference>
     <Reference Include="SaveIsEasyDLL">
-      <HintPath>Assets\AssetStore\Save is easy\SaveIsEasyDLL.dll</HintPath>
+      <HintPath>Assets\Banjo Kazooie - Assests\AssetStore\Save is easy\SaveIsEasyDLL.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.Plastic.Antlr3.Runtime">
@@ -1048,19 +1048,19 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Unity.Timeline.csproj">
-      <Project>{D8CE18A8-82D1-0D2E-D9EF-591A1F693AFE}</Project>
+      <Project>{70D2DA10-CEC3-4910-4C36-6257DA4AE458}</Project>
       <Name>Unity.Timeline</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.InputSystem.csproj">
-      <Project>{65C37447-26E9-EC0C-7627-BAA6F4FAFDB9}</Project>
+      <Project>{DD79C640-B258-BFA1-C304-C3AC939E07B2}</Project>
       <Name>Unity.InputSystem</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEditor.UI.csproj">
-      <Project>{ADE6762A-A0F6-4C36-C7FD-FEEB7B836800}</Project>
+      <Project>{8BF37C3E-3C36-51D7-CC93-0DC534961A95}</Project>
       <Name>UnityEditor.UI</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.UI.csproj">
-      <Project>{3242C895-E806-3637-422A-A5610CFE11BC}</Project>
+      <Project>{7898FC95-51B2-B111-3B4D-7A5E554017B2}</Project>
       <Name>UnityEngine.UI</Name>
     </ProjectReference>
   </ItemGroup>

@@ -130,8 +130,110 @@
     <Compile Include="Assets\Banjo Kazooie - Assests\AssetStore\NatureStarterKit2\Editor\ImageEffects\ColorCorrectionCurvesEditor.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Library\PackageCache\com.unity.collab-proxy@2.3.1\Lib\Editor\PlasticSCM\Localization\i3.zh-Hans.txt" />
+    <None Include="Library\PackageCache\com.unity.collab-proxy@2.3.1\Lib\Editor\PlasticSCM\Localization\binmergetool.zh-Hant.txt" />
+    <None Include="Library\PackageCache\com.unity.collab-proxy@2.3.1\Lib\Editor\PlasticSCM\Localization\cm-help.ja.txt" />
+    <None Include="Library\PackageCache\com.unity.collab-proxy@2.3.1\Lib\Editor\PlasticSCM\Localization\binmergetool.es.txt" />
+    <None Include="Library\PackageCache\com.unity.collab-proxy@2.3.1\Lib\Editor\PlasticSCM\Localization\plastic-gui.en.txt" />
+    <None Include="Library\PackageCache\com.unity.collab-proxy@2.3.1\Lib\Editor\PlasticSCM\Localization\plastic-gui.zh-Hans.txt" />
+    <None Include="Library\PackageCache\com.unity.collab-proxy@2.3.1\Lib\Editor\PlasticSCM\Localization\binmergetool.ja.txt" />
+    <None Include="Library\PackageCache\com.unity.collab-proxy@2.3.1\Lib\Editor\PlasticSCM\Localization\semantic.zh-Hant.txt" />
+    <None Include="Library\PackageCache\com.unity.collab-proxy@2.3.1\Lib\Editor\PlasticSCM\Localization\configurehelper.zh-Hans.txt" />
+    <None Include="Library\PackageCache\com.unity.collab-proxy@2.3.1\Lib\Editor\PlasticSCM\Localization\xdiff.ko.txt" />
+    <None Include="Library\PackageCache\com.unity.collab-proxy@2.3.1\Lib\Editor\PlasticSCM\Localization\semantic.en.txt" />
+    <None Include="Library\PackageCache\com.unity.collab-proxy@2.3.1\Lib\Editor\PlasticSCM\Localization\commontypes.ko.txt" />
+    <None Include="Library\PackageCache\com.unity.collab-proxy@2.3.1\Lib\Editor\PlasticSCM\Localization\guihelp.es.txt" />
     <None Include="Assets\Banjo Kazooie - Assests\AssetStore\StarterAssets\Editor\PackageChecker\StarterAssetsPackageChecker.dll" />
+    <None Include="Library\PackageCache\com.unity.collab-proxy@2.3.1\Lib\Editor\PlasticSCM\Localization\configurehelper.es.txt" />
+    <None Include="Library\PackageCache\com.unity.collab-proxy@2.3.1\Lib\Editor\PlasticSCM\Localization\images.es.txt" />
+    <None Include="Library\PackageCache\com.unity.collab-proxy@2.3.1\Lib\Editor\PlasticSCM\Localization\clientcommon.ja.txt" />
+    <None Include="Library\PackageCache\com.unity.collab-proxy@2.3.1\Lib\Editor\PlasticSCM\Localization\images.ja.txt" />
+    <None Include="Library\PackageCache\com.unity.collab-proxy@2.3.1\Lib\Editor\PlasticSCM\Localization\semantic.ko.txt" />
+    <None Include="Library\PackageCache\com.unity.collab-proxy@2.3.1\Lib\Editor\PlasticSCM\Localization\clientcommon.zh-Hant.txt" />
+    <None Include="Library\PackageCache\com.unity.collab-proxy@2.3.1\Lib\Editor\PlasticSCM\unityplastic.dll" />
+    <None Include="Library\PackageCache\com.unity.collab-proxy@2.3.1\Lib\Editor\PlasticSCM\Localization\cm-help.zh-Hant.txt" />
+    <None Include="Library\PackageCache\com.unity.collab-proxy@2.3.1\Lib\Editor\PlasticSCM\Localization\basecommands.zh-Hant.txt" />
+    <None Include="Library\PackageCache\com.unity.collab-proxy@2.3.1\Lib\Editor\PlasticSCM\Localization\workspaceserver.zh-Hans.txt" />
+    <None Include="Library\PackageCache\com.unity.collab-proxy@2.3.1\Lib\Editor\PlasticSCM\Localization\guihelp.ja.txt" />
+    <None Include="Library\PackageCache\com.unity.collab-proxy@2.3.1\Lib\Editor\PlasticSCM\Localization\workspaceserver.es.txt" />
+    <None Include="Library\PackageCache\com.unity.collab-proxy@2.3.1\Lib\Editor\PlasticSCM\Unity.Plastic.Antlr3.Runtime.dll" />
+    <None Include="Library\PackageCache\com.unity.collab-proxy@2.3.1\Lib\Editor\PlasticSCM\Localization\basecommands.es.txt" />
+    <None Include="Library\PackageCache\com.unity.collab-proxy@2.3.1\Lib\Editor\PlasticSCM\Localization\basecommands.ja.txt" />
+    <None Include="Library\PackageCache\com.unity.collab-proxy@2.3.1\Lib\Editor\PlasticSCM\Localization\xdiff.zh-Hant.txt" />
+    <None Include="Library\PackageCache\com.unity.collab-proxy@2.3.1\Lib\Editor\PlasticSCM\Localization\xdiff.ja.txt" />
+    <None Include="Library\PackageCache\com.unity.collab-proxy@2.3.1\Lib\Editor\PlasticSCM\Localization\cm.ja.txt" />
+    <None Include="Library\PackageCache\com.unity.collab-proxy@2.3.1\Lib\Editor\PlasticSCM\Localization\cm.es.txt" />
+    <None Include="Library\PackageCache\com.unity.collab-proxy@2.3.1\Lib\Editor\PlasticSCM\Localization\workspaceserver.ja.txt" />
+    <None Include="Library\PackageCache\com.unity.collab-proxy@2.3.1\Lib\Editor\PlasticSCM\Localization\i3.ja.txt" />
+    <None Include="Library\PackageCache\com.unity.collab-proxy@2.3.1\Lib\Editor\PlasticSCM\Localization\mergetool.zh-Hans.txt" />
+    <None Include="Library\PackageCache\com.unity.collab-proxy@2.3.1\Lib\Editor\PlasticSCM\Localization\cm.ko.txt" />
+    <None Include="Library\PackageCache\com.unity.collab-proxy@2.3.1\Lib\Editor\PlasticSCM\Localization\basecommands.en.txt" />
+    <None Include="Library\PackageCache\com.unity.collab-proxy@2.3.1\Lib\Editor\PlasticSCM\Localization\cm-help.zh-Hans.txt" />
+    <None Include="Library\PackageCache\com.unity.collab-proxy@2.3.1\Lib\Editor\PlasticSCM\Unity.Plastic.Newtonsoft.Json.dll" />
+    <None Include="Library\PackageCache\com.unity.collab-proxy@2.3.1\Lib\Editor\PlasticSCM\Localization\clientcommon.es.txt" />
+    <None Include="Library\PackageCache\com.unity.collab-proxy@2.3.1\Lib\Editor\PlasticSCM\Localization\differences.zh-Hant.txt" />
+    <None Include="Library\PackageCache\com.unity.collab-proxy@2.3.1\Lib\Editor\PlasticSCM\Localization\mergetool.en.txt" />
+    <None Include="Library\PackageCache\com.unity.collab-proxy@2.3.1\Lib\Editor\PlasticSCM\Localization\plastic-gui.ko.txt" />
+    <None Include="Library\PackageCache\com.unity.collab-proxy@2.3.1\Lib\Editor\PlasticSCM\log4netPlastic.dll" />
+    <None Include="Library\PackageCache\com.unity.collab-proxy@2.3.1\Lib\Editor\PlasticSCM\Localization\workspaceserver.ko.txt" />
+    <None Include="Library\PackageCache\com.unity.collab-proxy@2.3.1\Lib\Editor\PlasticSCM\Localization\guihelp.en.txt" />
+    <None Include="Library\PackageCache\com.unity.collab-proxy@2.3.1\Lib\Editor\PlasticSCM\Localization\commontypes.en.txt" />
+    <None Include="Library\PackageCache\com.unity.collab-proxy@2.3.1\Lib\Editor\PlasticSCM\lz4x64Plastic.dll" />
+    <None Include="Library\PackageCache\com.unity.collab-proxy@2.3.1\Lib\Editor\PlasticSCM\Localization\images.zh-Hans.txt" />
+    <None Include="Library\PackageCache\com.unity.collab-proxy@2.3.1\Lib\Editor\PlasticSCM\Localization\plastic-gui.es.txt" />
+    <None Include="Library\PackageCache\com.unity.collab-proxy@2.3.1\Lib\Editor\PlasticSCM\Localization\cm-help.en.txt" />
     <None Include="Assets\Editor\SaveIsEasyEditorDLL.dll" />
+    <None Include="Library\PackageCache\com.unity.collab-proxy@2.3.1\Lib\Editor\PlasticSCM\Localization\binmergetool.ko.txt" />
+    <None Include="Library\PackageCache\com.unity.collab-proxy@2.3.1\Lib\Editor\PlasticSCM\Localization\configurehelper.zh-Hant.txt" />
+    <None Include="Library\PackageCache\com.unity.collab-proxy@2.3.1\Lib\Editor\PlasticSCM\Localization\xdiff.en.txt" />
+    <None Include="Library\PackageCache\com.unity.collab-proxy@2.3.1\Lib\Editor\PlasticSCM\Localization\cm-help.es.txt" />
+    <None Include="Library\PackageCache\com.unity.collab-proxy@2.3.1\Lib\Editor\PlasticSCM\FileSystemWatcherLicense.txt" />
+    <None Include="Library\PackageCache\com.unity.collab-proxy@2.3.1\Lib\Editor\PlasticSCM\Localization\xdiff.zh-Hans.txt" />
+    <None Include="Library\PackageCache\com.unity.collab-proxy@2.3.1\Lib\Editor\PlasticSCM\Localization\cm-help.ko.txt" />
+    <None Include="Library\PackageCache\com.unity.collab-proxy@2.3.1\Lib\Editor\PlasticSCM\Localization\differences.ko.txt" />
+    <None Include="Library\PackageCache\com.unity.collab-proxy@2.3.1\Lib\Editor\PlasticSCM\Localization\commontypes.ja.txt" />
+    <None Include="Library\PackageCache\com.unity.collab-proxy@2.3.1\Lib\Editor\PlasticSCM\Localization\binmergetool.zh-Hans.txt" />
+    <None Include="Library\PackageCache\com.unity.collab-proxy@2.3.1\Lib\Editor\PlasticSCM\Localization\i3.en.txt" />
+    <None Include="Library\PackageCache\com.unity.collab-proxy@2.3.1\Lib\Editor\PlasticSCM\Localization\images.zh-Hant.txt" />
+    <None Include="Library\PackageCache\com.unity.collab-proxy@2.3.1\Lib\Editor\PlasticSCM\Localization\mergetool.es.txt" />
+    <None Include="Library\PackageCache\com.unity.collab-proxy@2.3.1\Lib\Editor\PlasticSCM\Localization\i3.zh-Hant.txt" />
+    <None Include="Library\PackageCache\com.unity.collab-proxy@2.3.1\Lib\Editor\PlasticSCM\Localization\commontypes.zh-Hant.txt" />
+    <None Include="Library\PackageCache\com.unity.collab-proxy@2.3.1\Lib\Editor\PlasticSCM\Localization\plastic-gui.ja.txt" />
+    <None Include="Library\PackageCache\com.unity.collab-proxy@2.3.1\Lib\Editor\PlasticSCM\Localization\cm.zh-Hans.txt" />
+    <None Include="Library\PackageCache\com.unity.collab-proxy@2.3.1\Lib\Editor\PlasticSCM\Localization\semantic.zh-Hans.txt" />
+    <None Include="Library\PackageCache\com.unity.collab-proxy@2.3.1\Lib\Editor\PlasticSCM\Localization\images.en.txt" />
+    <None Include="Library\PackageCache\com.unity.collab-proxy@2.3.1\Lib\Editor\PlasticSCM\Localization\mergetool.ko.txt" />
+    <None Include="Library\PackageCache\com.unity.collab-proxy@2.3.1\Lib\Editor\PlasticSCM\Localization\configurehelper.ja.txt" />
+    <None Include="Library\PackageCache\com.unity.collab-proxy@2.3.1\Lib\Editor\PlasticSCM\Localization\cm.zh-Hant.txt" />
+    <None Include="Library\PackageCache\com.unity.collab-proxy@2.3.1\Lib\Editor\PlasticSCM\Localization\basecommands.zh-Hans.txt" />
+    <None Include="Library\PackageCache\com.unity.collab-proxy@2.3.1\Lib\Editor\PlasticSCM\Localization\images.ko.txt" />
+    <None Include="Library\PackageCache\com.unity.collab-proxy@2.3.1\Lib\Editor\PlasticSCM\Localization\guihelp.zh-Hans.txt" />
+    <None Include="Library\PackageCache\com.unity.collab-proxy@2.3.1\Lib\Editor\PlasticSCM\Localization\workspaceserver.zh-Hant.txt" />
+    <None Include="Library\PackageCache\com.unity.collab-proxy@2.3.1\Lib\Editor\PlasticSCM\Localization\clientcommon.zh-Hans.txt" />
+    <None Include="Library\PackageCache\com.unity.collab-proxy@2.3.1\Lib\Editor\PlasticSCM\Localization\configurehelper.en.txt" />
+    <None Include="Library\PackageCache\com.unity.collab-proxy@2.3.1\Lib\Editor\PlasticSCM\Localization\differences.en.txt" />
+    <None Include="Library\PackageCache\com.unity.collab-proxy@2.3.1\Lib\Editor\PlasticSCM\Localization\i3.es.txt" />
+    <None Include="Library\PackageCache\com.unity.collab-proxy@2.3.1\Lib\Editor\PlasticSCM\Localization\commontypes.es.txt" />
+    <None Include="Library\PackageCache\com.unity.collab-proxy@2.3.1\Lib\Editor\PlasticSCM\Localization\commontypes.zh-Hans.txt" />
+    <None Include="Library\PackageCache\com.unity.collab-proxy@2.3.1\Lib\Editor\PlasticSCM\Localization\semantic.ja.txt" />
+    <None Include="Library\PackageCache\com.unity.collab-proxy@2.3.1\Lib\Editor\PlasticSCM\Localization\i3.ko.txt" />
+    <None Include="Library\PackageCache\com.unity.collab-proxy@2.3.1\Lib\Editor\PlasticSCM\Localization\xdiff.es.txt" />
+    <None Include="Library\PackageCache\com.unity.collab-proxy@2.3.1\Lib\Editor\PlasticSCM\Localization\guihelp.zh-Hant.txt" />
+    <None Include="Library\PackageCache\com.unity.collab-proxy@2.3.1\Lib\Editor\PlasticSCM\Localization\mergetool.ja.txt" />
+    <None Include="Library\PackageCache\com.unity.collab-proxy@2.3.1\Lib\Editor\PlasticSCM\Localization\cm.en.txt" />
+    <None Include="Library\PackageCache\com.unity.collab-proxy@2.3.1\Lib\Editor\PlasticSCM\Localization\configurehelper.ko.txt" />
+    <None Include="Library\PackageCache\com.unity.collab-proxy@2.3.1\Lib\Editor\PlasticSCM\Localization\mergetool.zh-Hant.txt" />
+    <None Include="Library\PackageCache\com.unity.collab-proxy@2.3.1\Lib\Editor\PlasticSCM\Localization\guihelp.ko.txt" />
+    <None Include="Library\PackageCache\com.unity.collab-proxy@2.3.1\Lib\Editor\PlasticSCM\Localization\differences.zh-Hans.txt" />
+    <None Include="Library\PackageCache\com.unity.collab-proxy@2.3.1\Lib\Editor\PlasticSCM\Localization\clientcommon.en.txt" />
+    <None Include="Library\PackageCache\com.unity.collab-proxy@2.3.1\Lib\Editor\PlasticSCM\Localization\differences.es.txt" />
+    <None Include="Library\PackageCache\com.unity.collab-proxy@2.3.1\Lib\Editor\PlasticSCM\Localization\basecommands.ko.txt" />
+    <None Include="Library\PackageCache\com.unity.collab-proxy@2.3.1\Lib\Editor\PlasticSCM\Localization\binmergetool.en.txt" />
+    <None Include="Library\PackageCache\com.unity.collab-proxy@2.3.1\Lib\Editor\PlasticSCM\zlib64Plastic.dll" />
+    <None Include="Library\PackageCache\com.unity.collab-proxy@2.3.1\Lib\Editor\PlasticSCM\Localization\workspaceserver.en.txt" />
+    <None Include="Library\PackageCache\com.unity.collab-proxy@2.3.1\Lib\Editor\PlasticSCM\Localization\differences.ja.txt" />
+    <None Include="Library\PackageCache\com.unity.collab-proxy@2.3.1\Lib\Editor\PlasticSCM\Localization\clientcommon.ko.txt" />
+    <None Include="Library\PackageCache\com.unity.collab-proxy@2.3.1\Lib\Editor\PlasticSCM\Localization\plastic-gui.zh-Hant.txt" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
@@ -474,8 +576,28 @@
       <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.26f1\Editor\Data\Managed\UnityEditor.Graphs.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="UnityEditor.WebGL.Extensions">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.26f1\Editor\Data\PlaybackEngines\WebGLSupport\UnityEditor.WebGL.Extensions.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.OSXStandalone.Extensions">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.26f1\Editor\Data\PlaybackEngines\MacStandaloneSupport\UnityEditor.OSXStandalone.Extensions.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.Android.Extensions">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.26f1\Editor\Data\PlaybackEngines\AndroidPlayer\UnityEditor.Android.Extensions.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.iOS.Extensions">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.26f1\Editor\Data\PlaybackEngines\iOSSupport\UnityEditor.iOS.Extensions.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="UnityEditor.WindowsStandalone.Extensions">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.26f1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.LinuxStandalone.Extensions">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.26f1\Editor\Data\PlaybackEngines\LinuxStandaloneSupport\UnityEditor.LinuxStandalone.Extensions.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="StarterAssetsPackageChecker">
@@ -508,6 +630,30 @@
     </Reference>
     <Reference Include="nunit.framework">
       <HintPath>Library\PackageCache\com.unity.ext.nunit@1.0.6\net35\unity-custom\nunit.framework.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.iOS.Extensions.Xcode">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.26f1\Editor\Data\PlaybackEngines\iOSSupport\UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.iOS.Extensions.Common">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.26f1\Editor\Data\PlaybackEngines\iOSSupport\UnityEditor.iOS.Extensions.Common.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Android.Types">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.26f1\Editor\Data\PlaybackEngines\AndroidPlayer\Unity.Android.Types.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Android.Gradle">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.26f1\Editor\Data\PlaybackEngines\AndroidPlayer\Unity.Android.Gradle.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Android.GradleProject">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.26f1\Editor\Data\PlaybackEngines\AndroidPlayer\Unity.Android.GradleProject.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.iOS.Extensions.Xcode">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.26f1\Editor\Data\PlaybackEngines\MacStandaloneSupport\UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="mscorlib">
@@ -1010,91 +1156,91 @@
       <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.26f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Xml.XPath.XDocument.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="UnityEngine.TestRunner">
-      <HintPath>Library\ScriptAssemblies\UnityEngine.TestRunner.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="UnityEditor.TestRunner">
-      <HintPath>Library\ScriptAssemblies\UnityEditor.TestRunner.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Unity.Timeline">
-      <HintPath>Library\ScriptAssemblies\Unity.Timeline.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Unity.InputSystem">
-      <HintPath>Library\ScriptAssemblies\Unity.InputSystem.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Unity.InputSystem.ForUI">
-      <HintPath>Library\ScriptAssemblies\Unity.InputSystem.ForUI.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="com.unity.cinemachine.editor">
-      <HintPath>Library\ScriptAssemblies\com.unity.cinemachine.editor.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Unity.AI.Navigation">
-      <HintPath>Library\ScriptAssemblies\Unity.AI.Navigation.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Unity.PlasticSCM.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Unity.AI.Navigation.Updater">
-      <HintPath>Library\ScriptAssemblies\Unity.AI.Navigation.Updater.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Unity.Timeline.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.Timeline.Editor.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Unity.VisualStudio.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Unity.TextMeshPro">
-      <HintPath>Library\ScriptAssemblies\Unity.TextMeshPro.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="UnityEditor.UI">
-      <HintPath>Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="UnityEngine.UI">
-      <HintPath>Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Unity.AI.Navigation.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.AI.Navigation.Editor.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Unity.Rider.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.Rider.Editor.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Unity.AI.Navigation.Editor.ConversionSystem">
-      <HintPath>Library\ScriptAssemblies\Unity.AI.Navigation.Editor.ConversionSystem.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Unity.VSCode.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.VSCode.Editor.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Cinemachine">
-      <HintPath>Library\ScriptAssemblies\Cinemachine.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp.csproj">
       <Project>{F58DABBA-8BD5-9EE2-31BE-8EA74F94E639}</Project>
       <Name>Assembly-CSharp</Name>
+    </ProjectReference>
+    <ProjectReference Include="UnityEngine.TestRunner.csproj">
+      <Project>{90D04DCF-3F9A-6F52-4E06-73B477592BC3}</Project>
+      <Name>UnityEngine.TestRunner</Name>
+    </ProjectReference>
+    <ProjectReference Include="UnityEditor.TestRunner.csproj">
+      <Project>{CC782EC6-3296-8EC8-7D4E-3AA4B4B13B72}</Project>
+      <Name>UnityEditor.TestRunner</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Timeline.csproj">
+      <Project>{70D2DA10-CEC3-4910-4C36-6257DA4AE458}</Project>
+      <Name>Unity.Timeline</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.InputSystem.csproj">
+      <Project>{DD79C640-B258-BFA1-C304-C3AC939E07B2}</Project>
+      <Name>Unity.InputSystem</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.InputSystem.ForUI.csproj">
+      <Project>{E25D5C35-889D-67B0-576D-528747F7904F}</Project>
+      <Name>Unity.InputSystem.ForUI</Name>
+    </ProjectReference>
+    <ProjectReference Include="com.unity.cinemachine.editor.csproj">
+      <Project>{332AB53F-F421-00B1-0670-FFF3DBBA82CF}</Project>
+      <Name>com.unity.cinemachine.editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.AI.Navigation.csproj">
+      <Project>{1D41FC97-4597-853B-52D8-24EA80384BAB}</Project>
+      <Name>Unity.AI.Navigation</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.PlasticSCM.Editor.csproj">
+      <Project>{7E81BFA9-D73C-97E1-F246-B8210C6A58DF}</Project>
+      <Name>Unity.PlasticSCM.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.AI.Navigation.Updater.csproj">
+      <Project>{3732CA9C-900B-19F0-2FB5-FB0A2D7632EB}</Project>
+      <Name>Unity.AI.Navigation.Updater</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Timeline.Editor.csproj">
+      <Project>{4DACB784-4E11-831E-8167-8985F81AAB36}</Project>
+      <Name>Unity.Timeline.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.VisualStudio.Editor.csproj">
+      <Project>{54F0E9AB-0DCA-B222-688F-CC22400A3329}</Project>
+      <Name>Unity.VisualStudio.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.TextMeshPro.csproj">
+      <Project>{BF5F6F1F-9D54-31C4-1BD9-E7EB0FCC477B}</Project>
+      <Name>Unity.TextMeshPro</Name>
+    </ProjectReference>
+    <ProjectReference Include="UnityEditor.UI.csproj">
+      <Project>{8BF37C3E-3C36-51D7-CC93-0DC534961A95}</Project>
+      <Name>UnityEditor.UI</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.TextMeshPro.Editor.csproj">
+      <Project>{CAE39BC5-D760-BDF8-2150-D643371ADBDE}</Project>
+      <Name>Unity.TextMeshPro.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="UnityEngine.UI.csproj">
+      <Project>{7898FC95-51B2-B111-3B4D-7A5E554017B2}</Project>
+      <Name>UnityEngine.UI</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.AI.Navigation.Editor.csproj">
+      <Project>{B1F6E510-ABA4-A92B-E18E-BC46EDD169FF}</Project>
+      <Name>Unity.AI.Navigation.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Rider.Editor.csproj">
+      <Project>{52182409-264D-825B-C630-4B69FF1E7DA0}</Project>
+      <Name>Unity.Rider.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.AI.Navigation.Editor.ConversionSystem.csproj">
+      <Project>{CDF5C996-F083-4DFF-E4BA-D67B393DB871}</Project>
+      <Name>Unity.AI.Navigation.Editor.ConversionSystem</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.VSCode.Editor.csproj">
+      <Project>{BD35E564-F0B3-E517-B74F-47D95A94C8D5}</Project>
+      <Name>Unity.VSCode.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Cinemachine.csproj">
+      <Project>{CD2E21FC-8CE1-EA28-4469-D4E05D2AC32C}</Project>
+      <Name>Cinemachine</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

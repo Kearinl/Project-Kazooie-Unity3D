@@ -10,7 +10,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{CE0293E4-48B4-6775-21A2-DAEF51BB17A9}</ProjectGuid>
+    <ProjectGuid>{BF5F6F1F-9D54-31C4-1BD9-E7EB0FCC477B}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Unity.TextMeshPro</AssemblyName>
@@ -75,8 +75,8 @@
     <Compile Include="Library\PackageCache\com.unity.textmeshpro@3.0.6\Scripts\Runtime\TMP_ObjectPool.cs" />
     <Compile Include="Library\PackageCache\com.unity.textmeshpro@3.0.6\Scripts\Runtime\TMP_Asset.cs" />
     <Compile Include="Library\PackageCache\com.unity.textmeshpro@3.0.6\Scripts\Runtime\TMP_InputField.cs" />
-    <Compile Include="Library\PackageCache\com.unity.textmeshpro@3.0.6\Scripts\Runtime\TMP_SubMesh.cs" />
     <Compile Include="Library\PackageCache\com.unity.textmeshpro@3.0.6\Scripts\Runtime\ITextPreProcessor.cs" />
+    <Compile Include="Library\PackageCache\com.unity.textmeshpro@3.0.6\Scripts\Runtime\TMP_SubMesh.cs" />
     <Compile Include="Library\PackageCache\com.unity.textmeshpro@3.0.6\Scripts\Runtime\TMP_EditorResourceManager.cs" />
     <Compile Include="Library\PackageCache\com.unity.textmeshpro@3.0.6\Scripts\Runtime\TMP_InputValidator.cs" />
     <Compile Include="Library\PackageCache\com.unity.textmeshpro@3.0.6\Scripts\Runtime\TextMeshProUGUI.cs" />
@@ -485,7 +485,7 @@
       <Private>False</Private>
     </Reference>
     <Reference Include="StarterAssetsPackageChecker">
-      <HintPath>Assets\AssetStore\StarterAssets\Editor\PackageChecker\StarterAssetsPackageChecker.dll</HintPath>
+      <HintPath>Assets\Banjo Kazooie - Assests\AssetStore\StarterAssets\Editor\PackageChecker\StarterAssetsPackageChecker.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="unityplastic">
@@ -493,7 +493,7 @@
       <Private>False</Private>
     </Reference>
     <Reference Include="SaveIsEasyDLL">
-      <HintPath>Assets\AssetStore\Save is easy\SaveIsEasyDLL.dll</HintPath>
+      <HintPath>Assets\Banjo Kazooie - Assests\AssetStore\Save is easy\SaveIsEasyDLL.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.Plastic.Antlr3.Runtime">
@@ -1027,11 +1027,11 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="UnityEditor.UI.csproj">
-      <Project>{ADE6762A-A0F6-4C36-C7FD-FEEB7B836800}</Project>
+      <Project>{8BF37C3E-3C36-51D7-CC93-0DC534961A95}</Project>
       <Name>UnityEditor.UI</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.UI.csproj">
-      <Project>{3242C895-E806-3637-422A-A5610CFE11BC}</Project>
+      <Project>{7898FC95-51B2-B111-3B4D-7A5E554017B2}</Project>
       <Name>UnityEngine.UI</Name>
     </ProjectReference>
   </ItemGroup>
