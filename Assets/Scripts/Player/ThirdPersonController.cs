@@ -13,7 +13,8 @@ namespace StarterAssets
     public class ThirdPersonController : MonoBehaviour
     {
     
-// Add these variables at the top of the class
+    
+
 public AudioClip JumpSound1;
 public AudioClip JumpSound2;
 public float JumpSoundVolume = 0.5f; // Adjust this value to control the volume of the jump sounds
@@ -29,13 +30,13 @@ private int slowDownFallCount = 0;
 private bool isDelayingSlowDown = false;
 private bool canSlowDownFall = true; // Add this flag to control whether SlowDownFall() can be called
 
-        // Add a reference to the "AudioSource" audio component
+        // Reference to the "AudioSource" audio component
         private AudioSource _audioSource;
 
-        // Add a reference to the "MeleeAttack" script component
+        // Reference to the "MeleeAttack" script component
         private MeleeAttack meleeAttack;
 
-        // Add a reference to the "leftMouseButtonDown" input key down.
+        // Reference to the "leftMouseButtonDown" input key down.
         private bool leftMouseButtonDown;
 
 
@@ -97,6 +98,21 @@ public GameObject banjoObject;
         // Timeout deltatime
         private float _jumpTimeoutDelta;
         private float _fallTimeoutDelta;
+    
+        // Water States   
+        public bool isFloatingOnWater = false;
+        public bool isUnderwater = false;
+        public float floatingGravity = -2f;
+        public float underwaterGravity = -1f;
+        public float maxAirTime = 30.0f;
+        private float currentAirTime;
+        public float floatingSpeed = 2.0f; // Speed while floating on water
+        private PlayerHealth _playerHealth; // Reference to PlayerHealth script
+        
+        // UI Images representing air meter
+        public GameObject[] airImages;
+        public GameObject airUIContainer; // Parent container for air UI images
+        public GameObject airUIContainer2; // Parent container for air UI images
 
         // Animation IDs
         private int _animIDSpeed;
@@ -140,30 +156,43 @@ public GameObject banjoObject;
         }
 
         private void Start()
-        {
-            
-            // Get the "MeleeAttack" component attached to the player GameObject
+{
+    // Get the "MeleeAttack" component attached to the player GameObject
     meleeAttack = GetComponent<MeleeAttack>();
-            
-            _hasAnimator = TryGetComponent(out _animator);
-            
-             // Get the AudioSource component attached to this GameObject
+
+    // Check if Animator component is available
+    _hasAnimator = TryGetComponent(out _animator);
+    
+    // Water States
+    _playerHealth = GetComponent<PlayerHealth>(); // Get the PlayerHealth component
+    currentAirTime = maxAirTime; // Initialize air time
+    airUIContainer.SetActive(false); // Hide air UI on start
+    airUIContainer2.SetActive(false); // Hide air UI on start
+
+    // Get the AudioSource component attached to this GameObject
     _audioSource = GetComponent<AudioSource>();
-            
-            _controller = GetComponent<CharacterController>();
-            _input = GetComponent<StarterAssetsInputs>();
+
+    // Get the CharacterController component attached to this GameObject
+    _controller = GetComponent<CharacterController>();
+
+    // Get the StarterAssetsInputs component attached to this GameObject
+    _input = GetComponent<StarterAssetsInputs>();
+
+    // Conditional check for PlayerInput component
 #if ENABLE_INPUT_SYSTEM && STARTER_ASSETS_PACKAGES_CHECKED
-            _playerInput = GetComponent<PlayerInput>();
+    _playerInput = GetComponent<PlayerInput>();
 #else
-			Debug.LogError( "Starter Assets package is missing dependencies. Please use Tools/Starter Assets/Reinstall Dependencies to fix it");
+    // Log an error if Starter Assets dependencies are missing
+    Debug.LogError("Starter Assets package is missing dependencies. Please use Tools/Starter Assets/Reinstall Dependencies to fix it");
 #endif
 
-            AssignAnimationIDs();
+    // Call a method to assign Animation IDs
+    AssignAnimationIDs();
 
-            // Reset our timeouts on start
-            _jumpTimeoutDelta = JumpTimeout;
-            _fallTimeoutDelta = FallTimeout;
-        }
+    // Reset our timeouts on start
+    _jumpTimeoutDelta = JumpTimeout;
+    _fallTimeoutDelta = FallTimeout;
+}
 
         private void Update()
         {
@@ -172,6 +201,24 @@ public GameObject banjoObject;
             JumpAndGravity();
             GroundedCheck();
             Move();
+            
+     if (isFloatingOnWater)
+        {
+            FloatingOnWater();
+        }
+        else if (isUnderwater)
+        {
+            Underwater();
+        }
+
+        if (isFloatingOnWater && Input.GetButton("Fire2"))
+{
+    isFloatingOnWater = false;
+    isUnderwater = true;
+    _animator.SetBool("isUnderwater", true);
+    currentAirTime = maxAirTime;
+    UpdateAirUI();
+}
             
 
     // Call PerformAttack when left mouse button is pressed
@@ -204,28 +251,115 @@ public GameObject banjoObject;
             _animIDMotionSpeed = Animator.StringToHash("MotionSpeed");
         }
 
-       private void GroundedCheck()
-{
-    // Set sphere position, with offset
-    Vector3 spherePosition = new Vector3(transform.position.x, transform.position.y - GroundedOffset, transform.position.z);
-    Grounded = Physics.CheckSphere(spherePosition, GroundedRadius, GroundLayers, QueryTriggerInteraction.Ignore);
+        private void GroundedCheck()
+        {
+            // Check if the player is underwater or floating on water
+            if (isUnderwater || isFloatingOnWater)
+            {
+                Grounded = false;
+            }
+            else
+            {
+                // Set sphere position, with offset
+                Vector3 spherePosition = new Vector3(transform.position.x, transform.position.y - GroundedOffset, transform.position.z);
+                Grounded = Physics.CheckSphere(spherePosition, GroundedRadius, GroundLayers, QueryTriggerInteraction.Ignore);
 
-    // Check if the player is also colliding with the default layer
-    if (Physics.CheckSphere(spherePosition, GroundedRadius, LayerMask.GetMask("Default"), QueryTriggerInteraction.Ignore))
+                // Check if the player is also colliding with the default layer
+                if (Physics.CheckSphere(spherePosition, GroundedRadius, LayerMask.GetMask("Default"), QueryTriggerInteraction.Ignore))
+                {
+                    Grounded = true;
+                }
+            }
+
+            // Update animator if using character
+            if (_hasAnimator)
+            {
+                _animator.SetBool(_animIDGrounded, Grounded);
+            }
+        }
+
+
+        private void FloatingOnWater()
     {
-        Grounded = true;
+        // Apply floating gravity
+        if (_verticalVelocity < 0.0f)
+        {
+            _verticalVelocity = floatingGravity;
+        }
+
+        // Floating movement logic
+        Vector3 moveDirection = new Vector3(_input.move.x, 0.0f, _input.move.y).normalized;
+        moveDirection = transform.TransformDirection(moveDirection) * floatingSpeed; // Apply movement speed
+
+        // Apply movement
+        _controller.Move(moveDirection * Time.deltaTime);
+
+        // Update animator
+        if (_hasAnimator)
+        {
+            _animator.SetBool("isFloatingOnWater", true);
+        }
     }
 
-    // Update animator if using character
+    private void Underwater()
+{
+    // Apply underwater gravity
+    _verticalVelocity += underwaterGravity * Time.deltaTime;
+
+    // Underwater movement logic
+    float verticalInput = 0.0f;
+
+    // Check for Q (up) and R (down) input
+if (Input.GetKey(KeyCode.Q))
+{
+    verticalInput = 1.0f * Time.deltaTime; // Move up over time
+}
+else if (Input.GetKey(KeyCode.R))
+{
+    verticalInput = -1.0f * Time.deltaTime; // Move down over time
+}
+else
+{
+    verticalInput = 0.0f; // No vertical movement if neither Q nor R is pressed
+}
+
+    Vector3 moveDirection = new Vector3(_input.move.x, 0.0f, _input.move.y);
+    moveDirection = transform.TransformDirection(moveDirection).normalized;
+
+    // Modify moveDirection to include vertical movement
+    moveDirection += new Vector3(0.0f, verticalInput, 0.0f);
+
+    // Apply movement
+    _controller.Move(moveDirection * Time.deltaTime);
+
+    // Air depletion
+    currentAirTime -= Time.deltaTime;
+    UpdateAirUI();
+
+    // Show air UI when underwater
+    airUIContainer.SetActive(true);
+    airUIContainer2.SetActive(true);
+    UpdateAirUI();
+
+    if (currentAirTime <= 0)
+    {
+        // Handle out of air scenario
+        if (_playerHealth != null)
+        {
+            _playerHealth.TakeDamage(_playerHealth.maxHealth); // Take damage equal to max health
+        }
+    }
+
+    // Update animator
     if (_hasAnimator)
     {
-        _animator.SetBool(_animIDGrounded, Grounded);
+        _animator.SetBool("isUnderwater", true);
     }
 }
-        
+
     
 
-       private void Move()
+      private void Move()
 {
     // Set target speed based on move speed, sprint speed and if sprint is pressed
     float targetSpeed = _input.sprint ? SprintSpeed : MoveSpeed;
@@ -339,34 +473,108 @@ public GameObject banjoObject;
     }
 }
 
-        private void JumpAndGravity()
-        {
-            if (Grounded)
-            {
-             slowDownFallCount = 1;
-                _animator.SetBool("SlowFall", false);
 
-                // Find the GameObject by name if it's not already assigned in the Inspector
-                if (banjoObject == null)
+
+private void OnTriggerEnter(Collider other)
     {
-        Transform playerArmature = GameObject.Find("Banjo")?.transform;
-        if (playerArmature != null)
+        if (other.CompareTag("Water"))
         {
-            Transform banjo1 = playerArmature.Find("Banjo_1")?.transform;
-            if (banjo1 != null)
-            {
-                banjoObject = banjo1.Find("Banjo.mo.001")?.gameObject;
-            }
+        // Ensure player cannot jump when not grounded
+                _input.jump = false;
+            isFloatingOnWater = true;
+            _animator.SetBool("isFloatingOnWater", true);
+            currentAirTime = maxAirTime; // Reset air time when entering water
+            airUIContainer.SetActive(false); // Hide air UI when floating
+            airUIContainer2.SetActive(false); // Hide air UI when floating
+            UpdateAirUI();
         }
     }
 
-   // Check if the GameObject is found, then enable it
-   if (banjoObject != null)
+    private void OnTriggerExit(Collider other)
+    {
+        if (other.CompareTag("Water"))
+        {
+        
+        // Ensure player cannot jump when not grounded
+                _input.jump = true;
+            isFloatingOnWater = false;
+            _animator.SetBool("isFloatingOnWater", false);
+            isUnderwater = false; // Reset underwater state if exiting water
+            _animator.SetBool("isUnderwater", false);
+            currentAirTime = maxAirTime; // Reset air time when exiting water
+            airUIContainer.SetActive(false); // Hide air UI when exiting water
+            airUIContainer2.SetActive(false); // Hide air UI when exiting water
+            UpdateAirUI();
+        }
+    }
+
+    private void UpdateAirUI()
 {
-    banjoObject.SetActive(false);
+    // Calculate the percentage of air remaining
+    float airPercentage = currentAirTime / maxAirTime;
+
+    // Determine the number of active pairs of air images based on the air percentage
+    int totalPairs = airImages.Length / 2; // Each level has 2 images
+    int activePairs = Mathf.CeilToInt(airPercentage * totalPairs);
+
+    // Activate or deactivate air images based on the current air percentage
+    for (int i = 0; i < airImages.Length; i++)
+    {
+        // Determine which pair this image belongs to
+        int pairIndex = i / 2;
+
+        if (pairIndex < activePairs)
+        {
+            airImages[i].SetActive(true);
+        }
+        else
+        {
+            airImages[i].SetActive(false);
+        }
+    }
 }
+
+
+        private void JumpAndGravity()
+        {
+            // Check if the player is grounded
+            if (Grounded)
+            {
+                // Reset variables related to jumping and falling
+                slowDownFallCount = 1;
+                _animator.SetBool("SlowFall", false);
+
+                // Handle gravity if not floating on water or underwater
+                if (!isFloatingOnWater && !isUnderwater)
+                {
+                    if (_verticalVelocity < _terminalVelocity)
+                    {
+                        _verticalVelocity += Gravity * Time.deltaTime;
+                    }
+                }
+
+                // Find and disable the Banjo object if it exists
+                if (banjoObject == null)
+                {
+                    Transform playerArmature = GameObject.Find("Banjo")?.transform;
+                    if (playerArmature != null)
+                    {
+                        Transform banjo1 = playerArmature.Find("Banjo_1")?.transform;
+                        if (banjo1 != null)
+                        {
+                            banjoObject = banjo1.Find("Banjo.mo.001")?.gameObject;
+                        }
+                    }
+                }
+
+                if (banjoObject != null)
+                {
+                    banjoObject.SetActive(false);
+                }
+
                 // Reset the fall timeout timer
                 _fallTimeoutDelta = FallTimeout;
+
                 // Update animator if using character
                 if (_hasAnimator)
                 {
@@ -374,35 +582,33 @@ public GameObject banjoObject;
                     _animator.SetBool(_animIDFreeFall, false);
                 }
 
-                // Stop our velocity dropping infinitely when grounded
+                // Stop vertical velocity from increasing infinitely when grounded
                 if (_verticalVelocity < 0.0f)
                 {
                     _verticalVelocity = -2f;
                 }
-                
 
-                // Jump
+                // Handle jumping
                 if (_input.jump && _jumpTimeoutDelta <= 0.0f)
                 {
-                    // the square root of H * -2 * G = how much velocity needed to reach desired height
+                    // Calculate vertical velocity needed for jump height
                     _verticalVelocity = Mathf.Sqrt(JumpHeight * -2f * Gravity);
-                    
-            // Play the jump sound alternatively with adjusted volume
-            if (Time.time - timeSinceLastJumpSound >= 0.2f) // Adjust the time interval as needed
-            {
-                // Play the jump sound alternatively with adjusted volume
-                if (playJumpSound1)
-                {
-                    AudioSource.PlayClipAtPoint(JumpSound1, transform.TransformPoint(_controller.center), JumpSoundVolume);
-                }
-                else
-                {
-                    AudioSource.PlayClipAtPoint(JumpSound2, transform.TransformPoint(_controller.center), JumpSoundVolume);
-                }
 
-                playJumpSound1 = !playJumpSound1; // Toggle the boolean to switch to the other sound
-                timeSinceLastJumpSound = Time.time; // Update the time since the last jump sound
-            }
+                    // Play jump sound alternately with adjusted volume
+                    if (Time.time - timeSinceLastJumpSound >= 0.2f) // Adjust the time interval as needed
+                    {
+                        if (playJumpSound1)
+                        {
+                            AudioSource.PlayClipAtPoint(JumpSound1, transform.TransformPoint(_controller.center), JumpSoundVolume);
+                        }
+                        else
+                        {
+                            AudioSource.PlayClipAtPoint(JumpSound2, transform.TransformPoint(_controller.center), JumpSoundVolume);
+                        }
+
+                        playJumpSound1 = !playJumpSound1; // Toggle for next jump sound
+                        timeSinceLastJumpSound = Time.time; // Update last jump sound time
+                    }
 
                     // Update animator if using character
                     if (_hasAnimator)
@@ -411,51 +617,44 @@ public GameObject banjoObject;
                     }
                 }
 
-                // Jump timeout
+                // Decrease jump timeout timer
                 if (_jumpTimeoutDelta >= 0.0f)
                 {
                     _jumpTimeoutDelta -= Time.deltaTime;
                 }
             }
-            else
+            else // Player is not grounded
             {
-                // Reset the jump timeout timer
+                // Reset jump timeout timer
                 _jumpTimeoutDelta = JumpTimeout;
-                
 
-                // Fall timeout
+                // Decrease fall timeout timer
                 if (_fallTimeoutDelta >= 0.0f)
                 {
                     _fallTimeoutDelta -= Time.deltaTime;
                 }
                 else
                 {
-                
-                // Freefall moment
-                    // Update animator if using character
+                    // Handle freefall moment animation if using character animator
                     if (_hasAnimator)
                     {
-                    // Update the Animator
-                    // Use your FreeFall animation called here
+                        // Call your freefall animation update here
                     }
                 }
 
-                // If we are not grounded, do not jump
-               _input.jump = false;
-                
+                // Ensure player cannot jump when not grounded
+                _input.jump = false;
             }
 
-            // Apply gravity over time if under terminal (multiply by delta time twice to linearly speed up over time)
+            // Apply gravity over time
             if (_verticalVelocity < _terminalVelocity)
             {
                 _verticalVelocity += Gravity * Time.deltaTime;
             }
-            
-        
-        
-    }
-    
-public void SlowDownFall()
+        }
+
+
+        public void SlowDownFall()
 {
     if (!_controller.isGrounded && _verticalVelocity < 0.0f && canSlowDownFall)
     {
