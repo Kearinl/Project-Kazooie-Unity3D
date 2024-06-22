@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2022.3/staging' branch; Version is '2022.3.26f1 (ec6cd8118806) revision 15494360'; Using compiler version '192829333'; Build Type 'Release'
-OS: 'Windows 10  (10.0.19045) 64bit Core' Language: 'en' Physical Memory: 8050 MB
+OS: 'Windows 11  (10.0.22631) 64bit Core' Language: 'en' Physical Memory: 16298 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
@@ -11,13 +11,13 @@ C:\Program Files\Unity\Hub\Editor\2022.3.26f1\Editor\Unity.exe
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/keari/Desktop/GitHub/Project-Kazooie-Unity3D
+C:/Users/axelm/Project-Kazooie-Unity3D
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-62201
-Successfully changed project path to: C:/Users/keari/Desktop/GitHub/Project-Kazooie-Unity3D
-C:/Users/keari/Desktop/GitHub/Project-Kazooie-Unity3D
+17559
+Successfully changed project path to: C:/Users/axelm/Project-Kazooie-Unity3D
+C:/Users/axelm/Project-Kazooie-Unity3D
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -49,80 +49,67 @@ C:/Users/keari/Desktop/GitHub/Project-Kazooie-Unity3D
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [14540] Host "[IP] 172.17.16.1 [Port] 0 [Flags] 2 [Guid] 3649197298 [EditorId] 3649197298 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-U1EETV7) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [11204] Host "[IP] 38.23.165.47 [Port] 0 [Flags] 2 [Guid] 1101940582 [EditorId] 1101940582 [Version] 1048832 [Id] WindowsEditor(7,CatFarts) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [14540] Host "[IP] 172.17.16.1 [Port] 0 [Flags] 2 [Guid] 3649197298 [EditorId] 3649197298 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-U1EETV7) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [11204] Host "[IP] 38.23.165.47 [Port] 0 [Flags] 2 [Guid] 1101940582 [EditorId] 1101940582 [Version] 1048832 [Id] WindowsEditor(7,CatFarts) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-[Physics::Module] Initialized MultithreadedJobDispatcher with 7 workers.
-Refreshing native plugins compatible for Editor in 88.82 ms, found 2 plugins.
+[Physics::Module] Initialized MultithreadedJobDispatcher with 5 workers.
+Refreshing native plugins compatible for Editor in 1402.17 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.26f1 (ec6cd8118806)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.26f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/keari/Desktop/GitHub/Project-Kazooie-Unity3D/Assets
+[Subsystems] Discovering subsystems at path C:/Users/axelm/Project-Kazooie-Unity3D/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: Intel(R) UHD Graphics 620 (ID=0x5917)
-    Vendor:   Intel
-    VRAM:     4025 MB
-    Driver:   30.0.101.1338
+    Renderer: NVIDIA GeForce GTX 1060 6GB (ID=0x1c03)
+    Vendor:   NVIDIA
+    VRAM:     6031 MB
+    Driver:   32.0.15.5599
 Shader 'Custom/AdditiveTintable': fallback shader 'Particles/Additive (Soft)' not found
 Shader 'Enviro/Lite/SkyboxSimple': fallback shader 'None' not found
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.26f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.26f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.26f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56000
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56448
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.26f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.26f1/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.26f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.26f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.26f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.26f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
-Registered in 0.059066 seconds.
-- Loaded All Assemblies, in  1.129 seconds
-Native extension for LinuxStandalone target not found
+Registered in 0.010227 seconds.
+- Loaded All Assemblies, in  0.484 seconds
 Native extension for WindowsStandalone target not found
-[usbmuxd] Start listen thread
-[usbmuxd] Listen thread started
-Native extension for iOS target not found
-Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 855 ms
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.832 seconds
-Domain Reload Profiling: 2958ms
-	BeginReloadAssembly (401ms)
+- Finished resetting the current domain, in  0.318 seconds
+Domain Reload Profiling: 799ms
+	BeginReloadAssembly (185ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (2ms)
-	RebuildCommonClasses (76ms)
-	RebuildNativeTypeToScriptingClass (21ms)
-	initialDomainReloadingComplete (179ms)
-	LoadAllAssembliesAndSetupDomain (448ms)
-		LoadAssemblies (399ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (43ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (70ms)
+	LoadAllAssembliesAndSetupDomain (171ms)
+		LoadAssemblies (181ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (438ms)
-			TypeCache.Refresh (435ms)
-				TypeCache.ScanAssembly (396ms)
-			ScanForSourceGeneratedMonoScriptInfo (1ms)
-			ResolveRequiredComponents (2ms)
-	FinalizeReload (1834ms)
+		AnalyzeDomain (169ms)
+			TypeCache.Refresh (167ms)
+				TypeCache.ScanAssembly (151ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (318ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1678ms)
+		SetupLoadedEditorAssemblies (252ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (1262ms)
-			SetLoadedEditorAssemblies (14ms)
+			InitializePlatformSupportModulesInManaged (10ms)
+			SetLoadedEditorAssemblies (8ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (4ms)
-			ProcessInitializeOnLoadAttributes (282ms)
-			ProcessInitializeOnLoadMethodAttributes (115ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (172ms)
+			ProcessInitializeOnLoadMethodAttributes (59ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -130,68 +117,64 @@ Domain Reload Profiling: 2958ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  1.967 seconds
-Refreshing native plugins compatible for Editor in 145.38 ms, found 2 plugins.
-Native extension for LinuxStandalone target not found
+- Loaded All Assemblies, in  4.011 seconds
+Refreshing native plugins compatible for Editor in 28.53 ms, found 2 plugins.
 Native extension for WindowsStandalone target not found
-Native extension for iOS target not found
-Native extension for Android target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
 Package Manager log level set to [2]
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  2.499 seconds
-Domain Reload Profiling: 4459ms
-	BeginReloadAssembly (347ms)
+- Finished resetting the current domain, in  0.816 seconds
+Domain Reload Profiling: 4823ms
+	BeginReloadAssembly (167ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (12ms)
+		DisableScriptedObjects (6ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (51ms)
-	RebuildCommonClasses (72ms)
-	RebuildNativeTypeToScriptingClass (23ms)
-	initialDomainReloadingComplete (94ms)
-	LoadAllAssembliesAndSetupDomain (1423ms)
-		LoadAssemblies (1250ms)
+		CreateAndSetChildDomain (23ms)
+	RebuildCommonClasses (37ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (49ms)
+	LoadAllAssembliesAndSetupDomain (3741ms)
+		LoadAssemblies (3713ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (373ms)
-			TypeCache.Refresh (317ms)
-				TypeCache.ScanAssembly (266ms)
-			ScanForSourceGeneratedMonoScriptInfo (29ms)
-			ResolveRequiredComponents (24ms)
-	FinalizeReload (2500ms)
+		AnalyzeDomain (126ms)
+			TypeCache.Refresh (105ms)
+				TypeCache.ScanAssembly (91ms)
+			ScanForSourceGeneratedMonoScriptInfo (12ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (817ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (2007ms)
+		SetupLoadedEditorAssemblies (633ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (178ms)
-			SetLoadedEditorAssemblies (10ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (4ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (178ms)
-			ProcessInitializeOnLoadAttributes (941ms)
-			ProcessInitializeOnLoadMethodAttributes (683ms)
-			AfterProcessingInitializeOnLoad (17ms)
+			BeforeProcessingInitializeOnLoad (62ms)
+			ProcessInitializeOnLoadAttributes (430ms)
+			ProcessInitializeOnLoadMethodAttributes (116ms)
+			AfterProcessingInitializeOnLoad (12ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (13ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
 Shader 'Enviro/Lite/SkyboxSimple': fallback shader 'None' not found
 Shader 'Custom/AdditiveTintable': fallback shader 'Particles/Additive (Soft)' not found
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.17 seconds
-Refreshing native plugins compatible for Editor in 49.02 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 28.25 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2642 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 146 unused Assets / (1.2 MB). Loaded Objects now: 3038.
-Memory consumption went from 317.0 MB to 315.8 MB.
-Total: 7.570900 ms (FindLiveObjects: 0.418800 ms CreateObjectMapping: 0.334600 ms MarkObjects: 5.876100 ms  DeleteObjects: 0.939500 ms)
+Unloading 2641 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 146 unused Assets / (1.2 MB). Loaded Objects now: 3021.
+Memory consumption went from 236.4 MB to 235.2 MB.
+Total: 3.595800 ms (FindLiveObjects: 0.315700 ms CreateObjectMapping: 0.251900 ms MarkObjects: 2.453500 ms  DeleteObjects: 0.573200 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
@@ -202,448 +185,64 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 104571.486700 seconds.
-  path: Assets/Banjo Kazooie - Assests/AssetStore/StarterAssets/ThirdPersonController/Character/Animations/StarterAssetsThirdPerson.controller
-  artifactKey: Guid(40db3173a05ae3242b1c182a09b0a183) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Banjo Kazooie - Assests/AssetStore/StarterAssets/ThirdPersonController/Character/Animations/StarterAssetsThirdPerson.controller using Guid(40db3173a05ae3242b1c182a09b0a183) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9a50686be67bf9e58fad27a941b736b') in 0.121265 seconds
+  Time since last request: 1287212.493251 seconds.
+  path: Assets/Scenes
+  artifactKey: Guid(6ea315d0fd7389c41b19996891e99ae3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(6ea315d0fd7389c41b19996891e99ae3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0179f928fb5ca2370affa6dcd41a3079') in 0.003181 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 74
-========================================================================
-Received Import Request.
-  Time since last request: 258.258525 seconds.
-  path: Assets/Banjo Kazooie - Assests/Rips/BanjoRMX/Model/Perso/Playable/Banjo/Banjo_2023.fbx
-  artifactKey: Guid(5478acfff90556148875dd67d42a8a6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Banjo Kazooie - Assests/Rips/BanjoRMX/Model/Perso/Playable/Banjo/Banjo_2023.fbx using Guid(5478acfff90556148875dd67d42a8a6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '924fe956d8449c4496718a70ccc61eb8') in 0.496718 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 528
-========================================================================
-Received Import Request.
-  Time since last request: 1.769050 seconds.
-  path: Assets/Banjo Kazooie - Assests/Rips/BanjoRMX/Model/Perso/Playable/Banjo/Banjo_Body.mat
-  artifactKey: Guid(dbded1d4da18a8f4c974b7dd6f889188) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Banjo Kazooie - Assests/Rips/BanjoRMX/Model/Perso/Playable/Banjo/Banjo_Body.mat using Guid(dbded1d4da18a8f4c974b7dd6f889188) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba64d1eb4d94389f54897e1d742d1f60') in 0.091227 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000053 seconds.
-  path: Assets/Banjo Kazooie - Assests/Rips/BanjoRMX/Model/Perso/Playable/Banjo/Banjo_eye_L.mat
-  artifactKey: Guid(f62a51e29efda204d9e327e5a3942a4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Banjo Kazooie - Assests/Rips/BanjoRMX/Model/Perso/Playable/Banjo/Banjo_eye_L.mat using Guid(f62a51e29efda204d9e327e5a3942a4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '561bc49bcd7da8a3d5be53a098fe21e6') in 0.022243 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000064 seconds.
-  path: Assets/Banjo Kazooie - Assests/Rips/BanjoRMX/Model/Perso/Playable/Banjo/Kazooie_Body.mat
-  artifactKey: Guid(e3fef5949ad3f2046843298680229db6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Banjo Kazooie - Assests/Rips/BanjoRMX/Model/Perso/Playable/Banjo/Kazooie_Body.mat using Guid(e3fef5949ad3f2046843298680229db6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f4e2f197003544aaf2d775a9977ff6c') in 0.017352 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000101 seconds.
-  path: Assets/Banjo Kazooie - Assests/Rips/BanjoRMX/Model/Perso/Playable/Banjo/Kazooie_Body_2.mat
-  artifactKey: Guid(c8cbb20b35f30524190bea7a28d8d0f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Banjo Kazooie - Assests/Rips/BanjoRMX/Model/Perso/Playable/Banjo/Kazooie_Body_2.mat using Guid(c8cbb20b35f30524190bea7a28d8d0f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aeba62071433f8f1c7b61387fd52994f') in 0.019959 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/Banjo Kazooie - Assests/Rips/BanjoRMX/Model/Perso/Playable/Banjo/Banjo_Body_alpha.mat
-  artifactKey: Guid(01ce4d595c23ad240b3c7fb6df3b46e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Banjo Kazooie - Assests/Rips/BanjoRMX/Model/Perso/Playable/Banjo/Banjo_Body_alpha.mat using Guid(01ce4d595c23ad240b3c7fb6df3b46e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f25f83c1c40fb14890b6069ca3d1636') in 0.019258 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000041 seconds.
-  path: Assets/Banjo Kazooie - Assests/Rips/BanjoRMX/Model/Perso/Playable/Banjo/Banjo_eye_R.mat
-  artifactKey: Guid(ff4e41cee62604240aae2e50a49efcf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Banjo Kazooie - Assests/Rips/BanjoRMX/Model/Perso/Playable/Banjo/Banjo_eye_R.mat using Guid(ff4e41cee62604240aae2e50a49efcf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d50368b936efebf96fa75f3cc45afa6') in 0.023540 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000040 seconds.
-  path: Assets/Banjo Kazooie - Assests/Rips/BanjoRMX/Model/Perso/Playable/Banjo/Kazooie_eye 1.mat
-  artifactKey: Guid(72a4a6f01e4693c429086f70727c541d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Banjo Kazooie - Assests/Rips/BanjoRMX/Model/Perso/Playable/Banjo/Kazooie_eye 1.mat using Guid(72a4a6f01e4693c429086f70727c541d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47fd81468e8016deccd12073483e94d0') in 0.022320 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000065 seconds.
-  path: Assets/Banjo Kazooie - Assests/Rips/BanjoRMX/Model/Perso/Playable/Banjo/Kazooie_Eye.mat
-  artifactKey: Guid(21d66a90e3ced6c488713bc5f6b839ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Banjo Kazooie - Assests/Rips/BanjoRMX/Model/Perso/Playable/Banjo/Kazooie_Eye.mat using Guid(21d66a90e3ced6c488713bc5f6b839ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bee1b32eea85d324741bf18fb9d076d') in 0.018258 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Prepare
-Shader 'Enviro/Lite/SkyboxSimple': fallback shader 'None' not found
-Shader 'Custom/AdditiveTintable': fallback shader 'Particles/Additive (Soft)' not found
-Refreshing native plugins compatible for Editor in 116.35 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.01 ms.
-Unloading 10 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 11 unused Assets / (1.1 MB). Loaded Objects now: 3083.
-Memory consumption went from 230.5 MB to 229.3 MB.
-Total: 84.129400 ms (FindLiveObjects: 1.055700 ms CreateObjectMapping: 0.348600 ms MarkObjects: 81.612300 ms  DeleteObjects: 1.110700 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+Number of asset objects unloaded after import = 0
 ========================================================================
 Received Prepare
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  3.073 seconds
-Refreshing native plugins compatible for Editor in 63.03 ms, found 2 plugins.
-Native extension for LinuxStandalone target not found
+- Loaded All Assemblies, in  0.507 seconds
+Refreshing native plugins compatible for Editor in 28.69 ms, found 2 plugins.
 Native extension for WindowsStandalone target not found
-Native extension for iOS target not found
-Native extension for Android target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  3.068 seconds
-Domain Reload Profiling: 6131ms
-	BeginReloadAssembly (1381ms)
+- Finished resetting the current domain, in  0.976 seconds
+Domain Reload Profiling: 1479ms
+	BeginReloadAssembly (191ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (65ms)
+		DisableScriptedObjects (6ms)
 		BackupInstance (0ms)
-		ReleaseScriptingObjects (2ms)
-		CreateAndSetChildDomain (554ms)
-	RebuildCommonClasses (136ms)
-	RebuildNativeTypeToScriptingClass (33ms)
-	initialDomainReloadingComplete (116ms)
-	LoadAllAssembliesAndSetupDomain (1398ms)
-		LoadAssemblies (1722ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (34ms)
+	RebuildCommonClasses (37ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (35ms)
+	LoadAllAssembliesAndSetupDomain (226ms)
+		LoadAssemblies (310ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (122ms)
-			TypeCache.Refresh (62ms)
-				TypeCache.ScanAssembly (15ms)
-			ScanForSourceGeneratedMonoScriptInfo (37ms)
-			ResolveRequiredComponents (21ms)
-	FinalizeReload (3069ms)
+		AnalyzeDomain (15ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (977ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1282ms)
+		SetupLoadedEditorAssemblies (561ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (164ms)
-			SetLoadedEditorAssemblies (7ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (3ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (147ms)
-			ProcessInitializeOnLoadAttributes (762ms)
-			ProcessInitializeOnLoadMethodAttributes (179ms)
-			AfterProcessingInitializeOnLoad (23ms)
+			BeforeProcessingInitializeOnLoad (58ms)
+			ProcessInitializeOnLoadAttributes (391ms)
+			ProcessInitializeOnLoadMethodAttributes (90ms)
+			AfterProcessingInitializeOnLoad (11ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (20ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
 Shader 'Enviro/Lite/SkyboxSimple': fallback shader 'None' not found
 Shader 'Custom/AdditiveTintable': fallback shader 'Particles/Additive (Soft)' not found
-Refreshing native plugins compatible for Editor in 49.23 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2433 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 122 unused Assets / (1.2 MB). Loaded Objects now: 3097.
-Memory consumption went from 263.1 MB to 261.9 MB.
-Total: 13.795400 ms (FindLiveObjects: 0.492700 ms CreateObjectMapping: 0.322000 ms MarkObjects: 11.719000 ms  DeleteObjects: 1.258700 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-========================================================================
-Received Import Request.
-  Time since last request: 1223.478494 seconds.
-  path: Assets/Banjo Kazooie - Assests/AssetStore/StarterAssets/ThirdPersonController/Character/Animations/StarterAssetsThirdPerson.controller
-  artifactKey: Guid(40db3173a05ae3242b1c182a09b0a183) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Banjo Kazooie - Assests/AssetStore/StarterAssets/ThirdPersonController/Character/Animations/StarterAssetsThirdPerson.controller using Guid(40db3173a05ae3242b1c182a09b0a183) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af57bb8e0fb675867b2e9a430fc5e3b3') in 0.221618 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 85
-========================================================================
-Received Import Request.
-  Time since last request: 490.675735 seconds.
-  path: Assets/Banjo Kazooie - Assests/Rips/BanjoRMX/Model/Perso/Playable/Banjo/Banjo_2023.fbx
-  artifactKey: Guid(5478acfff90556148875dd67d42a8a6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Banjo Kazooie - Assests/Rips/BanjoRMX/Model/Perso/Playable/Banjo/Banjo_2023.fbx using Guid(5478acfff90556148875dd67d42a8a6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fec62da4256447ebc85630b3c9816893') in 0.471225 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 528
-========================================================================
-Received Import Request.
-  Time since last request: 34.734488 seconds.
-  path: Assets/Banjo Kazooie - Assests/Rips/BanjoRMX/Model/Perso/Playable/Banjo/Banjo_2023.fbx
-  artifactKey: Guid(5478acfff90556148875dd67d42a8a6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Banjo Kazooie - Assests/Rips/BanjoRMX/Model/Perso/Playable/Banjo/Banjo_2023.fbx using Guid(5478acfff90556148875dd67d42a8a6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f462a4da4d6ac4b93a7cb8c4c0395c31') in 0.207748 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 528
-========================================================================
-Received Import Request.
-  Time since last request: 27.606649 seconds.
-  path: Assets/Banjo Kazooie - Assests/Rips/BanjoRMX/Model/Perso/Playable/Banjo/Banjo_2023.fbx
-  artifactKey: Guid(5478acfff90556148875dd67d42a8a6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Banjo Kazooie - Assests/Rips/BanjoRMX/Model/Perso/Playable/Banjo/Banjo_2023.fbx using Guid(5478acfff90556148875dd67d42a8a6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc8cf0b190a0fffd3b2d37cdbdf2b1ee') in 0.243939 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 528
-========================================================================
-Received Import Request.
-  Time since last request: 25.227209 seconds.
-  path: Assets/Banjo Kazooie - Assests/Rips/BanjoRMX/Model/Perso/Playable/Banjo/Banjo_2023.fbx
-  artifactKey: Guid(5478acfff90556148875dd67d42a8a6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Banjo Kazooie - Assests/Rips/BanjoRMX/Model/Perso/Playable/Banjo/Banjo_2023.fbx using Guid(5478acfff90556148875dd67d42a8a6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ef8be4c82e78b47e063536c5502c126') in 0.233465 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 528
-========================================================================
-Received Import Request.
-  Time since last request: 39.074183 seconds.
-  path: Assets/Banjo Kazooie - Assests/Rips/BanjoRMX/Model/Perso/Playable/Banjo/Banjo_2023.fbx
-  artifactKey: Guid(5478acfff90556148875dd67d42a8a6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Banjo Kazooie - Assests/Rips/BanjoRMX/Model/Perso/Playable/Banjo/Banjo_2023.fbx using Guid(5478acfff90556148875dd67d42a8a6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6b001c0fe0e6e62d9e2201e80575bc0') in 0.206991 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 528
-========================================================================
-Received Import Request.
-  Time since last request: 100.059208 seconds.
-  path: Assets/Banjo Kazooie - Assests/AssetStore/StarterAssets/ThirdPersonController/Character/Animations/StarterAssetsThirdPerson.controller
-  artifactKey: Guid(40db3173a05ae3242b1c182a09b0a183) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Banjo Kazooie - Assests/AssetStore/StarterAssets/ThirdPersonController/Character/Animations/StarterAssetsThirdPerson.controller using Guid(40db3173a05ae3242b1c182a09b0a183) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71ed469811ac3b6698c07884220ecb84') in 0.082828 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 86
-========================================================================
-Received Prepare
-Shader 'Enviro/Lite/SkyboxSimple': fallback shader 'None' not found
-Shader 'Custom/AdditiveTintable': fallback shader 'Particles/Additive (Soft)' not found
-Refreshing native plugins compatible for Editor in 95.04 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.02 ms.
-Unloading 10 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 11 unused Assets / (1.1 MB). Loaded Objects now: 3098.
-Memory consumption went from 230.8 MB to 229.7 MB.
-Total: 123.153700 ms (FindLiveObjects: 1.556600 ms CreateObjectMapping: 0.592900 ms MarkObjects: 119.049900 ms  DeleteObjects: 1.949600 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-========================================================================
-Received Import Request.
-  Time since last request: 113.583745 seconds.
-  path: Assets/Banjo Kazooie - Assests/Rips/BanjoRMX/Model/Perso/Playable
-  artifactKey: Guid(6ab4d45dcf1fa66489893b271a7797e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Banjo Kazooie - Assests/Rips/BanjoRMX/Model/Perso/Playable using Guid(6ab4d45dcf1fa66489893b271a7797e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8813f3809ec8224666fd450d9e36a5f4') in 0.045956 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 7.313834 seconds.
-  path: Assets/Banjo Kazooie - Assests/Rips/BanjoRMX/Model/Perso
-  artifactKey: Guid(e5b2738c22e82de478eb25c187a6d12e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Banjo Kazooie - Assests/Rips/BanjoRMX/Model/Perso using Guid(e5b2738c22e82de478eb25c187a6d12e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae66ba0daeed1d793dc56b96643f7686') in 0.001896 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 3.946644 seconds.
-  path: Assets/Banjo Kazooie - Assests/Rips/BanjoRMX/Model/Perso/Grublin
-  artifactKey: Guid(2b2d5801b7e83fb4ab0afd3cbef5bcb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Banjo Kazooie - Assests/Rips/BanjoRMX/Model/Perso/Grublin using Guid(2b2d5801b7e83fb4ab0afd3cbef5bcb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42f0cff9df53d3af4670ea3683e95d81') in 0.002731 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 3.227599 seconds.
-  path: Assets/Banjo Kazooie - Assests/Rips/BanjoRMX/Model/Perso/Playable/TermiteBanjo
-  artifactKey: Guid(c33d7561a41dfee49b3bed3daea94d0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Banjo Kazooie - Assests/Rips/BanjoRMX/Model/Perso/Playable/TermiteBanjo using Guid(c33d7561a41dfee49b3bed3daea94d0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37398c66864b621bfe4a634e739d8f3a') in 0.002164 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.425670 seconds.
-  path: Assets/Banjo Kazooie - Assests/Rips/BanjoRMX/Model/Perso/Playable/Banjo
-  artifactKey: Guid(02d725a7b9507c54497499501ec77475) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Banjo Kazooie - Assests/Rips/BanjoRMX/Model/Perso/Playable/Banjo using Guid(02d725a7b9507c54497499501ec77475) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce475842b7ec63ed5797cfff86eefa55') in 0.002356 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 1.655303 seconds.
-  path: Assets/Banjo Kazooie - Assests/Rips/BanjoRMX/Model/Perso/Playable/Banjo/banjo.props.txt
-  artifactKey: Guid(be94e58c4b220cb449419f54f9c918ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Banjo Kazooie - Assests/Rips/BanjoRMX/Model/Perso/Playable/Banjo/banjo.props.txt using Guid(be94e58c4b220cb449419f54f9c918ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d0f2f101cdc54f52f86894ca6d37a82') in 0.020102 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 4.233871 seconds.
-  path: Assets/Banjo Kazooie - Assests/Rips/BanjoRMX/Model/Perso/Playable/Banjo/banjo.psk
-  artifactKey: Guid(be282ce182db8414bacc73d8ea029aee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Banjo Kazooie - Assests/Rips/BanjoRMX/Model/Perso/Playable/Banjo/banjo.psk using Guid(be282ce182db8414bacc73d8ea029aee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ffe2273e8ebe7ad8c2104b3cd747dcc') in 0.016294 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 14.061791 seconds.
-  path: Assets/Banjo Kazooie - Assests/Rips/BanjoRMX/Model/Perso/Playable/Banjo/Banjo_2023.rar
-  artifactKey: Guid(fc1e61884ff5d1446866a33de61a642e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Banjo Kazooie - Assests/Rips/BanjoRMX/Model/Perso/Playable/Banjo/Banjo_2023.rar using Guid(fc1e61884ff5d1446866a33de61a642e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88bd6083e49b930ab41edd3417290be3') in 0.005109 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 42.783857 seconds.
-  path: Assets/Playable/TermiteBanjo/TermiteBanjo_SM.psk
-  artifactKey: Guid(f69c6ef65b1167d49897025980adeb7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Playable/TermiteBanjo/TermiteBanjo_SM.psk using Guid(f69c6ef65b1167d49897025980adeb7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '470d2875a1f27090b9a2486e6ef94de8') in 0.003546 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 2.856428 seconds.
-  path: Assets/Playable/TermiteBanjo/TermiteBanjo.tga
-  artifactKey: Guid(0c440c83d5b67a543994316ed97426de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Playable/TermiteBanjo/TermiteBanjo.tga using Guid(0c440c83d5b67a543994316ed97426de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a516d061344d0a2c64cbde0a61e3692') in 0.384984 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 3.013414 seconds.
-  path: Assets/Playable/TermiteBanjo/TermiteBanjo_mat.props.txt
-  artifactKey: Guid(8e9e0704b8a04ab47a232df42b391fd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Playable/TermiteBanjo/TermiteBanjo_mat.props.txt using Guid(8e9e0704b8a04ab47a232df42b391fd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '452ff3e7451069d44c2251be2cceaf37') in 0.003349 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 5.635274 seconds.
-  path: Assets/Playable/TermiteBanjo/TermiteBanjo_SM.props.txt
-  artifactKey: Guid(b2c31ffc263522b4ab25f8987bb706dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Playable/TermiteBanjo/TermiteBanjo_SM.props.txt using Guid(b2c31ffc263522b4ab25f8987bb706dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f8388e49f43efdc47aef83bbee3d331') in 0.002913 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Prepare
-Shader 'Enviro/Lite/SkyboxSimple': fallback shader 'None' not found
-Shader 'Custom/AdditiveTintable': fallback shader 'Particles/Additive (Soft)' not found
-Refreshing native plugins compatible for Editor in 46.64 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.01 ms.
-Unloading 10 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 11 unused Assets / (1.1 MB). Loaded Objects now: 3100.
-Memory consumption went from 230.9 MB to 229.8 MB.
-Total: 80.477100 ms (FindLiveObjects: 2.467900 ms CreateObjectMapping: 0.439700 ms MarkObjects: 76.385700 ms  DeleteObjects: 1.178100 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-========================================================================
-Received Import Request.
-  Time since last request: 1869.345650 seconds.
-  path: Assets/Banjo Kazooie - Assests/AssetStore/HeneGames/Dialogue System/Characters/200px-KazooieTooie1.png
-  artifactKey: Guid(7fbd4ec3580626c4ebad521c3ed41467) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Banjo Kazooie - Assests/AssetStore/HeneGames/Dialogue System/Characters/200px-KazooieTooie1.png using Guid(7fbd4ec3580626c4ebad521c3ed41467) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81260f0b73faa6f6f9750139a7d76b13') in 1.651550 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  6.257 seconds
-Refreshing native plugins compatible for Editor in 103.74 ms, found 2 plugins.
-Native extension for LinuxStandalone target not found
-Native extension for WindowsStandalone target not found
-Native extension for iOS target not found
-Native extension for Android target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  3.867 seconds
-Domain Reload Profiling: 10135ms
-	BeginReloadAssembly (2522ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (197ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (8ms)
-		CreateAndSetChildDomain (714ms)
-	RebuildCommonClasses (171ms)
-	RebuildNativeTypeToScriptingClass (38ms)
-	initialDomainReloadingComplete (159ms)
-	LoadAllAssembliesAndSetupDomain (3377ms)
-		LoadAssemblies (3850ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (334ms)
-			TypeCache.Refresh (179ms)
-				TypeCache.ScanAssembly (26ms)
-			ScanForSourceGeneratedMonoScriptInfo (112ms)
-			ResolveRequiredComponents (41ms)
-	FinalizeReload (3868ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1872ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (141ms)
-			SetLoadedEditorAssemblies (10ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (133ms)
-			ProcessInitializeOnLoadAttributes (869ms)
-			ProcessInitializeOnLoadMethodAttributes (698ms)
-			AfterProcessingInitializeOnLoad (21ms)
-			EditorAssembliesLoaded (1ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (19ms)
-Shader 'Enviro/Lite/SkyboxSimple': fallback shader 'None' not found
-Shader 'Custom/AdditiveTintable': fallback shader 'Particles/Additive (Soft)' not found
-Refreshing native plugins compatible for Editor in 64.49 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 27.61 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2432 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 122 unused Assets / (1.2 MB). Loaded Objects now: 3116.
-Memory consumption went from 263.0 MB to 261.8 MB.
-Total: 25.663600 ms (FindLiveObjects: 0.747300 ms CreateObjectMapping: 0.512400 ms MarkObjects: 22.789400 ms  DeleteObjects: 1.611400 ms)
+Unloading 122 unused Assets / (1.2 MB). Loaded Objects now: 3036.
+Memory consumption went from 180.9 MB to 179.7 MB.
+Total: 3.125000 ms (FindLiveObjects: 0.230900 ms CreateObjectMapping: 0.180400 ms MarkObjects: 2.209200 ms  DeleteObjects: 0.503500 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
@@ -651,6 +250,7 @@ AssetImportParameters requested are different than current active one (requested
   custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
@@ -661,325 +261,89 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 763.426075 seconds.
-  path: Assets/Editor
-  artifactKey: Guid(45edd15aa844cd4409243c7f65b3d172) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Editor using Guid(45edd15aa844cd4409243c7f65b3d172) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0af00adf1a3521b538ffea11748334ec') in 0.042598 seconds
+  Time since last request: 343.292709 seconds.
+  path: Assets/Banjo Kazooie - Assests/AssetStore/EazyCamera/Art/Animation/TargetIconAnimController.controller
+  artifactKey: Guid(e8399fba2add5e447811130a024ca4ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Banjo Kazooie - Assests/AssetStore/EazyCamera/Art/Animation/TargetIconAnimController.controller using Guid(e8399fba2add5e447811130a024ca4ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ccae024ff24d2aee6bb1e4048e45433') in 0.034268 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 1.974185 seconds.
+  path: Assets/Scripts/Map/SpirialMountainTriggerController.cs
+  artifactKey: Guid(a9c57ee65780a424496b460680647432) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Map/SpirialMountainTriggerController.cs using Guid(a9c57ee65780a424496b460680647432) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40ae37c0daa369f04d63d376760d924a') in 0.000623 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
 ========================================================================
-Received Prepare
-Shader 'Enviro/Lite/SkyboxSimple': fallback shader 'None' not found
-Shader 'Custom/AdditiveTintable': fallback shader 'Particles/Additive (Soft)' not found
-Refreshing native plugins compatible for Editor in 61.98 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 10 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 11 unused Assets / (1.1 MB). Loaded Objects now: 3116.
-Memory consumption went from 230.5 MB to 229.4 MB.
-Total: 17.369500 ms (FindLiveObjects: 3.322600 ms CreateObjectMapping: 0.384900 ms MarkObjects: 11.132900 ms  DeleteObjects: 2.526100 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+Received Import Request.
+  Time since last request: 0.470086 seconds.
+  path: Assets/Banjo Kazooie - Assests/AssetStore/EazyCamera/Prefabs/PlayerControllerDefault.prefab
+  artifactKey: Guid(d267a5bb64344004aadcc37d5126eac7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Banjo Kazooie - Assests/AssetStore/EazyCamera/Prefabs/PlayerControllerDefault.prefab using Guid(d267a5bb64344004aadcc37d5126eac7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e07c0b16853f0d77fb5f61b4a57df18a') in 0.310885 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
 ========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  4.383 seconds
-Refreshing native plugins compatible for Editor in 51.78 ms, found 2 plugins.
-Native extension for LinuxStandalone target not found
-Native extension for WindowsStandalone target not found
-Native extension for iOS target not found
-Native extension for Android target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  4.810 seconds
-Domain Reload Profiling: 9207ms
-	BeginReloadAssembly (1454ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (58ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (2ms)
-		CreateAndSetChildDomain (576ms)
-	RebuildCommonClasses (192ms)
-	RebuildNativeTypeToScriptingClass (62ms)
-	initialDomainReloadingComplete (210ms)
-	LoadAllAssembliesAndSetupDomain (2477ms)
-		LoadAssemblies (2817ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (246ms)
-			TypeCache.Refresh (141ms)
-				TypeCache.ScanAssembly (23ms)
-			ScanForSourceGeneratedMonoScriptInfo (61ms)
-			ResolveRequiredComponents (41ms)
-	FinalizeReload (4811ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (2675ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (187ms)
-			SetLoadedEditorAssemblies (135ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (467ms)
-			ProcessInitializeOnLoadAttributes (1550ms)
-			ProcessInitializeOnLoadMethodAttributes (290ms)
-			AfterProcessingInitializeOnLoad (45ms)
-			EditorAssembliesLoaded (2ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (32ms)
-Shader 'Enviro/Lite/SkyboxSimple': fallback shader 'None' not found
-Shader 'Custom/AdditiveTintable': fallback shader 'Particles/Additive (Soft)' not found
-Refreshing native plugins compatible for Editor in 77.86 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2433 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 122 unused Assets / (1.2 MB). Loaded Objects now: 3131.
-Memory consumption went from 263.3 MB to 262.1 MB.
-Total: 25.280500 ms (FindLiveObjects: 1.706400 ms CreateObjectMapping: 0.683100 ms MarkObjects: 21.071600 ms  DeleteObjects: 1.815700 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+Received Import Request.
+  Time since last request: 0.916638 seconds.
+  path: Assets/Banjo Kazooie - Assests/AssetStore/HeneGames/Dialogue System/Animators/Player Controller.controller
+  artifactKey: Guid(11cd4b84c572e4747a1277cb99813331) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Banjo Kazooie - Assests/AssetStore/HeneGames/Dialogue System/Animators/Player Controller.controller using Guid(11cd4b84c572e4747a1277cb99813331) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6605886e5b86c9440ae6b72a34f18788') in 0.002473 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
 ========================================================================
-Received Prepare
-Shader 'Enviro/Lite/SkyboxSimple': fallback shader 'None' not found
-Shader 'Custom/AdditiveTintable': fallback shader 'Particles/Additive (Soft)' not found
-Refreshing native plugins compatible for Editor in 48.18 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 11 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 11 unused Assets / (1.1 MB). Loaded Objects now: 3131.
-Memory consumption went from 231.0 MB to 229.8 MB.
-Total: 8.347700 ms (FindLiveObjects: 0.922100 ms CreateObjectMapping: 0.352500 ms MarkObjects: 6.265300 ms  DeleteObjects: 0.805800 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+Received Import Request.
+  Time since last request: 2.616098 seconds.
+  path: Assets/Banjo Kazooie - Assests/AssetStore/StarterAssets/ThirdPersonController
+  artifactKey: Guid(54b90d7f60b179e4e9909cd127aa060d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Banjo Kazooie - Assests/AssetStore/StarterAssets/ThirdPersonController using Guid(54b90d7f60b179e4e9909cd127aa060d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7da8963e629873d6ee1ad562deb1546b') in 0.000603 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
 ========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in 27.079 seconds
-Refreshing native plugins compatible for Editor in 72.81 ms, found 2 plugins.
-Native extension for LinuxStandalone target not found
-Native extension for WindowsStandalone target not found
-Native extension for iOS target not found
-Native extension for Android target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in 13.448 seconds
-Domain Reload Profiling: 40559ms
-	BeginReloadAssembly (3289ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (127ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (9ms)
-		CreateAndSetChildDomain (948ms)
-	RebuildCommonClasses (100ms)
-	RebuildNativeTypeToScriptingClass (28ms)
-	initialDomainReloadingComplete (104ms)
-	LoadAllAssembliesAndSetupDomain (23588ms)
-		LoadAssemblies (24997ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (433ms)
-			TypeCache.Refresh (170ms)
-				TypeCache.ScanAssembly (34ms)
-			ScanForSourceGeneratedMonoScriptInfo (219ms)
-			ResolveRequiredComponents (42ms)
-	FinalizeReload (13451ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (4184ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (773ms)
-			SetLoadedEditorAssemblies (79ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (591ms)
-			ProcessInitializeOnLoadAttributes (2216ms)
-			ProcessInitializeOnLoadMethodAttributes (497ms)
-			AfterProcessingInitializeOnLoad (27ms)
-			EditorAssembliesLoaded (1ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (25ms)
-Shader 'Enviro/Lite/SkyboxSimple': fallback shader 'None' not found
-Shader 'Custom/AdditiveTintable': fallback shader 'Particles/Additive (Soft)' not found
-Refreshing native plugins compatible for Editor in 75.76 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2433 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 122 unused Assets / (1.2 MB). Loaded Objects now: 3146.
-Memory consumption went from 263.3 MB to 262.1 MB.
-Total: 106.621400 ms (FindLiveObjects: 0.516600 ms CreateObjectMapping: 0.536400 ms MarkObjects: 103.755300 ms  DeleteObjects: 1.809300 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+Received Import Request.
+  Time since last request: 2.057538 seconds.
+  path: Assets/Banjo Kazooie - Assests/AssetStore/StarterAssets/ThirdPersonController/Scenes
+  artifactKey: Guid(89e5f9b6a0fcdae4e8ccb4b461925e8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Banjo Kazooie - Assests/AssetStore/StarterAssets/ThirdPersonController/Scenes using Guid(89e5f9b6a0fcdae4e8ccb4b461925e8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9090cbc3c49ff236a03408152613553d') in 0.000599 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
 ========================================================================
-Received Prepare
-Shader 'Enviro/Lite/SkyboxSimple': fallback shader 'None' not found
-Shader 'Custom/AdditiveTintable': fallback shader 'Particles/Additive (Soft)' not found
-Refreshing native plugins compatible for Editor in 51.02 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 11 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 11 unused Assets / (1.1 MB). Loaded Objects now: 3146.
-Memory consumption went from 231.0 MB to 229.8 MB.
-Total: 9.818000 ms (FindLiveObjects: 0.489200 ms CreateObjectMapping: 0.366700 ms MarkObjects: 7.972600 ms  DeleteObjects: 0.987300 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+Received Import Request.
+  Time since last request: 0.791416 seconds.
+  path: Assets/Banjo Kazooie - Assests/AssetStore/StarterAssets/ThirdPersonController/BanjoKazooie
+  artifactKey: Guid(89c50ca524019ed4eaf058bfb0348794) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Banjo Kazooie - Assests/AssetStore/StarterAssets/ThirdPersonController/BanjoKazooie using Guid(89c50ca524019ed4eaf058bfb0348794) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4553a85a6ab35e259d70dd8f2653e5a') in 0.000593 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
 ========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  5.808 seconds
-Refreshing native plugins compatible for Editor in 45.31 ms, found 2 plugins.
-Native extension for LinuxStandalone target not found
-Native extension for WindowsStandalone target not found
-Native extension for iOS target not found
-Native extension for Android target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  3.976 seconds
-Domain Reload Profiling: 9813ms
-	BeginReloadAssembly (2002ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (185ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (6ms)
-		CreateAndSetChildDomain (870ms)
-	RebuildCommonClasses (165ms)
-	RebuildNativeTypeToScriptingClass (40ms)
-	initialDomainReloadingComplete (109ms)
-	LoadAllAssembliesAndSetupDomain (3519ms)
-		LoadAssemblies (3778ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (282ms)
-			TypeCache.Refresh (188ms)
-				TypeCache.ScanAssembly (32ms)
-			ScanForSourceGeneratedMonoScriptInfo (58ms)
-			ResolveRequiredComponents (34ms)
-	FinalizeReload (3977ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1433ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (146ms)
-			SetLoadedEditorAssemblies (9ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (138ms)
-			ProcessInitializeOnLoadAttributes (880ms)
-			ProcessInitializeOnLoadMethodAttributes (229ms)
-			AfterProcessingInitializeOnLoad (28ms)
-			EditorAssembliesLoaded (3ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (22ms)
-Shader 'Enviro/Lite/SkyboxSimple': fallback shader 'None' not found
-Shader 'Custom/AdditiveTintable': fallback shader 'Particles/Additive (Soft)' not found
-Refreshing native plugins compatible for Editor in 95.96 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2433 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 122 unused Assets / (1.2 MB). Loaded Objects now: 3161.
-Memory consumption went from 263.2 MB to 262.0 MB.
-Total: 16.261200 ms (FindLiveObjects: 0.484800 ms CreateObjectMapping: 0.389200 ms MarkObjects: 14.213200 ms  DeleteObjects: 1.171500 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+Received Import Request.
+  Time since last request: 3.253265 seconds.
+  path: Assets/Banjo Kazooie - Assests/AssetStore/StarterAssets/ThirdPersonController/BanjoKazooie/Banjo_1.fbx
+  artifactKey: Guid(ef18866fac33a1b46b4ca98ec802cb0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Banjo Kazooie - Assests/AssetStore/StarterAssets/ThirdPersonController/BanjoKazooie/Banjo_1.fbx using Guid(ef18866fac33a1b46b4ca98ec802cb0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca6a872f793ed4528e4441d428bb5d95') in 0.199252 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 521
 ========================================================================
-Received Prepare
-Shader 'Enviro/Lite/SkyboxSimple': fallback shader 'None' not found
-Shader 'Custom/AdditiveTintable': fallback shader 'Particles/Additive (Soft)' not found
-Refreshing native plugins compatible for Editor in 163.69 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 11 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 11 unused Assets / (1.1 MB). Loaded Objects now: 3161.
-Memory consumption went from 230.9 MB to 229.8 MB.
-Total: 574.816900 ms (FindLiveObjects: 10.008400 ms CreateObjectMapping: 0.925500 ms MarkObjects: 559.842000 ms  DeleteObjects: 4.029400 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+Received Import Request.
+  Time since last request: 12.757261 seconds.
+  path: Assets/Scenes/Level1.unity
+  artifactKey: Guid(013545788459929499110e03a30e4cda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Level1.unity using Guid(013545788459929499110e03a30e4cda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '239571fc2f96392ac155d3f2702da10f') in 0.000822 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 70.691938 seconds.
+  path: Assets/Scenes/MainMenu.unity
+  artifactKey: Guid(18c399e342a02014a9943509858b8254) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainMenu.unity using Guid(18c399e342a02014a9943509858b8254) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d92c051e96cd6379b6e580383be385c') in 0.000682 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 104.833948 seconds.
+  path: Assets/Animators/StarterAssetsThirdPerson.controller
+  artifactKey: Guid(40db3173a05ae3242b1c182a09b0a183) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animators/StarterAssetsThirdPerson.controller using Guid(40db3173a05ae3242b1c182a09b0a183) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c076d8a501a3fe7eb452aff896eb6da') in 0.053142 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 87
