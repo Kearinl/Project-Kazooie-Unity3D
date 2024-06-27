@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2022.3/staging' branch; Version is '2022.3.26f1 (ec6cd8118806) revision 15494360'; Using compiler version '192829333'; Build Type 'Release'
-OS: 'Windows 11  (10.0.22631) 64bit Core' Language: 'en' Physical Memory: 16298 MB
+OS: 'Windows 10  (10.0.19045) 64bit Core' Language: 'en' Physical Memory: 8050 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
@@ -11,13 +11,13 @@ C:\Program Files\Unity\Hub\Editor\2022.3.26f1\Editor\Unity.exe
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/axelm/Project-Kazooie-Unity3D
+C:/Users/keari/Desktop/GitHub/Project-Kazooie-Unity3D
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-17559
-Successfully changed project path to: C:/Users/axelm/Project-Kazooie-Unity3D
-C:/Users/axelm/Project-Kazooie-Unity3D
+51889
+Successfully changed project path to: C:/Users/keari/Desktop/GitHub/Project-Kazooie-Unity3D
+C:/Users/keari/Desktop/GitHub/Project-Kazooie-Unity3D
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -49,67 +49,80 @@ C:/Users/axelm/Project-Kazooie-Unity3D
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [11204] Host "[IP] 38.23.165.47 [Port] 0 [Flags] 2 [Guid] 1101940582 [EditorId] 1101940582 [Version] 1048832 [Id] WindowsEditor(7,CatFarts) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [18696] Host "[IP] 172.17.16.1 [Port] 0 [Flags] 2 [Guid] 2759882352 [EditorId] 2759882352 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-U1EETV7) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [11204] Host "[IP] 38.23.165.47 [Port] 0 [Flags] 2 [Guid] 1101940582 [EditorId] 1101940582 [Version] 1048832 [Id] WindowsEditor(7,CatFarts) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [18696] Host "[IP] 172.17.16.1 [Port] 0 [Flags] 2 [Guid] 2759882352 [EditorId] 2759882352 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-U1EETV7) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-[Physics::Module] Initialized MultithreadedJobDispatcher with 5 workers.
-Refreshing native plugins compatible for Editor in 1402.17 ms, found 2 plugins.
+[Physics::Module] Initialized MultithreadedJobDispatcher with 7 workers.
+Refreshing native plugins compatible for Editor in 260.24 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.26f1 (ec6cd8118806)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.26f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/axelm/Project-Kazooie-Unity3D/Assets
+[Subsystems] Discovering subsystems at path C:/Users/keari/Desktop/GitHub/Project-Kazooie-Unity3D/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce GTX 1060 6GB (ID=0x1c03)
-    Vendor:   NVIDIA
-    VRAM:     6031 MB
-    Driver:   32.0.15.5599
+    Renderer: Intel(R) UHD Graphics 620 (ID=0x5917)
+    Vendor:   Intel
+    VRAM:     4025 MB
+    Driver:   30.0.101.1338
 Shader 'Custom/AdditiveTintable': fallback shader 'Particles/Additive (Soft)' not found
 Shader 'Enviro/Lite/SkyboxSimple': fallback shader 'None' not found
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.26f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.26f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.26f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56448
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56024
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.26f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.26f1/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.26f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.26f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.26f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.010227 seconds.
-- Loaded All Assemblies, in  0.484 seconds
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.26f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
+Registered in 0.084805 seconds.
+- Loaded All Assemblies, in  1.562 seconds
+Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+Native extension for iOS target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 1507 ms
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.318 seconds
-Domain Reload Profiling: 799ms
-	BeginReloadAssembly (185ms)
+- Finished resetting the current domain, in  3.401 seconds
+Domain Reload Profiling: 4957ms
+	BeginReloadAssembly (496ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (43ms)
-	RebuildNativeTypeToScriptingClass (12ms)
-	initialDomainReloadingComplete (70ms)
-	LoadAllAssembliesAndSetupDomain (171ms)
-		LoadAssemblies (181ms)
+		CreateAndSetChildDomain (2ms)
+	RebuildCommonClasses (155ms)
+	RebuildNativeTypeToScriptingClass (43ms)
+	initialDomainReloadingComplete (276ms)
+	LoadAllAssembliesAndSetupDomain (582ms)
+		LoadAssemblies (496ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (169ms)
-			TypeCache.Refresh (167ms)
-				TypeCache.ScanAssembly (151ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (0ms)
-	FinalizeReload (318ms)
+		AnalyzeDomain (569ms)
+			TypeCache.Refresh (565ms)
+				TypeCache.ScanAssembly (509ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (3405ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (252ms)
+		SetupLoadedEditorAssemblies (3177ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (10ms)
-			SetLoadedEditorAssemblies (8ms)
+			InitializePlatformSupportModulesInManaged (2227ms)
+			SetLoadedEditorAssemblies (34ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (2ms)
-			ProcessInitializeOnLoadAttributes (172ms)
-			ProcessInitializeOnLoadMethodAttributes (59ms)
+			BeforeProcessingInitializeOnLoad (10ms)
+			ProcessInitializeOnLoadAttributes (621ms)
+			ProcessInitializeOnLoadMethodAttributes (284ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -117,64 +130,68 @@ Domain Reload Profiling: 799ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  4.011 seconds
-Refreshing native plugins compatible for Editor in 28.53 ms, found 2 plugins.
+- Loaded All Assemblies, in  2.718 seconds
+Refreshing native plugins compatible for Editor in 91.52 ms, found 2 plugins.
+Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
 Package Manager log level set to [2]
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.816 seconds
-Domain Reload Profiling: 4823ms
-	BeginReloadAssembly (167ms)
+- Finished resetting the current domain, in  3.204 seconds
+Domain Reload Profiling: 5904ms
+	BeginReloadAssembly (675ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (6ms)
+		DisableScriptedObjects (30ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (23ms)
-	RebuildCommonClasses (37ms)
-	RebuildNativeTypeToScriptingClass (12ms)
-	initialDomainReloadingComplete (49ms)
-	LoadAllAssembliesAndSetupDomain (3741ms)
-		LoadAssemblies (3713ms)
+		CreateAndSetChildDomain (95ms)
+	RebuildCommonClasses (186ms)
+	RebuildNativeTypeToScriptingClass (55ms)
+	initialDomainReloadingComplete (167ms)
+	LoadAllAssembliesAndSetupDomain (1614ms)
+		LoadAssemblies (1459ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (126ms)
-			TypeCache.Refresh (105ms)
-				TypeCache.ScanAssembly (91ms)
-			ScanForSourceGeneratedMonoScriptInfo (12ms)
-			ResolveRequiredComponents (8ms)
-	FinalizeReload (817ms)
+		AnalyzeDomain (526ms)
+			TypeCache.Refresh (444ms)
+				TypeCache.ScanAssembly (381ms)
+			ScanForSourceGeneratedMonoScriptInfo (45ms)
+			ResolveRequiredComponents (34ms)
+	FinalizeReload (3206ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (633ms)
+		SetupLoadedEditorAssemblies (2594ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (8ms)
-			SetLoadedEditorAssemblies (4ms)
+			InitializePlatformSupportModulesInManaged (171ms)
+			SetLoadedEditorAssemblies (7ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (62ms)
-			ProcessInitializeOnLoadAttributes (430ms)
-			ProcessInitializeOnLoadMethodAttributes (116ms)
-			AfterProcessingInitializeOnLoad (12ms)
-			EditorAssembliesLoaded (0ms)
+			BeforeProcessingInitializeOnLoad (175ms)
+			ProcessInitializeOnLoadAttributes (1469ms)
+			ProcessInitializeOnLoadMethodAttributes (737ms)
+			AfterProcessingInitializeOnLoad (34ms)
+			EditorAssembliesLoaded (1ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (8ms)
+		AwakeInstancesAfterBackupRestoration (23ms)
 Shader 'Enviro/Lite/SkyboxSimple': fallback shader 'None' not found
 Shader 'Custom/AdditiveTintable': fallback shader 'Particles/Additive (Soft)' not found
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 28.25 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.16 seconds
+Refreshing native plugins compatible for Editor in 75.35 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2641 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 146 unused Assets / (1.2 MB). Loaded Objects now: 3021.
-Memory consumption went from 236.4 MB to 235.2 MB.
-Total: 3.595800 ms (FindLiveObjects: 0.315700 ms CreateObjectMapping: 0.251900 ms MarkObjects: 2.453500 ms  DeleteObjects: 0.573200 ms)
+Unloading 2642 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 146 unused Assets / (1.2 MB). Loaded Objects now: 3034.
+Memory consumption went from 315.2 MB to 314.0 MB.
+Total: 8.693300 ms (FindLiveObjects: 0.551700 ms CreateObjectMapping: 0.368900 ms MarkObjects: 6.567600 ms  DeleteObjects: 1.203200 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
@@ -185,165 +202,297 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 1287212.493251 seconds.
-  path: Assets/Scenes
-  artifactKey: Guid(6ea315d0fd7389c41b19996891e99ae3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes using Guid(6ea315d0fd7389c41b19996891e99ae3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0179f928fb5ca2370affa6dcd41a3079') in 0.003181 seconds
+  Time since last request: 96674.193829 seconds.
+  path: Assets/Banjo Kazooie - Assests/Rips/Gruntilda's Lair (Part 1)/textures/Shape.202.bmp
+  artifactKey: Guid(fc2b6cdeabe54c445a3f128b239c6103) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Banjo Kazooie - Assests/Rips/Gruntilda's Lair (Part 1)/textures/Shape.202.bmp using Guid(fc2b6cdeabe54c445a3f128b239c6103) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54570fa69f5dcc91dbb10af5cba892ff') in 0.148744 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.507 seconds
-Refreshing native plugins compatible for Editor in 28.69 ms, found 2 plugins.
-Native extension for WindowsStandalone target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.976 seconds
-Domain Reload Profiling: 1479ms
-	BeginReloadAssembly (191ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (6ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (34ms)
-	RebuildCommonClasses (37ms)
-	RebuildNativeTypeToScriptingClass (13ms)
-	initialDomainReloadingComplete (35ms)
-	LoadAllAssembliesAndSetupDomain (226ms)
-		LoadAssemblies (310ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (15ms)
-			TypeCache.Refresh (5ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (9ms)
-	FinalizeReload (977ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (561ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (7ms)
-			SetLoadedEditorAssemblies (3ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (58ms)
-			ProcessInitializeOnLoadAttributes (391ms)
-			ProcessInitializeOnLoadMethodAttributes (90ms)
-			AfterProcessingInitializeOnLoad (11ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (8ms)
-Shader 'Enviro/Lite/SkyboxSimple': fallback shader 'None' not found
-Shader 'Custom/AdditiveTintable': fallback shader 'Particles/Additive (Soft)' not found
-Refreshing native plugins compatible for Editor in 27.61 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2432 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 122 unused Assets / (1.2 MB). Loaded Objects now: 3036.
-Memory consumption went from 180.9 MB to 179.7 MB.
-Total: 3.125000 ms (FindLiveObjects: 0.230900 ms CreateObjectMapping: 0.180400 ms MarkObjects: 2.209200 ms  DeleteObjects: 0.503500 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 343.292709 seconds.
-  path: Assets/Banjo Kazooie - Assests/AssetStore/EazyCamera/Art/Animation/TargetIconAnimController.controller
-  artifactKey: Guid(e8399fba2add5e447811130a024ca4ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Banjo Kazooie - Assests/AssetStore/EazyCamera/Art/Animation/TargetIconAnimController.controller using Guid(e8399fba2add5e447811130a024ca4ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ccae024ff24d2aee6bb1e4048e45433') in 0.034268 seconds
+  Time since last request: 50.378345 seconds.
+  path: Assets/Banjo Kazooie - Assests/Rips/Gruntilda's Lair (Part 1)/textures/Shape.201.bmp
+  artifactKey: Guid(1901172a2af4bd7459b70a944a61e155) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Banjo Kazooie - Assests/Rips/Gruntilda's Lair (Part 1)/textures/Shape.201.bmp using Guid(1901172a2af4bd7459b70a944a61e155) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71a2319c08d31ba9e404b0c68988007a') in 0.026946 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 4
+Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 1.974185 seconds.
-  path: Assets/Scripts/Map/SpirialMountainTriggerController.cs
-  artifactKey: Guid(a9c57ee65780a424496b460680647432) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Map/SpirialMountainTriggerController.cs using Guid(a9c57ee65780a424496b460680647432) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40ae37c0daa369f04d63d376760d924a') in 0.000623 seconds
+  Time since last request: 27.130871 seconds.
+  path: Assets/Banjo Kazooie - Assests/Rips/Gruntilda's Lair (Part 1)/textures/Shape.192.bmp
+  artifactKey: Guid(5f7df14701cd8244996058ab42ccf873) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Banjo Kazooie - Assests/Rips/Gruntilda's Lair (Part 1)/textures/Shape.192.bmp using Guid(5f7df14701cd8244996058ab42ccf873) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1da999359a21e9c1858e8d49e85f67b8') in 0.015469 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
+Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 0.470086 seconds.
-  path: Assets/Banjo Kazooie - Assests/AssetStore/EazyCamera/Prefabs/PlayerControllerDefault.prefab
-  artifactKey: Guid(d267a5bb64344004aadcc37d5126eac7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Banjo Kazooie - Assests/AssetStore/EazyCamera/Prefabs/PlayerControllerDefault.prefab using Guid(d267a5bb64344004aadcc37d5126eac7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e07c0b16853f0d77fb5f61b4a57df18a') in 0.310885 seconds
+  Time since last request: 42.733076 seconds.
+  path: Assets/Banjo Kazooie - Assests/Rips/Gruntilda's Lair (Part 1)/textures/Shape.192.bmp
+  artifactKey: Guid(5f7df14701cd8244996058ab42ccf873) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Banjo Kazooie - Assests/Rips/Gruntilda's Lair (Part 1)/textures/Shape.192.bmp using Guid(5f7df14701cd8244996058ab42ccf873) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac9909c37a76e6eec83528ddd5632522') in 0.016541 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 18
+Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 0.916638 seconds.
-  path: Assets/Banjo Kazooie - Assests/AssetStore/HeneGames/Dialogue System/Animators/Player Controller.controller
-  artifactKey: Guid(11cd4b84c572e4747a1277cb99813331) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Banjo Kazooie - Assests/AssetStore/HeneGames/Dialogue System/Animators/Player Controller.controller using Guid(11cd4b84c572e4747a1277cb99813331) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6605886e5b86c9440ae6b72a34f18788') in 0.002473 seconds
+  Time since last request: 22.096550 seconds.
+  path: Assets/Banjo Kazooie - Assests/Rips/Gruntilda's Lair (Part 1)/textures/Shape.142.bmp
+  artifactKey: Guid(a4fc54c4b32b8e449a046f57f6da584d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Banjo Kazooie - Assests/Rips/Gruntilda's Lair (Part 1)/textures/Shape.142.bmp using Guid(a4fc54c4b32b8e449a046f57f6da584d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4f7a36d5bece174a9efafd0f248932c') in 0.019146 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
+Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 2.616098 seconds.
-  path: Assets/Banjo Kazooie - Assests/AssetStore/StarterAssets/ThirdPersonController
-  artifactKey: Guid(54b90d7f60b179e4e9909cd127aa060d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Banjo Kazooie - Assests/AssetStore/StarterAssets/ThirdPersonController using Guid(54b90d7f60b179e4e9909cd127aa060d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7da8963e629873d6ee1ad562deb1546b') in 0.000603 seconds
+  Time since last request: 44.753536 seconds.
+  path: Assets/Banjo Kazooie - Assests/Rips/Gruntilda's Lair (Part 1)/textures/Shape.142.bmp
+  artifactKey: Guid(a4fc54c4b32b8e449a046f57f6da584d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Banjo Kazooie - Assests/Rips/Gruntilda's Lair (Part 1)/textures/Shape.142.bmp using Guid(a4fc54c4b32b8e449a046f57f6da584d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ddb618e5031343dc3ad0578cb64c863') in 0.016382 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
+Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 2.057538 seconds.
-  path: Assets/Banjo Kazooie - Assests/AssetStore/StarterAssets/ThirdPersonController/Scenes
-  artifactKey: Guid(89e5f9b6a0fcdae4e8ccb4b461925e8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Banjo Kazooie - Assests/AssetStore/StarterAssets/ThirdPersonController/Scenes using Guid(89e5f9b6a0fcdae4e8ccb4b461925e8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9090cbc3c49ff236a03408152613553d') in 0.000599 seconds
+  Time since last request: 14.907997 seconds.
+  path: Assets/Banjo Kazooie - Assests/Rips/Gruntilda's Lair (Part 1)/textures/Shape.222.bmp
+  artifactKey: Guid(25f72257b3b2bf34da01b79353ec3fdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Banjo Kazooie - Assests/Rips/Gruntilda's Lair (Part 1)/textures/Shape.222.bmp using Guid(25f72257b3b2bf34da01b79353ec3fdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd507d16d8e00e3a68449e2017ac33ad8') in 0.010723 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
+Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 0.791416 seconds.
-  path: Assets/Banjo Kazooie - Assests/AssetStore/StarterAssets/ThirdPersonController/BanjoKazooie
-  artifactKey: Guid(89c50ca524019ed4eaf058bfb0348794) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Banjo Kazooie - Assests/AssetStore/StarterAssets/ThirdPersonController/BanjoKazooie using Guid(89c50ca524019ed4eaf058bfb0348794) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4553a85a6ab35e259d70dd8f2653e5a') in 0.000593 seconds
+  Time since last request: 47.175441 seconds.
+  path: Assets/Banjo Kazooie - Assests/Rips/Gruntilda's Lair (Part 1)/textures/Shape.222.bmp
+  artifactKey: Guid(25f72257b3b2bf34da01b79353ec3fdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Banjo Kazooie - Assests/Rips/Gruntilda's Lair (Part 1)/textures/Shape.222.bmp using Guid(25f72257b3b2bf34da01b79353ec3fdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee57d4f28278bbe758c20f71d3c5695e') in 0.013113 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
+Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 3.253265 seconds.
-  path: Assets/Banjo Kazooie - Assests/AssetStore/StarterAssets/ThirdPersonController/BanjoKazooie/Banjo_1.fbx
-  artifactKey: Guid(ef18866fac33a1b46b4ca98ec802cb0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Banjo Kazooie - Assests/AssetStore/StarterAssets/ThirdPersonController/BanjoKazooie/Banjo_1.fbx using Guid(ef18866fac33a1b46b4ca98ec802cb0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca6a872f793ed4528e4441d428bb5d95') in 0.199252 seconds
+  Time since last request: 8.817857 seconds.
+  path: Assets/Banjo Kazooie - Assests/Rips/Gruntilda's Lair (Part 1)/textures/Shape.143.bmp
+  artifactKey: Guid(25898ff0db66f7a489fe2349c3122d67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Banjo Kazooie - Assests/Rips/Gruntilda's Lair (Part 1)/textures/Shape.143.bmp using Guid(25898ff0db66f7a489fe2349c3122d67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6213fcc9a0907437952d63d52ebba336') in 0.012029 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 521
+Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 12.757261 seconds.
-  path: Assets/Scenes/Level1.unity
-  artifactKey: Guid(013545788459929499110e03a30e4cda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Level1.unity using Guid(013545788459929499110e03a30e4cda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '239571fc2f96392ac155d3f2702da10f') in 0.000822 seconds
+  Time since last request: 71.998469 seconds.
+  path: Assets/Banjo Kazooie - Assests/Rips/Gruntilda's Lair (Part 1)/textures/Shape.143.bmp
+  artifactKey: Guid(25898ff0db66f7a489fe2349c3122d67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Banjo Kazooie - Assests/Rips/Gruntilda's Lair (Part 1)/textures/Shape.143.bmp using Guid(25898ff0db66f7a489fe2349c3122d67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ab68712a411279b6416bf4493b2e938') in 0.021351 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
+Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 70.691938 seconds.
-  path: Assets/Scenes/MainMenu.unity
-  artifactKey: Guid(18c399e342a02014a9943509858b8254) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/MainMenu.unity using Guid(18c399e342a02014a9943509858b8254) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d92c051e96cd6379b6e580383be385c') in 0.000682 seconds
+  Time since last request: 50.602538 seconds.
+  path: Assets/Banjo Kazooie - Assests/Rips/Gruntilda's Lair (Part 1)/textures/Shape.199.bmp
+  artifactKey: Guid(375ce0975037c2a4a89d5b741504f4db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Banjo Kazooie - Assests/Rips/Gruntilda's Lair (Part 1)/textures/Shape.199.bmp using Guid(375ce0975037c2a4a89d5b741504f4db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b39eab4b4d501c88c1336b6ed2540b4') in 0.015399 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
+Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 104.833948 seconds.
-  path: Assets/Animators/StarterAssetsThirdPerson.controller
-  artifactKey: Guid(40db3173a05ae3242b1c182a09b0a183) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animators/StarterAssetsThirdPerson.controller using Guid(40db3173a05ae3242b1c182a09b0a183) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c076d8a501a3fe7eb452aff896eb6da') in 0.053142 seconds
+  Time since last request: 79.150995 seconds.
+  path: Assets/Banjo Kazooie - Assests/Rips/Gruntilda's Lair (Part 1)/textures/Shape.238.bmp
+  artifactKey: Guid(2a0e89ffdc8af5647bc95942a1f1fe58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Banjo Kazooie - Assests/Rips/Gruntilda's Lair (Part 1)/textures/Shape.238.bmp using Guid(2a0e89ffdc8af5647bc95942a1f1fe58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f09aed85a2160f049c5314322aa155d') in 0.021780 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 87
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 6.964693 seconds.
+  path: Assets/Banjo Kazooie - Assests/Rips/Gruntilda's Lair (Part 1)/textures/Shape.225.bmp
+  artifactKey: Guid(11afb32aec114fd41921cfaf1c10eed5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Banjo Kazooie - Assests/Rips/Gruntilda's Lair (Part 1)/textures/Shape.225.bmp using Guid(11afb32aec114fd41921cfaf1c10eed5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f49eaecdac6dd24f0fa704e5ac086796') in 0.013235 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 38.324324 seconds.
+  path: Assets/Banjo Kazooie - Assests/Rips/Gruntilda's Lair (Part 1)/textures/Shape.225.bmp
+  artifactKey: Guid(11afb32aec114fd41921cfaf1c10eed5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Banjo Kazooie - Assests/Rips/Gruntilda's Lair (Part 1)/textures/Shape.225.bmp using Guid(11afb32aec114fd41921cfaf1c10eed5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4d84bc47ea7e7e8f4f41b0de7a3aa44') in 0.028744 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 27.712998 seconds.
+  path: Assets/Banjo Kazooie - Assests/Rips/Gruntilda's Lair (Part 1)/textures/Shape.187.bmp
+  artifactKey: Guid(02b2874744ce7bb459548cdff9cadff4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Banjo Kazooie - Assests/Rips/Gruntilda's Lair (Part 1)/textures/Shape.187.bmp using Guid(02b2874744ce7bb459548cdff9cadff4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edaa9d4f9ebc7a544594ffd2b6f4b0e2') in 0.014520 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 33.340875 seconds.
+  path: Assets/Banjo Kazooie - Assests/Rips/Gruntilda's Lair (Part 1)/textures/Shape.187.bmp
+  artifactKey: Guid(02b2874744ce7bb459548cdff9cadff4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Banjo Kazooie - Assests/Rips/Gruntilda's Lair (Part 1)/textures/Shape.187.bmp using Guid(02b2874744ce7bb459548cdff9cadff4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21f02948ffa509960df3603652a15040') in 0.029766 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 27.303765 seconds.
+  path: Assets/Banjo Kazooie - Assests/Rips/Gruntilda's Lair (Part 1)/textures/Shape.193.bmp
+  artifactKey: Guid(f8727388645c67e4293b2b00ce644e4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Banjo Kazooie - Assests/Rips/Gruntilda's Lair (Part 1)/textures/Shape.193.bmp using Guid(f8727388645c67e4293b2b00ce644e4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26b658d647098df375fbe58a8fd008b5') in 0.031398 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 61.286380 seconds.
+  path: Assets/Banjo Kazooie - Assests/Rips/Gruntilda's Lair (Part 1)/textures/Shape.193.bmp
+  artifactKey: Guid(f8727388645c67e4293b2b00ce644e4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Banjo Kazooie - Assests/Rips/Gruntilda's Lair (Part 1)/textures/Shape.193.bmp using Guid(f8727388645c67e4293b2b00ce644e4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13a8995debfddc5b5d3b557ad973e741') in 0.017767 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 8.407685 seconds.
+  path: Assets/Banjo Kazooie - Assests/Rips/Gruntilda's Lair (Part 1)/textures/Shape.258.bmp
+  artifactKey: Guid(fafb597c28a57f446b540068433b6c13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Banjo Kazooie - Assests/Rips/Gruntilda's Lair (Part 1)/textures/Shape.258.bmp using Guid(fafb597c28a57f446b540068433b6c13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c9b8980b8bfc303fd7b1a2373f958e5') in 0.017917 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 34.394927 seconds.
+  path: Assets/Banjo Kazooie - Assests/Rips/Gruntilda's Lair (Part 1)/textures/Shape.258.bmp
+  artifactKey: Guid(fafb597c28a57f446b540068433b6c13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Banjo Kazooie - Assests/Rips/Gruntilda's Lair (Part 1)/textures/Shape.258.bmp using Guid(fafb597c28a57f446b540068433b6c13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86c289a8745b00030dda10e9e6ac6707') in 0.016686 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 27.524750 seconds.
+  path: Assets/Banjo Kazooie - Assests/Rips/Gruntilda's Lair (Part 1)/textures/Shape.183.bmp
+  artifactKey: Guid(b6960b17202413f498adf9764010a70f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Banjo Kazooie - Assests/Rips/Gruntilda's Lair (Part 1)/textures/Shape.183.bmp using Guid(b6960b17202413f498adf9764010a70f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e4f4d8e7a945caea5cb9a93f42f7376') in 0.017705 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 36.595923 seconds.
+  path: Assets/Banjo Kazooie - Assests/Rips/Gruntilda's Lair (Part 1)/textures/Shape.183.bmp
+  artifactKey: Guid(b6960b17202413f498adf9764010a70f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Banjo Kazooie - Assests/Rips/Gruntilda's Lair (Part 1)/textures/Shape.183.bmp using Guid(b6960b17202413f498adf9764010a70f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26a8fb88543baf63b1ca1b0c5240fa3f') in 0.014177 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 15.299065 seconds.
+  path: Assets/Banjo Kazooie - Assests/Rips/Gruntilda's Lair (Part 1)/textures/Shape.205.bmp
+  artifactKey: Guid(b81f58037dcd9d343a590ce1f8cc21fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Banjo Kazooie - Assests/Rips/Gruntilda's Lair (Part 1)/textures/Shape.205.bmp using Guid(b81f58037dcd9d343a590ce1f8cc21fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ea3be4b9ea637289afc37865971a52b') in 0.013374 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 49.860148 seconds.
+  path: Assets/Banjo Kazooie - Assests/Rips/Gruntilda's Lair (Part 1)/textures/Shape.205.bmp
+  artifactKey: Guid(b81f58037dcd9d343a590ce1f8cc21fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Banjo Kazooie - Assests/Rips/Gruntilda's Lair (Part 1)/textures/Shape.205.bmp using Guid(b81f58037dcd9d343a590ce1f8cc21fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2e9145fc54e0527cc53ecd895a4ff79') in 0.015522 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 136.785980 seconds.
+  path: Assets/Banjo Kazooie - Assests/Rips/Gruntilda's Lair (Part 1)/textures/Shape.526.bmp
+  artifactKey: Guid(2b5a1fe023664894cba962a6b435eb66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Banjo Kazooie - Assests/Rips/Gruntilda's Lair (Part 1)/textures/Shape.526.bmp using Guid(2b5a1fe023664894cba962a6b435eb66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be4d8e4fe139ae9e6bf71d3b394d51ac') in 0.021103 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 51.253303 seconds.
+  path: Assets/Banjo Kazooie - Assests/Rips/Gruntilda's Lair (Part 1)/textures/Shape.236.bmp
+  artifactKey: Guid(dce63a5297cfafe4691168c9955b7fbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Banjo Kazooie - Assests/Rips/Gruntilda's Lair (Part 1)/textures/Shape.236.bmp using Guid(dce63a5297cfafe4691168c9955b7fbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33a6f03d95d52cdfa54144f3a84af936') in 0.032301 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 11.134407 seconds.
+  path: Assets/Banjo Kazooie - Assests/Rips/Gruntilda's Lair (Part 1)/textures/Shape.191.bmp
+  artifactKey: Guid(f7f54bea380672045a349e53d9970c5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Banjo Kazooie - Assests/Rips/Gruntilda's Lair (Part 1)/textures/Shape.191.bmp using Guid(f7f54bea380672045a349e53d9970c5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81b3d042ec924b2550a02152d696e05d') in 0.012460 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 31.891896 seconds.
+  path: Assets/Banjo Kazooie - Assests/Rips/Gruntilda's Lair (Part 1)/textures/Shape.191.bmp
+  artifactKey: Guid(f7f54bea380672045a349e53d9970c5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Banjo Kazooie - Assests/Rips/Gruntilda's Lair (Part 1)/textures/Shape.191.bmp using Guid(f7f54bea380672045a349e53d9970c5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbebccea2941de9c25e1950b7fce8903') in 0.017147 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 8.878419 seconds.
+  path: Assets/Banjo Kazooie - Assests/Rips/Gruntilda's Lair (Part 1)/textures/Shape.196.bmp
+  artifactKey: Guid(e249d872f4a5b83438a2261221d51e2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Banjo Kazooie - Assests/Rips/Gruntilda's Lair (Part 1)/textures/Shape.196.bmp using Guid(e249d872f4a5b83438a2261221d51e2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88ee8bb07565b533a63dbb377d58452c') in 0.010346 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 41.448368 seconds.
+  path: Assets/Banjo Kazooie - Assests/Rips/Gruntilda's Lair (Part 1)/textures/Shape.196.bmp
+  artifactKey: Guid(e249d872f4a5b83438a2261221d51e2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Banjo Kazooie - Assests/Rips/Gruntilda's Lair (Part 1)/textures/Shape.196.bmp using Guid(e249d872f4a5b83438a2261221d51e2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec1e82a2574677e1f029c60931e8f0bf') in 0.021754 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 13.561505 seconds.
+  path: Assets/Banjo Kazooie - Assests/Rips/Gruntilda's Lair (Part 1)/textures/Shape.185.bmp
+  artifactKey: Guid(41a8e6cdb82e851478d32c851fa479d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Banjo Kazooie - Assests/Rips/Gruntilda's Lair (Part 1)/textures/Shape.185.bmp using Guid(41a8e6cdb82e851478d32c851fa479d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1bff663413a396d3492ff9cbe3e36c95') in 0.013619 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 32.535961 seconds.
+  path: Assets/Banjo Kazooie - Assests/Rips/Gruntilda's Lair (Part 1)/textures/Shape.185.bmp
+  artifactKey: Guid(41a8e6cdb82e851478d32c851fa479d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Banjo Kazooie - Assests/Rips/Gruntilda's Lair (Part 1)/textures/Shape.185.bmp using Guid(41a8e6cdb82e851478d32c851fa479d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93bff1c07c42dad475207fd9129b726b') in 0.020146 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 45.803314 seconds.
+  path: Assets/Banjo Kazooie - Assests/Rips/Gruntilda's Lair (Part 1)/textures/Shape.181.bmp
+  artifactKey: Guid(ba0f87857dfc6f841802fd768c2a3e63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Banjo Kazooie - Assests/Rips/Gruntilda's Lair (Part 1)/textures/Shape.181.bmp using Guid(ba0f87857dfc6f841802fd768c2a3e63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea6833085c7f34c8171fd8dbf3981ecd') in 0.021235 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 9.674542 seconds.
+  path: Assets/Banjo Kazooie - Assests/Rips/Gruntilda's Lair (Part 1)/textures/Shape.179.bmp
+  artifactKey: Guid(d3194404ca038244a9303e86713555ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Banjo Kazooie - Assests/Rips/Gruntilda's Lair (Part 1)/textures/Shape.179.bmp using Guid(d3194404ca038244a9303e86713555ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f04d6981edd310bdab4fc23e27b44d15') in 0.010762 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 41.164860 seconds.
+  path: Assets/Banjo Kazooie - Assests/Rips/Gruntilda's Lair (Part 1)/textures/Shape.179.bmp
+  artifactKey: Guid(d3194404ca038244a9303e86713555ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Banjo Kazooie - Assests/Rips/Gruntilda's Lair (Part 1)/textures/Shape.179.bmp using Guid(d3194404ca038244a9303e86713555ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22b4a887f5fd1a7e1e5fd78aa9bbe67a') in 0.017953 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 8.185251 seconds.
+  path: Assets/Banjo Kazooie - Assests/Rips/Gruntilda's Lair (Part 1)/textures/Shape.184.bmp
+  artifactKey: Guid(30a17f9f293b1704690e7f304c2141fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Banjo Kazooie - Assests/Rips/Gruntilda's Lair (Part 1)/textures/Shape.184.bmp using Guid(30a17f9f293b1704690e7f304c2141fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd65e2a5e2a2b9df7aa400c6b3b1db2a') in 0.014613 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 32.832128 seconds.
+  path: Assets/Banjo Kazooie - Assests/Rips/Gruntilda's Lair (Part 1)/textures/Shape.184.bmp
+  artifactKey: Guid(30a17f9f293b1704690e7f304c2141fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Banjo Kazooie - Assests/Rips/Gruntilda's Lair (Part 1)/textures/Shape.184.bmp using Guid(30a17f9f293b1704690e7f304c2141fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5e0ebd3082abbc4a1c6c8bbd0b46912') in 0.018339 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
