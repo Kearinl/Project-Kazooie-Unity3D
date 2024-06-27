@@ -9,7 +9,7 @@
 
 *Use these files at your own discretion. They are sourced from Rare, Microsoft, and Nintendo.*
 
-[Banjo Kazooie Assets | Mega.nz](https://mega.nz/file/30BHxLoZ)
+[Banjo Kazooie Assets | Mega.nz](https://mega.nz/file/mpJz2a5a)
 
 > Note: You will need a key to access the files. Please [join our Discord](https://discord.gg/zCZw3vN4t7) to obtain the key.
 
