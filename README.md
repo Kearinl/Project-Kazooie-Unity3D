@@ -206,7 +206,7 @@ Interested in helping with bug testing for "Project Kazooie"? Join our Discord c
 ## Credits
 
 - **Programming:** [Kearin L](https://github.com/Kearinl)
-- **Audio | Visual | Programming:** [Ryudious](https://github.com/ryudious)
+- **Audio | Visual | Programming:** [Omniscye](https://github.com/Omniscye)
 - **Models | Animations:** [ItsAPT](https://github.com/ItsAPT)
 - **Models | Rips:** [Facts_about_BK](https://sketchfab.com/Facts_about_BK)
 
